@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd77f287-9b94-4a11-9633-0ee5c2461444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10. Words Uppercase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/01. JS-Fundamentals-JavaScript-Syntax-and-Operators-More-Exercises.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/01. I Like JavaScript!.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/01. JS-Fundamentals-JavaScript-Syntax-and-Operators-Exercise.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/02. Even Numbers 1 to N.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/03.Fruit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/04.Fitness Rates.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/05.Greatest Common Divisor – GCD.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/06.Same Numbers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/07.Time to Walk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/08.Flight Timetable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/09.Calorie Object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/Exercises/10. Coffee Machine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/.idea/LAB.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/01. JS-Fundamentals-JavaScript-Syntax-and-Operators-Lab.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/01. JS-Fundamentals-JavaScript-Syntax-and-Operators.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/01. String Length.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/02. Math Operations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/03. Sum of Numbers N…M.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/04. Largest Number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01.JavaScript Syntax and Operators/LAB/05. Circle Area.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Words Uppercase.js" beforeDir="false" afterPath="$PROJECT_DIR$/10. Words Uppercase.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,9 +51,9 @@
     <session id="364152170">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,12 +68,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1291" />
+          <entry key="js" value="1458" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1291" />
+          <entry key="JavaScript" value="1458" />
         </counts>
       </usages-collector>
     </session>
@@ -105,7 +82,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10. Words Uppercase.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -267,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.09. Aggregate Elements.js">
+  <component name="RunManager" selected="Node.js.10. Words Uppercase.js">
     <configuration name="02. Math Operations.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02. Math Operations.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -277,26 +258,26 @@
     <configuration name="06. Square of Stars.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="06. Square of Stars.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="08. Functional Calculator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="08. Functional Calculator.js" working-dir="$PROJECT_DIR$">
+    <configuration name="09. Aggregate Elements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="09. Aggregate Elements.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="09. Aggregate Elements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="09. Aggregate Elements.js" working-dir="$PROJECT_DIR$">
+    <configuration name="10. Words Uppercase.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="10. Words Uppercase.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.06. Square of Stars.js" />
-      <item itemvalue="Node.js.08. Functional Calculator.js" />
       <item itemvalue="Node.js.03. Sum of Numbers N…M.js" />
       <item itemvalue="Node.js.02. Math Operations.js" />
       <item itemvalue="Node.js.09. Aggregate Elements.js" />
+      <item itemvalue="Node.js.10. Words Uppercase.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.10. Words Uppercase.js" />
         <item itemvalue="Node.js.09. Aggregate Elements.js" />
         <item itemvalue="Node.js.06. Square of Stars.js" />
         <item itemvalue="Node.js.02. Math Operations.js" />
         <item itemvalue="Node.js.03. Sum of Numbers N…M.js" />
-        <item itemvalue="Node.js.08. Functional Calculator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -315,17 +296,18 @@
       <workItem from="1552942293355" duration="599000" />
       <workItem from="1555310058620" duration="14026000" />
       <workItem from="1555381268909" duration="25000" />
+      <workItem from="1555381703365" duration="4402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15820000" />
+    <option name="totallyTimeSpent" value="20222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="-8" width="1857" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,6 +333,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/10. Words Uppercase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. String Length.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02. Math Operations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -393,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08. Functional Calculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09. Aggregate Elements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -407,15 +396,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01. String Length.js">
+    <entry file="file://$PROJECT_DIR$/08. Functional Calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Words Uppercase.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
