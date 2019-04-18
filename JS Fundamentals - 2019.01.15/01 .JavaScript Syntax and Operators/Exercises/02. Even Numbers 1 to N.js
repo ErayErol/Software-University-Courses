@@ -8,4 +8,6 @@ function solve(n) {
     }
 }
 
-solve(15);
+solve(5);
+solve(4);
+solve(7);

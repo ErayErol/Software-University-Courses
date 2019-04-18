@@ -1,6 +1,6 @@
 function solve(fruit, kg, money) {
-    let weight = +kg;
-    let price = +money;
+    let weight = Number(kg);
+    let price = Number(money);
 
     let sum = weight * price;
 
@@ -11,3 +11,4 @@ function solve(fruit, kg, money) {
 }
 
 solve('orange', 2500, 1.80);
+solve('apple', 1563, 2.35);

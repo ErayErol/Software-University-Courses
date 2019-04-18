@@ -29,4 +29,5 @@ function solve(day, service, time) {
     }
 }
 
+console.log(solve('Monday', 'Sauna', 15.30));
 console.log(solve('Sunday', 'Fitness', 22.00));
