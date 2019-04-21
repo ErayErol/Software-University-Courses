@@ -1,1 +1,1 @@
-# JS-Fundamentals
+# JS-Essentials
