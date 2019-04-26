@@ -1,25 +1,27 @@
 function solve() {
-	let createTitleElement = document.getElementById('createTitle');
-	let createContentElement = document.getElementById('createContent');
 
-	let createTitleValue = createTitleElement.value;
-	let createContentValue = createContentElement.value;
-	
-	if(createTitleValue && createContentValue){
-		let titleElement = document.createElement('h3');
-		titleElement.textContent = createTitleValue;
+	let createTitleElement = document.getElementById("createTitle");
+	let createContentElement = document.getElementById("createContent");
 
-		let contentElement = document.createElement('p');
-		contentElement.textContent = createContentValue;
+	let titleElementValue = createTitleElement.value;
+	let contentElementValue = createContentElement.value;
 
-		let articleElement = document.createElement('article');
-		articleElement.appendChild(titleElement);
-		articleElement.appendChild(contentElement);
+    if (titleElementValue && contentElementValue){
 
-		let articlesElement = document.getElementById('articles');
-		articlesElement.appendChild(articleElement);
+		let titleValue = document.createElement("h3");
+		titleValue.textContent = titleElementValue;
 
-		createTitleElement.value = '';
-		createContentElement.value = '';
+		let contentText = document.createElement("p");
+		contentText.textContent = contentElementValue;
+
+        let newArticleElement = document.createElement("article");
+		newArticleElement.appendChild(titleValue);
+		newArticleElement.appendChild(contentText);
+
+        let articlesElement = document.getElementById("articles");
+		articlesElement.appendChild(newArticleElement);
+
+        createTitleElement.value = "";
+		createContentElement.value = "";
 	}
 }
