@@ -1,29 +1,34 @@
 function solve() {
-    let textElement = document.getElementById('input');
-    let text = textElement.textContent;
-    let array = text.split('.').filter(function (x) { return x });
+    let getInput = document.getElementById("input").textContent;
 
-    let outputElement = document.getElementById('output');
-    let startIndex = 0;
-    let endIndex = 3;
+    let sentences = getInput.split('.').filter(function (x) { return x });
 
-    while (true) {
-        let result = '';
-        for (let i = startIndex; i < endIndex; i++) {
-            let sentence = array[i];
-            if (sentence !== undefined) {
-                result += `${sentence}. `;
+    let output = document.getElementById("output");
+    let start = 0;
+    let end = 3;
+
+    while (true){
+        let result = "";
+
+        for (let i = start; i < end; i++) {
+
+            let currentSentences = sentences[i];
+
+            if (currentSentences !== undefined){
+                result += `${currentSentences}. `;
             }
         }
 
-        let newElements = document.createElement('p');
-        newElements.textContent = result.trim();
-        outputElement.appendChild(newElements);
+        let createElement = document.createElement("p");
+        createElement.textContent = result.trim();
 
-        if (endIndex > array.length) {
+        output.appendChild(createElement);
+
+        if (start > sentences.length) {
             break;
         }
-        startIndex += 3;
-        endIndex += 3;
+
+        start += 3;
+        end += 3;
     }
 }
