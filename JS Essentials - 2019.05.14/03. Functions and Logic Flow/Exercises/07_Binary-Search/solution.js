@@ -1,3 +1,0 @@
-function binarySearch() {
-    // TODO ...
-}
