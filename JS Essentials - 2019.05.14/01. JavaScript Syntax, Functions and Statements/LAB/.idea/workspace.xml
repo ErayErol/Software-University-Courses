@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd77f287-9b94-4a11-9633-0ee5c2461444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exercises/07. Cooking by Numbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercises/08. Validity Checker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercises/09. Coffee Machine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/01. I Like JavaScript!.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/02. Even Numbers 1 to N.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/03.Fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/01.Fruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/04.Fitness Rates.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/05.Greatest Common Divisor – GCD.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/02.Greatest Common Divisor – GCD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/06.Same Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/03.Same Numbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/07.Time to Walk.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/04.Time to Walk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/08.Flight Timetable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/09.Calorie Object.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/05.Calorie Object.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/10. Coffee Machine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/06. Road Radar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/Training.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/Training.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. JS-Essentials-Syntax-Functions-and-Statements.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/01. JS-Essentials-Syntax-Functions-and-Statements.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,22 +81,22 @@
     <session id="1086781891">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10. Words Uppercase.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -178,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09. Aggregate Elements.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="15" selection-end-column="1" />
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -230,9 +216,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="992" />
-    <option name="width" value="935" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="72" />
+    <option name="width" value="934" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -243,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,7 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,17 +313,18 @@
       <workItem from="1557647913270" duration="30000" />
       <workItem from="1557996061931" duration="2000" />
       <workItem from="1557996071009" duration="24000" />
+      <workItem from="1558021991738" duration="1133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20278000" />
+    <option name="totallyTimeSpent" value="21411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="-8" width="1857" height="1096" extended-state="6" />
+    <frame x="72" y="0" width="934" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958768" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5066964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,6 +350,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/10. Words Uppercase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01. String Length.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -422,14 +416,7 @@
     <entry file="file://$PROJECT_DIR$/09. Aggregate Elements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Words Uppercase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
