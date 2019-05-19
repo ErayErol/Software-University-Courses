@@ -6,8 +6,9 @@ function solve(arr) {
             let currentInputElement = arrElement[j];
             console.log(currentInputElement);
         }
-            return;
+        return;
     }
+
 }
 
 solve(['1.00, coffee, caffeine, milk, 4', '0.40, tea, milk, 2', '1.00, coffee, decaf, 0']);

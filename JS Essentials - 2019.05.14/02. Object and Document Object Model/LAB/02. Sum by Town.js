@@ -1,0 +1,5 @@
+function sumByTown(input) {
+    
+}
+
+input();

@@ -3,9 +3,9 @@ function solve(arr) {
     let num = Number(arr[0]);
 
     for (let i = 1; i < arr.length; i++) {
-        let arrElement = arr[i];
+        let command = arr[i];
 
-        switch (arrElement) {
+        switch (command) {
             case "chop": num /= 2; break;
             case "dice": num = Math.sqrt(num); break;
             case "spice": num += 1; break;

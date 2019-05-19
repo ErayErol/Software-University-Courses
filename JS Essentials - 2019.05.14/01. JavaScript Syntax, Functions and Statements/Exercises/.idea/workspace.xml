@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045b8cde-a481-4a9d-bd79-9602e7c3152f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. Cooking by Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/07. Cooking by Numbers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09. Coffee Machine.js" beforeDir="false" afterPath="$PROJECT_DIR$/09. Coffee Machine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training.js" beforeDir="false" afterPath="$PROJECT_DIR$/Training.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$. JS-Essentials-JavaScript-Syntax-Functions-and-Statements-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02. Object and Document Object Model/Exercises/01. Cards/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../02. Object and Document Object Model/Exercises/01. Cards/solution.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,41 +21,50 @@
     <session id="99683624">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="16" />
+          <entry key="js" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1138" />
+          <entry key="js" value="1177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1138" />
+          <entry key="JavaScript" value="1177" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07. Cooking by Numbers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09. Coffee Machine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -72,6 +83,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arrElement</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>command</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -80,8 +99,8 @@
       <list>
         <option value="$PROJECT_DIR$/06. Road Radar.js" />
         <option value="$PROJECT_DIR$/08. Validity Checker.js" />
-        <option value="$PROJECT_DIR$/07. Cooking by Numbers.js" />
         <option value="$PROJECT_DIR$/Training.js" />
+        <option value="$PROJECT_DIR$/07. Cooking by Numbers.js" />
         <option value="$PROJECT_DIR$/09. Coffee Machine.js" />
       </list>
     </option>
@@ -102,24 +121,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LAB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../02. Object and Document Object Model/LAB" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -171,23 +177,24 @@
       <workItem from="1557647944221" duration="3005000" />
       <workItem from="1557901182443" duration="4141000" />
       <workItem from="1557995924083" duration="4203000" />
-      <workItem from="1558021979332" duration="4597000" />
+      <workItem from="1558021979332" duration="7077000" />
+      <workItem from="1558182740083" duration="107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15946000" />
+    <option name="totallyTimeSpent" value="18533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="-8" width="1857" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958768" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5066964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33226836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,17 +239,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07. Cooking by Numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08. Validity Checker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07. Cooking by Numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -251,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09. Coffee Machine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
