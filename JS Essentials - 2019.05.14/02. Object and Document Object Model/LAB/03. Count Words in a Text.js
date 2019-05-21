@@ -13,4 +13,4 @@ function solve(input){
     console.log(JSON.stringify(obj));
 }
 
-solve("Far too slow, you're far too slow.");
+solve(["Far too slow, you're far too slow."]);
