@@ -1,15 +1,15 @@
 function sumByTown(input) {
-    let obj = {};
-    
-    for (let i = 0; i < input.length; i+=2) {
-            if (obj[input[i]] === undefined) {
-                obj[input[i]] = 0;
+    let result = {};
+
+    for (let i = 0; i < input.length; i += 2) {
+        if (result[input[i]] === undefined) {
+            result[input[i]] = 0;
         }
 
-        obj[input[i]] += Number(input[i + 1]);
+        result[input[i]] += Number(input[i + 1]);
     }
 
-    console.log(JSON.stringify(obj));
+    console.log(JSON.stringify(result));
 }
 
 sumByTown(["Sofia",
@@ -30,4 +30,4 @@ sumByTown(["Sofia",
     "5",
     "varna",
     "4"
-    ])
+])

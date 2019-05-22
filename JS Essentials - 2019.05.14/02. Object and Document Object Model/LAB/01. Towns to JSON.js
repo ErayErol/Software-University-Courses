@@ -1,28 +1,20 @@
-function townsToJSON(inputArray) {
-    let tableHeadArray = inputArray.shift().split("|").filter(x => x !== "");
-    let town = tableHeadArray[0].trim();
-    let latitude = tableHeadArray[1].trim();
-    let longitude = tableHeadArray[2].trim();
 
-    let resultArray = [];
+function townsToJSON(input) {
+    let result = [];
+    let splitPattern = /\s*\|\s*/;
 
-    for (let i = 0; i < inputArray.length; i++) {
-        let currentRow = inputArray[i].split("|").filter(x => x !== "");
+    for (let i = 1; i < input.length; i++) {
+        let currentTown = {};
+        let currentString = input[i].split(splitPattern).filter(x => x);
 
-        let currentTown = currentRow[0].trim();
-        let currentLat = Number(currentRow[1].trim());
-        let currentLon = Number(currentRow[2].trim());
+        currentTown["Town"] = currentString[0];
+        currentTown["Latitude"] = Number(currentString[1]);
+        currentTown["Longitude"] = Number(currentString[2]);
 
-        let currentObj = {
-            [town] : currentTown,
-            [latitude] : currentLat,
-            [longitude] : currentLon
-        };
-
-        resultArray.push(currentObj);
+        result.push(currentTown);
     }
 
-    console.log(JSON.stringify(resultArray));
+    console.log(JSON.stringify(result));
 }
 
 townsToJSON(['| Town | Latitude | Longitude |',

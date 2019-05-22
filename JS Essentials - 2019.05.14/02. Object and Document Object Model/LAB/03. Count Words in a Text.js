@@ -1,16 +1,20 @@
-function solve(input){
-    let arr = input[0].split(/\W/).filter(x => x);
+function countWordInText(input) {
+    let result = {}
+    let splitPattern = /W/;
 
-    let obj = {}
-    for (const word of arr) {
-        if (!obj[word]) {
-            obj[word] = 0;
+    let arrWords = input[0].split(splitPattern).filter(x => x);
+
+    for (let word of arrWords) {
+        if (result[word] === undefined) {
+            result[word] = 0;
         }
 
-        obj[word]++;
+        result[word]++;
     }
 
-    console.log(JSON.stringify(obj));
+    console.log(JSON.stringify(result));
 }
 
-solve(["Far too slow, you're far too slow."]);
+countWordInText(["Far too slow, you're far too slow."]);
+
+countWordInText(["JS devs use Node.js for server-side JS.-- JS for devs"]);
