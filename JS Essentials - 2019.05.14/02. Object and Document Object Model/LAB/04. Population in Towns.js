@@ -16,7 +16,6 @@ function populationInTowns(input) {
 
     for (let town of Object.entries(result)) {
         console.log(`${town[0]} : ${town[1]}`);
-        console.log(town);
     }
 }
 
