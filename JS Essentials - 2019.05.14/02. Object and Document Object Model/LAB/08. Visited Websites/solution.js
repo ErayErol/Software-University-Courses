@@ -15,6 +15,4 @@ function solve() {
       paragraphElement.textContent = textParts.join(" ");
     });
   }
-
-
 }
