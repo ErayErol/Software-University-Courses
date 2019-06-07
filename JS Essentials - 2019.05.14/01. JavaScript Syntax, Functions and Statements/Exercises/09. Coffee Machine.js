@@ -6,7 +6,7 @@ function solve(arr) {
             let currentInputElement = arrElement[j];
             console.log(currentInputElement);
         }
-        return;
+        
     }
 
 }
