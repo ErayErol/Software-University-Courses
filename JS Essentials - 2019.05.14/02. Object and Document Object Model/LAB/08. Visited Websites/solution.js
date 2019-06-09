@@ -2,7 +2,7 @@ function solve() {
   let siteElements = document.getElementsByClassName("link-1");
 
   for (let siteElement of siteElements) {
-    siteElement.addEventListener("click", (e) => {
+    siteElement.addEventListener("click", function(e) {
       let currentTarget = e.currentTarget;
 
       let paragraphElement = currentTarget.getElementsByTagName("p")[0];
