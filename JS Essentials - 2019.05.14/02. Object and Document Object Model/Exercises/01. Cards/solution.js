@@ -1,43 +1,44 @@
 function solve() {
-   let firstPlayerCardElements = document.querySelectorAll("#player1Div img");
-   let result = document.querySelectorAll("#result span");
+   Array.from(document.getElementsByTagName("img")).forEach((img) => {
+      img.addEventListener("click", clickEvent);
+   });
 
-   let firstPlayerCardPower = 0;
+   function clickEvent(e) {
+      let card = e.target;
+      card.src = "./images/whiteCard.jpg";
+      card.removeEventListener("click", clickEvent);
+      let parent = card.parentNode;
 
-   for (let firstPlayerCardElement of firstPlayerCardElements) {
-      firstPlayerCardElement.addEventListener("click", function myFunc() {
+      let spans = document.getElementById("result").children;
+      let leftSpan = spans[0];
+      let rightSpan = spans[2];
 
-         firstPlayerCardPower = Number(firstPlayerCardElement.name);
+      if (parent.id === "player1Div") {
+         leftSpan.textContent = card.name;
+         first = Number(card.name);
+      }else if (parent.id === "player2Div") {
+         rightSpan.textContent = card.name;
+         second = Number(card.name);
+      }
 
-         let createCardNumber = document.createElement("span");
-         createCardNumber.textContent = firstPlayerCardPower;
-         
-         result[0].appendChild(createCardNumber);
-         firstPlayerCardElement.src = "images/whiteCard.jpg";
-         
-         firstPlayerCardElement.removeEventListener("click", myFunc, false);
-      });
+      if (leftSpan.textContent && rightSpan.textContent) {
+         let winner;
+         let looser;
 
-   }
+         if (Number(leftSpan.textContent) > Number(rightSpan.textContent)) {
+            winner = document.querySelector(`#player1Div img[name="${leftSpan.textContent}"]`);
+            looser = document.querySelector(`#player2Div img[name="${rightSpan.textContent}"]`);
+         }else{
+            winner = document.querySelector(`#player2Div img[name="${rightSpan.textContent}"]`);
+            looser = document.querySelector(`#player1Div img[name="${leftSpan.textContent}"]`);
+         }
 
+         winner.style.border = "2px solid green";
+         looser.style.border = "2px solid red";
 
-   let secondPlayerCardElements = document.querySelectorAll("#player2Div img");
-
-   let secondPlayerCardPower = 0;
-
-   for (let secondPlayerCardElement of secondPlayerCardElements) {
-      secondPlayerCardElement.addEventListener("click", function myFunc() {
-
-         secondPlayerCardPower = Number(secondPlayerCardElement.name);
-
-         let createCardNumber = document.createElement("span");
-         createCardNumber.textContent = secondPlayerCardPower;
-         
-         result[2].appendChild(createCardNumber);
-         secondPlayerCardElement.src = "images/whiteCard.jpg";
-         
-         secondPlayerCardElement.removeEventListener("click", myFunc, false);
-      });
-
-   }
+         document.getElementById("history").textContent += `[${leftSpan.textContent} vs ${rightSpan.textContent}] `;
+         leftSpan.textContent = "";
+         rightSpan.textContent = "";
+      }
+   };
 }
