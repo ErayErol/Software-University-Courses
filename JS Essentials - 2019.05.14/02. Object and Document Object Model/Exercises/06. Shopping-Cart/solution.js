@@ -9,13 +9,13 @@ function solve() {
    });
 
    function clickEvent(e) {
-      let currentTargetPrice = Number(e.currentTarget.parentElement.parentNode.children[3].innerHTML).toFixed(2);
-      let currentTargetName = e.currentTarget.parentElement.parentNode.children[1].children[0].innerHTML;
+      let price = Number(e.currentTarget.parentElement.parentNode.children[3].innerHTML).toFixed(2);
+      let name = e.currentTarget.parentElement.parentNode.children[1].children[0].innerHTML;
 
-      textArea.innerHTML += `Added ${currentTargetName} for ${currentTargetPrice} to the cart.\n`;
+      textArea.innerHTML += `Added ${name} for ${price} to the cart.\n`;
 
-      boughtProducts.add(currentTargetName);
-      totalPrice += Number(currentTargetPrice);
+      boughtProducts.add(name);
+      totalPrice += Number(price);
    }
 
    let checkOutBtn = document.getElementsByClassName("checkout")[0];
