@@ -9,7 +9,11 @@ function solve() {
   let generateBtn = buttons[0];
   let buyBtn = buttons[1];
 
+  let firstCheckbox = document.getElementsByTagName('input')[0];
+  firstCheckbox.outerHTML = "<input type=\"checkbox\">";
+
   generateBtn.addEventListener("click", generate);
+  buyBtn.addEventListener("click", buy);
 
   function generate() {
     let furnitureList = JSON.parse(inputArea.value);
@@ -45,33 +49,32 @@ function solve() {
     }
   }
 
-  let checkboxs = document.getElementsByTagName('input');
-  checkboxs[0].outerHTML = "<input type=\"checkbox\">";
-
-  buyBtn.addEventListener("click", buy);
-
-  let boughtFurnitures = [];
-  let totalPrice = 0;
-  let totalDecFactor = 0;
-
   function buy() {
-    for (const checkbox of checkboxs) {
-      debugger;
+    let boughtFurnitures = [];
+    let totalPrice = 0;
+    let avgDecFactor = 0;
+
+    let rows = Array.from(document.getElementsByTagName('tr'));
+
+    for (let i = 1; i < rows.length; i++) {
+      let checkbox = rows[i].children[4].children[0];
+      
       if (checkbox.checked) {
-        let currentRow = checkbox.parentElement.parentElement;
-        let name = currentRow.children[1].children[0].textContent;
-        let price = Number(currentRow.children[2].children[0].textContent);
-        let decFactor = Number(currentRow.children[3].children[0].textContent);
+        let name = rows[i].children[1].textContent.trim();
+        let price = rows[i].children[2].textContent;
+        let decFactor = rows[i].children[3].textContent;
 
         boughtFurnitures.push(name);
         totalPrice += Number(price);
-        totalDecFactor += Number(decFactor);
+        avgDecFactor += Number(decFactor);
       }
     }
-    
-    outputArea.value = `Bought furniture: ${boughtFurnitures.join(" ")}\n`;
-    outputArea.value += `Total price: ${totalPrice.toFixed(2)}`;
-    
-    
+
+    avgDecFactor /= boughtFurnitures.length;
+
+    outputArea.value =
+      `Bought furniture: ${boughtFurnitures.join(', ')}\n` +
+      `Total price: ${totalPrice.toFixed(2)}\n` +
+      `Average decoration factor: ${avgDecFactor}`;
   }
 }
