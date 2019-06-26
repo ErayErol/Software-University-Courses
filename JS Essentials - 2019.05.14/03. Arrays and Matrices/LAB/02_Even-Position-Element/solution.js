@@ -1,15 +1,14 @@
-function solve() {
-  let inputText = JSON.parse(document.getElementById('arr').value);
-  let evenNums = [];
+function solve(arr) {
+  let evenPositionArr = [];
+  
+  arr = arr.map((element, index) => {
+    if (index % 2 === 0) {
+      evenPositionArr.push(element);
+    }
+  });
 
-  for (let i = 0; i < inputText.length; i++) {
-      if (i % 2 == 0) {
-          evenNums.push(inputText[i]);
-      }
-  }
-
-  let resultDiv = document.getElementById('result');
-  let resultText = evenNums.join(' x ');
-
-  resultDiv.textContent = resultText;
+  console.log(evenPositionArr.join(' '));
 }
+
+solve(['20', '30', '40']);
+solve(['5', '10']);
