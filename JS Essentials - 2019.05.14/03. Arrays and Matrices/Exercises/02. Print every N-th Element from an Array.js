@@ -1,3 +1,4 @@
 function solve() {
-  // TODO
 }
+
+solve();
