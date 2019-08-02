@@ -1,5 +1,5 @@
 function sovle(arr) {
-    
+    let arrr = arr;
 }
 
 sovle(['add', 
