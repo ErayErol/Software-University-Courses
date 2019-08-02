@@ -1,5 +1,12 @@
 function sovle(arr) {
-    let arrr = arr;
+    switch (arr.pop()) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
 }
 
 sovle(['add', 
