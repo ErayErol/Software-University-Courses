@@ -1,25 +1,29 @@
 function sovle(arr) {
+    
+    let result = [];
     let number = 1;
 
-    let result = [];
-
     for (let i = 0; i < arr.length; i++) {
-        const command = arr[i];
+        let command = arr[i];
 
         switch (command) {
             case "add":
                 result.push(number);
                 break;
 
-            case "add":
-                arr.pop();
+            case "remove":
+                result.pop();
                 break;
         }
 
         number++;
     }
 
-    console.log(result.join('\n'));
+    if (result.length > 0) {
+        console.log(result.join('\n'));
+    }else{
+        console.log('Empty');
+    }
 }
 
 sovle(['add',
