@@ -1,7 +1,7 @@
 function solve(arr) {
-    let amountOfRotation = arr.pop();
+    let rotation = arr.pop();
 
-    for (let i = 0; i < amountOfRotation; i++) {
+    for (let i = 0; i < rotation % arr.length; i++) {
         let element = arr.pop();
         
         arr.unshift(element);
