@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Space Mono');
+
+body {
+    font-family: 'Space Mono';
+    margin-top: 3em;
+    font-size: 23px;
+}
+
+input, input::placeholder {
+    font-family: 'Space Mono';
+}
+
+#container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form label, form input {
+    display: block;
+    width: 100%;
+}
+
+input {
+    outline: none;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+#container > form > input[type="button"]{
+    width: 50%;
+    margin: 23px auto;
+    background: transparent;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+#container > form > input[type="button"]:hover {
+    background: darkgray;
+    color: white;
+}
