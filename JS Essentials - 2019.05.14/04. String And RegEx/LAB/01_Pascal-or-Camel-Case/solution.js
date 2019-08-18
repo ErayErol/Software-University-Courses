@@ -18,6 +18,7 @@ function solve() {
     } else {
       output = "Error!";
     }
+    
     document.getElementById("result").innerHTML = output;
   }
 
