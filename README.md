@@ -73,7 +73,7 @@
     :three:
   </td>
   <th>
-    Arrays and Matrices
+    Objects
   </th>
   <td>
    <p align="center">
