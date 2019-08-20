@@ -51,7 +51,7 @@
     :two:
   </td>
   <th>
-    Object and Document Object Model
+    Arrays
   </th>
   <td>
    <p align="center">
@@ -73,7 +73,7 @@
     :three:
   </td>
   <th>
-    Arrays and Matrices
+    Objects
   </th>
   <td>
    <p align="center">
@@ -95,7 +95,7 @@
     :four:
   </td>
   <th>
-    Strings and Regexp
+    Advanced Functions
   </th>
   <td>
    <p align="center">
