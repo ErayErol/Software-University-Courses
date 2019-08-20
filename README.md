@@ -95,7 +95,7 @@
     :four:
   </td>
   <th>
-    Strings and Regexp
+    Advanced Functions
   </th>
   <td>
    <p align="center">
