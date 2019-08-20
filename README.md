@@ -51,7 +51,7 @@
     :two:
   </td>
   <th>
-    Object and Document Object Model
+    Arrays
   </th>
   <td>
    <p align="center">
