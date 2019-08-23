@@ -5,7 +5,3 @@ function solution(arr) {
     console.log('Product = ' + arr.reduce((a,b) => a * b));
     console.log('Join = ' + arr.reduce((a,b) => '' + a + b));
 }
-
-solve([2, 3, 10, 5]);
-
-solve([5, -3, 20, 7, 0.5]);
