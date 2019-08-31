@@ -1,8 +1,8 @@
 function solve(step, lengthOfStep, speed) {
     let distance = step * lengthOfStep / 1000;
-    let speedForSecond = speed / 3600;
+    let speedPerSecond = speed / 3600;
 
-    let seconds = Math.round(distance / speedForSecond);
+    let seconds = Math.round(distance / speedPerSecond);
     let minutes = Math.floor(step * lengthOfStep / 500);
     let hours = 0;
 
@@ -16,9 +16,9 @@ function solve(step, lengthOfStep, speed) {
         hours++;
     }
 
-    seconds = seconds > 10 ? seconds : `0${seconds}`;
-    minutes = minutes > 10 ? minutes : `0${minutes}`;
     hours = hours > 10 ? hours : `0${hours}`;
+    minutes = minutes > 10 ? minutes : `0${minutes}`;
+    seconds = seconds > 10 ? seconds : `0${seconds}`;
     console.log(`${hours}:${minutes}:${seconds}`);
 }
 
