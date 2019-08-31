@@ -1,15 +1,7 @@
-function solve(arr) {
-    let sum = 0;
-    let last = 0;
-    let first = Number(arr.shift());
-
-    if (arr.length === 0) {
-        sum = first + first;
-    } else {
-        last = Number(arr.pop());
-        sum = first + last;
-    }
-
+function solve(input) {
+    let firstNumber = Number(input[0]);
+    let lastNumber = Number(input[input.length - 1]);
+    let sum = firstNumber + lastNumber;
     console.log(sum);
 }
 
