@@ -1,15 +1,12 @@
-function solve(arr) {
-    let sequence = [arr[0]];
+function solve(numbers) {
+    let lastNumber = Number.MIN_SAFE_INTEGER;
 
-    for (let i = 1; i < arr.length; i++) {
-        const element = arr[i];
-
-        if (element > sequence[sequence.length - 1]) {
-            sequence.push(element);
+    for (let i = 0; i < numbers.length; i++) {
+        if (+numbers[i] >= lastNumber) {
+            lastNumber = +numbers[i];
+            console.log(lastNumber);
         }
     }
-
-    console.log(sequence.join('\n'));
 }
 
 solve([1,
