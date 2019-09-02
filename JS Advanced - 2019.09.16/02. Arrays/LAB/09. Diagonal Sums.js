@@ -1,25 +1,16 @@
 function solve(matrix) {
-    let sum1 = 0;
-    let sum2 = 0;
+    let leftDiagonalSum = 0;
+    let rightDiagonalSum = 0;
 
-    let indexForSum2 = matrix.length - 1;
-    for (let row = 0; row < matrix.length; row++) {
-        
-        for (let col = 0; col < matrix[row].length; col++) {
-            const element = matrix[row][col];
-            
-            if (row === col) {
-                sum1 += element;
-            }
-
-            if (col === indexForSum2) {
-                sum2+= element;
-                indexForSum2--;
-            }
-        }
+    for (let i = 0; i < matrix.length; i++) {
+        leftDiagonalSum += Number(matrix[i][i]);
     }
 
-    console.log(sum1 + ' ' + sum2);
+    for (let i = matrix.length - 1, j = 0; i >= 0; i-- , j++) {
+        rightDiagonalSum += Number(matrix[j][i]);
+    }
+
+    console.log(`${leftDiagonalSum} ${rightDiagonalSum}`);
 }
 
 solve([[20, 40],
