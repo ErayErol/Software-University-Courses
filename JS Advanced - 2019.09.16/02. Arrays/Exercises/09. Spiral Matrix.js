@@ -1,43 +1,36 @@
 function solve(row, col) {
-    let result = new Array(row).fill().map(() => new Array(row).fill(0)); // create empty n x n array
+    let matrix = new Array(row).fill().map(() => new Array(col).fill(0)); // create empty n x n array
+
     let counter = 1;
     let startCol = 0;
-    let endCol = row - 1;
+    let endCol = col - 1;
     let startRow = 0;
     let endRow = row - 1;
 
     while (startCol <= endCol && startRow <= endRow) {
         for (let i = startCol; i <= endCol; i++) {
-            result[startRow][i] = counter;
-            counter++;
+            matrix[startRow][i] = counter++;
         }
 
         startRow++;
         for (let j = startRow; j <= endRow; j++) {
-            result[j][endCol] = counter;
-            counter++;
+            matrix[j][endCol] = counter++;
         }
 
         endCol--;
-        for (let i = endCol; i >= startCol; i--) {
-            result[endRow][i] = counter;
-            counter++;
+        for (let i = endCol; i >= startCol; i--){
+            matrix[endRow][i] = counter++;
         }
 
         endRow--;
-        for (let i = endRow; i >= startRow; i--) {
-            result[i][startCol] = counter;
-            counter++;
+        for (let j = endRow; j >= startRow; j--){
+            matrix[j][startCol] = counter++;
         }
 
         startCol++;
     }
 
-    for (let row of result) {
-        console.log(row.join(' '));
-    }
-
-    // result.forEach(row => console.log(row.join(' ')));
+    matrix.forEach(row => console.log(row.join(' ')));
 }
 
 solve(5, 5);
