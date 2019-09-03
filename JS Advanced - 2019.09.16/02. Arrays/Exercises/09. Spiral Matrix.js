@@ -1,5 +1,5 @@
 function solve(row, col) {
-    let matrix = new Array(row).fill().map(() => new Array(col).fill(0)); // create empty n x n array
+    let matrix = new Array(row).fill().map(() => new Array(col).fill(0));
 
     let counter = 1;
     let startCol = 0;
@@ -30,7 +30,7 @@ function solve(row, col) {
         startCol++;
     }
 
-    matrix.forEach(row => console.log(row.join(' ')));
+    matrix.forEach(row => console.log(row.join(' '))); // print every row of matrix
 }
 
 solve(5, 5);

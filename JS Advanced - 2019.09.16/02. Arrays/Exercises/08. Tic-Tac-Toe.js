@@ -85,9 +85,7 @@ function solve(moves) {
     }
 
     function print(dashboard) {
-        for (let row = 0; row < dashboard.length; row++) {
-            console.log(dashboard[row].join('\t'));
-        }
+        dashboard.forEach(row => console.log(row.join('\t')));
     }
 }
 
