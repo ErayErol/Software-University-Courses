@@ -11,7 +11,12 @@ function heroicInventory(input) {
             items = tokens[2].split(", ");
         }
 
-        let hero = { name: name, level: level, items: items };
+        let hero = {
+            name: name,
+            level: level,
+            items: items
+        };
+        
         heroes.push(hero);
     }
 
