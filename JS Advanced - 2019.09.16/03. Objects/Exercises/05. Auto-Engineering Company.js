@@ -7,19 +7,20 @@ function autoEngineeringCompany(input) {
         let model = tokens[1];
         let count = Number(tokens[2]);
 
-        if(cars.has(brand) == false) {
+        if (cars.has(brand) == false) {
             cars.set(brand, new Map());
         }
-        if(cars.get(brand).has(model) == false) {
+        if (cars.get(brand).has(model) == false) {
             cars.get(brand).set(model, 0);
         }
+
         cars.get(brand).set(model, cars.get(brand).get(model) + count);
     }
 
-    for(let [brand, modelCount] of cars) {
+    for (let [brand, modelCount] of cars) {
         console.log(`${brand}`);
 
-        for(let [model, count] of modelCount) {
+        for (let [model, count] of modelCount) {
             console.log(`###${model} -> ${count}`);
         }
     }
