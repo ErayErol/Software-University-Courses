@@ -21,12 +21,10 @@ function systemComponents(input) {
         Array
             .from(systems)
             .sort((a, b) => {
-                // a[0], b[0] is the key of the map
-                return a[0] > b[0];
+                return a[0] > b[0]; // a[0], b[0] is the key of the map
             })
             .sort((a, b) => {
-                // a[1], b[1] is the value of the map
-                return b[1].size - a[1].size;
+                return b[1].size - a[1].size; // a[1], b[1] is the value of the map
             })
     );
 
@@ -38,7 +36,8 @@ function systemComponents(input) {
                 .from(key[1])
                 .sort((a, b) => {
                     return b[1].length - a[1].length;
-                }));
+})
+        );
 
         for (const components of orderedByAmountOfSubcomponents) {
             console.log(`|||${components[0]}`);
@@ -64,27 +63,3 @@ systemComponents(['SULS | Main Site | Home Page',
     'Indice | Session | Default Storage',
     'Indice | Session | Default Security']
 );
-
-// Lambda
-// |||CoreA
-// ||||||A23
-// ||||||A24
-// ||||||A25
-// |||CoreB
-// ||||||B24
-// |||CoreC
-// ||||||C4
-// SULS
-// |||Main Site
-// ||||||Home Page
-// ||||||Login Page
-// ||||||Register Page
-// |||Judge Site
-// ||||||Login Page
-// ||||||Submittion Page
-// |||Digital Site
-// ||||||Login Page
-// Indice
-// |||Session
-// ||||||Default Storage
-// ||||||Default Security
