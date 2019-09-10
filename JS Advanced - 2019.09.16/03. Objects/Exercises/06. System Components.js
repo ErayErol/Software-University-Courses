@@ -17,28 +17,36 @@ function systemComponents(input) {
         systems.get(system).get(component).push(subcomponent);
     }
 
-    let systemsSorted = Array.from(systems.keys()).sort((s1, s2) => sortSystems(s1, s2));
+    let orderedByAmountOfComponentsAndAlphabetical = new Map(
+        Array
+            .from(systems)
+            .sort((a, b) => {
+                // a[0], b[0] is the key of the map
+                return a[0] > b[0];
+            })
+            .sort((a, b) => {
+                // a[1], b[1] is the value of the map
+                return b[1].size - a[1].size;
+            })
+    );
 
-    for(let system of systemsSorted) {
-        console.log(system);
-        let componentsSorted = Array.from(systems.get(system).keys()).sort((c1, c2) => sortComponents(system, c1, c2));
+    for (const key of orderedByAmountOfComponentsAndAlphabetical) {
+        console.log(key[0]);
 
-        for(let component of componentsSorted) {
-            console.log(`|||${component}`);
-            systems.get(system).get(component).forEach(sc => console.log(`||||||${sc}`))
+        let orderedByAmountOfSubcomponents = new Map(
+            Array
+                .from(key[1])
+                .sort((a, b) => {
+                    return b[1].length - a[1].length;
+                }));
+
+        for (const components of orderedByAmountOfSubcomponents) {
+            console.log(`|||${components[0]}`);
+
+            for (const sub of components[1]) {
+                console.log(`||||||${sub}`);
+            }
         }
-    }
-
-    function sortSystems(s1, s2) {
-        if(systems.get(s1).size != systems.get(s2).size) {
-            return systems.get(s2).size - systems.get(s1).size;
-        } else {
-            return s1.toLowerCase().localeCompare(s2.toLowerCase());
-        }
-    }
-
-    function sortComponents(system, c1, c2) {
-        return systems.get(system).get(c2).length - systems.get(system).get(c1).length;
     }
 }
 
