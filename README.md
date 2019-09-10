@@ -117,7 +117,7 @@
     :five:
   </td>
   <th>
-    Workshop
+    DOM
   </th>
   <td>
    <p align="center">
