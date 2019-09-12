@@ -1,5 +1,6 @@
 function arenaTier(input) {
     let gladiators = new Map();
+
     for (const line of input) {
         let tokens = line.split(' -> ');
         let command = tokens[0].split(' vs ');
@@ -26,28 +27,38 @@ function arenaTier(input) {
         else if (command.length === 2) {
             let gladiator1 = command[0];
             let gladiator2 = command[1];
-            let isDuel = false;
 
-            for (let [technique1, skills1] of gladiators.get(gladiator1)) {
-                
-                for (let [technique2, skills2] of gladiators.get(gladiator2)) {
-                    if (technique1 === technique2) {
-                        if (skills1 > skills2) {
-                            gladiators.delete(gladiator2);
-                        } else {
-                            gladiators.delete(gladiator1);
+            if (gladiators.has(gladiator1) && gladiators.has(gladiator2)) {
+                let isDuel = false;
+                for (let [technique1, skills1] of gladiators.get(gladiator1)) {
+
+                    for (let [technique2, skills2] of gladiators.get(gladiator2)) {
+                        if (technique1 === technique2) {
+                            if (skills1 > skills2) {
+                                gladiators.delete(gladiator2);
+                            } else {
+                                gladiators.delete(gladiator1);
+                            }
+                            isDuel = true;
+                            break;
                         }
-                        isDuel = true;
+                    }
+
+                    if (isDuel) {
                         break;
                     }
-                }
-
-                if (isDuel) {
-                    break;
                 }
             }
         }
     }
+
+    let gladiatorsSorted = new Map(
+        Array.from(gladiators)
+            .sort((a, b) => {
+                
+            })
+    );
+
 
     b;
 }
