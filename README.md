@@ -51,7 +51,7 @@
     :two:
   </td>
   <th>
-    Arrays
+    Objects
   </th>
   <td>
    <p align="center">
@@ -73,7 +73,7 @@
     :three:
   </td>
   <th>
-    Objects
+    Arrays
   </th>
   <td>
    <p align="center">
