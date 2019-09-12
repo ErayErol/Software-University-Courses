@@ -25,12 +25,25 @@ function arenaTier(input) {
         }
         else if (command.length === 2) {
             let gladiator1 = command[0];
-            let gladiator2 = command[2];
+            let gladiator2 = command[1];
+            let isDuel = false;
 
-            for (let i = 0; i < gladiators.get(gladiator1).size; i++) {
+            for (let [technique1, skills1] of gladiators.get(gladiator1)) {
                 
-                for (let j = 0; j < gladiators.get(gladiator2).size; j++) {
-                    
+                for (let [technique2, skills2] of gladiators.get(gladiator2)) {
+                    if (technique1 === technique2) {
+                        if (skills1 > skills2) {
+                            gladiators.delete(gladiator2);
+                        } else {
+                            gladiators.delete(gladiator1);
+                        }
+                        isDuel = true;
+                        break;
+                    }
+                }
+
+                if (isDuel) {
+                    break;
                 }
             }
         }
