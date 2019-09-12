@@ -52,23 +52,59 @@ function arenaTier(input) {
         }
     }
 
-    let gladiatorsSorted = new Map(
-        Array.from(gladiators)
-            .sort((a, b) => {
-                
-            })
-    );
+    let nameSkills = {};
+    for (const gladiator of gladiators) {
+        let name = gladiator[0];
+        for (const [technique, skills] of gladiator[1]) {
 
+            if (nameSkills.hasOwnProperty(name) == false) {
+                nameSkills[name] = 0;
+            }
 
-    b;
+            nameSkills[name] += skills;
+        }
+    }
+
+    let sortBySkills = [];
+    for (let name in nameSkills) {
+        sortBySkills.push([name, nameSkills[name]]);
+    }
+
+    sortBySkills
+        .sort((a, b) => a[0].localeCompare(b[0]))
+        .sort((a, b) => b[1] - a[1]);
+
+    for (const gladiator of sortBySkills) {
+        let name = gladiator[0];
+        let skills = Number(gladiator[1]);
+
+        console.log(`${name}: ${skills} skill`);
+
+        for (const currGladiator of gladiators) {
+
+            if (currGladiator[0] === name) {
+
+                currGladiator[1] = Array.from(currGladiator[1]);
+
+                currGladiator[1]
+                    .sort((a, b) => a[0].localeCompare(b[0]))
+                    .sort((a, b) => b[1] - a[1]);
+
+                for (const techniqueAndSkills of currGladiator[1]) {
+                    console.log(`- ${techniqueAndSkills[0]} <!> ${techniqueAndSkills[1]}`);
+                }
+            }
+        }
+
+    }
 }
 
-// arenaTier(["Pesho -> BattleCry -> 400",
-//     "Gosho -> PowerPunch -> 300",
-//     "Stamat -> Duck -> 200",
-//     "Stamat -> Tiger -> 250",
-//     "Ave Cesar"
-// ]);
+arenaTier(["Pesho -> BattleCry -> 400",
+    "Gosho -> PowerPunch -> 300",
+    "Stamat -> Duck -> 200",
+    "Stamat -> Tiger -> 250",
+    "Ave Cesar"
+]);
 
 arenaTier(["Pesho -> Duck -> 400",
     "Julius -> Shield -> 150",
