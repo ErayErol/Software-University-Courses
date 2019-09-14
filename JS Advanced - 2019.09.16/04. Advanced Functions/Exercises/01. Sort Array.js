@@ -6,6 +6,6 @@ function sortArray(numeric, argument) {
     }
 }
 
-sortArray([14, 7, 17, 6, 8], 'asc');
+console.log(sortArray([14, 7, 17, 6, 8], 'asc'));
 
-sortArray([14, 7, 17, 6, 8], 'desc');
+console.log(sortArray([14, 7, 17, 6, 8], 'desc'));
