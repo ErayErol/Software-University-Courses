@@ -33,15 +33,15 @@
   </th>
   <td>
    <p align="center">
-      <a
-         https://github.com/ErayErol/JSAdvanced/tree/master/JS%20Advanced%20%202019.09.16/01.%20JavaScript%20Syntax%2C%20Functions%20and%20Statements/LAB✅
-   </a>
+       <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/01.%20JavaScript%20Syntax%2C%20Functions%20and%20Statements/LAB">✅
+         </a>
   </td>
   <td> 
    <p align="center">
          <a 
          href="">✅
-   </a>
+         </a>
   </td>
 </tr>
     
