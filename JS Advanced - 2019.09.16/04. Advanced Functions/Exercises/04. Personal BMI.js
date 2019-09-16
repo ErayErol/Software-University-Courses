@@ -11,7 +11,7 @@ function personalBMI(name, age, weight, height) {
     calculateBMI(person.personalInfo.weight, person.personalInfo.height);
 
     function calculateBMI(weight, height) {
-        person.BMI =  Math.round((weight / (height * height)) * 10000);
+        person.BMI =  Math.round(weight / Math.pow(height / 100, 2));
     }
 
     if (person.BMI < 18.5) {
