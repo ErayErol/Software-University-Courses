@@ -34,7 +34,7 @@
   <td>
    <p align="center">
       <a 
-         href="https://github.com/ErayErol/CSharp-OOP/tree/master/2019.02.25%20-%20C%23%20OPP/01.%20Working%20with%20Abstraction/LAB">✅
+         https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/01.%20JavaScript%20Syntax%2C%20Functions%20and%20Statements/LAB✅
    </a>
   </td>
   <td> 
