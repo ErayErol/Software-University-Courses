@@ -1,18 +1,20 @@
 function personalBMI(name, age, weight, height) {
-    let person = {};
     
-    person.name = name;
-    person.personalInfo = {
-        age: age,
-        weight: weight,
-        height: height
-    };
-
-    calculateBMI(person.personalInfo.weight, person.personalInfo.height);
-
     function calculateBMI(weight, height) {
-        person.BMI =  Math.round(weight / Math.pow(height / 100, 2));
+        return Math.round(weight / Math.pow(height / 100, 2));
     }
+
+    let person = {
+        name: name,
+        personalInfo: {
+            age: age,
+            weight: weight,
+            height: height,
+        },
+
+        BMI: calculateBMI(weight, height),
+        status:''
+    };
 
     if (person.BMI < 18.5) {
         person.status = 'underweight';
