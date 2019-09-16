@@ -1,14 +1,14 @@
 function calculate(number) {
     let sum = number;
 
-    add.toString = function () {
-        return sum;
-    };
     function add(nextNumber) {
         sum += nextNumber;
         return add;
     }
     
+    add.toString = function () {
+        return sum;
+    };
     
     return add;
 }
