@@ -12,7 +12,8 @@ function argumentInfo() {
         typeCounter[type]++;
     }
 
-    typeCounter = Object.entries(typeCounter)
+    Object
+        .entries(typeCounter)
         .sort((a, b) => b[1] - a[1])
         .forEach((element) => console.log(`${element[0]} = ${element[1]}`));
 }

@@ -1,4 +1,4 @@
-let vectorMath = (function () {
+let solution = (function () {
     function add(vec1, vec2) {
         let [a1, b1] = vec1;
         let [a2, b2] = vec2;
@@ -34,12 +34,13 @@ let vectorMath = (function () {
         dot,
         cross
     };
+
 })();
 
-console.log(vectorMath.add([1, 1], [1, 0]));
-console.log(vectorMath.multiply([3.5, -2], 2));
-console.log(vectorMath.length([3, -4]));
-console.log(vectorMath.dot([1, 0], [0, -1]));
-console.log(vectorMath.cross([3, 7], [1, 0]));
+console.log(solution.add([1, 1], [1, 0]));
+console.log(solution.multiply([3.5, -2], 2));
+console.log(solution.length([3, -4]));
+console.log(solution.dot([1, 0], [0, -1]));
+console.log(solution.cross([3, 7], [1, 0]));
 
 // testing in Judge => submit only the IIFE func

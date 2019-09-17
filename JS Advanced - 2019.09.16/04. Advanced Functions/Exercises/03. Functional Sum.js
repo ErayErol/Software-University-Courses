@@ -13,4 +13,4 @@ function calculate(number) {
     return add;
 }
 
-console.log(calculate(17)(22)(54)(6));
+console.log(calculate(17)(22)(54)(6).toString());

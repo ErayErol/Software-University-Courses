@@ -1,9 +1,5 @@
 function personalBMI(name, age, weight, height) {
     
-    function calculateBMI(weight, height) {
-        return Math.round(weight / Math.pow(height / 100, 2));
-    }
-
     let person = {
         name: name,
         personalInfo: {
@@ -12,7 +8,7 @@ function personalBMI(name, age, weight, height) {
             height: height,
         },
 
-        BMI: calculateBMI(weight, height),
+        BMI: Math.round(weight / Math.pow(height / 100, 2)),
         status:''
     };
 
