@@ -1,9 +1,7 @@
-function solve(num1, num2, num3) {
-    let arrNums = [num1, num2, num3];
-
-    console.log(`The largest number is ${Math.max(...arrNums)}.`);
+function solve(...params) {
+     return`The largest number is ${Math.max(...params)}.`;
 }
 
-solve(5, -3, 16);
+console.log(solve(5, -3, 16, 20, -6, 27));
 
 solve(-3, -5, -22.5);
