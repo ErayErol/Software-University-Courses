@@ -1,5 +1,5 @@
 function solve() {
-   document.getElementById('send').addEventListener('click', (e) => {
+   document.getElementById('send').addEventListener('click', () => {
       let input = document.getElementById('chat_input');
       let message = document.getElementsByClassName('message my-message')[0];
 
