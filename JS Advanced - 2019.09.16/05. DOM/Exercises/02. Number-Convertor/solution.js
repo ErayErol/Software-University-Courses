@@ -15,14 +15,13 @@ function solve() {
 
     let input = document.getElementById('input');
     let result = document.getElementById('result');
+
     document.querySelector('button').addEventListener('click', () => {
         let convertBinary = (Number(input.value)).toString(2);
         let convertHexadecimal = (Number(input.value)).toString(16);
 
-        if (menuTo.value === 'binary') {
-            result.value = convertBinary;
-        } else if (menuTo.value === 'hexadecimal') {
-            result.value = convertHexadecimal.toLocaleUpperCase();
-        }
+        (menuTo.value === 'binary') 
+        ? result.value = convertBinary
+        : result.value = convertHexadecimal.toLocaleUpperCase();
     });
 }
