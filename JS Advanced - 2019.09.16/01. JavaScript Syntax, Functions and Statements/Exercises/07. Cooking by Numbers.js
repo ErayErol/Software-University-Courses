@@ -19,7 +19,7 @@ function solve(args) {
         return num * 0.8;
     }
 
-    let num = args.shift();
+    let num = args.spice(1);
 
     while (args.length > 0) {
 
