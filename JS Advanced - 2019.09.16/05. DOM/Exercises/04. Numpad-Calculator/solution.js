@@ -18,12 +18,12 @@ function solve() {
     });
 
     function result() {
-        let field = input.textContent
+        let expField = input.textContent
             .split(' ')
             .filter(x => x !== '');
 
-        field.length === 3
-            ? calculate(field[0], field[1], field[2])
+        expField.length === 3
+            ? calculate(expField[0], expField[1], expField[2])
             : output.textContent = NaN;
     }
 
