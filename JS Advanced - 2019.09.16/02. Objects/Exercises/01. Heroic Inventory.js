@@ -8,7 +8,7 @@ function heroicInventory(input) {
         let items = [];
 
         if (tokens.length > 2) {
-            items = tokens[2].split(", ");
+            items = tokens[2].split(', ');
         }
 
         let hero = {

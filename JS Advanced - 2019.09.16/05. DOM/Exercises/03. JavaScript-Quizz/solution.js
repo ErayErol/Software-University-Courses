@@ -1,5 +1,6 @@
 function solve() {
   let point = 0;
+  let result = document.getElementById('results');
   let answers = document.getElementsByTagName('p');
   let section = document.getElementsByTagName('section');
 
@@ -27,7 +28,6 @@ function solve() {
 
       section[2].style.display = 'none';
       
-      let result = document.getElementById('results');
       (point === 3)
         ? result.children[0].children[0].textContent = 'You are recognized as top JavaScript fan!'
         : result.children[0].children[0].textContent = `You have ${point} right answers`;
