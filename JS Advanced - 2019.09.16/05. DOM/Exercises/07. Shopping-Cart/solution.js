@@ -1,3 +1,5 @@
 function solve() {
-   //TODO...
+   document.querySelectorAll('button').addEventListener('click', (e) => {
+      
+   });
 }
