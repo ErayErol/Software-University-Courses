@@ -1,10 +1,7 @@
 function systemComponents(input) {
     let systems = new Map();
     for (const line of input) {
-        let tokens = line.split(' | ');
-        let system = tokens[0];
-        let component = tokens[1];
-        let subcomponent = tokens[2];
+        let [system, component, subComponent] = line.split(' | ');
 
         if (systems.has(system) == false) {
             systems.set(system, new Map());
@@ -12,7 +9,7 @@ function systemComponents(input) {
         if (systems.get(system).has(component) == false) {
             systems.get(system).set(component, []);
         }
-        systems.get(system).get(component).push(subcomponent);
+        systems.get(system).get(component).push(subComponent);
     }
 
     let systemsSorted = new Map(
@@ -38,8 +35,8 @@ function systemComponents(input) {
         for (const component of componentsSorted) {
             console.log(`|||${component[0]}`);
 
-            for (const subComponend of component[1]) {
-                console.log(`||||||${subComponend}`);
+            for (const subComponent of component[1]) {
+                console.log(`||||||${subComponent}`);
             }
         }
     }

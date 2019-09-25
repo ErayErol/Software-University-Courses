@@ -1,9 +1,10 @@
 function solve() {
    let totalSum = 0;
    let products = [];
+   let disable = true;
+   
    let buttons = document.getElementsByTagName('button');
    let textArea = document.getElementsByTagName('textarea')[0];
-   let disable = true;
 
    Array.from(buttons).forEach(add => {
       add.addEventListener('click', function (e) {
