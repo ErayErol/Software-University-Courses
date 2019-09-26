@@ -1,13 +1,9 @@
 function solve(arr) {
     arr = arr
         .sort(function (a, b) {
-            return a > b;
+            return a.length - b.length || a.localeCompare(b);
         })
-        .sort(function (a, b) {
-            return a.length - b.length;
-        });
-
-    console.log(arr.join('\n'));
+        .forEach((x) => console.log(x));
 }
 
 solve(['alpha',
