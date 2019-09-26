@@ -1,30 +1,26 @@
 function solve() {
-   document.getElementsByTagName('button')[0].addEventListener('click', () => {
-      let table = Array.from(document.getElementsByTagName('table')[0].children);
-      let search = document.getElementById('searchField');
+   const input = document.getElementById('searchField');
+   const row = document.getElementsByClassName('select');
+   const rows = Array.from(document.querySelector("table tbody").children);
+   const btn = document.getElementById('searchBtn');
 
-      for (let i = 2; i < table.length; i++) {
-         let rows = table[i].children;
+   btn.addEventListener('click', search);
 
-         for (let j = 0; j < rows.length; j++) {
-            let row = rows[j];
-            
-            if (row.className === 'selected') {
-               row.style.backgroundColor = '';
-               row.className = '';
-            }
-            
-            for (let r of row.cells) {
-               if (r.textContent.indexOf(search.value) > -1) {
-                  row.style.backgroundColor = 'yellow';
-                  row.className = 'selected';
-               }
+   function search() {
+      Array.from(row).forEach(row => row.classList.remove('select'));
+
+      for (const row of rows) {
+         const cells = Array.from(row.children);
+
+         for (const cell of cells) {
+            const isMatch = cell.textContent.toLowerCase().includes(input.value.toLowerCase());
+
+            if (isMatch) {
+               row.classList.add('select');
             }
          }
       }
 
-      search.value = '';
-   });
+      input.value = '';
+   }
 }
-
-// judge -> 16/100 ; idk why??
