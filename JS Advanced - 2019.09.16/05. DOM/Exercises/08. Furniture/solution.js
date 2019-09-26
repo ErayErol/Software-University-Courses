@@ -1,47 +1,80 @@
 function solve() {
-  let tbody = document.getElementsByTagName('tbody')[0];
-  let rows = document.querySelectorAll('tbody tr')[0];
-  rows.cells[4].children[0].disabled = false;
-  
-  let textAreas = document.getElementsByTagName('textarea');
-  let btn = document.getElementsByTagName('button');
-  
-  let generate = btn[0];
-  let generateArea = textAreas[0];
-  
-  generate.addEventListener('click', () => {
-    let furniture = JSON.parse(generateArea.value);
+  let firstCheckbox = document.getElementsByTagName('input')[0];
+  firstCheckbox.outerHTML = "<input type=\"checkbox\">";
 
-    let row = rows.cloneNode(true);
-    row.cells[0].children[0].src = furniture[0].img;
-    row.cells[1].children[0].textContent = furniture[0].name;
-    row.cells[2].children[0].textContent = furniture[0].price;
-    row.cells[3].children[0].textContent = furniture[0].decFactor;
-    row.cells[4].children[0].disabled = false;
+  let table = document.getElementsByClassName("table")[0];
 
-    tbody.appendChild(row);
-  });
+  let textArea = document.getElementsByTagName("textarea");
+  let inputArea = textArea[0];
+  let outputArea = textArea[1];
 
+  let buttons = document.getElementsByTagName("button");
+  let generateBtn = buttons[0];
+  let buyBtn = buttons[1];
 
-  let buy = btn[1];
-  let buyArea = textAreas[1];
+  generateBtn.addEventListener("click", generate);
+  buyBtn.addEventListener("click", buy);
 
-  buy.addEventListener('click', () => {
-    let avrg = 0;
+  function generate() {
+    let furnitureList = JSON.parse(inputArea.value);
+
+    for (let furniture of furnitureList) {
+
+      let row = table.insertRow();
+
+      let cell = row.insertCell();
+      let img = document.createElement("img");
+      img.setAttribute("src", furniture.img);
+      cell.appendChild(img);
+
+      cell = row.insertCell();
+      let name = document.createElement("p");
+      name.innerHTML = furniture.name;
+      cell.appendChild(name);
+
+      cell = row.insertCell();
+      let price = document.createElement("p");
+      price.innerHTML = furniture.price;
+      cell.appendChild(price);
+
+      cell = row.insertCell();
+      let decFactor = document.createElement("p");
+      decFactor.innerHTML = furniture.decFactor;
+      cell.appendChild(decFactor);
+
+      cell = row.insertCell();
+      let checkbox = document.createElement("input");
+      checkbox.setAttribute("type", "checkbox");
+      cell.appendChild(checkbox);
+    }
+  }
+
+  function buy() {
     let totalPrice = 0;
+    let avgDecFactor = 0;
     let boughtFurnitures = [];
 
-    for (let row of tbody.children) {
+    let tbody = document.getElementsByTagName('tbody')[0];
 
-      if (row.cells[4].children[0].checked == true) {
-        totalPrice += Number(row.cells[2].children[0].textContent);
-        boughtFurnitures.push(row.cells[1].children[0].textContent);
-        avrg += Number(row.cells[3].children[0].textContent);
+    for (let row of tbody.children) {
+      let checkbox = row.cells[4].children[0];
+
+      if (checkbox.checked) {
+        let name = row.cells[1].children[0].textContent;
+        let price = row.cells[2].children[0].textContent;
+        let decFactor = row.cells[3].children[0].textContent;
+
+        boughtFurnitures.push(name);
+        totalPrice += Number(price);
+        avgDecFactor += Number(decFactor);
       }
     }
 
-    buyArea.textContent += `Bought furniture: ${boughtFurnitures.join(', ')}\n`;
-    buyArea.textContent += `Total price: ${totalPrice.toFixed(2)}\n`;
-    buyArea.textContent += `Average decoration factor: ${avrg / boughtFurnitures.length}`;
-  });
+    avgDecFactor /= boughtFurnitures.length;
+
+    outputArea.value =
+      `Bought furniture: ${boughtFurnitures.join(', ')}\n` +
+      `Total price: ${totalPrice.toFixed(2)}\n` +
+      `Average decoration factor: ${avgDecFactor}`;
+  }
 }
