@@ -2,9 +2,10 @@ function solve() {
   let point = 0;
   let result = document.getElementById('results');
   let answers = document.getElementsByTagName('p');
-  let section = document.getElementsByTagName('section');
 
+  let section = document.getElementsByTagName('section');
   section[0].style.display = 'block';
+
   document.body.addEventListener('click', (e) => {
 
     if (section[0].style.display == 'block') {

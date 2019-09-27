@@ -2,8 +2,8 @@ function solve() {
    const input = document.getElementById('searchField');
    const row = document.getElementsByClassName('select');
    const rows = Array.from(document.querySelector("table tbody").children);
+   
    const btn = document.getElementById('searchBtn');
-
    btn.addEventListener('click', search);
 
    function search() {
