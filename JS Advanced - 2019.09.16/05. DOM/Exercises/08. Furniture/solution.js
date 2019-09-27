@@ -1,27 +1,26 @@
 function solve() {
   let firstCheckbox = document.getElementsByTagName('input')[0];
-  firstCheckbox.outerHTML = "<input type=\"checkbox\">";
+  firstCheckbox.outerHTML = '<input type=\"checkbox\">';
 
-  let table = document.getElementsByClassName("table")[0];
+  let tbody = document.getElementsByTagName('tbody')[0];
 
-  let textArea = document.getElementsByTagName("textarea");
+  let textArea = document.getElementsByTagName('textarea');
   let inputArea = textArea[0];
   let outputArea = textArea[1];
 
-  let buttons = document.getElementsByTagName("button");
+  let buttons = document.getElementsByTagName('button');
   let generateBtn = buttons[0];
   let buyBtn = buttons[1];
 
-  generateBtn.addEventListener("click", generate);
-  buyBtn.addEventListener("click", buy);
+  generateBtn.addEventListener('click', generate);
+  buyBtn.addEventListener('click', buy);
 
   function generate() {
     let furnitureList = JSON.parse(inputArea.value);
 
     for (let furniture of furnitureList) {
-
-      let row = table.insertRow();
-      cells(furniture, row);
+      tbody.appendChild(document.getElementsByTagName('tr')[1].cloneNode(true));
+      addFurniture(furniture);
     }
   }
 
@@ -54,30 +53,13 @@ function solve() {
       `Average decoration factor: ${avgDecFactor}`;
   }
 
-  function cells(furniture, row) {
-    let cell = row.insertCell();
-    let img = document.createElement("img");
-    img.setAttribute("src", furniture.img);
-    cell.appendChild(img);
-
-    cell = row.insertCell();
-    let name = document.createElement("p");
-    name.innerHTML = furniture.name;
-    cell.appendChild(name);
-
-    cell = row.insertCell();
-    let price = document.createElement("p");
-    price.innerHTML = furniture.price;
-    cell.appendChild(price);
-
-    cell = row.insertCell();
-    let decFactor = document.createElement("p");
-    decFactor.innerHTML = furniture.decFactor;
-    cell.appendChild(decFactor);
-
-    cell = row.insertCell();
-    let checkbox = document.createElement("input");
-    checkbox.setAttribute("type", "checkbox");
-    cell.appendChild(checkbox);
+  function addFurniture(furniture) {
+    let tr = document.getElementsByTagName("tr");
+    let td = tr[tr.length - 1];
+    td.getElementsByTagName('td')[0].innerHTML = `<img src=${furniture['img']}>`;
+    td.getElementsByTagName('td')[1].innerHTML = `<p>${furniture['name']}</p>`;
+    td.getElementsByTagName('td')[2].innerHTML = `<p>${furniture['price']}</p>`;
+    td.getElementsByTagName('td')[3].innerHTML = `<p>${furniture['decFactor']}</p>`;
+    td.getElementsByTagName('td')[4].innerHTML = `<input type="checkbox"/>`;
   }
 }
