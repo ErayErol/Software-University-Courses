@@ -20,6 +20,7 @@ function solve() {
 
     for (let furniture of furnitureList) {
       tbody.appendChild(document.getElementsByTagName('tr')[1].cloneNode(true));
+      debugger;
       addFurniture(furniture);
     }
   }
@@ -32,12 +33,13 @@ function solve() {
     let rows = Array.from(document.getElementsByTagName('tr'));
 
     for (let i = 1; i < rows.length; i++) {
-      let checkbox = rows[i].children[4].children[0];
+      let td = rows[i].children;
+      let checkbox = td[4].children[0];
 
       if (checkbox.checked) {
-        let name = rows[i].children[1].textContent.trim();
-        let price = rows[i].children[2].textContent;
-        let decFactor = rows[i].children[3].textContent;
+        let name = td[1].textContent.trim();
+        let price = td[2].textContent;
+        let decFactor = td[3].textContent;
 
         boughtFurnitures.push(name);
         totalPrice += Number(price);
