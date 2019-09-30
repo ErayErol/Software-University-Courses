@@ -1,13 +1,13 @@
 function focus() {
     let inputFields = document.getElementsByTagName('input');
 
-    Array.from(inputFields).forEach((input) => {
+    [...inputFields].forEach((input) => {
         input.addEventListener('focus', focusEvent);
         input.addEventListener('blur', blurEvent);
     });
 
     function focusEvent() {
-        this.parentNode.className = 'focused';
+        this.parentNode.classList.add('focused');
     }
 
     function blurEvent() {
