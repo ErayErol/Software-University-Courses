@@ -1,26 +1,32 @@
 let expect = require("chai").expect;
-let sum = require("../app");
+let isSymmetric = require("../app");
 
-describe('sum', function () {
+describe('isSymmetric', function () {
     
-    it("Expect correct sum.", () => {
-        let expected = 6;
-        let actual = sum([1, 2, 3]);
-
-        expect(actual).to.equal(expected);
+    it('Return true when input is array and symmetric.', () => {
+        let actual = isSymmetric([1, 2, 'symmetric', 2, 1]);
+        expect(actual).to.equal(true);
     });
 
-    it("Expect 0 when array is empty.", () => {
-        let expected = 0;
-        let actual = sum([]);
-
-        expect(actual).to.equal(expected);
+    it('Return false when input is not array.', () => {
+        let actual = isSymmetric({ foo: 'bar' });
+        expect(actual).to.equal(false);
     });
 
-    it("Expect NaN when some element of array is string.", () => {
-        const inputArray = [1, 'two', 3];
-        const actual = sum(inputArray);
+    it('Return false when input array is not symmetric.', () => {
+        let actual = isSymmetric([1, 2, 3, 4, 5]);
+        expect(actual).to.equal(false);
+    });
 
-        expect(actual).to.be.NaN;
+    it('Return true with array of undefined and null.', () => {
+        let actual = isSymmetric([undefined, null]);
+        expect(actual).to.be.true;
+    });
+
+    it('Return false with array of number 1 and string 1.', () => {
+        let expected = false;
+        let actual = isSymmetric([1, '1']);
+
+        expect(actual).to.equal(expected);
     });
 });
