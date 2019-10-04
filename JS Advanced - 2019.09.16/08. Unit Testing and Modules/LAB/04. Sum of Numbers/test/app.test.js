@@ -34,7 +34,7 @@ describe('rgbToHexColor', function () {
         expect(actual).to.be.undefined;
     });
 
-    it('When input is number like string.', () => {
+    it('When input is string.', () => {
         let actual = rgbToHexColor('66', '6', '16');
         expect(actual).to.be.undefined;
     });
