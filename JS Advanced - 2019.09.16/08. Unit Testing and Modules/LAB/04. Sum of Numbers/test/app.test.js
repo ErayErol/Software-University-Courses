@@ -1,32 +1,53 @@
 let expect = require("chai").expect;
-let isSymmetric = require("../app");
+let rgbToHexColor = require("../app");
 
-describe('isSymmetric', function () {
-    
-    it('Return true when input is array and symmetric.', () => {
-        let actual = isSymmetric([1, 2, 'symmetric', 2, 1]);
-        expect(actual).to.equal(true);
+describe('rgbToHexColor', function () {
+
+    it('When input is number.', () => {
+        let expected = '#010203';
+        let actual = rgbToHexColor(1, 2, 3);
+        expect(actual).to.equal(expected);
     });
 
-    it('Return false when input is not array.', () => {
-        let actual = isSymmetric({ foo: 'bar' });
-        expect(actual).to.equal(false);
+    it('When input is not number.', () => {
+        let actual = rgbToHexColor('js', 66, 6);
+        expect(actual).to.be.undefined;
     });
 
-    it('Return false when input array is not symmetric.', () => {
-        let actual = isSymmetric([1, 2, 3, 4, 5]);
-        expect(actual).to.equal(false);
+    it('When input is more than 255.', () => {
+        let actual = rgbToHexColor(666, 66, 6);
+        expect(actual).to.be.undefined;
     });
 
-    it('Return true with array of undefined and null.', () => {
-        let actual = isSymmetric([undefined, null]);
-        expect(actual).to.be.true;
+    it('When input is less than 0.', () => {
+        let actual = rgbToHexColor(-6, 66, 6);
+        expect(actual).to.be.undefined;
     });
 
-    it('Return false with array of number 1 and string 1.', () => {
-        let expected = false;
-        let actual = isSymmetric([1, '1']);
+    it('When input length is less than 3.', () => {
+        let actual = rgbToHexColor(66, 6);
+        expect(actual).to.be.undefined;
+    });
 
+    it('When input length is more than 3.', () => {
+        let actual = rgbToHexColor(66, 6, 16, 166);
+        expect(actual).to.be.undefined;
+    });
+
+    it('When input is number like string.', () => {
+        let actual = rgbToHexColor('66', '6', '16');
+        expect(actual).to.be.undefined;
+    });
+
+    it('When input is 0.', () => {
+        let expected = '#000000';
+        let actual = rgbToHexColor(0, 0, 0);
+        expect(actual).to.equal(expected);
+    });
+
+    it('When input is 255.', () => {
+        let expected = '#FFFFFF';
+        let actual = rgbToHexColor(255, 255, 255);
         expect(actual).to.equal(expected);
     });
 });
