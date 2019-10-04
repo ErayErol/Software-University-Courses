@@ -1,53 +1,88 @@
-let expect = require("chai").expect;
-let rgbToHexColor = require("../app");
+const assert = require('chai').assert;
+let createCalculator = require("../app");
 
-describe('rgbToHexColor', function () {
+describe('Add or Subtract Tests', function () {
+    let calculator;
 
-    it('When input is number.', () => {
-        let expected = '#010203';
-        let actual = rgbToHexColor(1, 2, 3);
-        expect(actual).to.equal(expected);
+    beforeEach(function () {
+        calculator = createCalculator();
     });
 
-    it('When input is not number.', () => {
-        let actual = rgbToHexColor('js', 66, 6);
-        expect(actual).to.be.undefined;
+    it('should return an object with add, subtract and get properties', function () {
+        assert.property(calculator, 'add');
+        assert.property(calculator, 'subtract');
+        assert.property(calculator, 'get');
     });
 
-    it('When input is more than 255.', () => {
-        let actual = rgbToHexColor(666, 66, 6);
-        expect(actual).to.be.undefined;
+    it('should have closure with internal sum 0', function () {
+        const expected = 0;
+        const actual = calculator.get();
+
+        assert.equal(actual, expected);
     });
 
-    it('When input is less than 0.', () => {
-        let actual = rgbToHexColor(-6, 66, 6);
-        expect(actual).to.be.undefined;
+    it('should not be able to modify the internal sum', function () {
+        calculator.value -= 1;
+
+        const expected = 0;
+        const actual = calculator.get();
+
+        assert.equal(actual, expected);
     });
 
-    it('When input length is less than 3.', () => {
-        let actual = rgbToHexColor(66, 6);
-        expect(actual).to.be.undefined;
+    it('function add should take parsable argument', function () {
+        assert.doesNotThrow(() => calculator.add(5));
+        assert.doesNotThrow(() => calculator.add('5'));
     });
 
-    it('When input length is more than 3.', () => {
-        let actual = rgbToHexColor(66, 6, 16, 166);
-        expect(actual).to.be.undefined;
+    it('function add should add the value', function () {
+        calculator.add(5);
+
+        const expected = 5;
+        const actual = calculator.get();
+
+        assert.equal(actual, expected);
     });
 
-    it('When input is string.', () => {
-        let actual = rgbToHexColor('66', '6', '16');
-        expect(actual).to.be.undefined;
+    it('function add should return NaN when not containing a number string is given', function () {
+        calculator.add('ten');
+
+        const actual = calculator.get();
+
+        assert.isNaN(actual);
     });
 
-    it('When input is 0.', () => {
-        let expected = '#000000';
-        let actual = rgbToHexColor(0, 0, 0);
-        expect(actual).to.equal(expected);
+    it('function subtract should take parsable argument', function () {
+        assert.doesNotThrow(() => calculator.subtract(5));
+        assert.doesNotThrow(() => calculator.subtract('5'));
     });
 
-    it('When input is 255.', () => {
-        let expected = '#FFFFFF';
-        let actual = rgbToHexColor(255, 255, 255);
-        expect(actual).to.equal(expected);
+    it('function subtract should subtract the value', function () {
+        calculator.subtract(10);
+
+        const expected = -10;
+        const actual = calculator.get();
+
+        assert.equal(actual, expected);
+    });
+
+    it('function subtract should return NaN when not containing a number string is given', function () {
+        calculator.subtract('ten');
+
+        const actual = calculator.get();
+
+        assert.isNaN(actual);
+    });
+
+    it('should do proper calculations with given numbers and numbers as strings', function () {
+        calculator.add(4);
+        calculator.add('3');
+        calculator.subtract(3);
+        calculator.subtract('2');
+
+        const expected = 2;
+        const actual = calculator.get();
+
+        assert.equal(actual, expected);
     });
 });
