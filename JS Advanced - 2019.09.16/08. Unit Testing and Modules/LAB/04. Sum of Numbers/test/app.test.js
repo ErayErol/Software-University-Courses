@@ -1,88 +1,78 @@
-const assert = require('chai').assert;
-let createCalculator = require("../app");
+let expect = require('chai').expect;
+const createCalculator = require('../app');
 
-describe('Add or Subtract Tests', function () {
-    let calculator;
+describe('Test Add and Subtract', function () {
 
-    beforeEach(function () {
-        calculator = createCalculator();
-    });
+   let calc;
 
-    it('should return an object with add, subtract and get properties', function () {
-        assert.property(calculator, 'add');
-        assert.property(calculator, 'subtract');
-        assert.property(calculator, 'get');
-    });
+   beforeEach(function () {
+      calc = createCalculator();
+   });
 
-    it('should have closure with internal sum 0', function () {
-        const expected = 0;
-        const actual = calculator.get();
+   describe('Function tests - checks if it is a function', function () {
+      it('should be a function', function () {
+         let actual = typeof calc;
+         let expected = 'object';
 
-        assert.equal(actual, expected);
-    });
+         expect(actual).to.equal(expected);
+      });
+   });
 
-    it('should not be able to modify the internal sum', function () {
-        calculator.value -= 1;
+   describe('Zero value when created', function () {
+      it('should zero value when created', function () {
+         let actual = calc.get();
+         let expected = 0;
 
-        const expected = 0;
-        const actual = calculator.get();
+         expect(actual).to.equal(expected);
+      });
+   });
 
-        assert.equal(actual, expected);
-    });
+   describe('Check add function', function () {
+      it('value should be 5', function () {
+         calc.add(5);
 
-    it('function add should take parsable argument', function () {
-        assert.doesNotThrow(() => calculator.add(5));
-        assert.doesNotThrow(() => calculator.add('5'));
-    });
+         let actual = calc.get();
+         let expected = 5;
 
-    it('function add should add the value', function () {
-        calculator.add(5);
+         expect(actual).to.equal(expected);
+      });
+   });
 
-        const expected = 5;
-        const actual = calculator.get();
+   describe('Check subtract function', function () {
+      it('value should be 10', function () {
+         calc.add(15);
+         calc.add(5);
+         calc.subtract(10);
 
-        assert.equal(actual, expected);
-    });
+         let actual = calc.get();
+         let expected = 10;
 
-    it('function add should return NaN when not containing a number string is given', function () {
-        calculator.add('ten');
+         expect(actual).to.equal(expected);
+      });
+   });
 
-        const actual = calculator.get();
+   describe('NaN when value is string', function () {
+      it('result should be NaN', function () {
+         calc.add('foo');
+         calc.add('bar');
 
-        assert.isNaN(actual);
-    });
+         let actual = calc.get();
 
-    it('function subtract should take parsable argument', function () {
-        assert.doesNotThrow(() => calculator.subtract(5));
-        assert.doesNotThrow(() => calculator.subtract('5'));
-    });
+         expect(actual).to.be.NaN;
+      });
+   });
 
-    it('function subtract should subtract the value', function () {
-        calculator.subtract(10);
+   describe('When input number is string', function () {
+      it('value should be 10', function () {
+         calc.add('15');
+         calc.add('5');
+         calc.subtract('10');
 
-        const expected = -10;
-        const actual = calculator.get();
+         let actual = calc.get();
+         let expected = 10;
 
-        assert.equal(actual, expected);
-    });
+         expect(actual).to.equal(expected);
+      });
+   });
 
-    it('function subtract should return NaN when not containing a number string is given', function () {
-        calculator.subtract('ten');
-
-        const actual = calculator.get();
-
-        assert.isNaN(actual);
-    });
-
-    it('should do proper calculations with given numbers and numbers as strings', function () {
-        calculator.add(4);
-        calculator.add('3');
-        calculator.subtract(3);
-        calculator.subtract('2');
-
-        const expected = 2;
-        const actual = calculator.get();
-
-        assert.equal(actual, expected);
-    });
 });
