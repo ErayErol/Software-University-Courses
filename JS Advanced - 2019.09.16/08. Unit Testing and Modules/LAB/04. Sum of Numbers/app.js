@@ -1,11 +1,13 @@
-function createCalculator() {
-    let value = 0;
+function isOddOrEven(string) {
+    if (typeof(string) !== 'string') {
+        return undefined;
+    }
+    
+    if (string.length % 2 === 0) {
+        return "even";
+    }
 
-    return {
-        add: function(num) { value += Number(num); },
-        subtract: function(num) { value -= Number(num); },
-        get: function() { return value; }
-    };
+    return "odd";
 }
 
-module.exports = createCalculator;
+module.exports = isOddOrEven;
