@@ -7,7 +7,6 @@ const result = (function () {
             HEARTS: "\u2665",
             SPADES: "\u2660"
         },
-
     };
 
     class Card {
@@ -21,9 +20,10 @@ const result = (function () {
         }
 
         set face(face) {
-            if (!card.faces.includes(face)) {
+            if (card.faces.includes(face) == false) {
                 throw new Error("Invalid face");
             }
+
             this._face = face;
         }
 
@@ -32,9 +32,10 @@ const result = (function () {
         }
 
         set suit(suit) {
-            if (!Object.values(card.suits).some(x => x === suit)) {
+            if (Object.values(card.suits).indexOf(suit) === -1) {
                 throw new Error("Invalid suit");
             }
+
             this._suit = suit;
         }
     }
@@ -56,3 +57,5 @@ try {
 } catch (error) {
     console.log(error);
 }
+
+// only submit IIFE for judge
