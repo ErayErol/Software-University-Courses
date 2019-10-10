@@ -122,13 +122,57 @@
   <td>
    <p align="center">
       <a 
-         href="">✅
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/05.%20DOM/LAB">✅
    </a>
   </td>
   <td> 
    <p align="center">
          <a 
-         href="">✅
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/05.%20DOM/Exercises">✅
+   </a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+   <p align="center">
+    :six:
+  </td>
+  <th>
+    DOM Manipulations
+  </th>
+  <td>
+   <p align="center">
+      <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/06.%20DOM%20Manipulations/LAB">✅
+   </a>
+  </td>
+  <td> 
+   <p align="center">
+         <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/06.%20DOM%20Manipulations/Exercises">✅
+   </a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+   <p align="center">
+    :seven:
+  </td>
+  <th>
+    Classes
+  </th>
+  <td>
+   <p align="center">
+      <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/07.%20Classes/LAB">✅
+   </a>
+  </td>
+  <td> 
+   <p align="center">
+         <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/07.%20Classes/Exercises">✅
    </a>
   </td>
 </tr>
