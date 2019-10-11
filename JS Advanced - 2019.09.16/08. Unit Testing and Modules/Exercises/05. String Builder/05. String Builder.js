@@ -1,27 +1,45 @@
-let mathEnforcer = {
-    addFive: function (num) {
-        if (typeof(num) !== 'number') {
-            return undefined;
+class StringBuilder {
+    constructor(string) {
+        if (string !== undefined) {
+            StringBuilder._vrfyParam(string);
+            this._stringArray = Array.from(string);
+
+        } else {
+            this._stringArray = [];
         }
-
-        return num + 5;
-    },
-
-    subtractTen: function (num) {
-        if (typeof(num) !== 'number') {
-            return undefined;
-        }
-
-        return num - 10;
-    },
-
-    sum: function (num1, num2) {
-        if (typeof(num1) !== 'number' || typeof(num2) !== 'number') {
-            return undefined;
-        }
-
-        return num1 + num2;
     }
-};
 
-module.exports = mathEnforcer;
+    append(string) {
+        StringBuilder._vrfyParam(string);
+
+        for(let i = 0; i < string.length; i++) {
+            this._stringArray.push(string[i]);
+        }
+    }
+
+    prepend(string) {
+        StringBuilder._vrfyParam(string);
+        for(let i = string.length - 1; i >= 0; i--) {
+            this._stringArray.unshift(string[i]);
+        }
+    }
+
+    insertAt(string, startIndex) {
+        StringBuilder._vrfyParam(string);
+        this._stringArray.splice(startIndex, 0, ...string);
+    }
+
+    remove(startIndex, length) {
+        this._stringArray.splice(startIndex, length);
+    }
+
+    static _vrfyParam(param) {
+        if (typeof param !== 'string') throw new TypeError('Argument must be string');
+    }
+
+    toString() {
+        return this._stringArray.join('');
+    }
+}
+
+module.exports = StringBuilder;
