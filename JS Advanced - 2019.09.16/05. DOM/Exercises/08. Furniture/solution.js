@@ -20,7 +20,6 @@ function solve() {
 
     for (let furniture of furnitureList) {
       tbody.appendChild(document.getElementsByTagName('tr')[1].cloneNode(true));
-      debugger;
       addFurniture(furniture);
     }
   }
