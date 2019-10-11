@@ -1,83 +1,103 @@
-const StringBuilder = require('./05. String Builder');
+const PaymentPackage = require('./06. Payment Package');
 const assert = require('chai').assert;
 
-describe('StringBuilder', function () {
-    
-    let sb;
-    beforeEach(function () {
-        sb = new StringBuilder();
+describe('PaymentPackage', function () {
+
+    it('should initialized with correct name and value', function () {
+        let pp = new PaymentPackage('JS', 10);
+        let actual = 'JS';
+        let expected = pp.name;
+
+        assert.equal(actual, expected);
     });
 
-    it('should have the correct function properties', function () {
-        assert.isFunction(StringBuilder.prototype.append);
-        assert.isFunction(StringBuilder.prototype.prepend);
-        assert.isFunction(StringBuilder.prototype.insertAt);
-        assert.isFunction(StringBuilder.prototype.remove);
-        assert.isFunction(StringBuilder.prototype.toString);
+    it('shouldn\'t initialized with incorrect name', function () {
+        let actual = function () {
+            let pp = new PaymentPackage(10, 'CSS');
+        };
+        let expected = 'Name must be a non-empty string';
+
+        assert.throws(actual, expected);
     });
 
-    describe('constructor tests', function(){
-        it('should initialized without parameters', function(){
-            let actual = '';
-            let expected = sb.toString();
+    it('shouldn\'t initialized with incorrect value', function () {
+        let actual = function () {
+            let pp = new PaymentPackage('JS', 'CSS');
+        };
+        let expected = 'Value must be a non-negative number';
 
-            assert.equal(actual, expected);
-        });
-
-        it('should initialized with correct parameters', function(){
-            let actual = new StringBuilder('JS');
-            let expected = 'JS';
-
-            assert.equal(actual, expected);
-        });
+        assert.throws(actual, expected);
     });
 
-    describe('append tests', function(){
-        it('should append with correct parameters', function(){
-            sb.append('JS');
-            let actual = 'JS';
-            let expected = sb.toString();
+    it('throw error when change VAT to negative number', function () {
+        let actual = function () {
+            let pp = new PaymentPackage('JS', 10);
+            pp.VAT = -6;
+        };
+        let expected = 'VAT must be a non-negative number';
 
-            assert.equal(actual, expected);
-        });
-
-        it('should throw error with incorrect parameters', function(){
-            let actual = function () {
-                sb.append({JS:'CSS'});
-            };
-            let expected = 'Argument must be string';
-
-            assert.throws(actual, expected);
-        });
+        assert.throws(actual, expected);
     });
 
-    describe('prepend tests', function(){
-        it('should throw error with incorrect parameters', function(){
-            let actual = function () {
-                sb.prepend({JS:'CSS'});
-            };
-            let expected = 'Argument must be string';
+    it('should initialized with correct VAT', function () {
+        let pp = new PaymentPackage('JS', 10);
+        let actual = 20;
+        let expected = pp.VAT;
 
-            assert.throws(actual, expected);
-        });
+        assert.equal(actual, expected);
     });
 
-    describe('insertAt tests', function(){
+    it('throw error when change active to negative number', function () {
+        let actual = function () {
+            let pp = new PaymentPackage('JS', 10);
+            pp.active = -6;
+        };
+        let expected = 'Active status must be a boolean';
+
+        assert.throws(actual, expected);
     });
 
-    describe('remove tests', function(){
+    it('should initialized with correct active', function () {
+        let pp = new PaymentPackage('JS', 10);
+        let actual = true;
+        let expected = pp.active;
+
+        assert.equal(actual, expected);
     });
 
-    describe('several tests', function(){
-        it('should insertAt with correct parameters', function(){
-            sb.append('JS');
-            sb.prepend('CSS');
-            sb.insertAt(' HTML ', 3);
-            sb.remove(4, 5);
-            let actual = 'CSS JS';
-            let expected = sb.toString();
+    it('should initialized with correct toString', function () {
+        let pp = new PaymentPackage('JS', 10);
+        let actual = pp.toString();
+        let expected = 'Package: JS\n- Value (excl. VAT): 10\n- Value (VAT 20%): 12';
 
-            assert.equal(actual, expected);
-        });
+        assert.equal(actual, expected);
     });
+
+    it('should initialized with correct toString and change active', function () {
+        let pp = new PaymentPackage('JS', 10);
+        pp.active = false;
+        let actual = pp.toString();
+        let expected = 'Package: JS (inactive)\n- Value (excl. VAT): 10\n- Value (VAT 20%): 12';
+
+        assert.equal(actual, expected);
+    });
+
+    it('should initialized with correct toString and change VAT', function () {
+        let pp = new PaymentPackage('JS', 10);
+        pp.VAT = 0;
+        let actual = pp.toString();
+        let expected = 'Package: JS\n- Value (excl. VAT): 10\n- Value (VAT 0%): 10';
+
+        assert.equal(actual, expected);
+    });
+
+    it('should initialized with correct toString and change VAT to 0', function () {
+        let pp = new PaymentPackage('JS', 0);
+        pp.VAT = 0;
+        let actual = pp.toString();
+        let expected = 'Package: JS\n- Value (excl. VAT): 0\n- Value (VAT 0%): 0';
+
+        assert.equal(actual, expected);
+    });
+
 });
