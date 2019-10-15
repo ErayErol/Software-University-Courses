@@ -14,18 +14,8 @@ class Rat {
         }
     }
 
-    toString() {
-        let result = this.name;
-        if (this.unitedRats.length !== 0) {
-            let x = [];
-            for (const unitedRat of this.unitedRats) {
-                x.push(`##${unitedRat}`);
-            }
-
-            return result + '\n' + x.join('\n');
-        }
-
-        return result;
+    toString () {
+        return `${this.name}\n${this.unitedRats.map(r => `##${r}`).join('')}`;
     }
 }
 

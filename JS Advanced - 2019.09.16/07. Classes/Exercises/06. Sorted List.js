@@ -1,23 +1,28 @@
 class List {
     constructor() {
-        this.data = [];
-        this.size = this.data.length;
+        this.numbers = [];
+        this.size = 0;
     }
 
-    add(number) {
+    add(element) {
+        this.numbers.push(element);
+        this.sortArray(this.numbers);
         this.size++;
-        this.data.push(number);
-        this.data.sort((a, b) => a - b);
-    }
-
-    get(index) {
-        return this.data[index];
     }
 
     remove(index) {
-        if (index >= 0 && index < this.data.length) {
+        if (this.numbers.length > index && index >= 0) {
+            this.numbers.splice(index, 1)
             this.size--;
-            this.data.splice(index, 1);
+            this.sortArray(this.numbers);
         }
+    }
+
+    get(index) {
+        return this.numbers[index];
+    }
+
+    sortArray(array) {
+        return array.sort((a, b) => {return a - b})
     }
 }

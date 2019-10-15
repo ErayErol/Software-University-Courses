@@ -1,7 +1,7 @@
 class Stringer {
     constructor(innerString, innerLength) {
         this.innerString = innerString;
-        this.innerLength = innerLength;
+        this.innerLength = Number(innerLength);
     }
 
     increase(length) {
@@ -9,22 +9,14 @@ class Stringer {
     }
 
     decrease(length) {
-        this.innerLength -= length;
-        if (this.innerLength < 0) {
-            this.innerLength = 0;
-        }
+        this.innerLength = Math.max(0, this.innerLength - length);
     }
 
     toString() {
-        let threeDots = '...';
         if (this.innerString.length > this.innerLength) {
-            if (this.innerLength === 0) {
-                return threeDots;
-            } else {
-                return this.innerString.substring(0, this.innerLength) + threeDots;
-            }
+            return this.innerString.substring(0, this.innerLength) + '...';
+        } else {
+            return this.innerString;
         }
-
-        return this.innerString;
     }
 }
