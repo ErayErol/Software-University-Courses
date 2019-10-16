@@ -12,7 +12,7 @@ class List {
 
     remove(index) {
         if (this.numbers.length > index && index >= 0) {
-            this.numbers.splice(index, 1)
+            this.numbers.splice(index, 1);
             this.size--;
             this.sortArray(this.numbers);
         }
@@ -23,6 +23,6 @@ class List {
     }
 
     sortArray(array) {
-        return array.sort((a, b) => {return a - b})
+        return array.sort((a, b) => {return a - b});
     }
 }

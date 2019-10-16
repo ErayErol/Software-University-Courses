@@ -15,7 +15,9 @@ class Rat {
     }
 
     toString () {
-        return `${this.name}\n${this.unitedRats.map(r => `##${r}`).join('')}`;
+        return `${this.name}\n${this.unitedRats
+            .map(r => `##${r}`)
+            .join('')}`;
     }
 }
 
