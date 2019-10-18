@@ -84,3 +84,15 @@ class SoftUniFy {
         return output;
     }
 }
+
+let sofunify = new SoftUniFy();
+
+sofunify.downloadSong('Eminem', 'Venom', 'Knock, Knock let the devil in...');
+sofunify.downloadSong('Eminem', 'Phenomenal', 'IM PHENOMENAL...');
+sofunify.downloadSong('Dub Fx', 'Light Me On Fire', 'You can call me a liar.. ');
+
+console.log(sofunify.playSong('Venom'));
+
+
+
+module.exports = SoftUniFy;
