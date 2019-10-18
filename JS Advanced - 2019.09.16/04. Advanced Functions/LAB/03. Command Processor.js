@@ -1,13 +1,34 @@
-'use strict';
-function foo(a, b, c) {
-    console.log(this, a, b, c);
+function solve() {
+    let currentText = '';
+
+    function append(string) {
+        currentText += string;
+    }
+
+    function removeStart(n) {
+        currentText = currentText.substring(n);
+    }
+
+    function removeEnd(n) {
+        currentText = currentText.substring(0, currentText.length - n);
+    }
+
+    function print() {
+        console.log(currentText);
+    }
+
+    return {
+        append,
+        removeStart,
+        removeEnd,
+        print
+    }
 }
 
-function HRFD(fn, p1, p2) {
-    return fn.bind('Im THIS', p1, p2);
-}
+let firstZeroTest = solve();
 
-const myFoo = HRFD(foo, 1, 2);
-
-myFoo(3);
-foo(3);
+firstZeroTest.append('hello');
+firstZeroTest.append('again');
+firstZeroTest.removeStart(3);
+firstZeroTest.removeEnd(4);
+firstZeroTest.print();
