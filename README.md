@@ -210,13 +210,13 @@
   <td>
    <p align="center">
       <a 
-         href="">✅
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/09.%20String%20and%20RegExp/LAB">✅
    </a>
   </td>
   <td> 
    <p align="center">
          <a 
-         href="">✅
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/09.%20String%20and%20RegExp/Exercises">✅
    </a>
   </td>
 </tr>
