@@ -220,3 +220,66 @@
    </a>
   </td>
 </tr>
+
+<table>
+<tr>
+  <th>
+   <p align="center">
+   №
+ </th>
+ <th>
+  <p align="center">
+  :books:Exams
+ </th>
+ <th>
+  <p align="center">
+  :pencil:Solutions
+ </th>
+</tr>
+<tr>
+  <td>
+   <p align="center">
+   :one:
+ </td>
+  <th>
+   <p align="center">
+   Exam Preparation
+ </th>
+  <td>
+   <p align="center">
+  <a 
+     href="" >✅
+    </a>
+</tr>
+  <tr>
+  <td>
+   <p align="center">
+   :two:
+   </td>
+  <th>
+   <p align="center">
+   Old Exams
+   </th>
+  <td>
+   <p align="center">
+   <a 
+      href="" >✅
+    </a>
+   </td>
+</tr>
+<tr>
+  <td>
+   <p align="center">
+   :three:
+   </td>
+  <th>
+   <p align="center">
+   My Exam
+   </th>
+  <td>
+   <p align="center">
+   <a 
+      href="" >✅
+    </a>
+   </td>
+</tr>
