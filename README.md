@@ -176,3 +176,47 @@
    </a>
   </td>
 </tr>
+
+<tr>
+  <td>
+   <p align="center">
+    :seven:
+  </td>
+  <th>
+    Unit Testing and Modules
+  </th>
+  <td>
+   <p align="center">
+      <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/08.%20Unit%20Testing%20and%20Modules/LAB">✅
+   </a>
+  </td>
+  <td> 
+   <p align="center">
+         <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/08.%20Unit%20Testing%20and%20Modules/Exercises">✅
+   </a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+   <p align="center">
+    :seven:
+  </td>
+  <th>
+    String and RegExp
+  </th>
+  <td>
+   <p align="center">
+      <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/07.%20Classes/LAB">✅
+   </a>
+  </td>
+  <td> 
+   <p align="center">
+         <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/07.%20Classes/Exercises">✅
+   </a>
+  </td>
+</tr>
