@@ -6,35 +6,39 @@ function acceptance() {
 	let scrape = fields.children[3].children[0];
 
 	let warehouse = document.getElementById('warehouse');
-	let deleteButtons = warehouse.getElementsByTagName('button');
 
 	let button = document.getElementById('acceptance');
 	button.addEventListener('click', event);
 
 	function event() {
 		add();
+		remove();
+
 		company.value = '';
 		product.value = '';
 		quantity.value = '';
 		scrape.value = '';
-		remove();
 	}
 
 	function remove() {
+		let deleteButtons = warehouse.getElementsByTagName('button');
+		
 		Array.from(deleteButtons).forEach(function (btn) {
 			btn.addEventListener('click', removeFunc);
-	
+
 			function removeFunc() {
 				let child = btn.parentNode;
 				let parent = child.parentNode;
 				parent.removeChild(child);
-	
+
 			}
 		});
 	}
 
 	function add() {
-		if (product.value !== '' && company.value !== '' && Number(quantity.value) && Number(scrape.value) && Number(quantity.value) > Number(scrape.value)) {
+		let isCorrectInput = product.value !== '' && company.value !== '' && Number(quantity.value) && Number(scrape.value) && Number(quantity.value) > Number(scrape.value);
+
+		if (isCorrectInput) {
 			let pieces = Number(quantity.value) - Number(scrape.value);
 
 			let p = document.createElement('p');
