@@ -210,13 +210,76 @@
   <td>
    <p align="center">
       <a 
-         href="">✅
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/09.%20String%20and%20RegExp/LAB">✅
    </a>
   </td>
   <td> 
    <p align="center">
          <a 
-         href="">✅
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/09.%20String%20and%20RegExp/Exercises">✅
    </a>
   </td>
+</tr>
+
+<table>
+<tr>
+  <th>
+   <p align="center">
+   №
+ </th>
+ <th>
+  <p align="center">
+  :books:Exams
+ </th>
+ <th>
+  <p align="center">
+  :pencil:Solutions
+ </th>
+</tr>
+<tr>
+  <td>
+   <p align="center">
+   :one:
+ </td>
+  <th>
+   <p align="center">
+   Exam Preparation
+ </th>
+  <td>
+   <p align="center">
+  <a 
+     href="" >✅
+    </a>
+</tr>
+  <tr>
+  <td>
+   <p align="center">
+   :two:
+   </td>
+  <th>
+   <p align="center">
+   Old Exams
+   </th>
+  <td>
+   <p align="center">
+   <a 
+      href="" >✅
+    </a>
+   </td>
+</tr>
+<tr>
+  <td>
+   <p align="center">
+   :three:
+   </td>
+  <th>
+   <p align="center">
+   My Exam
+   </th>
+  <td>
+   <p align="center">
+   <a 
+      href="" >✅
+    </a>
+   </td>
 </tr>
