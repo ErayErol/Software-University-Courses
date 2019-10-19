@@ -5,85 +5,78 @@ class Vacation {
         this.budget = budget;
         this.kids = {};
     }
-    
+
+    get numberOfChildren() {
+        this._numberOfChildren = 0;
+
+        for (const grade in this.kids) {
+            this._numberOfChildren += this.kids[grade].length;
+        }
+
+        return this._numberOfChildren;
+    }
+
     registerChild(name, grade, budget) {
         if (budget < this.budget) {
             return `${name}'s money is not enough to go on vacation to ${this.destination}.`;
         }
-        
-        let names = [];
-        Object.values(this.kids).forEach(function (key, value) {
-            for (let i = 0; i < key.length; i++) {
-                let split = key[i].split('-');
-                let currName = split[0];
-                names.push(currName);
-            }
-        });
-        
-        if (names.includes(name)) { // has name
-            if (this.kids.hasOwnProperty(grade)) { // has grade
-                return `${name} is already in the list for this ${this.destination} vacation.`;
-            } else { // has name && hasn't grade
-                this.kids[grade] = [];
-                this.kids[grade].push(`${name}-${budget}`);
-            }
-        } else {
-            if (this.kids.hasOwnProperty(grade)) { // has grade && hasn't name
-                this.kids[grade].push(`${name}-${budget}`);
-            } else { // hasn't grade && hasn't name
-                this.kids[grade] = [];
-                this.kids[grade].push(`${name}-${budget}`);
-            }
+
+        if (this.kids.hasOwnProperty(grade) == false) {
+            this.kids[grade] = [];
         }
-        
-        return `[ ${this.kids[grade].join(', ')} ]`;
+
+        const index = this.kids[grade].findIndex(k => k.startsWith(name));
+
+        if (index > -1) {
+            return `${name} is already in the list for this ${this.destination} vacation.`;
+        }
+
+        this.kids[grade].push(`${name}-${budget}`);
+        return this.kids[grade];
     }
 
-    removeChild(name, grade){
-        let names = [];
-        Object.values(this.kids).forEach(function (key, value) {
-            for (let i = 0; i < key.length; i++) {
-                let split = key[i].split('-');
-                let currName = split[0];
-                names.push(currName);
-            }
-        });
+    removeChild(name, grade) {
+        if (this.kids.hasOwnProperty(grade)) {
+            const index = this.kids[grade].findIndex(k => k.startsWith(name));
 
-        if (names.includes(name) == false) {
-            return `We couldn't find ${name} in ${grade} grade.`;
-        }else {
-            if (this.kids.hasOwnProperty(grade) == false) {
-                return `We couldn't find ${name} in ${grade} grade.`;
-            }
-
-            for (let i = 0; i < this.kids[grade].length; i++) {
-                let student = this.kids[grade][i];
-                let split = student.split('-');
-                let studentName = split[0];
-
-                if (studentName === name) {
-                    this.kids[grade].splice(i, 1);
-                    return `[ ${this.kids[grade].join(', ')} ]`;
-                }
-                
+            if (index > -1) {
+                this.kids[grade].splice(index, 1);
+                return this.kids[grade];
             }
         }
+
+        return `We couldn't find ${name} in ${grade} grade.`;
+    }
+
+    toString() {
+        let result = '';
+
+        if (this.numberOfChildren > 0) {
+            result += `${this.organizer} will take ${this.numberOfChildren} children on trip to ${this.destination}\n`;
+
+            for (const grade in this.kids) {
+                result += `Grade: ${grade}\n`;
+
+                for (let i = 0; i < this.kids[grade].length; i++) {
+                    result += `${i + 1}. ${this.kids[grade][i]}\n`;
+                }
+            }
+
+        } else {
+            result = `No children are enrolled for the trip and the organization of ${this.organizer} falls out...`
+        }
+
+        return result;
     }
 }
 
-let vacation = new Vacation('Mr Pesho', 'San diego', 2000);
-vacation.registerChild('Gosho', 5, 2000);
-vacation.registerChild('Lilly', 6, 2100);
+let vacation = new Vacation('Miss. Elizabeth', 'The bahamas', 400);
 
-console.log(vacation.removeChild('Gosho', 9));
+vacation.registerChild('Skaro', 11, 400);
+vacation.registerChild('Pesho', 12, 400);
+vacation.registerChild('Gosho', 11, 3444);
+vacation.registerChild('Pesho', 12, 400);
+vacation.registerChild('Gosho', 1, 3400);
 
-vacation.registerChild('Pesho', 6, 2400);
-vacation.registerChild('Gosho', 5, 2000);
-
-console.log(vacation.removeChild('Lilly', 6));
-console.log(vacation.registerChild('Tanya', 5, 6000))
-
-
-// We couldn't find Gosho in 9 grade.
-// [ 'Pesho-2400' ]
-// [ 'Gosho-2000', 'Tanya-6000' ]
+let output = vacation.toString();
+console.log(output);
