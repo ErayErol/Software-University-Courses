@@ -43,11 +43,10 @@
 
 <script>
     function addProduct() {
-        let label = document.getElementsByTagName('label');
-        let product = label[0].children[1];
-        let price = label[1].children[1];
+        let product = document.querySelector('#add-product > label:nth-child(2) > input[type=text]');
+        let price = document.querySelector('#add-product > label:nth-child(3) > input[type=number]');
 
-        if (price.value > 0 && product.value && price.value) {
+        if (price.value > 0 && product.value) {
             let createProductTd = document.createElement('td');
             createProductTd.textContent = product.value;
             
@@ -61,9 +60,7 @@
             let productList = document.getElementById('product-list');
             productList.appendChild(createTr);
     
-            let tfoot = document.getElementsByTagName('tfoot')[0];
-    
-            let totalSumElement = tfoot.children[0].children[1];
+            let totalSumElement = document.querySelector('#bill > tfoot > tr > td:nth-child(2)');
             let totalSum = Number(totalSumElement.textContent);
             totalSum += Number(price.value);
             totalSumElement.textContent = totalSum;
