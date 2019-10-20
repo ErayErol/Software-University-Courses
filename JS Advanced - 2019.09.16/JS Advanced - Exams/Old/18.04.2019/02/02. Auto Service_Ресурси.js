@@ -25,11 +25,11 @@ class AutoService {
             if (keysForRepair.length > 0) {
                 return `Your ${keysForRepair.join(' and ')} were repaired.`;
             } else {
-                return 'Your car was fine, nothing was repaired.'
+                return 'Your car was fine, nothing was repaired.';
             }
         }
         else {
-            return 'No clients, we are just chilling...'
+            return 'No clients, we are just chilling...';
         }
     }
 
@@ -62,3 +62,13 @@ class AutoService {
         }
     }
 }
+
+let autoService = new AutoService(2);
+
+autoService.signUpForReview('Peter', 'CA1234CA', {'engine': 'broken', 'transmission': 'FF4418ZZ', 'doors': 'broken'});
+autoService.signUpForReview('Peter', 'CA1234CA', {'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'doors': 'broken', 'wheels': 'broken', 'tires': 'broken'});
+autoService.signUpForReview('Philip', 'PB4321PB', {'engine': 'broken', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS'});
+
+console.log(autoService.repairCar());
+
+module.exports = AutoService;
