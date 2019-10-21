@@ -3,6 +3,12 @@ const AutoService = require('../02. Auto Service_Ресурси');
 
 describe('AutoService', function () {
 
+    // it('should have the correct function properties', function () {
+    //     assert.isFunction(AutoService.prototype.repairCar);
+    //     assert.isFunction(AutoService.prototype.signUpForReview);
+    //     assert.isFunction(AutoService.prototype.carInfo);
+    // });
+
     it('1', function () {
         let autoService = new AutoService(2);
         let actual = autoService;
@@ -54,14 +60,14 @@ describe('AutoService', function () {
             plateNumber: 'PB4321PB',
             clientName: 'Philip',
             carInfo: { engine: 'MFRGG23', transmission: 'FF4418ZZ', exaustPipe: 'REMUS' }
-          };
+        };
 
         assert.deepEqual(actual, expected);
     });
 
     it('6', function () {
         let autoService = new AutoService(2);
-        autoService.signUpForReview('Philip', 'PB4321PB', {'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS'});
+        autoService.signUpForReview('Philip', 'PB4321PB', { 'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS' });
 
         let actual = autoService.repairCar();
         let expected = 'Your car was fine, nothing was repaired.';
@@ -71,8 +77,8 @@ describe('AutoService', function () {
 
     it('7', function () {
         let autoService = new AutoService(2);
-        autoService.signUpForReview('Philip', 'PB4321PB', {'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS'});
-        
+        autoService.signUpForReview('Philip', 'PB4321PB', { 'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS' });
+
         let actual = autoService.carInfo('X8688KA', 'Eray');
         let expected = 'There is no car with platenumber X8688KA and owner Eray.';
 
@@ -82,11 +88,13 @@ describe('AutoService', function () {
     it('8', function () {
         let autoService = new AutoService(2);
 
-        autoService.signUpForReview('Peter', 'CA1234CA', { 'engine': 'broken', 'transmission': 'FF4418ZZ', 'doors': 'broken' });
+        autoService.signUpForReview('Peter', 'CA1234CA', { 'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'doors': 'broken' });
+        autoService.signUpForReview('Peter', 'CA1234CA', { 'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'doors': 'broken', 'wheels': 'broken', 'tires': 'broken' });
+        autoService.signUpForReview('Philip', 'PB4321PB', { 'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS' });
 
-        let actual = autoService.repairCar();
-        let expected = 'Your engine and doors were repaired.';
+        let actual = `${autoService.carInfo('PB4321PB', 'Philip')}\n${autoService.carInfo('PB9999PB', 'PHILIP')}`;
+        let expected = `[object Object]\nThere is no car with platenumber PB9999PB and owner PHILIP.`;
 
-        assert.equal(actual, expected);
+        assert.deepEqual(actual, expected);
     });
 });

@@ -65,10 +65,13 @@ class AutoService {
 
 let autoService = new AutoService(2);
 
-autoService.signUpForReview('Peter', 'CA1234CA', {'engine': 'broken', 'transmission': 'FF4418ZZ', 'doors': 'broken'});
+autoService.signUpForReview('Peter', 'CA1234CA', {'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'doors': 'broken'});
 autoService.signUpForReview('Peter', 'CA1234CA', {'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'doors': 'broken', 'wheels': 'broken', 'tires': 'broken'});
-autoService.signUpForReview('Philip', 'PB4321PB', {'engine': 'broken', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS'});
+autoService.signUpForReview('Philip', 'PB4321PB', {'engine': 'MFRGG23', 'transmission': 'FF4418ZZ', 'exaustPipe': 'REMUS'});
 
 console.log(autoService.repairCar());
+console.log(autoService.carInfo('PB9999PB', 'PHILIP'));
+console.log(autoService.availableSpace);
+
 
 module.exports = AutoService;
