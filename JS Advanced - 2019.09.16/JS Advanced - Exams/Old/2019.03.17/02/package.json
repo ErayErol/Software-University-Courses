@@ -1,11 +1,8 @@
 {
-  "name": "03",
+  "name": "02",
   "version": "1.0.0",
   "description": "",
-  "main": "03. Softunify_Ресурси.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "filmStudio.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.1"
+    "mocha": "^6.2.2"
   }
 }

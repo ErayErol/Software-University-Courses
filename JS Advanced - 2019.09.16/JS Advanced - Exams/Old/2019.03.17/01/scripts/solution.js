@@ -1,80 +1,79 @@
 function solve() {
-   let jsFundPrice = 170;
-   let jsAdvancedPrice = 180;
-   let jsAppsPrice = 190;
-   let jsWebPrice = 490;
+   let name = {
+      'js-fundamentals': 'JS-Fundamentals',
+      'js-advanced': 'JS-Advanced',
+      'js-applications': 'JS-Applications',
+      'js-web': 'JS-Web',
+      'HTML and CSS': 'HTML and CSS',
+   };
 
-   const inputElements = document.getElementsByTagName('input');
-   const jsFund = inputElements[0];
-   const jsAdvanced = inputElements[1];
-   const jsApps = inputElements[2];
-   const jsWeb = inputElements[3];
-   const onlineForm = inputElements[5];
-   const myCourses = document.querySelector('#myCourses > div.courseBody > ul');
-   const price = document.querySelector('#myCourses > div.courseFoot > p');
+   let prices = {
+      'js-fundamentals': 170,
+      'js-advanced': 180,
+      'js-applications': 190,
+      'js-web': 490,
+   };
 
+   let sum = 0;
    let courses = [];
+   let cost = document.querySelector('#myCourses > div.courseFoot > p');
+   let myCourses = document.querySelector('#myCourses > div.courseBody > ul');
+   let onsite = document.querySelector('#educationForm > input[type=radio]:nth-child(2)');
 
-   const signButton = document.querySelector('button');
+   let signButton = document.querySelector('#availableCourses > div.courseFoot > button');
    signButton.addEventListener('click', signUp);
 
    function signUp() {
-      let totalPrice = 0;
+      checkWhichCourseIsChecked();
+      checkToAddHtmlAndCss();
+      checkIsOnline();
+      addCheckedCoursesToMyCourses();
 
-      if (jsFund.checked && jsAdvanced.checked) {
-         jsAdvancedPrice -= jsAdvancedPrice * 0.1;
-         totalPrice = jsFundPrice + jsAdvancedPrice;
-         courses.push('JS-Fundamentals');
-         courses.push('JS-Advanced');
+      cost.textContent = `Cost: ${Math.floor(sum).toFixed(2)} BGN`;
 
-         if (jsApps.checked) {
-            totalPrice += jsAppsPrice;
-            totalPrice -= totalPrice * 0.06;
-            courses.push('JS-Applications');
-
-            if (jsWeb.checked) {
-               totalPrice += jsWebPrice;
-               courses.push('JS-Web');
-            }
-         }
-
-      } else {
-         if (jsFund.checked) {
-            totalPrice += jsFundPrice;
-            courses.push('JS-Fundamentals');
-         }
-
-         if (jsAdvanced.checked) {
-            totalPrice += jsAdvancedPrice;
-            courses.push('JS-Advanced');
-         }
-
-         if (jsApps.checked) {
-            totalPrice += jsAppsPrice;
-            courses.push('JS-Applications');
-         }
-
-         if (jsWeb.checked) {
-            totalPrice += jsWebPrice;
-            courses.push('JS-Web');
+      function checkToAddHtmlAndCss() {
+         if (courses.length == 4) {
+            courses.push('HTML and CSS');
          }
       }
 
-      if (courses.length === 4) {
-         courses.push('HTML and CSS');
+      function checkIsOnline() {
+         if (onsite.checked == false) {
+            sum *= 0.94;
+         }
       }
 
-      if (onlineForm.checked) {
-         totalPrice -= totalPrice * 0.06;
-      }
+      function checkWhichCourseIsChecked() {
+         let selectedCourses = [...document.querySelectorAll('[type=checkbox]')]
+            .filter(c => c.checked === true)
+            .map(c => c.value);
 
+         selectedCourses.forEach(c => courses.push(c));
+
+         if (selectedCourses.includes('js-advanced') && selectedCourses.includes('js-fundamentals')) {
+            prices['js-advanced'] *= 0.9;
+         }
+
+         let sumSelectedCourses = [...document.querySelectorAll("[type=checkbox]")]
+            .filter(c => c.checked === true)
+            .map(c => Number(prices[c.value]));
+
+         sumSelectedCourses.forEach(c => sum += c);
+
+         if (selectedCourses.includes('js-advanced') && selectedCourses.includes('js-fundamentals') && selectedCourses.includes('js-applications')) {
+            sum *= 0.94;
+         }
+
+         prices['js-advanced'] = 180;
+      }
+   }
+
+   function addCheckedCoursesToMyCourses() {
       for (const course of courses) {
-         const liElement = document.createElement('li');
-         liElement.textContent = course;
-         myCourses.appendChild(liElement);
+         let li = document.createElement('li');
+         li.textContent = name[course];
+         myCourses.appendChild(li);
       }
-
-      price.textContent = `Cost: ${Math.floor(totalPrice)}.00 BGN`;
    }
 }
 

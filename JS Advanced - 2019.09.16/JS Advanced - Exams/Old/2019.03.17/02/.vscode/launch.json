@@ -23,7 +23,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\03. Softunify_Ресурси.js"
+            "program": "${workspaceFolder}\\filmStudio.js"
         }
     ]
 }

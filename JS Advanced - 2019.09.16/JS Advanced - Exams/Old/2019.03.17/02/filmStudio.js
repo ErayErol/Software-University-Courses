@@ -69,11 +69,11 @@ class FilmStudio {
                 this.films.push(film);
                 return film;
             } else {
-                throw ('Invalid arguments')
+                throw ('Invalid arguments');
             }
 
         } else {
-            throw ('Invalid arguments count')
+            throw ('Invalid arguments count');
         }
     }
 
@@ -89,11 +89,45 @@ class FilmStudio {
                 output += `${f.filmRoles[role].actor} as ${f.filmRoles[role].role}\n`;
             });
         } else {
-            throw new Error(`${film} do not exist yet, but we need the money...`)
+            throw new Error(`${film} do not exist yet, but we need the money...`);
         }
 
         return output;
     }
 }
 
-module.export = FilmStudio;
+let filmStudio = new FilmStudio('SU-Studio');
+
+filmStudio.makeMovie('The Avengers', ['Iron-Man', 'Hulk', 'Arrow guy', 'Ant-man']);
+filmStudio.makeMovie('The New Avengers', ['Iron-Man', 'Thor', 'Hulk', 'Arrow guy', 'Black Panther']);
+
+console.log(filmStudio.lookForProducer('The Avengers'));
+
+// {
+//     filmName: 'The Avengers',
+//         filmRoles:
+//     [{ role: 'Iron-Man', actor: false },
+//     { role: 'Thor', actor: false },
+//     { role: 'Hulk', actor: false },
+//     { role: 'Arrow guy', actor: false }]
+// }
+// {
+//     filmName: 'The Avengers 2',
+//         filmRoles:
+//     [{ role: 'Iron-Man', actor: false },
+//     { role: 'Hulk', actor: false },
+//     { role: 'Arrow guy', actor: false },
+//     { role: 'Ant-man', actor: false }]
+// }
+// {
+//     filmName: 'The New Avengers',
+//         filmRoles:
+//     [{ role: 'Iron-Man', actor: false },
+//     { role: 'Thor', actor: false },
+//     { role: 'Hulk', actor: false },
+//     { role: 'Arrow guy', actor: false },
+//     { role: 'Black Panther', actor: false }]
+// }
+
+
+module.exports = FilmStudio;
