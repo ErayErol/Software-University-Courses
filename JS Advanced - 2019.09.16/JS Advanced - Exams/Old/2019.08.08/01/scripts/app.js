@@ -14,6 +14,7 @@ function solve() {
         if (title.value !== '' && year.value > 0 && price.value > 0) {
             let createPElement = document.createElement('p');
             createPElement.textContent = `${title.value} [${year.value}]`;
+
             let btnBuy = document.createElement('button');
 
             if (year.value >= 2000) {
@@ -40,7 +41,7 @@ function solve() {
         }
 
         function fromNewToOldBook(btnMove, createDivElement, btnBuy, createPElement) {
-            btnMove.addEventListener('click', (e) => {
+            btnMove.addEventListener('click', () => {
                 bookDivNew.removeChild(createDivElement);
                 addOldBook(btnBuy, createPElement);
             });
