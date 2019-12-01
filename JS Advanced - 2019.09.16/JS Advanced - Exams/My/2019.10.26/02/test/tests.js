@@ -7,11 +7,12 @@ describe('SkiResort', function () {
         res = new SkiResort('Some');
     });
 
-    // it('should have the correct function properties', function () {
-    //     assert.isFunction(FilmStudio.prototype.casting);
-    //     assert.isFunction(FilmStudio.prototype.makeMovie);
-    //     assert.isFunction(FilmStudio.prototype.lookForProducer);
-    // });
+    it('should have the correct function properties', function () {
+        assert.isFunction(SkiResort.prototype.build);
+        assert.isFunction(SkiResort.prototype.book);
+        assert.isFunction(SkiResort.prototype.leave);
+        assert.isFunction(SkiResort.prototype.averageGrade);
+    });
 
     it('throws', function () {
         let actual = function () {
