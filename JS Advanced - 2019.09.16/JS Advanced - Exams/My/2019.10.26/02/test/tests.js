@@ -15,7 +15,7 @@ describe('SkiResort', function () {
 
     it('throws', function () {
         let actual = function () {
-            res.build('JS', -5)
+            res.build('JS', -5);
         };
 
         let expected = 'Invalid input';
@@ -35,7 +35,7 @@ describe('SkiResort', function () {
 
     it('throws3', function () {
         let actual = function () {
-            res.book('JSsssssss', 4)
+            res.book('JSsssssss', 4);
         };
 
         let expected = 'There is no such hotel';
@@ -45,7 +45,7 @@ describe('SkiResort', function () {
 
     it('throws4', function () {
         let actual = function () {
-            res.book('JS', -5)
+            res.book('JS', -5);
         };
 
         let expected = 'Invalid input';
@@ -54,7 +54,7 @@ describe('SkiResort', function () {
     });
 
     it('throws4', function () {
-        res.build("Sun", 10)
+        res.build("Sun", 10);
 
         let actual = function () {
             res.book('Sun', 15);
@@ -107,12 +107,12 @@ describe('SkiResort', function () {
 
     it('4', function () {
         res.build("Sun", 10);
-        res.build('Avenue', 5)
-        res.book('Sun', 5)
-        res.book('Avenue', 5)
+        res.build('Avenue', 5);
+        res.book('Sun', 5);
+        res.book('Avenue', 5);
         res.leave('Sun', 3, 2);
         res.leave('Avenue', 3, 3);
-        res.book('Avenue', 3)
+        res.book('Avenue', 3);
         res.leave('Avenue', 3, 0.5);
 
         let actual = res.averageGrade()
@@ -123,12 +123,12 @@ describe('SkiResort', function () {
 
     it('5', function () {
         res.build("Sun", 10);
-        res.build('Avenue', 5)
-        res.book('Sun', 5)
-        res.book('Avenue', 5)
+        res.build('Avenue', 5);
+        res.book('Sun', 5);
+        res.book('Avenue', 5);
         res.leave('Sun', 3, 2);
         res.leave('Avenue', 3, 3);
-        res.book('Avenue', 3)
+        res.book('Avenue', 3);
         res.leave('Avenue', 3, 0.5);
 
         let actual = res.bestHotel;
@@ -144,25 +144,4 @@ describe('SkiResort', function () {
 
         assert.deepEqual(actual, expected);
     });
-
-    // it('7', function () {
-    //     let actual = res.hotels;
-    //     let expected = [];
-
-    //     assert.deepEqual(actual, expected);
-    // });
-
-    // it('8', function () {
-    //     let actual = res.
-    //     let expected = ;
-
-    //     assert.deepEqual(actual, expected);
-    // });
-
-    // it('9', function () {
-    //     let actual = res.
-    //     let expected = ;
-
-    //     assert.deepEqual(actual, expected);
-    // });
 });

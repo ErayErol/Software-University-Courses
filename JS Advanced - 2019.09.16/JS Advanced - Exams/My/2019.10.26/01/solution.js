@@ -1,93 +1,79 @@
 function solve() {
-   let ul = document.querySelector('#products > ul');
+   const [filter, name, quantity, price] = [...document.getElementsByTagName('input')];
+   const [filterBtn, addBtn, buyBtn] = [...document.getElementsByTagName('button')];
 
-   let name = document.querySelector('#add-new > input[type=text]:nth-child(2)');
-   let quantity = document.querySelector('#add-new > input[type=text]:nth-child(3)');
-   let price = document.querySelector('#add-new > input[type=text]:nth-child(4)');
+   let h1 = document.getElementsByTagName('h1')[1];
+   let productsUl = document.getElementsByTagName('ul');
 
-   let btnFilter = document.querySelector('#products > div > button');
-   let filterInput = document.querySelector('#filter');
+   let sum = 0;
 
-   sum = 0;
-
-   let btnAdd = document.querySelector('#add-new > button');
-   btnAdd.addEventListener('click', (e) => {
+   addBtn.addEventListener('click', addFunc);
+   function addFunc(e) {
       e.preventDefault();
-
-      let nameValue = name.value;
-      name.value = '';
-      let quantityValue = quantity.value;
-      quantity.value = '';
-      let priceValue = price.value;
-      price.value = '';
-
       let li = document.createElement('li');
 
-      let spanName = document.createElement('span');
-      spanName.textContent = nameValue;
+      let span = document.createElement('span');
+      span.textContent = name.value;
+      li.appendChild(span);
 
       let strongQuantity = document.createElement('strong');
-      strongQuantity.textContent = `Available: ${quantityValue}`;
-
-      li.appendChild(spanName);
+      strongQuantity.textContent = `Available: ${Number(quantity.value)}`;
       li.appendChild(strongQuantity);
 
-      let divLi = document.createElement('div');
+      let div = document.createElement('div');
 
       let strongPrice = document.createElement('strong');
-      strongPrice.textContent = priceValue;
+      strongPrice.textContent = Number(price.value).toFixed(2);
+      div.appendChild(strongPrice);
 
       let btnAddToTheClients = document.createElement('button');
-      btnAddToTheClients.textContent = 'Add to Client\'s List';
+      btnAddToTheClients.textContent = "Add to Client's List";
+      div.appendChild(btnAddToTheClients);
 
-      divLi.appendChild(strongPrice);
-      divLi.appendChild(btnAddToTheClients);
+      li.appendChild(div);
+      productsUl[0].appendChild(li);
 
-      li.appendChild(divLi);
+      btnAddToTheClients.addEventListener('click', (e) => {
+         let currentQuantitySplit = e.target.parentNode.parentNode.children[1].textContent.split(':')[1];
+         let currentQuantity = Number(currentQuantitySplit.substr(currentQuantitySplit.indexOf(' ') + 1));
 
-      ul.appendChild(li);
+         if (currentQuantity > 0) {
+            let li = document.createElement('li');
+            li.textContent = e.target.parentNode.parentNode.children[0].textContent;
 
+            let strongPriceMy = document.createElement('strong');
+            strongPriceMy.textContent = Number(e.target.parentNode.parentNode.children[2].children[0].textContent).toFixed(2);
+            li.appendChild(strongPriceMy);
 
-      btnFilter.addEventListener('click', (e) => {
+            productsUl[1].appendChild(li);
 
-         for (const li of Array.from(ul.children)) {
-            if (filterInput.value !== '') {
+            sum += Number(strongPriceMy.textContent);
+            h1.textContent = `Total Price: ${sum.toFixed(2)}`;
+            e.target.parentNode.parentNode.children[1].textContent = `Available: ${--currentQuantity}`;
 
-               let filterInputVar = filterInput.value.toUpperCase();
-               let match = li.children[0].textContent.toUpperCase();
-
-               if (match.indexOf(filterInputVar) === -1) {
-                  li.style.display = 'none';
-               }
+            if (currentQuantity === 0) {
+               e.target.parentNode.parentNode.remove();
             }
          }
       });
+   }
 
+   filterBtn.addEventListener('click', filterFunc);
+   function filterFunc(e) {
+      let spans = document.getElementsByTagName('span');
 
-      btnAddToTheClients.addEventListener('click', (e) => {
-         console.log(e.target.parentElement.parentElement.children);
-
-         let available = +e.target.parentElement.parentElement.children[1].textContent.split(' ')[1];
-
-         if (available === 0) {
-            
+      [...spans].forEach((s) => {
+         if (!s.textContent.toLowerCase().includes(filter.value.toLowerCase())) {
+            s.parentNode.style.display = 'none';
          }
-
-         e.target.parentElement.parentElement.children[1].textContent.split(' ')[1]--;
-
-         let currPrice = +e.target.parentElement.parentElement.children[2].children[0].textContent;
-
-         sum += currPrice;
-         let totall = document.querySelector('body > h1:nth-child(4)');
-         totall.textContent = `Total Price: ${sum.toFixed(2)}`;
-         debugger;
-         
-         let myProductsUl = document.querySelector('#myProducts > ul');
-
-         let li = document.createElement('li');
-         li.textContent = e.target.parentElement.parentElement.children[0].textContent;
-         
       });
+   }
 
-   });
+   buyBtn.addEventListener('click', buyFunc);
+   function buyFunc(e) {
+      h1.textContent = `Total Price: 0.00`;
+      console.log(document.querySelectorAll('#myProducts ul li').length);
+
+      productsUl[1].textContent = '';
+   }
 }
