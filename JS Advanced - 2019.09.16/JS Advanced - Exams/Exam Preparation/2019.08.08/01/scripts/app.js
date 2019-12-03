@@ -1,76 +1,70 @@
 function solve() {
-    let title = document.querySelector('body > form > input[type=text]:nth-child(2)');
-    let year = document.querySelector('body > form > input[type=number]:nth-child(4)');
-    let price = document.querySelector('body > form > input[type=number]:nth-child(6)');
-
-    let addNewBookBtn = document.querySelector('body > form > button');
-    let bookDivOld = document.querySelector('#outputs > section:nth-child(1) > div');
-    let bookDivNew = document.querySelector('#outputs > section:nth-child(2) > div');
-
     let sum = 0;
+    let profit = document.getElementsByTagName('h1')[1];
+    let [_, oldBooks, newBooks] = Array.from(document.getElementsByTagName('div'));
+    let [bookTitle, bookYear, bookPrice] = Array.from(document.getElementsByTagName('input'));
+    let btnAddNewBook = document.getElementsByTagName('button')[0];
 
-    addNewBookBtn.addEventListener('click', event);
-    function event() {
-        if (title.value !== '' && year.value > 0 && price.value > 0) {
-            let createPElement = document.createElement('p');
-            createPElement.textContent = `${title.value} [${year.value}]`;
-            let btnBuy = document.createElement('button');
+    btnAddNewBook.addEventListener('click', addNewBook);
+    function addNewBook(e) {
+        e.preventDefault();
 
-            if (year.value >= 2000) {
-                let { btnMove, createDivElement } = addNewBook(btnBuy, createPElement);
-                fromNewToOldBook(btnMove, createDivElement, btnBuy, createPElement);
-            } else {
-                addOldBook(btnBuy, createPElement);
-            }
+        if (bookTitle.value && bookYear.value > 0 && bookPrice.value > 0) {
+            let p = document.createElement('p');
+            p.textContent = `${bookTitle.value} [${bookYear.value}]`;
             
-            buyBook(btnBuy);
-        }
+            let div = document.createElement('div');
+            div.className = 'book';
+            div.appendChild(p);
 
-        function buyBook(btnBuy) {
-            btnBuy.addEventListener('click', (e) => {
-                sum += Number(e.target.textContent.split(' ')[4]);
+            if (bookYear.value > 1999) {
+                let btnBuyNewBook = document.createElement('button');
+                btnBuyNewBook.textContent = `Buy it only for ${Number(bookPrice.value).toFixed(2)} BGN`;
+                div.appendChild(btnBuyNewBook);
 
-                let parent = e.target.parentNode.parentNode;
-                let child = e.target.parentNode;
-                parent.removeChild(child);
+                btnBuyNewBook.addEventListener('click', buyNewBook);
+                function buyNewBook(e) {
+                    let split = e.target.textContent.split(' ');
+                    sum += +split[split.length - 2];
+                    profit.textContent = `Total Store Profit: ${sum.toFixed(2)} BGN`;
 
-                let totalSum = document.querySelector('body > h1:nth-child(3)');
-                totalSum.textContent = `Total Store Profit: ${sum.toFixed(2)} BGN`;
-            });
-        }
+                    e.target.parentNode.parentNode.removeChild(e.target.parentNode);                    
+                }
 
-        function fromNewToOldBook(btnMove, createDivElement, btnBuy, createPElement) {
-            btnMove.addEventListener('click', (e) => {
-                bookDivNew.removeChild(createDivElement);
-                addOldBook(btnBuy, createPElement);
-            });
-        }
+                let btnMoveToOld = document.createElement('button');
+                btnMoveToOld.textContent = `Move to old section`;
+                div.appendChild(btnMoveToOld);
 
-        function addOldBook(btnBuy, createPElement) {
-            btnBuy.textContent = `Buy it only for ${Number(price.value * 0.85).toFixed(2)} BGN`;
+                btnMoveToOld.addEventListener('click', moveToOldSection);
+                function moveToOldSection(e) {
+                    let split = div.children[1].textContent.split(' ');
+                    let oldSectionPrice = +split[split.length - 2] * 0.85;
 
-            let createDivElement = document.createElement('div');
-            createDivElement.className = 'book';
-            createDivElement.appendChild(createPElement);
-            createDivElement.appendChild(btnBuy);
+                    div.children[1].textContent = `Buy it only for ${oldSectionPrice.toFixed(2)} BGN`;
+                    div.removeChild(btnMoveToOld);
+                    oldBooks.appendChild(div);
 
-            bookDivOld.appendChild(createDivElement);
-        }
+                    e.target.parentNode.parentNode.removeChild(e.target.parentNode);
+                }
 
-        function addNewBook(btnBuy, createPElement) {
-            btnBuy.textContent = `Buy it only for ${Number(price.value).toFixed(2)} BGN`;
+                newBooks.appendChild(div);
+            } else {
+                let btnBuyOldBook = document.createElement('button');
+                let oldSectionPrice = bookPrice.value * 0.85;
+                btnBuyOldBook.textContent = `Buy it only for ${oldSectionPrice.toFixed(2)} BGN`;
+                div.appendChild(btnBuyOldBook);
 
-            let btnMove = document.createElement('button');
-            btnMove.textContent = `Move to old section`;
+                btnBuyOldBook.addEventListener('click', buyNewBook);
+                function buyNewBook(e) {
+                    let split = e.target.textContent.split(' ');
+                    sum += +split[split.length - 2];
+                    profit.textContent = `Total Store Profit: ${sum.toFixed(2)} BGN`;
 
-            let createDivElement = document.createElement('div');
-            createDivElement.className = 'book';
-            createDivElement.appendChild(createPElement);
-            createDivElement.appendChild(btnBuy);
-            createDivElement.appendChild(btnMove);
+                    e.target.parentNode.parentNode.removeChild(e.target.parentNode);                    
+                }
 
-            bookDivNew.appendChild(createDivElement);
-            return { btnMove, createDivElement };
+                oldBooks.appendChild(div);
+            }
         }
     }
 }
