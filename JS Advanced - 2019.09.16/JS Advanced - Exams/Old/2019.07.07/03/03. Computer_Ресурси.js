@@ -13,7 +13,6 @@ class Computer {
         }
 
         this.hddMemory -= requiredSpace;
-
         let newProgram = {
             name,
             requiredSpace
@@ -46,20 +45,18 @@ class Computer {
         program.open = true;
 
         let totalRam = 0;
-        this.installedPrograms
-            .map((p) => {
-                if (p.open) {
-                    totalRam += (p.requiredSpace / this.ramMemory) * 1.5
-                }
-            });
+        this.installedPrograms.map((p) => {
+            if (p.open) {
+                totalRam += (p.requiredSpace / this.ramMemory) * 1.5
+            }
+        });
 
         let totalCPU = 0;
-        this.installedPrograms
-            .map((p) => {
-                if (p.open) {
-                    totalCPU += ((p.requiredSpace / this.cpuGHz) / 500) * 1.5
-                }
-            });
+        this.installedPrograms.map((p) => {
+            if (p.open) {
+                totalCPU += ((p.requiredSpace / this.cpuGHz) / 500) * 1.5
+            }
+        });
 
         if (totalRam >= 100 && totalCPU >= 100) {
             throw new Error(`${program.name} caused out of memory exception`);
@@ -76,8 +73,8 @@ class Computer {
             ramUsage: (program.requiredSpace / this.ramMemory) * 1.5,
             cpuUsage: ((program.requiredSpace / this.cpuGHz) / 500) * 1.5
         };
-
         this.taskManager.push(createNewObj);
+
         return createNewObj;
     }
 
@@ -87,7 +84,10 @@ class Computer {
         }
 
         let res = [];
-        this.taskManager.map(p => res.push(`Name - ${p.name} | Usage - CPU: ${p.cpuUsage.toFixed(0)}%, RAM: ${p.ramUsage.toFixed(0)}%`));
+        this.taskManager
+            .map(p => res
+                .push(`Name - ${p.name} | Usage - CPU: ${p.cpuUsage.toFixed(0)}%, RAM: ${p.ramUsage.toFixed(0)}%`));
+
         return res.join('\n');
     }
 }
