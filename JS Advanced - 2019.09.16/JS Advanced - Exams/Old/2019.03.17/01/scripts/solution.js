@@ -63,8 +63,6 @@ function solve() {
          if (selectedCourses.includes('js-advanced') && selectedCourses.includes('js-fundamentals') && selectedCourses.includes('js-applications')) {
             sum *= 0.94;
          }
-
-         prices['js-advanced'] = 180;
       }
    }
 

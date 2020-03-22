@@ -89,7 +89,6 @@ describe('AutoService', function () {
         filmStudio.makeMovie('The Avengers', ['Iron-Man', 'Hulk', 'Arrow guy', 'Ant-man']);
         filmStudio.makeMovie('The New Avengers', ['Iron-Man', 'Thor', 'Hulk', 'Arrow guy', 'Black Panther']);
 
-
         let actual = function () {
             filmStudio.lookForProducer('Hulk');
         };

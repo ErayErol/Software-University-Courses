@@ -1,79 +1,80 @@
 function solve() {
    const [filter, name, quantity, price] = [...document.getElementsByTagName('input')];
+   const [availableProducts, myProducts] = [...document.getElementsByTagName('ul')];
    const [filterBtn, addBtn, buyBtn] = [...document.getElementsByTagName('button')];
 
    let h1 = document.getElementsByTagName('h1')[1];
-   let productsUl = document.getElementsByTagName('ul');
-
-   let sum = 0;
 
    addBtn.addEventListener('click', addFunc);
    function addFunc(e) {
       e.preventDefault();
-      let li = document.createElement('li');
+      const li = createElement("li");
+      const nameSpan = createElement("span", name.value);
+      const quantityStrong = createElement("strong", `Available: ${Number(quantity.value)}`);
+      const div = createElement("div");
+      const numberStrong = createElement("strong", Number(price.value).toFixed(2));
+      const addToClientBtn = createElement("button", "Add to Client's List");
+      appendChildToParent(div, [numberStrong, addToClientBtn]);
+      appendChildToParent(li, [nameSpan, quantityStrong, div]);
+      appendChildToParent(availableProducts, [li]);
 
-      let span = document.createElement('span');
-      span.textContent = name.value;
-      li.appendChild(span);
+      addToClientBtn.addEventListener('click', (event) => {
+         let quantity = Number(event.target.parentNode.parentNode.children[1].textContent.split(" ")[1]);
+         if (quantity > 0) {
+            quantity = calculate(event, quantity);
+            checkQuantityIsZero(quantity, event);
+            addingToMyProducts(event);
+         }
 
-      let strongQuantity = document.createElement('strong');
-      strongQuantity.textContent = `Available: ${Number(quantity.value)}`;
-      li.appendChild(strongQuantity);
-
-      let div = document.createElement('div');
-
-      let strongPrice = document.createElement('strong');
-      strongPrice.textContent = Number(price.value).toFixed(2);
-      div.appendChild(strongPrice);
-
-      let btnAddToTheClients = document.createElement('button');
-      btnAddToTheClients.textContent = "Add to Client's List";
-      div.appendChild(btnAddToTheClients);
-
-      li.appendChild(div);
-      productsUl[0].appendChild(li);
-
-      btnAddToTheClients.addEventListener('click', (e) => {
-         let currentQuantitySplit = e.target.parentNode.parentNode.children[1].textContent.split(':')[1];
-         let currentQuantity = Number(currentQuantitySplit.substr(currentQuantitySplit.indexOf(' ') + 1));
-
-         if (currentQuantity > 0) {
-            let li = document.createElement('li');
-            li.textContent = e.target.parentNode.parentNode.children[0].textContent;
-
-            let strongPriceMy = document.createElement('strong');
-            strongPriceMy.textContent = Number(e.target.parentNode.parentNode.children[2].children[0].textContent).toFixed(2);
-            li.appendChild(strongPriceMy);
-
-            productsUl[1].appendChild(li);
-
-            sum += Number(strongPriceMy.textContent);
-            h1.textContent = `Total Price: ${sum.toFixed(2)}`;
-            e.target.parentNode.parentNode.children[1].textContent = `Available: ${--currentQuantity}`;
-
-            if (currentQuantity === 0) {
-               e.target.parentNode.parentNode.remove();
+         function addingToMyProducts(event) {
+            let li = createElement("li", event.target.parentNode.parentNode.children[0].textContent);
+            let strong = createElement("strong", event.target.parentNode.parentNode.children[2].children[0].textContent);
+            li.appendChild(strong);
+            myProducts.appendChild(li);
+         }
+   
+         function checkQuantityIsZero(quantity, event) {
+            if (quantity === 0) {
+               event.target.parentNode.parentNode.remove();
             }
+         }
+   
+         function calculate(event, quantity) {
+            let totalPrice = Number(h1.textContent.split(" ")[2]);
+            let currentPrice = Number(event.target.parentNode.parentNode.children[2].children[0].textContent);
+            let currentTotalPrice = totalPrice + currentPrice;
+            h1.textContent = `Total Price: ${currentTotalPrice.toFixed(2)}`;
+            event.target.parentNode.parentNode.children[1].textContent = `Available: ${--quantity}`;
+            return quantity;
          }
       });
    }
 
    filterBtn.addEventListener('click', filterFunc);
-   function filterFunc(e) {
-      let spans = document.getElementsByTagName('span');
-
-      [...spans].forEach((s) => {
-         if (!s.textContent.toLowerCase().includes(filter.value.toLowerCase())) {
-            s.parentNode.style.display = 'none';
+   function filterFunc() {
+      const spans = document.getElementsByTagName('span');
+      [...spans].forEach((span) => {
+         if (!span.textContent.toLowerCase().includes(filter.value.toLowerCase())) {
+            span.parentNode.style.display = 'none';
          }
       });
    }
 
    buyBtn.addEventListener('click', buyFunc);
-   function buyFunc(e) {
+   function buyFunc() {
       h1.textContent = `Total Price: 0.00`;
-      console.log(document.querySelectorAll('#myProducts ul li').length);
+      myProducts.textContent = '';
+   }
 
-      productsUl[1].textContent = '';
+   function appendChildToParent(parent, childs) {
+      [...childs].forEach((child) => parent.appendChild(child));
+   }
+
+   function createElement(tagName, textContent) {
+      const element = document.createElement(tagName);
+      if (textContent) {
+         element.textContent = textContent;
+      }
+      return element;
    }
 }

@@ -91,7 +91,7 @@ describe('PaymentPackage', function () {
         assert.equal(actual, expected);
     });
 
-    it('should initialized with correct toString and change VAT and', function () {
+    it('should initialized with correct toString and change VAT to 0', function () {
         let pp = new PaymentPackage('JS', 0);
         pp.VAT = 0;
         let actual = pp.toString();

@@ -77,15 +77,11 @@ function arenaTier(input) {
     for (const gladiator of sortBySkills) {
         let name = gladiator[0];
         let skills = Number(gladiator[1]);
-
         console.log(`${name}: ${skills} skill`);
 
         for (const currGladiator of gladiators) {
-
             if (currGladiator[0] === name) {
-
                 currGladiator[1] = Array.from(currGladiator[1]);
-
                 currGladiator[1]
                     .sort((a, b) => a[0].localeCompare(b[0]))
                     .sort((a, b) => b[1] - a[1]);

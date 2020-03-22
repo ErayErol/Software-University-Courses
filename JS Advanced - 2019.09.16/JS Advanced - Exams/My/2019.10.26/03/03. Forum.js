@@ -6,41 +6,35 @@ class Forum {
     }
 
     register(username, password, repeatPassword, email) {
+        const sameUsername = this._users.find(u => u.username === username);
+        const sameEmail = this._users.find(u => u.email === email);
+        const user = { username, password, password, email, login: false };
         if (!username || !password || !repeatPassword || !email) {
             throw new Error("Input can not be empty");
         }
         if (password !== repeatPassword) {
             throw new Error("Passwords do not match");
         }
-        if (this._users.find(u => u.username === username) || this._users.find(u => u.email === email)) {
+        if (sameUsername || sameEmail) {
             throw new Error("This user already exists!");
         }
-
-        let newUser = {
-            username,
-            password,
-            email,
-            login: false
-        };
-        this._users.push(newUser);
-
+        this._users.push(user);
         return `${username} with ${email} was registered successfully!`;
     }
 
     login(username, password) {
-        let user = this._users.find(u => u.username === username);
+        const user = this._users.find(u => u.username === username);
         if (!user) {
             throw new Error("There is no such user");
         }
         if (user.password === password) {
             user.login = true;
-
             return "Hello! You have logged in successfully";
         }
     }
 
     logout(username, password) {
-        let user = this._users.find(u => u.username === username);
+        const user = this._users.find(u => u.username === username);
         if (!user) {
             throw new Error("There is no such user");
         }
@@ -51,68 +45,40 @@ class Forum {
     }
 
     postQuestion(username, question) {
-        let user = this._users.find(u => u.username === username);
+        const user = this._users.find(u => u.username === username);
+        const currQuestion = { id: this._id++, username, question, answers: [], };
         if (!user || user.login === false) {
             throw new Error("You should be logged in to post questions");
         }
-        if (question === '') {
+        if (question === "") {
             throw new Error("Invalid question");
         }
-
-        let newQuestion = {
-            username,
-            question,
-            id: this._id++,
-            answer: []
-        };
-        this._questions.push(newQuestion);
-
+        this._questions.push(currQuestion);
         return "Your question has been posted successfully";
     }
 
     postAnswer(username, questionId, answer) {
-        let user = this._users.find(u => u.username === username);
+        const user = this._users.find(u => u.username === username);
+        const question = this._questions.find(u => u.id === questionId);
+        const currAnswer = { answer, username, questionId, };
         if (!user || user.login === false) {
             throw new Error("You should be logged in to post answers");
         }
-        if (answer === '') {
+        if (answer === "") {
             throw new Error("Invalid answer");
         }
-
-        let id = this._questions.find(u => u.id === questionId);
-        if (!id) {
+        if (!question) {
             throw new Error("There is no such question");
         }
-
-        let answerForQuestion = {
-            username,
-            answer
-        };
-        id.answer.push(answerForQuestion);
-
+        question.answers.push(currAnswer);
         return "Your answer has been posted successfully";
     }
 
     showQuestions() {
         return this._questions
-        .map(q => `Question ${q.id} by ${q.username}: ${q.question}\n${q.answer
-        .map(a => `---${a.username}: ${a.answer}`)
-        .join('\n')}`)
-        .join('\n');
+            .map(({ id, username, question, answers }) => `Question ${id} by ${username}: ${question}\n${answers
+                .map(({ username, answer }) => `---${username}: ${answer}`)
+                .join('\n')}`)
+            .join('\n');
     }
 }
-
-let forum = new Forum();
-
-forum.register('Jonny', '12345', '12345', 'jonny@abv.bg');
-forum.register('Peter', '123ab7', '123ab7', 'peter@gmail@.com');
-forum.login('Jonny', '12345');
-forum.login('Peter', '123ab7');
-
-forum.postQuestion('Jonny', "Do I need glasses for skiing?");
-forum.postAnswer('Peter', 1, "Yes, I have rented one last year.");
-forum.postAnswer('Jonny', 1, "What was your budget");
-forum.postAnswer('Peter', 1, "$50");
-forum.postAnswer('Jonny', 1, "Thank you :)");
-
-console.log(forum.showQuestions());
