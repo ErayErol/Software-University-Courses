@@ -1,70 +1,75 @@
 function solve() {
-    let sum = 0;
-    let profit = document.getElementsByTagName('h1')[1];
-    let [_, oldBooks, newBooks] = Array.from(document.getElementsByTagName('div'));
-    let [bookTitle, bookYear, bookPrice] = Array.from(document.getElementsByTagName('input'));
-    let btnAddNewBook = document.getElementsByTagName('button')[0];
+    let [oldBooks, newBooks] = Array.from(document.getElementsByClassName("bookShelf"));
+    let [bookTitle, bookYear, bookPrice] = Array.from(document.getElementsByTagName("input"));
+    let addBtn = document.getElementsByTagName("button")[0];
+    let h1 = document.getElementsByTagName("h1")[1];
+    let buyBtn = "";
 
-    btnAddNewBook.addEventListener('click', addNewBook);
-    function addNewBook(e) {
-        e.preventDefault();
+    addBtn.addEventListener("click", addFunc);
+    function addFunc(e) {
+        if (bookTitle.value !== "" && Number(bookYear.value) > 0 && Number(bookPrice.value) > 0) {
+            e.preventDefault();
+            let calculatePrice = (bookYear.value < 2000) ? bookPrice.value * 0.85 : bookPrice.value * 1.00;
+            let { div, p, buyBtn } = createDiv(calculatePrice);
+            addingBook(div, p, buyBtn, calculatePrice);
+            buyBtn.addEventListener("click", buyFunc);
+        }
 
-        if (bookTitle.value && bookYear.value > 0 && bookPrice.value > 0) {
-            let p = document.createElement('p');
-            p.textContent = `${bookTitle.value} [${bookYear.value}]`;
-            
-            let div = document.createElement('div');
-            div.className = 'book';
-            div.appendChild(p);
+        function addingBook(div, p, buyBtn, calculatePrice) {
+            if (bookYear.value < 2000) {
+                addOldBook(div, p, buyBtn);
+            }
+            else {
+                addNewBook(div, p, buyBtn, calculatePrice);
+            }
+        }
 
-            if (bookYear.value > 1999) {
-                let btnBuyNewBook = document.createElement('button');
-                btnBuyNewBook.textContent = `Buy it only for ${Number(bookPrice.value).toFixed(2)} BGN`;
-                div.appendChild(btnBuyNewBook);
+        function buyFunc(event) {
+            const currentPrice = event.target.textContent.split(" ")[4];
+            const sumSoFar = h1.textContent.split(" ")[3];
+            const total = Number(currentPrice) + Number(sumSoFar);
+            h1.textContent = `Total Store Profit: ${total.toFixed(2)} BGN`;
+            event.target.parentNode.remove();
+        }
 
-                btnBuyNewBook.addEventListener('click', buyNewBook);
-                function buyNewBook(e) {
-                    let split = e.target.textContent.split(' ');
-                    sum += +split[split.length - 2];
-                    profit.textContent = `Total Store Profit: ${sum.toFixed(2)} BGN`;
+        function addNewBook(div, p, buyBtn, currPrice) {
+            const moveBookBtn = createElement("button", "Move to old section");
+            appendChildToParent(div, [p, buyBtn, moveBookBtn]);
+            moveBookBtn.addEventListener("click", moveFunc);
+            newBooks.appendChild(div);
 
-                    e.target.parentNode.parentNode.removeChild(e.target.parentNode);                    
-                }
-
-                let btnMoveToOld = document.createElement('button');
-                btnMoveToOld.textContent = `Move to old section`;
-                div.appendChild(btnMoveToOld);
-
-                btnMoveToOld.addEventListener('click', moveToOldSection);
-                function moveToOldSection(e) {
-                    let split = div.children[1].textContent.split(' ');
-                    let oldSectionPrice = +split[split.length - 2] * 0.85;
-
-                    div.children[1].textContent = `Buy it only for ${oldSectionPrice.toFixed(2)} BGN`;
-                    div.removeChild(btnMoveToOld);
-                    oldBooks.appendChild(div);
-
-                    e.target.parentNode.parentNode.removeChild(e.target.parentNode);
-                }
-
-                newBooks.appendChild(div);
-            } else {
-                let btnBuyOldBook = document.createElement('button');
-                let oldSectionPrice = bookPrice.value * 0.85;
-                btnBuyOldBook.textContent = `Buy it only for ${oldSectionPrice.toFixed(2)} BGN`;
-                div.appendChild(btnBuyOldBook);
-
-                btnBuyOldBook.addEventListener('click', buyNewBook);
-                function buyNewBook(e) {
-                    let split = e.target.textContent.split(' ');
-                    sum += +split[split.length - 2];
-                    profit.textContent = `Total Store Profit: ${sum.toFixed(2)} BGN`;
-
-                    e.target.parentNode.parentNode.removeChild(e.target.parentNode);                    
-                }
-
+            function moveFunc(){
+                moveBookBtn.remove();
+                buyBtn.textContent = `Buy it only for ${(currPrice * 0.85).toFixed(2)} BGN`;
                 oldBooks.appendChild(div);
             }
+        }
+
+        function addOldBook(div, p, buyBtn) {
+            appendChildToParent(div, [p, buyBtn]);
+            oldBooks.appendChild(div);
+        }
+
+        function createDiv(currPrice) {
+            const div = createElement("div", "", "book");
+            const p = createElement("p", `${bookTitle.value} [${bookYear.value}]`);
+            buyBtn = createElement("button", `Buy it only for ${currPrice.toFixed(2)} BGN`);
+            return { div, p, buyBtn };
+        }
+
+        function createElement(tagName, textContent, className) {
+            const element = document.createElement(tagName);
+            if (textContent) {
+                element.textContent = textContent;
+            }
+            if (className) {
+                element.className = className;
+            }
+            return element;
+        }
+
+        function appendChildToParent(parent, childs) {
+            Array.from(childs).forEach(child => parent.appendChild(child));
         }
     }
 }

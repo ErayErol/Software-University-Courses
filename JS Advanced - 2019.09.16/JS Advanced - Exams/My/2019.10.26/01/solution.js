@@ -1,7 +1,7 @@
 function solve() {
-   const [filter, name, quantity, price] = [...document.getElementsByTagName('input')];
-   const [availableProducts, myProducts] = [...document.getElementsByTagName('ul')];
-   const [filterBtn, addBtn, buyBtn] = [...document.getElementsByTagName('button')];
+   const [filter, name, quantity, price] = Array.from(document.getElementsByTagName('input'));
+   const [availableProducts, myProducts] = Array.from(document.getElementsByTagName('ul'));
+   const [filterBtn, addBtn, buyBtn] = Array.from(document.getElementsByTagName('button'));
 
    let h1 = document.getElementsByTagName('h1')[1];
 
