@@ -1,10 +1,10 @@
 class Library {
     constructor(libraryName) {
-        this.libraryName = libraryName;
+        this.libraryName = String(libraryName);
         this.subscribers = [];
         this.subscriptionTypes = {
-            normal: +libraryName.length,
-            special: +libraryName.length * 2,
+            normal: Number(libraryName.length),
+            special: Number(libraryName.length * 2),
             vip: Number.MAX_SAFE_INTEGER
         };
     }
@@ -13,73 +13,48 @@ class Library {
         if (!this.subscriptionTypes[type]) {
             throw new Error(`The type ${type} is invalid`);
         }
-
         let person = this.subscribers.find(s => s.name === name);
-        if (person) {
+        if (!person) {
+            let newPerson = { name, type, books: [] };
+            this.subscribers.push(newPerson);
+            return newPerson;
+        } else {
             person.type = type;
             return person;
         }
-
-        let newPerson = {
-            name: name,
-            type: type,
-            books: []
-        };
-
-        this.subscribers.push(newPerson);
-        return newPerson;
     }
 
     unsubscribe(name) {
-        let person = this.subscribers.find(p => p.name === name);
-        if (!person) {
+        const subscriber = this.subscribers.find(s => s.name === name);
+        if (!subscriber) {
             throw new Error(`There is no such subscriber as ${name}`);
         }
-
         this.subscribers = this.subscribers.filter(s => s.name !== name);
         return this.subscribers;
     }
 
-    receiveBook(name, title, author) { // org : receiveBook(subscriberName, bookTitle, bookAuthor)
-        let person = this.subscribers.find(p => p.name === name);
-        if (!person) {
+    receiveBook(name, bookTitle, bookAuthor) { // org : receiveBook(subscriberName, bookTitle, bookAuthor) -> SoftUni mistake
+        let subscriber = this.subscribers.find(s => s.name === name);
+        if (!subscriber) {
             throw new Error(`There is no such subscriber as ${name}`);
         }
-
-        let limit = this.subscriptionTypes[person.type];
-        if (limit === person.books.length) {
+        const limit = this.subscriptionTypes[subscriber.type];
+        if (limit === subscriber.books.length) {
             throw new Error(`You have reached your subscription limit ${limit}!`);
         }
-
-        let book = {
-            title,
-            author
-        };
-
-        person.books.push(book);
-        return person;
+        const book = { title: bookTitle, author: bookAuthor };
+        subscriber.books.push(book);
+        return subscriber;
     }
 
     showInfo() {
-        let res = (this.subscribers.length === 0)
-            ? `${this.libraryName} has no information about any subscribers`
-            : this.subscribers
-                .map(s => `Subscriber: ${s.name}, Type: ${s.type}\nReceived books: ${s.books
-                    .map(b => `${b.title} by ${b.author}`)
-                    .join(', ')}`)
-                .join('\n');
-
-        return res;
+        if (this.subscribers.length === 0) {
+            return `${this.libraryName} has no information about any subscribers`;
+        }
+        return this.subscribers
+            .map(({ name, type, books }) => `Subscriber: ${name}, Type: ${type}\nReceived books: ${books
+                .map(({ title, author }) => `${title} by ${author}`)
+                .join(", ")}`)
+            .join("\n") + '\n';
     }
 }
-
-let lib = new Library('Lib');
-
-lib.subscribe('Peter', 'normal');
-lib.subscribe('John', 'special');
-
-lib.receiveBook('John', 'A Song of Ice and Fire', 'George R. R. Martin');
-lib.receiveBook('Peter', 'Lord of the rings', 'J. R. R. Tolkien');
-lib.receiveBook('John', 'Harry Potter', 'J. K. Rowling');
-
-console.log(lib.showInfo());
