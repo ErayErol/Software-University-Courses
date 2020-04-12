@@ -221,65 +221,24 @@
   </td>
 </tr>
 
-<table>
-<tr>
-  <th>
-   <p align="center">
-   №
- </th>
- <th>
-  <p align="center">
-  :books:Exams
- </th>
- <th>
-  <p align="center">
-  :pencil:Solutions
- </th>
-</tr>
 <tr>
   <td>
    <p align="center">
-   :one:
- </td>
+    :one::zero:
+  </td>
   <th>
-   <p align="center">
-   Exam Preparation
- </th>
+    Exams
+  </th>
   <td>
    <p align="center">
-  <a 
-     href="" >✅
-    </a>
-</tr>
-  <tr>
-  <td>
+      <a 
+         href="">
+   </a>
+  </td>
+  <td> 
    <p align="center">
-   :two:
-   </td>
-  <th>
-   <p align="center">
-   Old Exams
-   </th>
-  <td>
-   <p align="center">
-   <a 
-      href="" >✅
-    </a>
-   </td>
-</tr>
-<tr>
-  <td>
-   <p align="center">
-   :three:
-   </td>
-  <th>
-   <p align="center">
-   My Exam
-   </th>
-  <td>
-   <p align="center">
-   <a 
-      href="" >✅
-    </a>
-   </td>
+         <a 
+         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/JS%20Advanced%20-%20Exams">✅
+   </a>
+  </td>
 </tr>
