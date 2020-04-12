@@ -221,24 +221,25 @@
   </td>
 </tr>
 
+<table>
 <tr>
-  <td>
-   <p align="center">
-    :one::zero:
-  </td>
-  <th>
-    Exams
-  </th>
-  <td>
-   <p align="center">
-      <a 
-         href="">
-   </a>
-  </td>
-  <td> 
-   <p align="center">
-         <a 
-         href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/JS%20Advanced%20-%20Exams">✅
-   </a>
-  </td>
+ <th>
+  <p align="center">
+  :books:
+ </th>
+ <th>
+  <p align="center">
+  :pencil:Solutions
+ </th>
 </tr>
+<tr>
+  <th>
+   <p align="center">
+   Exams
+ </th>
+  <td>
+   <p align="center">
+  <a 
+     href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/JS%20Advanced%20-%20Exams" >✅
+  </a>
+</table>
