@@ -1,40 +1,41 @@
 class Article {
-    _commentId = 1;
-    _comments = [];
-    _likes = [];
     constructor(title, creator) {
         this.title = title;
         this.creator = creator;
+        this._comments = [];
+        this.idC = 1;
+        this._likes = [];
+        this.likeNames = [];
     }
 
     get likes() {
-        if (this._likes.length === 0) {
+        if (this.likeNames.length === 0) {
             return `${this.title} has 0 likes`;
         }
-        if (this._likes.length === 1) {
-            return `${this._likes[0]} likes this article!`;
+        if (this.likeNames.length === 1) {
+            return `${this.likeNames[0]} likes this article!`;
         }
 
-        return `${this._likes[0]} and ${this._likes.length - 1} others like this article!`;
+        return `${this.likeNames[0]} and ${this.likeNames.length - 1} others like this article!`;
     }
 
     like(username) {
-        if (this._likes.includes(username)) {
+        if (this.likeNames.includes(username)) {
             throw new Error("You can't like the same article twice!");
         }
         if (this.creator === username) {
             throw new Error("You can't like your own articles!");
         }
-        this._likes.push(username);
+        this.likeNames.push(username);
         return `${username} liked ${this.title}!`;
     }
 
     dislike(username) {
-        if (!this._likes.includes(username)) {
-            throw new Error(`You can't dislike this article!`);
+        if (this.likeNames[0] !== username) {
+            throw new Error("You can't dislike this article!");
         }
-        const index = this._likes.findIndex(u => u === username);
-        this._likes.splice(index, 1);
+
+        this.likeNames.shift();
         return `${username} disliked ${this.title}`;
     }
 
@@ -43,18 +44,19 @@ class Article {
 
         if (!comment || !id) {
             let newComment = {
-                id: this._commentId ++,
+                id: this.idC++,
                 username,
                 content,
-                replies: [],
+                reply: [],
             };
 
             this._comments.push(newComment);
             return `${username} commented on ${this.title}`;
         }
 
-        let newReply = { id: comment.replies.length + 1, username, content };
-        comment.replies.push(newReply);
+        let newReply = { id, username, content };
+        newReply.id = comment.reply.length + 1;
+        comment.reply.push(newReply);
         return "You replied successfully";
     }
 
@@ -62,15 +64,51 @@ class Article {
         let x = [];
         x.push(`Title: ${this.title}`);
         x.push(`Creator: ${this.creator}`);
-        x.push(`Likes: ${this._likes.length}`);
+        x.push(`Likes: ${this.likeNames.length}`);
         x.push("Comments:");
 
         if (sortingType === 'username') {
-            this.compareFunc(compareUser, x);
+            this._comments.sort(compareUser);
+            this._comments.forEach((r) => {
+                let currCom = this._comments.find(c => c.id === r.id);
+                x.push(`-- ${currCom.id}. ${currCom.username}: ${currCom.content}`);
+                if (r.reply.length > 0) {
+                    r.reply.sort(compareUser);
+                    r.reply.forEach(({ username, content, id }) => {
+                        x.push(`--- ${currCom.id}.${id}. ${username}: ${content}`)
+                    });
+                }
+            });
+
+
+
         } else if (sortingType === 'desc') {
-            this.compareFunc(compareDesc, x);
+            this._comments.sort(compareDesc);
+            this._comments.forEach((r) => {
+                let currCom = this._comments.find(c => c.id === r.id);
+                x.push(`-- ${currCom.id}. ${currCom.username}: ${currCom.content}`);
+                if (r.reply.length > 0) {
+                    r.reply.sort(compareDesc);
+                    r.reply.forEach(({ username, content, id }) => {
+                        x.push(`--- ${currCom.id}.${id}. ${username}: ${content}`)
+                    });
+                }
+            });
+
+
+
         } else if (sortingType === 'asc') {
-            this.compareFunc(compareAsc, x);
+            this._comments.sort(compareAsc);
+            this._comments.forEach((r) => {
+                let currCom = this._comments.find(c => c.id === r.id);
+                x.push(`-- ${currCom.id}. ${currCom.username}: ${currCom.content}`);
+                if (r.reply.length > 0) {
+                    r.reply.sort(compareAsc);
+                    r.reply.forEach(({ username, content, id }) => {
+                        x.push(`--- ${currCom.id}.${id}. ${username}: ${content}`)
+                    });
+                }
+            });
         }
 
         return x.join("\n");
@@ -105,20 +143,6 @@ class Article {
             return 0;
         }
     }
-
-    compareFunc(compareName, x) {
-        this._comments.sort(compareName);
-        this._comments.forEach((r) => {
-            let currCom = this._comments.find(c => c.id === r.id);
-            x.push(`-- ${currCom.id}. ${currCom.username}: ${currCom.content}`);
-            if (r.replies.length > 0) {
-                r.replies.sort(compareName);
-                r.replies.forEach(({ username, content, id }) => {
-                    x.push(`--- ${currCom.id}.${id}. ${username}: ${content}`);
-                });
-            }
-        });
-    }
 }
 
 let art = new Article("My Article", "Anny");
@@ -136,3 +160,28 @@ console.log(art.toString('username'));
 console.log()
 art.like("Zane");
 console.log(art.toString('desc'));
+
+// John likes this article!
+// My Article has 0 likes
+// Ammy commented on My Article
+// You replied successfully
+
+// Title: My Article
+// Creator: Anny
+// Likes: 0
+// Comments:
+// -- 2. Ammy: New Content
+// -- 3. Jessy: Nice :)
+// -- 1. Sammy: Some Content
+// --- 1.2. SAmmy: Reply@
+// --- 1.1. Zane: Reply
+
+// Title: My Article
+// Creator: Anny
+// Likes: 1
+// Comments:
+// -- 3. Jessy: Nice :)
+// -- 2. Ammy: New Content
+// -- 1. Sammy: Some Content
+// --- 1.2. SAmmy: Reply@
+// --- 1.1. Zane: Reply
