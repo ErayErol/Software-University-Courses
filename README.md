@@ -240,6 +240,6 @@
   <td>
    <p align="center">
   <a 
-     href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/JS%20Advanced%20-%20Exams" >✅
+     href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/10.%20Exams" >✅
   </a>
 </table>
