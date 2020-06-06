@@ -3,7 +3,7 @@
  
  # <a href="https://softuni.bg/trainings/2609/js-advanced-january-2020"><p align="center">:book:JS Advanced<p></a>
 
-# <a href="https://softuni.bg/certificates/details/80525/8bead0a3"><p align="center"> :clipboard:Certificate<p></a>
+# <a href="https://softuni.bg/certificates/details/81303/a8a65ba6"><p align="center"> :clipboard:Certificate<p></a>
 
 <table>
 <tr>
