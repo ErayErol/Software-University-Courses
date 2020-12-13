@@ -2,12 +2,12 @@
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
    <tbody>
       <tr>
-         <td align="left" width="33%">
+         <td align="left" width="25%">
          <a href="https://softuni.bg">
             <img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 />
          </a>
          </td>
-         <td align="left" width="33%">
+         <td align="left" width="50%">
             <h3>
                Student name: E.Erol ⭐
             </h3>
@@ -19,7 +19,7 @@
                <p>Web Developer 🏆</p>
             </h3>
          </td>
-         <td align="left" width="33%">
+         <td align="left" width="25%">
             <h2>
                C# ✅
             </h2>
