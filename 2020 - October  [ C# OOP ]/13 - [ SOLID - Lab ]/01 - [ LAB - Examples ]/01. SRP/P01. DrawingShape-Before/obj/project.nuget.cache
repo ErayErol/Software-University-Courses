@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ni8mlJuAfMaNl5uO2NK0kUG/4QLXLEMAIgcW7PNv7rV8iySi1Eq/Rc/3upAKWJQFzu1NGDEhqZcfy99J8lfFRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aris\\source\\repos\\SoftUni\\SoftUni_____-CSHARP_OOP\\2020 - October  [ C# OOP ]\\13 - [ SOLID - Lab ]\\01 - [ LAB - Examples ]\\01. SRP\\P01. DrawingShape-Before\\P01. DrawingShape-Before.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aris\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\Aris\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\Aris\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\Aris\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\Aris\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\Aris\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

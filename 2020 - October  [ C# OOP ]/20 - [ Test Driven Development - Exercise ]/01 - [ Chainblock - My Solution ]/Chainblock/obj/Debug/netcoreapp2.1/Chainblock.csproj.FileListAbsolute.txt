@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\11. Test Driven Development\Exercises\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.genruntimeconfig.cache
