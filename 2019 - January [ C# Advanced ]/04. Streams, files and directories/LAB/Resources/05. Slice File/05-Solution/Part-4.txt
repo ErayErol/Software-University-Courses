@@ -1,0 +1,55 @@
+
+142	Botswana	2,351,627	0 %	566,730
+143	Gabon	2,225,734	0 %	257,670
+144	Lesotho	2,142,249	0 %	30,360
+145	North Macedonia	2,083,374	0 %	25,220
+146	Slovenia	2,078,938	0 %	20,140
+147	Guinea-Bissau	1,968,001	0 %	28,120
+148	Latvia	1,886,198	0 %	62,200
+149	Bahrain	1,701,575	0 %	760
+150	Equatorial Guinea	1,402,985	0 %	28,050
+151	Trinidad and Tobago	1,399,488	0 %	5,130
+152	Estonia	1,326,535	0 %	42,390
+153	Timor-Leste	1,318,445	0 %	14,870
+154	Mauritius	1,271,768	0 %	2,030
+155	Cyprus	1,207,359	0 %	9,240
+156	Eswatini	1,160,164	0 %	17,200
+157	Djibouti	988,000	0 %	23,180
+158	Fiji	896,445	0 %	18,270
+159	Comoros	869,601	0 %	1,861
+160	Guyana	786,552	0 %	196,850
+161	Bhutan	771,608	0 %	38,117
+162	Solomon Islands	686,884	0 %	27,990
+163	Montenegro	628,066	0 %	13,450
+164	Luxembourg	625,978	0 %	2,590
+165	Suriname	586,632	0 %	156,000
+166	Cabo Verde	555,987	0 %	4,030
+167	Maldives	540,544	0 %	300
+168	Malta	441,543	0 %	320
+169	Brunei	437,479	0 %	5,270
+170	Belize	397,628	0 %	22,810
+171	Bahamas	393,244	0 %	10,010
+172	Iceland	341,243	0 %	100,250
+173	Vanuatu	307,145	0 %	12,190
+174	Barbados	287,375	0 %	430
+175	Sao Tome & Principe	219,159	0 %	960
+176	Samoa	198,414	0 %	2,830
+177	Saint Lucia	183,627	0 %	610
+178	Kiribati	119,449	0 %	810
+179	Micronesia	115,023	0 %	700
+180	Grenada	112,523	0 %	340
+181	St. Vincent & Grenadines	110,940	0 %	390
+182	Tonga	105,695	0 %	720
+183	Seychelles	98,347	0 %	460
+184	Antigua and Barbuda	97,929	0 %	440
+185	Andorra	77,265	0 %	470
+186	Dominica	71,986	0 %	750
+187	Marshall Islands	59,190	0 %	180
+188	Saint Kitts & Nevis	53,199	0 %	260
+189	Monaco	39,242	0 %	1
+190	Liechtenstein	38,128	0 %	160
+191	San Marino	33,931	0 %	60
+192	Palau	18,094	0 %	460
+193	Tuvalu	11,792	0 %	30
+194	Nauru	10,824	0 %	20
+195	Holy See	801	0 %	0

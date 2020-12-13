@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\bin\Debug\netcoreapp2.1\05.DirectoryTraversal.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\bin\Debug\netcoreapp2.1\05.DirectoryTraversal.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\bin\Debug\netcoreapp2.1\05.DirectoryTraversal.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\bin\Debug\netcoreapp2.1\05.DirectoryTraversal.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\bin\Debug\netcoreapp2.1\05.DirectoryTraversal.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\05.DirectoryTraversal\obj\Debug\netcoreapp2.1\05.DirectoryTraversal.genruntimeconfig.cache

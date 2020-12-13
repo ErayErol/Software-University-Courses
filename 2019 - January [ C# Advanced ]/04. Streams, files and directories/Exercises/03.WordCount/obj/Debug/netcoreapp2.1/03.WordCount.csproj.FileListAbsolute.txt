@@ -1,0 +1,15 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\03.WordCount.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\03.WordCount.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\03.WordCount.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\03.WordCount.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\03.WordCount.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\obj\Debug\netcoreapp2.1\03.WordCount.genruntimeconfig.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\expectedResult.txt
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\text.txt
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\Exercises\03.WordCount\bin\Debug\netcoreapp2.1\words.txt

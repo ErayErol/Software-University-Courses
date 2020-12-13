@@ -1,0 +1,15 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\04-Solution.exe
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\FileOne.txt
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\FileTwo.txt
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\04-Solution.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\04-Solution.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\04-Solution.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\04-Solution.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\bin\Debug\netcoreapp3.1\04-Solution.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.genruntimeconfig.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\04. Streams, files and directories\LAB\Resources\04. Merge Files\04-Solution\obj\Debug\netcoreapp3.1\04-Solution.csprojAssemblyReference.cache
