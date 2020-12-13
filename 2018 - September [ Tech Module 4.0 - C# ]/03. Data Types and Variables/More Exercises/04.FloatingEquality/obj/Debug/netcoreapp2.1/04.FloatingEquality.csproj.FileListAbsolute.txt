@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\bin\Debug\netcoreapp2.1\04.FloatingEquality.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\bin\Debug\netcoreapp2.1\04.FloatingEquality.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\bin\Debug\netcoreapp2.1\04.FloatingEquality.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\bin\Debug\netcoreapp2.1\04.FloatingEquality.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\bin\Debug\netcoreapp2.1\04.FloatingEquality.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\obj\Debug\netcoreapp2.1\04.FloatingEquality.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\obj\Debug\netcoreapp2.1\04.FloatingEquality.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\obj\Debug\netcoreapp2.1\04.FloatingEquality.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\obj\Debug\netcoreapp2.1\04.FloatingEquality.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\obj\Debug\netcoreapp2.1\04.FloatingEquality.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\04.FloatingEquality\obj\Debug\netcoreapp2.1\04.FloatingEquality.pdb

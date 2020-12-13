@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\bin\Debug\04.Elevator.exe.config
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\bin\Debug\04.Elevator.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\bin\Debug\04.Elevator.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\obj\Debug\04.Elevator.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\obj\Debug\04.Elevator.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\obj\Debug\04.Elevator.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\LAB\04.Elevator\obj\Debug\04.Elevator.pdb

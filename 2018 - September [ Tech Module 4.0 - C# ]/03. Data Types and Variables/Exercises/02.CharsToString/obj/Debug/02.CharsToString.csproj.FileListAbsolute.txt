@@ -1,0 +1,13 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\02.CharsToString\bin\Debug\02.CharsToString.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\02.CharsToString\bin\Debug\02.CharsToString.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\02.CharsToString\bin\Debug\02.CharsToString.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\bin\Debug\02.CharsToString.exe.config
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\bin\Debug\02.CharsToString.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\bin\Debug\02.CharsToString.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\02.CharsToString\obj\Debug\02.CharsToString.pdb

@@ -1,0 +1,21 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.exe.config
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\bin\Debug\08.Snowballs.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\08.Snowballs\obj\Debug\08.Snowballs.pdb
