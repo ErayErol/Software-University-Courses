@@ -20,13 +20,13 @@
          </td>
          <td align="left" width="33%">
             <h4>
-               Student name : E.Erol ⭐
+               Student name: E.Erol ⭐
             </h4>
             <h4>
-               My target : Diploma with C# 🏆
+               My target: Full Stack Web Developer 🏆
             </h4>
             <h4>
-               My Credits : 77 🎯
+               My Credits: 77 🎯
             </h4>
          </td>
       </tr>
