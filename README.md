@@ -7,7 +7,7 @@
             <img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 />
          </a>
          </td>
-         <td align="left" width="35%">
+         <td align="left" width="34%">
             <h3>
                Student name: E.Erol ⭐
             </h3>
