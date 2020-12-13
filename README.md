@@ -42,7 +42,9 @@
 <!-- Summary Begin -->
 <details>
    <summary>
-      <strong> Click </strong> for more detailed information
+      <p>
+         <strong> Click </strong> for more detailed information
+      </p>
       <table width="100%" cellspacing="11" cellpadding="14" align="center">
          <tbody>
             <tr>
