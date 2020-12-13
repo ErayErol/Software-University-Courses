@@ -9,7 +9,7 @@
          </td>
          <td align="left" width="33%">
             <h2>
-               C# ✅
+               C#
             </h2>
             <h2>
                JavaScript ✅
