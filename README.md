@@ -44,12 +44,13 @@
             <tr>
                <th align="left">
                   Technology Fundamentals - September 2018
-                  <br /> 
+                  <br />
                   21.09.2018 - 16.12.2018
                </th>
                <th align="left">
                   Grade: 5.62 (out of 6.00)
-                  <br /> Issue Date: 17/12/2018
+                  <br /> 
+                  Issue Date: 17/12/2018
                </th>
                <th align="left">
                   <p>
@@ -64,10 +65,9 @@
    <summary>
       <strong> Click </strong> for more detailed information
    </summary>
-   
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="1" cellpadding="1" align="left">
       <tbody>
-         <!-- Course Body -->
          <tr>
             <td width="19.5%">
                <ul>
@@ -282,21 +282,21 @@
       </tbody>
    </table>
 </details>
-<hr />
-<hr />
 <!-- C# Technology Fundamentals End -->
-<!-- C# Advanced Start -->  
+<hr />
+<hr />
+<!-- C# Advanced Start -->
 <!-- Summary Begin -->
 <table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
                <th align="left">
                   C# Advanced - January 2019
-                  <br /> 
+                  <br />
                   14.01.2019 - 24.02.2019
                </th>
                <th align="left">
-                  Grade: 5.62 (out of 6.00)
+                  Grade: 5.54 (out of 6.00)
                   <br />
                   Issue Date: 28/02/2019
                </th>
@@ -311,11 +311,10 @@
 <!-- Summary End -->
 <details>
    <summary>
-      <strong> Click </strong> for more detailed information      
+      <strong> Click </strong> for more detailed information
    </summary>
-   
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -437,30 +436,39 @@
       </tr>
    </table>
 </details>
-<hr />
 <!-- C# Advanced End -->
-<!-- C# OOP Start -->  
 <hr />
+<hr />
+<!-- C# OOP Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">C# OOP - October 2019 <br /> 29.10.2019 - 15.12.2019</th>               
-               <th align="left" width="40%">Grade: 6.00 (out of 6.00) <br /> Issue Date: 23/12/2019</th>
-               <th align="left" width="10%">
-                  <p><a title="C# OOP" href="https://softuni.bg/certificates/details/75306/fc669a56" target="_blank">Certificate</a></p>
+               <th align="left">
+                  C# OOP - October 2020
+                  <br />
+                  27.10.2020 - 12.12.2020
+               </th>
+               <th align="left">
+                  Grade: 5.64 (out of 6.00)
+                  <br />
+                  Issue Date: 23/12/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-   
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -582,30 +590,39 @@
       </tr>
    </table>
 </details>
-<hr />
 <!-- C# OOP End -->
-<!-- JavaScript Advanced Start -->  
 <hr />
+<hr />
+<!-- JavaScript Advanced Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">JavaScript Advanced - January 2020 <br /> 13.01.2020 - 23.02.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 28/02/2020</th>
                <th align="left">
-                  <p><a title="JS Advanced" href="https://softuni.bg/certificates/details/76354/4b5497b1" target="_blank">Certificate</a></p>
+                  JavaScript Advanced - January 2020
+                  <br />
+                  13.01.2020 - 23.02.2020
+               </th>
+               <th align="left">
+                  Grade: 6.00 (out of 6.00)
+                  <br />
+                  Issue Date: 28/02/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/80525/8bead0a3" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>     
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -743,30 +760,39 @@
       </tr>
    </table>
 </details>
-<hr />
 <!-- JS Advanced End -->
-<!-- JavaScript Applications Start -->  
 <hr />
+<hr />
+<!-- JavaScript Applications Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">JavaScript Applications - February 2020 <br /> 24.02.2020 - 05.04.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 21/04/2020:</th>
                <th align="left">
-                  <p><a title="JS Applications" href="https://softuni.bg/certificates/details/80325/d2299076" target="_blank">Certificate</a></p>
+                  JavaScript Applications - February 2020
+                  <br />
+                  24.02.2020 - 05.04.2020
+               </th>
+               <th align="left">
+                  Grade: 6.00 (out of 6.00)
+                  <br />
+                  Issue Date: 21/04/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/80470/3750ade7" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -859,32 +885,42 @@
             </ul>
          </td>
       </tr>
-      <!-- JavaScript Applications End --> 
-      <!-- MS SQL Basics Start -->  
       <hr />
    </table>
 </details>
+<!-- JavaScript Applications End -->
+<hr />
+<hr />
+<!-- MS SQL Basics Start -->
 <!-- Summary Begin -->
-<hr />
-<hr />
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">MS SQL Basics - May 2020 <br /> 18.05.2020 - 21.06.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 28/06/2020</th>
                <th align="left">
-                  <p><a title="MS SQL Basics" href="https://softuni.bg/certificates/details/83021/5bb4e9e7" target="_blank">Certificate</a></p>
+                  MS SQL Basics - January 2021
+                  <br />
+                  11.01.2021 - 13.02.2021
+               </th>
+               <th align="left">
+                  Soon<!-- Grade: 6.00 (out of 6.00) -->
+                  <br />
+                  Soon<!-- Issue Date: 21/04/2020 -->
+               </th>
+               <th align="left">
+                  <p>
+                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/80470/3750ade7" target="_blank">Certificate</a> -->
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -1000,32 +1036,40 @@
       <hr />
    </table>
 </details>
-<hr />
 <!-- MS SQL Basics End -->
-<!-- MS SQL Advanced / EF Core Start -->  
 <hr />
-</table>
-</details>
+<hr />
+<!-- MS SQL Advanced / EF Core Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">Entity Framework Core - June 2020 <br /> 22.06.2020 - 08.08.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 18/08/2020:</th>
                <th align="left">
-                 <p><a title="MSSQL advanced - Entity Framework Core" href="https://softuni.bg/certificates/details/86322/358ff520" target="_blank">Certificate</a></p>
+                  Entity Framework Core - February 2021
+                  <br />
+                  13.02.2021 - 08.04.2021
+               </th>
+               <th align="left">
+                  Soon<!-- Grade: 6.00 (out of 6.00) -->
+                  <br />
+                  Soon<!-- Issue Date: 21/04/2020 -->
+               </th>
+               <th align="left">
+                  <p>
+                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/80470/3750ade7" target="_blank">Certificate</a> -->
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+</details>
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -1094,9 +1138,9 @@
             </ul>
          </td>
       </tr>
-  
-  
-  
+
+
+
   <tr >
          <td width="19.5%">
             <ul >
@@ -1137,7 +1181,7 @@
                </li>
             </ul>
          </td>
-      </tr>	
+      </tr>
       <tr >
          <td width="19.5%">
             <ul >
@@ -1165,7 +1209,7 @@
             </ul>
          </td>
 	 <tr >
-      <!-- MS SQL Advanced / EF Core End -->  
+      <!-- MS SQL Advanced / EF Core End -->
       </tbody>
    </table>
 </details>
