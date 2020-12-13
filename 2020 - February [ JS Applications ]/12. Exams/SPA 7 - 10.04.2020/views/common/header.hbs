@@ -1,0 +1,15 @@
+<header id="header">
+    <h1>MyBlog</h1>
+    {{#if isLoggedIn}}
+    <h2>Welcome <span>{{username}}</span>!</h2>
+    <nav id="nav">
+        <ul>
+            <li><a href="#/user/logout">Logout</a></li>
+            {{else}}
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/user/login">Login</a></li>
+            <li><a href="#/user/register">Register</a></li>
+        </ul>
+    </nav>
+    {{/if}}
+</header>

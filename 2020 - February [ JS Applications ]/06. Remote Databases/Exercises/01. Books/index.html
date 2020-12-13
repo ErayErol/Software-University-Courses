@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Books</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./requester.js"></script>
+    <script type="module" src="./app.js"></script>
+</head>
+<body>
+    <button id="loadBooks">LOAD ALL BOOKS</button>  
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Isbn</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <form id="create-form">
+        <h3>FORM</h3>
+        <label>TITLE</label>
+        <input type="text" id="create-title" placeholder="Title...">
+        <label>AUTHOR</label>
+        <input type="text" id="create-author" placeholder="Author...">
+        <label>ISBN</label>
+        <input type="text" id="create-isbn" placeholder="Isnb...">
+        <button>Submit</button>
+    </form>
+
+    <form id="edit-form">
+        <h3>EDIT FORM</h3>
+        <label>TITLE</label>
+        <input type="text" id="edit-title" placeholder="Title...">
+        <label>AUTHOR</label>
+        <input type="text" id="edit-author" placeholder="Author...">
+        <label>ISBN</label>
+        <input type="text" id="edit-isbn" placeholder="Isnb...">
+        <button id="edit-submit">Submit</button>
+    </form>
+</body>
+</html>

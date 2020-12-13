@@ -1,0 +1,57 @@
+{{> header}}
+
+{{#if isLoggedIn}}
+<h1 class="text-center">Our Recipes</h1>
+{{else}}
+<main role="main" class="inner cover mt-5">
+  <h1 class="cover-heading">Coooooking University</h1>
+  <p class="lead">They say that food passes through the stomach, we say that food passes through CookUni...
+  </p>
+</main>
+{{/if}}
+
+{{#if loggedInWithRecipes}}
+<div id="sharedRecipes">
+  {{#each y}}
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-12">
+        <div class="our-team-main">
+
+          <div class="team-front">
+            <img src="{{categoryImageURL}}" />
+            <h3>{{meal}}</h3>
+            <p>{{category}}</p>
+          </div>
+
+          <div class="team-back">
+            <div class="back-side-info">
+              <h4>Ingredients</h4>
+              <ul>
+                {{#each ingredients}}
+                <li>{{this}}</li>
+                {{/each}}
+              </ul>
+              <a href="#/x/details/{{id}}">View the recepie</a>
+            </div>
+
+            <img class="foodImage" src="{{foodImageURL}}" width: 150; height: auto; />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+{{/if}}
+
+{{#if loggedInWithNoRecipes}}
+<div id='foodNotFound'>
+  <img src="https://t4.ftcdn.net/jpg/00/62/17/31/240_F_62173114_ozantkVtkPgzL0fxssAkTqKX1FHPr0UW.jpg" />
+  <h3>Food not found...</h3>
+</div>
+{{/if}}
+
+{{> footer}}

@@ -1,0 +1,32 @@
+{
+  "name": "jstodoapp",
+  "version": "1.0.0",
+  "description": "JS Application 2020 workshop",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "copy src\\index.html dist\\index.html && copy src\\views dist\\views && webpack --mode=development",
+    "build-prod": "copy src\\index.html dist\\index.html && copy src\\views dist\\views && webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jsApps2020Workshop"
+  },
+  "author": "Stamo Petkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-dotall-regex": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "firebase": "^7.12.0",
+    "form-serialize": "^0.7.2",
+    "toastr": "^2.1.4"
+  }
+}

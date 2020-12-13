@@ -1,0 +1,28 @@
+<div class="view-template">
+    <h1>My Todos</h1>
+    <div class="float-right mb-2">
+        <a href="/todo/add" class="btn btn btn-primary">Add</a>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Description</td>
+                <td>Completed</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            {{loop todos}}
+                <tr>
+                    <td>{{description}}</td>
+                    <td>{{isCompleted}}</td>
+                    <td>
+                        <a href="/todo/edit?id={{id}}" class="btn btn-sm btn-warning">Edit</a> 
+                        <a href="/todo/markComplete?id={{id}}" class="btn btn-sm btn-success">Completed</a> 
+                        <a href="/todo/delete?id={{id}}" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            {{endLoop}}
+        </tbody>
+    </table>
+</div>

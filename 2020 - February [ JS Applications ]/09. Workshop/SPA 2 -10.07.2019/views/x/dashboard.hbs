@@ -1,0 +1,23 @@
+{{> header}}
+
+<div style="margin-top:3%; padding-top: 3%;" class="container">
+    {{#each y}}
+    <div style="margin-bottom:25%;" class="row">
+        <div class="col-lg-12">
+            <div class="card mt-4">
+                <img style="max-width: 1200px; height: auto; border-radius:25px;" class="card-img-top img-fluid"
+                    src="{{pictureUrl}}" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">{{cause}}</h3>
+                    <p class="card-text">{{description}}</p>
+                    <a href="#/x/dashboard/details/{{id}}" class="btn btn-success">Become a donor $$$</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <h1 class="text-center">NO CAUSES :(</h1>
+    {{/each}}
+</div>
+
+{{> footer}}

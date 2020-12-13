@@ -1,0 +1,18 @@
+{{> header}}
+
+<div class="col-md-6 text-center col-lg">
+    <img class="profile-img" src="./images/user.png" />
+    <div class="profile-info">
+        <p>Username: <small>{{username}}</small></p>
+        <p class="infoType">Organizer of {{count}} events.</p>
+        {{#if haveEvents}}
+        {{#each events}}
+        <p>{{this}}</p>
+        {{/each}}
+        {{else}}
+        <p>No events</p>
+        {{/if}}
+    </div>
+</div>
+
+{{> footer}}

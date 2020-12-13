@@ -1,0 +1,48 @@
+{{> header}}
+
+<div class="container" style="margin-bottom: 2%; margin-top:5%;">
+  <div class="row">
+    <div class="modal-content col-lg-12">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">Make a donation</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img style="border-radius: 5px;" src="{{pictureUrl}}" name="aboutme" width="500" height="auto" border="0"
+            class="img-circle">
+          <h3 class="media-heading">{{cause}}</h3>
+          <span>Collected</span>
+          <strong class="label text-success">${{collectedFunds}}</strong>
+          <span> from </span>
+          <strong class="label text-info">${{neededFunds}}</strong>
+        </center>
+        <hr>
+        <center>
+          <p style="word-wrap: break-word;" class="text-left"><strong>Description: </strong><br>
+            {{description}}
+          </p>
+          <br>
+          <p style="word-wrap: break-word;" class="text-left"><strong>Donors:</strong><br>
+            {{#each donors}}
+            <span>{{this}}</span>
+            {{/each}}
+          </p>
+        </center>
+      </div>
+      <div class="modal-footer">
+        {{#if canZ}}
+        <a href="#/x/delete/:xId" class="btn btn-danger">Close the cause</a>
+        {{else}}
+        <form method="get" action="#/x/update/:xId">
+          <label class="grey-text font-weight-light">My donation: </label>
+          <input name="collectedFunds" type="number" min="1" class="form-control" />
+          <button style="width: 100%;" class="btn btn-success" type="submit">Make the donation</button>
+        </form>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer}}

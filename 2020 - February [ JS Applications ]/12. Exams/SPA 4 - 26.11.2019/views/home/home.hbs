@@ -1,0 +1,214 @@
+{{> header}}
+
+{{#if loggedInWithTreks}}
+{{#each y}}
+<div id="eventsHolder">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden eventPlaceholder">
+    <div class="my-3 p-3">
+      <h2 class="display-5">{{name}}</h2>
+    </div>
+    <div>
+      <div class="img"><img class="eventPicture" src="{{imageURL}}" />
+      </div>
+      <a href="#/x/details/{{ id }}" class="eventDetails">More</a>
+    </div>
+  </div>
+  {{/each}}
+  {{/if}}
+
+  {{#if loggedInWithNoTreks}}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="fouronefour">
+          <img class="no-found-picture" src="./images/404face.png" />
+        </div>
+        <div class="error-template">
+          <h1>
+            Oops!</h1>
+          <h2>
+            404 Not Found</h2>
+          <div class="error-details">
+            UniEnt cannot find any event...
+          </div>
+          <div class="actions">
+            <a href="#/x/create" class="btn btn-dark btn-lg">Create the first one? </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+
+  {{#if isLoggedIn}}
+  {{else}}
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div style=" padding-left: 7%; padding-top:3%;" class="col-md-7">
+      <h2 class="featurette-heading">The events that <span class="text-muted">will blow your mind!</span></h2>
+      <p class="lead">Join our community.</p>
+      <p style="padding-left:5%" class="lead">Organizie an event.</p>
+      <p style="padding-left:10%" class="lead">Gathered as many people as possible for one purpose.</p>
+      <p style="padding-left:15%" class="lead">Learn!</p>
+      <p style="padding-left:20%" class="lead">Share!</p>
+      <p style="padding-left:25%" class="lead">Enjoy the life!</p>
+    </div>
+    <div class="col-md-5">
+      <img class="home-event-picture" src="./images/events.png" />
+    </div>
+  </div>
+  {{/if}}
+
+  {{> footer}}
+
+
+  {{!-- ARTICLE --}}
+  {{!-- {{#if isLoggedIn}}
+<div class="content">
+  <section class="js">
+    <h2>JavaScript</h2>
+    <div class="articles">
+      {{#each JavaScript}}
+      <article>
+        {{#if haveArticle}}
+        <h3>{{title}}</h3>
+        <p>{{content}}</p>
+        <a href="#/x/details/{{id}}" class="btn details-btn">Details</a>
+        {{/if}}
+      </article>
+      {{else}}
+      <h3 class="no-articles">No articles yet</h3>
+      {{/each}}
+    </div>
+  </section>
+  <section class="CSharp">
+    <h2>C#</h2>
+    <div class="articles">
+      {{#each CSharp}}
+      <article>
+        {{#if haveArticle}}
+        <h3>{{title}}</h3>
+        <p>{{content}}</p>
+        <a href="#/x/details/{{id}}" class="btn details-btn">Details</a>
+        {{/if}}
+      </article>
+      {{else}}
+      <h3 class="no-articles">No articles yet</h3>
+      {{/each}}
+    </div>
+  </section>
+  <section class="Java">
+    <h2>Java</h2>
+    <div class="articles">
+      {{#each Java}}
+      <article>
+        {{#if haveArticle}}
+        <h3>{{title}}</h3>
+        <p>{{content}}</p>
+        <a href="#/x/details/{{id}}" class="btn details-btn">Details</a>
+        {{/if}}
+      </article>
+      {{else}}
+      <h3 class="no-articles">No articles yet</h3>
+      {{/each}}
+    </div>
+  </section>
+  <section class="Pyton">
+    <h2>Pyton</h2>
+    <div class="articles">
+      {{#each Pyton}}
+      <article>
+        {{#if haveArticle}}
+        <h3>{{title}}</h3>
+        <p>{{content}}</p>
+        <a href="#/x/details/{{id}}" class="btn details-btn">Details</a>
+        {{/if}}
+      </article>
+      {{else}}
+      <h3 class="no-articles">No articles yet</h3>
+      {{/each}}
+    </div>
+  </section>
+</div>
+{{else}}
+<div class="container auth">
+  <form action="#/user/login" method="post">
+    <fieldset>
+      <legend>Login</legend>
+      <blockquote>Knowledge is like money: to be of value it must circulate, and in circulating it can increase in
+        quantity and, hopefully, in value</blockquote>
+      <p class="field email">
+        <input type="email" id="email" name="email" placeholder="maria@email.com">
+        <label for="email">Email:</label>
+      </p>
+      <p class="field password">
+        <input type="password" id="login-pass" name="password">
+        <label for="login-pass">Password:</label>
+      </p>
+      <p class="field submit">
+        <button class="btn submit" type="submit">Log In</button>
+      </p>
+      <p class="field">
+        <span>If you don't have profile click <a href="#/user/register">here</a></span>
+      </p>
+    </fieldset>
+  </form>
+</div>
+{{/if}} --}}
+
+  {{!-- TREK --}}
+  {{!-- {{#if loggedInWithTreks}}
+<div id="treks-list">
+    {{#each y}}
+    <a href="#/x/details/{{ id }}" class="card overflow-hidden treksPlaceholder trek-details" style="width: 20rem; height: 18rem;">
+      <div class="card-body">
+        <p class="card-text">{{location}}</p>
+      </div>
+      <img class="card-image"
+        src="{{imageURL}}"
+        alt="Card image cap">
+    </a>
+     {{/each}}
+  </div>
+{{/if}} --}}
+
+  {{!-- {{#if loggedInWithNoTreks}}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="fouronefour">
+          <img class="no-found-picture" src="./images/empty.jpg" />
+        </div>
+        <div class="no-found-template">
+          <h1>
+            There aren't any treks, yet!</h1>
+          <h2>
+            What do you have in mind?</h2>
+          <div class="no-found-details">
+            Be the first explorer!
+          </div>
+          <div class="actions">
+            <a href="#/x/create" class="btn btn-dark btn-lg">Create the first trek? </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+{{/if}} --}}
+
+
+  {{!-- {{#if isLoggedIn}}
+  {{else}}
+<div class="home d-md-flex flex-md-equal  my-md-3 pl-md-3">
+    <div style=" padding-left: 7%; padding-top:3%;" class="col-md-7">
+      <h2 class="featurette-heading">Here you will find the treks you've <span class="text-highlighted">always dreamed
+          about!</span></h2>
+      <p class="lead">1. Join our family.</p>
+      <p style="padding-left:5%" class="lead">2. Request the trek you've always wanted.</p>
+      <p style="padding-left:10%" class="lead">3. Find people who like your idea.</p>
+      <p class="lead">If you find enough supporters, we will organize everything for you!</p>
+    </div>
+    <div class="col-md-5">
+      <img class="home-picture" src="./images/mountainLogo.png" />
+    </div>
+  </div>
+  {{/if}} --}}

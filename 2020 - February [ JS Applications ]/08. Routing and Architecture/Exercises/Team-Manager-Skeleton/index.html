@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/team.css">
+  <link rel="stylesheet" type="text/css" href="css/details.css">
+  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
+  <script src="./node_modules/sammy/lib/min/sammy-0.7.6.min.js"></script>
+  <script src="./node_modules/sammy/lib/min/plugins/sammy.handlebars-0.7.6.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+
+  <script defer src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCRL1UKFf76cM5Cihgb9nRvCXlFz1vkBc4",
+      authDomain: "my-awesome-app-2020.firebaseapp.com",
+      databaseURL: "https://my-awesome-app-2020.firebaseio.com",
+      projectId: "my-awesome-app-2020",
+      storageBucket: "my-awesome-app-2020.appspot.com",
+      messagingSenderId: "342329798299",
+      appId: "1:342329798299:web:bfb2fb58c66a87c4c9603e",
+      measurementId: "G-ZY83EJ2HR8"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script type="module" src="scripts/app.js"></script>
+  <title>Team Managers App</title>
+</head>
+
+<body>
+  <div id="infoBox" class="notification" disabled></div>
+  <div id="errorBox" class="notification" disabled></div>
+  <div id="main">
+
+  </div>
+</body>
+
+</html>

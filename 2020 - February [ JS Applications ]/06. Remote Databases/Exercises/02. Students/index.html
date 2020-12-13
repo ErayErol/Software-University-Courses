@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="../requester.js"></script>
+    <script type="module" src="./app.js"></script>
+</head>
+
+<body>
+    <table id="results">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Faculty Number</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <form id = "form">
+        <h3>Create Student</h3>
+        <label>ID</label>
+        <input type="number" id="id" placeholder="ID...">
+        <label>First Name</label>
+        <input type="text" id="firstName" placeholder="First Name...">
+        <label>Last Name</label>
+        <input type="text" id="lastName" placeholder="Last Name...">
+        <label>Faculty Number</label>
+        <input type="text" id="facultyNumber" placeholder="Faculty Number...">
+        <label>Grade</label>
+        <input type="number" id="grade" placeholder="Grade...">
+        <button id="createBtn-submit">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+{{> header}}
+
+{{#if isLoggedIn}}
+<section id="home-logged">
+  <section class="first-section">
+    <section class="background-container">
+      <form action="#/x/create" method="post">
+        <h1>Create Post</h1>
+        <label for="title">Title</label>
+        <input type="text" name="title">
+        <label for="category">Category</label>
+        <input type="text" name="category">
+        <label for="content">Content</label>
+        <textarea name="content" cols="30" rows="7"></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+  </section>
+  <section class="second-section">
+    <h3>Posts</h3>
+    <hr>
+    <div class="posts-row">
+      {{#if loggedInWithPosts}}
+      {{#each posts}}
+      <article class="post">
+        <h1>{{title}}</h1>
+        <h2><span>{{category}}</span></h2>
+        <p>{{content}}</p>
+        <a href="#/details/{{id}}" id="details-button">Details</a>
+        <a href="#/x/delete/{{id}}" id="delete-button">Delete</a>
+        <a href="#/x/details/edit/{{id}}" id="edit-button">Edit</a>
+      </article>
+      {{/each}}
+      {{/if}}
+    </div>
+  </section>
+</section>
+{{else}}
+<section id="home">
+  <section class="background-container">
+    <h1>Welcome to MyBlog!</h1>
+    <div class="auth-buttons">
+      <a href="#/user/login">Login</a>
+      <a href="#/user/register">Register</a>
+    </div>
+  </section>
+</section>
+{{/if}}
