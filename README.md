@@ -37,15 +37,12 @@
 <hr>
 <hr>
 <hr>
-<hr>
 <!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
 <details>
    <summary>
-      <p>
-         <strong> Click </strong> for more detailed information
-      </p>
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
+      <strong> Click </strong> for more detailed information
+      <table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
                <th align="left">
