@@ -4,7 +4,7 @@
       <tr>
          <td align="left" width="25%">
          <a href="https://softuni.bg">
-            <img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 />
+            <img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 300 />
          </a>
          </td>
          <td align="left" width="33%">
@@ -1480,5 +1480,3 @@
    </table>
 </details>
 <!-- CSS Advanced End -->
-<hr />
-<hr />
