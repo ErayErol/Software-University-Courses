@@ -39,8 +39,7 @@
 <hr>
 <!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
-<details>
-   <table width="100%" cellspacing="11" cellpadding="14">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
                <th align="left">
@@ -59,7 +58,8 @@
                </th>
             </tr>
          </tbody>
-   </table>
+</table>
+<details>
    <summary>
       <strong> Click </strong> for more detailed information
    </summary>
