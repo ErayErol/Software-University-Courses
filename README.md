@@ -9,7 +9,7 @@
          </td>
          <td align="left" width="33%">
             <h2>
-               C#
+               C# ✅
             </h2>
             <h2>
                JavaScript ✅
@@ -19,9 +19,11 @@
             </h2>
          </td>
          <td align="left" width="33%">
+	      <a href="https://www.linkedin.com/in/eray-erol-a05789170/">
             <img src="https://avatars3.githubusercontent.com/u/42773965?s=460&u=77e86dac05c259d9b9291199306afc83bbfc5c26&v=4"/>
+		   </a>
             <h4>
-            Student name: <strong>Eray Erol</strong>
+               Student name: Eray Erol
             </h4>
          </td>
       </tr>
