@@ -16,10 +16,8 @@
             <!-- <img src="https://avatars1.githubusercontent.com/u/52930559?s=460&u=56c073c9be5078b046e7d01ceff70417375ceb2f&v=4" width = 20% height= 20% alt="LinkedIn" /> -->
             Student name: 
             <strong>
-            <a title="Eray Erol" href="XXXX" target="_blank">
             Eray Erol ✅
-            </a>
-            </strong></p>
+            </strong>
          </td>
       </tr>
    </tbody>
