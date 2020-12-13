@@ -19,9 +19,6 @@
             </h2>
          </td>
          <td align="left" width="33%">
-	      <a href="https://www.linkedin.com/in/eray-erol-a05789170/">
-            <img src="https://avatars3.githubusercontent.com/u/42773965?s=460&u=77e86dac05c259d9b9291199306afc83bbfc5c26&v=4" width = 125/>
-		   </a>
             <h4>
                Student name : E.Erol ⭐
             </h4>
