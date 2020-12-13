@@ -59,11 +59,11 @@
             </tr>
          </tbody>
 </table>
+<!-- Summary End -->
 <details>
    <summary>
       <strong> Click </strong> for more detailed information
    </summary>
-<!-- Summary End -->
    
    <table border="0" width="100%" cellspacing="1" cellpadding="1" align="left">
       <tbody>
@@ -287,10 +287,7 @@
 <!-- C# Technology Fundamentals End -->
 <!-- C# Advanced Start -->  
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
                <th align="left">
@@ -310,9 +307,12 @@
                </th>
             </tr>
          </tbody>
-      </table>      
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information      
    </summary>
-   <!-- Summary End -->
    
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
       <!-- Course Body -->
@@ -1170,84 +1170,3 @@
    </table>
 </details>
 <hr />
-
-
-<!-- C# Web Basics START --> 
-<hr />
-</table>
-</details>
-<!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
-         <tbody>
-            <tr>
-               <th align="left" width="50%">C# Web Basics - September 2020 <br /> 15.09.2020 - 25.10.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: XX/XX/XXXX:</th>
-               <th align="left">
-                 <p><a title="MSSQL advanced - Entity Framework Core" href="https://softuni.bg/certificates/details/86322/358ff520" target="_blank">Certificate</a></p>
-               </th>
-            </tr>
-         </tbody>
-      </table>  
-   </summary>
-   <!-- Summary End -->
-	
-   <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
-      <tr >
-         <td width="19.5%">
-            <ul >
-               <li>
-                  <p><a title="ADO.Net" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Custom%20MVC%20Framework">Custom MVC Framework - result of all workshops</a>
-                  </p>
-               </li>
-            </ul>
-         </td>         
-      </tr>   
-      <tr>
-         <tr>
-            <td colspan="3" align="center" width="100%">
-               <h3><i><b>Exam Preparation</b></i></h3>
-            </td>
-         </tr>
-      </tr>
-	 <tr >
-         <td width="19.5%">
-            <ul >
-               <li>
-                  <p><a title="Entity Framework Core Exam - 13 Dec 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/Exam%20-%2016%20Feb%202020%20-%20Shared%20trip" target="_blank">Exam - 16 Feb 2020 - Shared trip</a>
-                  </p>
-               </li>
-            </ul>
-         </td>
-         <td colspan="2" width="20%">
-            <ul >
-               <li>
-                  <p><a title="Entity Framework Core Retake Exam - 18 Apr 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/Exam%20-%2016%20Jun%202019%20-%20SULS" target="_blank">Exam - 16 Jun 2019 - SULS</a></p>
-               </li>
-            </ul>
-         </td>
-      </tr>
-      <tr >
-         <td width="19.5%">
-            <ul >
-               <li>
-                  <p><a title="Entity Framework Core Exam - 13 Dec 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/Exam%20-%2028%20Apr%202020%20-%20Battle%20cards" target="_blank">Exam - 28 Apr 2020 - Battle cards</a>
-                  </p>
-               </li>
-            </ul>
-         </td>
-         <td colspan="2" width="20%">
-            <ul >
-               <li>
-                  <p><a title="Entity Framework Core Retake Exam - 18 Apr 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/My%20exam%20-%2025.10.2020%20-%20Git" target="_blank">My exam - 25.10.2020 - Git</a></p>
-               </li>
-            </ul>
-         </td>
-      </tr>      
-      <!-- C# Web Basics END -->  
-      </tbody>
-   </table>
-</details>
