@@ -8,6 +8,18 @@
          </a>
          </td>
          <td align="left" width="33%">
+            <h3>
+               Student name: E.Erol ⭐
+            </h3>
+            <h3>
+               <p>My target:</p>
+               <p>Full Stack Web Developer 🏆</p>
+            </h3>
+            <h3>
+               My Credits: 77 🎯
+            </h3>
+         </td>
+         <td align="left" width="33%">
             <h2>
                C# ✅
             </h2>
@@ -16,20 +28,6 @@
             </h2>
 	         <h2>
                HTML & CSS ✅
-            </h2>
-         </td>
-         <td align="left" width="33%">
-            <h2>
-               Student name: E.Erol ⭐
-            </h2>
-            <h2>
-               My target:
-            </h2>
-	    <h2>
-               Full Stack Web Developer 🏆
-            </h2>
-            <h2>
-               My Credits: 77 🎯
             </h2>
          </td>
       </tr>
