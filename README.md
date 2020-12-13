@@ -34,22 +34,31 @@
    </tbody>
 </table>
 <!-- HEAD END -->
-</hr>
-</hr>
+<hr />
+<hr />
+<hr />
+<hr />
 <!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
 <details>
    <summary>
       <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
+      <table width="100%" cellspacing="11" cellpadding="14" align="left">
          <tbody>
             <tr>
-               <th align="left">Technology Fundamentals - September 2018<br /> 
+               <th align="left">
+                  Technology Fundamentals - September 2018
+                  <br /> 
                   21.09.2018 - 16.12.2018
                </th>
-               <th align="left">Grade: 5.62 (out of 6.00)<br /> Issue Date: 17/12/2018</th>
                <th align="left">
-                  <p><a title="Technology Fundamentals" href="https://softuni.bg/certificates/details/61142/ca611a05" target="_blank">Certificate</a></p>
+                  Grade: 5.62 (out of 6.00)
+                  <br /> Issue Date: 17/12/2018
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="Technology Fundamentals" href="https://softuni.bg/certificates/details/61142/ca611a05" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
