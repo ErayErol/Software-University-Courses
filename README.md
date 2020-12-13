@@ -450,13 +450,13 @@
                   27.10.2020 - 12.12.2020
                </th>
                <th align="left">
-                  Grade: 5.64 (out of 6.00)
+                  Soon<!-- Grade: 5.64 (out of 6.00) -->
                   <br />
-                  Issue Date: 23/12/2020
+                  Soon<!-- Issue Date: 23/12/2020 -->
                </th>
                <th align="left">
                   <p>
-                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a>
+                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a> -->
                   </p>
                </th>
             </tr>
@@ -1104,7 +1104,7 @@
             </ul>
          </td>
       </tr>
-	<tr >
+	   <tr >
          <td width="19.5%">
             <ul >
                <li>
@@ -1121,7 +1121,7 @@
             </ul>
          </td>
       </tr>
-  <tr >
+      <tr >
          <td width="19.5%">
             <ul >
                <li>
@@ -1138,10 +1138,7 @@
             </ul>
          </td>
       </tr>
-
-
-
-  <tr >
+      <tr >
          <td width="19.5%">
             <ul >
                <li>
@@ -1209,8 +1206,279 @@
             </ul>
          </td>
 	 <tr >
-      <!-- MS SQL Advanced / EF Core End -->
       </tbody>
    </table>
 </details>
+<!-- MS SQL Advanced / EF Core End -->
+<hr />
+<hr />
+<!--HTML & CSS Start -->
+<!-- Summary Begin -->
+<table width="100%" cellspacing="11" cellpadding="14">
+         <tbody>
+            <tr>
+               <th align="left">
+                  HTML & CSS - May 2020
+                  <br />
+                  13.01.2020 - 23.02.2020
+               </th>
+               <th align="left">
+                  Grade: 6.00 (out of 6.00)
+                  <br />
+                  Issue Date: 22/07/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/84903/376c266d" target="_blank">Certificate</a>
+                  </p>
+               </th>
+            </tr>
+         </tbody>
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
+   </summary>
+<!-- Course Body -->
+   <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Syntax, functions and statements" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/1.%20Syntax%2C%20Functions%20and%20Statements" target="_blank">Introduction to HTML and CSS</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Arrays" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/2.%20Arrays" target="_blank">HTML Structure</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Objects" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/3.%20Objects" target="_blank">CSS and Typography</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Advanced functions" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/4.%20Advanced%20Functions" target="_blank">CSS Box Model</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="DOM" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/5.%20DOM" target="_blank">Position & Float</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="DOM manipulation" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/6.%20DOM%20Manipulations" target="_blank">Flexbox</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+         <td colspan="3" align="center" width="100%">
+            <h3><i><b>Exam Preparation</b></i></h3>
+         </td>
+      </tr>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="26 October 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20-%2026%20October%202019" target="_blank">Exam - 26 October 2019</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="07 July 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Exam%20-%2007%20July%202019" target="_blank">Exam - 07 July 2019</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="July 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Exam%20Preparation%20-%20July%202019" target="_blank"><i>Exam preparation -  July  2019</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="08 April 2020" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Retake%20-%2008%20April%202020" target="_blank">Exam - 08 April 2020</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="08 August 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Retake%20-%2008%20August%202019" target="_blank">Exam - 08 August 2019</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="10 December 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Retake%20Exam%20-%2010%20December%202019" target="_blank">Exam - 10 December 2019</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+   </table>
+</details>
+<!-- HTML & CSS End -->
+<hr />
+<hr />
+<!-- CSS Advanced Start -->
+<!-- Summary Begin -->
+<table width="100%" cellspacing="11" cellpadding="14">
+         <tbody>
+            <tr>
+               <th align="left">
+                  CSS Advanced - July 2020
+                  <br />
+                  06.07.2020 - 08.08.2020
+               </th>
+               <th align="left">
+                  Grade: 5.86 (out of 6.00)
+                  <br />
+                  Issue Date: 31/08/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/87631/d8b5539d" target="_blank">Certificate</a>
+                  </p>
+               </th>
+            </tr>
+         </tbody>
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
+   </summary>
+<!-- Course Body -->
+   <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="This" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/1_This" target="_blank">This - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Object composition" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/2_Object_Composition" target="_blank">Object composition - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Prototypes and inheritance" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/3_Prototypes_and_Inheritance" target="_blank">Prototypes and inheritance - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="REST Services and AJAX" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/4_Rest_Services_and_AJAX" target="_blank">REST services and AJAX - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Asynchronous programming" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/5_Asynchronous_Programming" target="_blank">Asynchronous programming - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Remote DB" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/6_Remote_Databases" target="_blank">Remote DataBases - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Templating" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/7_Templating" target="_blank">Templating - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Routing" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/8.%20Unit%20Testing" target="_blank">Routing - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr>
+      <tr>
+         <td colspan="3" align="center" width="100%">
+            <h3><i><b>Exam Preparation</b></i></h3>
+         </td>
+      </tr>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="05 April 2020" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/Exams" target="_blank">Exam - 05 April 2020</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="07 December 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/Exams" target="_blank">Exam - 07 December 2019</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <hr />
+   </table>
+</details>
+<!-- CSS Advanced End -->
+<hr />
 <hr />
