@@ -4,9 +4,6 @@
       <tr>
          <td align="left" width="33%"><img style="text-align: center;" src="http://conf.softuni.bg/wp-content/uploads/2015/01/SoftUni-Logo-Flat_square-blue-300x235.png"/></td>
          <td align="left" width="33%">
-            <h1>
-               <a href="https://softuni.bg/">SoftUni</a>
-            </h1>
             <h2>
                C# ✅
             </h2>
@@ -19,14 +16,9 @@
          </td>
          <td align="left" width="33%">
             <img src="https://avatars3.githubusercontent.com/u/42773965?s=460&u=77e86dac05c259d9b9291199306afc83bbfc5c26&v=4"/>
-            <p>
-            Student name:
-            </p>
-            <h5>
-            <strong>
-            Eray Erol
-            </strong>
-            </h5> 
+            <h4>
+            Student name: <strong>Eray Erol</strong>
+            </h4>
          </td>
       </tr>
    </tbody>
