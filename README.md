@@ -7,7 +7,7 @@
             <img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 />
          </a>
          </td>
-         <td align="left" width="34%">
+         <td align="left" width="33%">
             <h3>
                Student name: E.Erol ⭐
             </h3>
@@ -34,119 +34,7 @@
    </tbody>
 </table>
 <!-- HEAD END -->
-<!-- C# Basics Start -->
 
-<hr />
-<!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-      <table width="100%" align="center">
-         <tbody>
-            <tr>
-               <th align="left" width="50%">Programming basics with C# - March 2019 <br /> 
-                  09.03.2019 - 20.04.2019
-               </th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 24/04/2019</th>
-               <th align="left">
-                  <p><a width="10% title="C# Basics" href="https://softuni.bg/certificates/details/66322/4f0418c3" target="_blank">Certificate</a></p>
-               </th>
-            </tr>
-         </tbody>
-      </table>
-   </summary>
-
-   <!-- Summary End -->
-
-   <table width="100%" cellspacing="5" cellpadding="5" align="left">
-      <tbody>
-         <!-- Course Body -->
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Simple operations and calculations" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/1.%20Simple%20Operations%20and%20Calculations" target="_blank">Simple operations and calculations - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Conditional statements" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/2_Conditional-statements" target="_blank">Conditional statements - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Nested conditional statements" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/3_Nested-conditional-statements" target="_blank">Nested conditional statements - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="While loop" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/4_While-loop" target="_blank">While loop - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="For loop" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/5_For-loop" target="_blank">For loop - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="20%">
-               <ul>
-                  <li>
-                     <p><a title="Nested loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/6_Nested-loops" target="_blank">Nested loops - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-         <tr>
-         <tr>
-            <td colspan="3" align="center" width="100%">
-               <h3><i><b>Exam Preparation</b></i></h3>
-            </td>
-         </tr>
-         </tr>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Exam 24 November 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exams/Exam%20-%2024%20November%202019" target="_blank">Programming basics with C# Exam - 24 November 2019</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="20%">
-               <ul>
-                  <li>
-                     <p><a title="Exam 20 April 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exams/Exam%20-%2020%20%20April%202019" target="_blank">Programming basics with C# - 20 April 2019 (exam)</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-      <tbody>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Programming basics Exam - 9/10 March" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exams/Exams%20-%209%20and%2010%20March%202019" target="_blank">Programming basics Exams - 9 and 10 March 2019</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-   </table>
-   </tbody>
-</details>
-<hr />
-<!-- C# Basics End -->
 <!-- C# Fundamentals Start -->
 <hr />
 <!-- Summary Begin -->
@@ -156,10 +44,10 @@
       <table width="100%" cellspacing="11" cellpadding="14" align="center">
          <tbody>
             <tr>
-               <th align="left" width="50%">C# Fundamentals - May 2019<br /> 
-                  15.05.2019 - 03.08.2019
+               <th align="left" width="50%">2018 September - [ C# Tech Module ]<br /> 
+                  [ 17.09.2018 - 17.12.2018 ]
                </th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 12/08/2019</th>
+               <th width="40%" align="left">[ Grade: 6.00 (out of 6.00) ]<br /> Issue Date: 12/08/2019</th>
                <th align="left">
                   <p><a title="C# Fundamentals" href="https://softuni.bg/certificates/details/69255/3315630e" target="_blank">Certificate</a></p>
                </th>
