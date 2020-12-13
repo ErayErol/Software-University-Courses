@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.site-main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-to-box {
+  width: 50px;
+  height: 50px;
+  animation: circle-to-square 1.2s infinite alternate ease;
+}
+
+@keyframes circle-to-square {
+  0% {
+    background: red;
+    border-radius: 50%;
+  }
+
+  100% {
+    background: orange;
+    border-radius: 0;
+    width: 100px;
+    height: 100px;
+  }
+}

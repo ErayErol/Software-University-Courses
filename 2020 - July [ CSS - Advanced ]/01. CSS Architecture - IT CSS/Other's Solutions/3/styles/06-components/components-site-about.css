@@ -1,0 +1,26 @@
+.c-site-about {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    flex-flow: column wrap;
+    height: 500px;
+    color: white;
+}
+
+.c-site-about-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.c-site-about-buttons hr {
+    height: 25px;
+    width: 2px;
+    margin: 0;
+}
+
+.c-site-about .c-about-button {
+    padding: 10px 30px;
+    outline: none;
+}

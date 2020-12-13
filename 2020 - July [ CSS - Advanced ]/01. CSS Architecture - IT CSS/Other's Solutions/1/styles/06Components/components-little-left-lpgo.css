@@ -1,0 +1,10 @@
+.o-main-container-article-first .c-litte-left-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    left: 40%;
+    bottom: 10%;
+    border-radius: 8px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+}

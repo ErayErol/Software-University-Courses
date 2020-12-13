@@ -1,0 +1,16 @@
+.c-cta{
+    display: inline-block;
+    background-color: #44a9f8;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.c-cta:hover{
+    text-decoration: none;
+}

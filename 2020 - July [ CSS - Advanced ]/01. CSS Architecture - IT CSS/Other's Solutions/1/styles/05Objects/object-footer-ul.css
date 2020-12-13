@@ -1,0 +1,14 @@
+.o-footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+.o-footer-ul a {
+    margin-left: 5px;
+    color: #3e4c5d;
+}
+
+.o-footer-ul i {
+    margin-left: 5px;
+    color: #3e4c5d;
+}

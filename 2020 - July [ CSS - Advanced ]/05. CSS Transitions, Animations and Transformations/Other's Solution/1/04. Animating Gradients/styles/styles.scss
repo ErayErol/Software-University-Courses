@@ -1,0 +1,59 @@
+@keyframes show-background {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hide-background {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.gradients-container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  &:before {
+    background: linear-gradient(#8495a0, #e5eaec);
+  }
+
+  &:after {
+    background: linear-gradient(#ca8635, #fbc582);
+    animation: hide-background 0.5s ease-in alternate;
+  }
+
+  &:hover {
+    &:after {
+      animation: show-background 0.5s ease-in alternate;
+      animation-fill-mode: forwards;
+    }
+  }
+}

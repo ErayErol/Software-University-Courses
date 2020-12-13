@@ -1,0 +1,97 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'LatoWeb';
+  src: url('/font/Lato/fonts/Lato-Regular.ttf') format('truetype');
+}
+
+html,
+* {
+  font-family: 'LatoWeb';
+}
+
+a,
+button {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+a {
+  font-weight: 600;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+button {
+  font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+.h1-like {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 44px;
+  font-size: 36px;
+}
+
+h2,
+.h2-like {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 30px;
+}
+
+h3,
+.h3-like {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+h4,
+.h4-like {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+h5,
+.h5-like {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  font-family: "LatoWeb";
+}
+
+h6,
+.h6-like {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "LatoWeb";
+}

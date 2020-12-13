@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrapper {
+    display: inline-block;
+    position: relative;
+}
+.img-wrapper::before {                
+    content: '';
+    background: #fab;
+
+    /* positioning / sizing */
+    position: absolute;
+    left:0;
+    top:0;                                
+
+    /* 
+        be aware that the parent class have to be "position: relative"
+        in order to get the width/height's 100% working for the parent's width/height.                
+    */
+    width: 100%;
+    height: 100%;
+
+    /* z-index is important to get the pseudo element to the background (behind the content of parent)! */
+    z-index: -1;
+    transition: .5s ease;
+    /* transform before hovering */
+    transform: rotate(30deg);
+}

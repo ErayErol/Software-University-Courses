@@ -1,0 +1,52 @@
+.c-softuni-summary {
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.c-softuni-summary-info {
+    width: 50%;
+    color: #29394b;
+}
+
+.c-softuni-summary-info p {
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.c-softuni-summary-images {
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-softuni-summary-images img {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+.c-softuni-summary-logos {
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.c-softuni-logo {
+    top: 900px;
+    left: 670px;
+}
+
+.c-softuni-university-logo {
+    top: 900px;
+    left: 1110px;
+}

@@ -1,0 +1,3 @@
+@mixin for-desktop-up {
+    @media (min-width: 1024px) { @content; }
+}

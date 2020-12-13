@@ -1,0 +1,54 @@
+@import "../settings/settings-colors.scss";
+
+.filter {
+    background-color: $grey-50;
+}
+
+.filter__container {
+    height: 92px;
+}
+
+.filter__title {
+    color: $grey-700;
+}
+
+.filter__label {
+    display: flex;
+}
+
+.filter__label__img {
+    margin-right: 20px;
+}
+
+.filter__level {
+    margin-left: 80px;
+}
+
+.filter__level__info {
+    margin-left: 10px;
+}
+
+.filter__location {
+    position: relative;
+}
+
+.filter__location__img__circle {
+    position: absolute;
+    left: 6px;
+    bottom: 18px;
+}
+
+.filter__label::after {
+    content: '';
+    background: url("/assets/icons/arrow.svg") center no-repeat;
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+    top: 17px;
+}
+
+.filter__level::after {
+    right: 60px;
+}

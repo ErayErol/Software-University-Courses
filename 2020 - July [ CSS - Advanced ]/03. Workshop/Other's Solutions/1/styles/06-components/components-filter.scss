@@ -1,0 +1,51 @@
+@import '../01-settings/settings-breakpoints.scss';
+.filter--wrapper {
+    background-color: #F8F8F8;
+    .filter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include for-tablet-landscape-up {
+            flex-flow: column nowrap;
+        }
+    }
+    .filter__title {
+        color: #565656;
+        @include for-desktop-up {
+            display: none;
+        }
+    }
+    .filter__label {
+        display: flex;
+        align-items: flex-end;
+        margin: 1rem 0rem;
+        @include for-tablet-landscape-up {
+            position: relative;
+        }
+        &::after {
+            content: "";
+            background: url('../../assets/down_arrow.svg') center no-repeat;
+            width: 12px;
+            height: 8px;
+            display: inline-block;
+            position: relative;
+            left: -25px;
+            bottom: 15px;
+        }
+        &--level::after {
+            left: -50px;
+        }
+    }
+    .filter__label__image {
+        margin-right: 15px;
+    }
+    .filter__label__img--info {
+        margin-left: 10px;
+        @include for-tablet-landscape-up {
+            position: absolute;
+            left: 100%;
+            transform: translateY(50%);
+            bottom: 50%;
+        }
+    }
+}

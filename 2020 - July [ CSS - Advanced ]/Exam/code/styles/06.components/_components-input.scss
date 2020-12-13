@@ -1,0 +1,12 @@
+input {
+    border: 1px solid $white-color;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: $blue-300;
+    padding: 16px;
+    width: 100%;
+
+    &::-webkit-input-placeholder {
+        color: white;
+    }
+}

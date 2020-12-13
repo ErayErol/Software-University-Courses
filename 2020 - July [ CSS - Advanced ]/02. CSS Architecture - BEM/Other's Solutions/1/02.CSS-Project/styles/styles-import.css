@@ -1,0 +1,26 @@
+@import url(./03-generic/generic-fonts.css);
+@import url(./03-generic/generic-normalize.css);
+@import url(./03-generic/generic-scrollbar.css);
+@import url(./03-generic/generic-selection.css);
+
+@import url(./04-elements/elements-body.css);
+@import url(./04-elements/elements-headings.css);
+@import url(./04-elements/elements-images.css);
+@import url(./04-elements/elements-link.css);
+@import url(./04-elements/elements-list-item.css);
+@import url(./04-elements/elements-paragraphs.css);
+@import url(./04-elements/elements-text-color.css);
+
+@import url(./05-objects/object-footer.css);
+@import url(./05-objects/object-image-wrapper.css);
+@import url(./05-objects/object-section.css);
+@import url(./05-objects/objects-container.css);
+@import url(./05-objects/objects-list.css);
+@import url(./05-objects/objects-page-wrapper.css);
+
+@import url(./06-components/components-cta.css);
+@import url(./06-components/components-cards.css);
+@import url(./06-components/components-buttons.css);
+
+@import url(./07-utilities/utilities-text-decoration.css);
+@import url(./07-utilities/utilities-uppercase.css);

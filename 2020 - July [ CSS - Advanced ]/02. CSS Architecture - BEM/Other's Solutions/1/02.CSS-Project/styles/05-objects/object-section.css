@@ -1,0 +1,39 @@
+.o-summary-section {
+  display: grid;
+  grid-template-columns: 1fr 630px;
+  column-gap: 75px;
+  height: 630px;
+  margin-bottom: 100px;
+  padding: 0 30px;
+  flex-flow: column;
+  max-width: 100%;
+}
+
+.o-common-section {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.o-mission-section {
+  background-color: #42abf8;
+  margin-top: 400px;
+}
+
+.o-section-slider {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 80px;
+  padding: 0 30px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.o-scholarship-section {
+  display: block;
+  background-color: #42abf8;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}

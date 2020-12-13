@@ -1,0 +1,125 @@
+@import "../01-settings/settings-colors.scss";
+
+.program {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 137px;
+
+    &__info {
+        width: 65%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .program__info .program__subtitle {
+        width: 850px;
+        height: 40px;
+    }
+
+    &__subtitle {
+        width: 533px;
+        height: 60px;
+        text-align: center;
+        padding-bottom: 32px;
+
+        &--gray-700 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $grey-700;
+        }
+    }
+
+    &-cards {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: 37px;
+    }
+
+    &__card {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 629px;
+        height: 259px;
+        margin-right: 32px;
+        border-radius: 12px;
+
+        &__background--blue-50 {
+            background-color: $blue-50;
+        }
+
+        &__border--blue-400 {
+            border: 4px solid $blue-400;
+        }
+
+        &__background--primary-color-50 {
+            background-color: $primary-color-50;
+        }
+
+        &__border--primary-color-400 {
+            border: 4px solid $primary-color-400;
+        }
+    }
+
+    &__heading-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        padding-left: 28px;
+
+        &--primary-300 {
+            color: $primary-color-300;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        &--blue-400 {
+            color: $blue-400;
+        }
+
+        &--primary-color-400 {
+            color: $primary-color-400;
+        }
+    }
+
+    &-card__heading {
+
+        font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            margin-left: 24px;
+
+        &--primary-color-300 {
+            color: $primary-color-300;
+        }
+    
+        &--blue-400 {
+         color: $blue-400;
+        }
+    }
+
+   
+}

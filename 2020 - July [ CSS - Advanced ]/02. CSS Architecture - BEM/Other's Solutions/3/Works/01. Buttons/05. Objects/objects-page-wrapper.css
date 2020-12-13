@@ -1,0 +1,4 @@
+.o-page-wrapper{
+    display: flex;
+    flex-flow: column wrap;
+}

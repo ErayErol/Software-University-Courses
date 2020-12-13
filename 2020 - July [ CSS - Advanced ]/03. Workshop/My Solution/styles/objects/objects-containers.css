@@ -1,0 +1,11 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.page-margin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 75px;
+}

@@ -1,0 +1,22 @@
+.text-wrapper-container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.third-section-header-container {
+    border: 4px solid #44A9F8;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #E3F3FD;
+    width: 629px;
+    height: 259px;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.third-section-wrapper {
+  margin-left: 10px;
+}

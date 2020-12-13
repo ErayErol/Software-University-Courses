@@ -1,0 +1,109 @@
+@import "../01-settings/settings-colors.scss";
+
+.cards--wrapper {
+  margin: 50px 0;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2),
+        0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+      border-radius: 12px;
+      max-width: 400px;
+
+      &:hover {
+        cursor: pointer;
+        overflow: hidden;
+      }
+
+      &__header {
+        min-height: 160px;
+        color: $white;
+        border-radius: 12px 12px 0px 0px;
+
+        &--blue {
+          background: $blue-400;
+        }
+
+        &--green {
+          background: $primary-color-300;
+        }
+      }
+
+      &__label {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2),
+          0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+        border-radius: 4px;
+        padding: 4px 8px;
+        width: fit-content;
+        text-transform: uppercase;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+
+        &--gray {
+          background: $dark-violet;
+        }
+
+        &--violet {
+          background: $violet;
+        }
+      }
+
+      &__title {
+        text-align: center;
+      }
+
+      &__content {
+        text-align: center;
+        height: 100px;
+        padding: 15px 0;
+      }
+
+      &__info {
+        display: inline-block;
+        width: 40%;
+        margin: 5px 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+      }
+
+      &__footer {
+        padding: 20px;
+        text-align: center;
+      }
+
+      &__footer::before {
+        content: "";
+        background: $grey-100;
+        width: 360px;
+        height: 1px;
+        display: inline-block;
+        position: relative;
+        top: -20px;
+      }
+
+      &__price {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: $red-400;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.card:hover .card__content,
+.card:hover .card__footer {
+  background: $grey-50;
+}

@@ -1,0 +1,10 @@
+.img-circle {
+    border-radius: 50%;
+    border: 8px solid $primary-300;
+    width: auto;
+    margin: 0 auto;
+
+    @include for-tablet-landscape-up{
+        margin: inherit;
+    }
+}

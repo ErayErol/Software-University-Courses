@@ -1,0 +1,8 @@
+.page-wrapper{
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+   
+}

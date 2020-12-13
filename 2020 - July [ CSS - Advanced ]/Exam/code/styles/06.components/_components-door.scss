@@ -1,0 +1,19 @@
+.c-door {
+    position: relative;
+
+    &__inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__outer {
+        transition: transform 0.8s ease-out;
+        transform-origin: top left;
+        
+        &:hover {
+            transform: rotate(-90deg);
+        }
+    }
+}

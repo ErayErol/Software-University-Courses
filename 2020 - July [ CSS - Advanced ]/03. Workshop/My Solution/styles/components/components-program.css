@@ -1,0 +1,77 @@
+.program__container {
+  border-top: 10px dotted #DFF4F1;
+  margin: 127px 75px 96px 75px;
+}
+
+.program__container .program__info {
+  flex-direction: column;
+  text-align: center;
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+
+.program__container .program__info .program__title {
+  color: #41BEAD;
+  margin: 0;
+}
+
+.program__container .program__info .program__text {
+  color: #565656;
+  margin: 0;
+  padding-top: 24px;
+}
+
+.program__container .program__cards {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.program__container .program__cards .program__card {
+  width: 629px;
+  height: 259px;
+  background: #E3F3FD;
+  border: 4px solid #44A9F8;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 31px 0;
+}
+
+.program__container .program__cards .program__card .program__card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 140px;
+}
+
+.program__container .program__cards .program__card .program__card__header .program__card__title {
+  color: #44A9F8;
+  font-weight: 600;
+  margin: 0;
+}
+
+.program__container .program__cards .program__card .program__card__header .program__card__title--green {
+  color: #00AF9B;
+}
+
+.program__container .program__cards .program__card .program__card__main {
+  margin: 0 auto;
+  width: 533px;
+  color: #565656;
+}
+
+.program__container .program__cards .program__card--green {
+  background: #DFF4F1;
+  border: 4px solid #00AF9B;
+  position: relative;
+}
+
+.program__container .program__cards .program__card--green .circle-over-hardware-img {
+  position: absolute;
+  left: 149px;
+}

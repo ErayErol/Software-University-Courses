@@ -1,0 +1,18 @@
+select {
+    background: $grey-50;
+    border: 1px solid $secondary-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 18px;
+    -webkit-appearance: none; 
+    min-width: 200px;
+    min-height: 45px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &::placeholder {
+        color: $grey-500;
+    }
+}

@@ -1,0 +1,52 @@
+@-webkit-keyframes resize-and-move {
+  0% {
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 50px;
+    font-size: 36px;
+    color: white;
+    background-color: red;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    left: 20vw;
+    top: 70px;
+    font-size: 30px;
+    color: yellow;
+    background-color: blue;
+  }
+}
+
+@keyframes resize-and-move {
+  0% {
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 50px;
+    font-size: 36px;
+    color: white;
+    background-color: red;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    left: 20vw;
+    top: 70px;
+    font-size: 30px;
+    color: yellow;
+    background-color: blue;
+  }
+}
+
+.box {
+  position: absolute;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-animation: 2s resize-and-move ease;
+          animation: 2s resize-and-move ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+.o-header-section-article-button-container .c-apply-button {
+    color: #44a9f8;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.o-header-section-article-button-container .c-line {
+    
+    border-right: 2px solid white;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.o-header-section-article-button-container .c-curriculum-button {
+    border: 1px solid white;
+    background-color: #44a9f8;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+}

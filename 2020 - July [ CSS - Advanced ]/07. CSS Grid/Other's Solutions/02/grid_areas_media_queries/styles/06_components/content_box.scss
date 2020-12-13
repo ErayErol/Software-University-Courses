@@ -1,0 +1,12 @@
+@import '../02_tools/media_queries.scss';
+
+.c-content-box {
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+
+    @include for-desktop-up {
+        padding: 15px;
+    }
+}

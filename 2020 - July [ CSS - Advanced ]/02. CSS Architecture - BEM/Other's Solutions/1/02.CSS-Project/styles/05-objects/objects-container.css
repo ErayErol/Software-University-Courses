@@ -1,0 +1,27 @@
+.o-column-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.o-object-row-container {
+    display: flex;
+    flex-flow: row wrap;
+} 
+
+.o-object-row-container .o-separator-line {
+    border: 1px solid;
+    height: 30px;
+    width: 0;
+    /* justify-self: center; */
+    margin-top: 5px;
+    margin-right: 35px;
+    margin-left: 35px;
+    /* text-align: center; */
+    
+}
+
+.o-content-container {
+display: flex;
+flex-flow: column wrap;
+max-width: 640px;
+}

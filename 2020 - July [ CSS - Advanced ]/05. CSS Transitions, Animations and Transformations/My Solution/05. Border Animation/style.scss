@@ -1,0 +1,37 @@
+html {
+    background: ghostwhite;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 5em auto;
+    max-width: 40em;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 47%;
+    height: 20vh;
+    align-content: center;
+
+    & a {
+        box-sizing: content-box;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        outline: rgb(32, 63, 93) solid 4px;
+        padding: 1em;
+        font-weight: bold;
+        text-align: center;
+        transition: outline 0.3s ease-in-out;
+
+        &:hover {
+            outline: rgb(32, 63, 93) solid 8px;
+            cursor: pointer;
+        }
+    }
+}

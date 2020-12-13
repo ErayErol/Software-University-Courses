@@ -1,0 +1,4 @@
+.o-header-and-about {
+    background-image: linear-gradient(to bottom, rgba(0, 171, 248, 0.90), rgba(0, 171, 248, 0.90)), url('../../images/about-page-hero.jpg');
+    background-size: cover;
+}

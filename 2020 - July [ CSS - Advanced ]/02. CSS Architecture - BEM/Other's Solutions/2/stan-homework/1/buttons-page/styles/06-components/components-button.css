@@ -1,0 +1,49 @@
+.c-button{
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    margin: 10px;
+}
+ .c-button--primary{
+    background-color: #FFA000;
+    border-radius: 100px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 32px;
+ }
+ .c-button--primary:hover{
+     box-shadow: none;
+     cursor: pointer
+ }
+.c-button--primary--disabled{
+    background-color: rgb(216, 216, 216);;
+    box-shadow: none;
+    cursor: not-allowed !important;
+}
+.c-button--secondary{
+    background-color: #ffffff;
+    border: 1px solid #FFA000;
+    border-radius: 50px;
+    color: #FFA000;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 24px;
+}
+.c-button--secondary:hover{
+    background-color: rgba(255,160,0,0.06);
+}
+.c-button--secondary--disabled{
+    border-color: rgb(216, 216, 216);
+    color: rgb(216, 216, 216);
+    cursor: not-allowed !important;
+}
+.c-button--secondary--disabled:hover{
+    background-color: #ffffff;
+}
+.c-button--primary__small{
+    border-radius: 20px;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 9px 18px;
+}

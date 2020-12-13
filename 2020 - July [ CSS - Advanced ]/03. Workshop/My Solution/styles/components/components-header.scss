@@ -1,0 +1,25 @@
+@import "../settings/settings-colors.scss";
+
+.header {
+    background-color: $secondary-color;
+
+    .header__info {
+        text-align: center;
+        color: $white-color;
+        height: 256px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        .header__title {
+            margin: 0;
+            padding-top: 64px;
+            padding-bottom: 24px;
+        }
+
+        .header__text {
+            width: 850px;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,239 @@
+.c-trainers-main {
+    display: grid;
+    grid-template-rows: 356px min-content min-content min-content min-content;
+    grid-template-columns: 100%;
+    row-gap: 48px;
+
+    @include for-tablet-landscape-up {
+        row-gap: 96px;
+        grid-template-rows: 256px min-content min-content min-content min-content;
+    }
+
+    // @include for-desktop-up {
+    //     grid-template-rows: 256px 383px 1% 1150px 462px;
+    // }
+
+    &__welcome-section {
+        background-color: $secondary-600;
+
+        .o-page-content-wrapper {
+            color: #fff;
+            align-items: center;
+            height: 100%;
+            display: flex;
+            row-gap: 24px;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__text {
+            @include for-tablet-landscape-up {
+                width: 65%;
+            }
+        }
+    }
+
+    &__about-lecturers {
+        color: $grey-700;
+
+        .o-page-content-wrapper {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 100%;
+            row-gap: 64px;
+
+            @include for-tablet-landscape-up {
+                grid-template-rows: 1fr;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 32px;
+            }
+        }
+
+        & article {
+            display: grid;
+            grid-template-rows: min-content 1fr;
+            row-gap: 40px;
+
+            @include for-tablet-landscape-up {
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: 30% 63%;
+                column-gap: 37px;
+            }
+
+            section {
+                text-align: center;
+
+                @include for-tablet-landscape-up {
+                    text-align: start;
+                }
+
+                h4 {
+                    padding-bottom: 8px;
+                    color: $primary-300;
+                }
+
+                h6 {
+                    color: $grey-400;
+                    font-weight: 100;
+                }
+
+                p {
+                    text-align: start;
+                }
+            }
+        }
+    }
+
+    &__all-lecturers {
+
+        .o-page-content-wrapper {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            text-align: center;
+            row-gap: 40px;
+
+            @for $i from 5 through 24 {
+                & article:nth-child(#{$i}) {
+                    display: none;
+                }
+            }
+
+            @include for-tablet-landscape-up {
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+
+                @for $i from 5 through 24 {
+                    & article:nth-child(#{$i}) {
+                        display: grid;
+                        row-gap: 10px;
+                    }
+                }
+            }
+        }
+
+        & article {
+
+            display: grid;
+            row-gap: 10px;
+
+            div {
+                display: flex;
+                justify-content: center;
+
+
+
+
+
+
+                & {
+                    position: relative;
+                    width: 188px;
+                    margin: 0 auto;
+                }
+                
+                &:after,
+                &::before {
+                    position: absolute;
+                    opacity: 0;
+                    transition: all 0.5s;
+                    -webkit-transition: all 0.5s;
+                    border-radius: 50%;
+                }
+                
+                &:after {
+                    content: '\A';
+                    width: 187px;
+                    height: 187px;
+                    top: 0;
+                    left: 0;
+                    border: 8px solid $primary-300;
+                    background-color: $secondary-800;
+                }
+                
+                &::before {
+                    content: url("/assets/icons/info-learn-more.svg");
+                    width: 100%;
+                    z-index: 1;
+                    bottom: 50px;
+                    left: 0px;
+                }
+                
+                &:hover:after,
+                &:hover:before {
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+                
+                &:hover:before{
+                    opacity: 1;
+                }
+
+
+
+
+
+
+
+            }
+
+            h4 {
+                color: $primary-300;
+            }
+
+            h6 {
+                color: $grey-400;
+                font-weight: 100;
+            }
+        }
+    }
+
+    &__team {
+        color: white;
+        border-top: 12px solid $blue-200;
+        background-color: $blue-300;
+        height: 662px;
+        display: grid;
+        align-items: center;
+
+        @include for-tablet-landscape-up {
+            height: 480px;
+        }
+
+        .o-page-content-wrapper {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 100%;
+            row-gap: 46px;
+
+            @include for-tablet-landscape-up {
+                grid-template-rows: 1fr;
+                grid-template-columns: auto;
+                column-gap: 32px;
+                text-align: center;
+                padding-bottom: 70px;
+            }
+        }
+
+        &__title-and-text {
+            @include for-tablet-landscape-up {
+                width: 90%;
+                justify-self: center;
+            }
+        }
+
+        &__inputs {
+            display: grid;
+            row-gap: 36px;
+
+            @include for-tablet-landscape-up {
+                row-gap: 0px;
+                column-gap: 36px;
+                grid-template-columns: 1fr 1fr 1fr 12%;
+                align-items: center;
+            }
+        }
+    }
+}

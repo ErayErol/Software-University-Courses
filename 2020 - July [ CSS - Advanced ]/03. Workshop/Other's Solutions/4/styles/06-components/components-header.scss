@@ -1,0 +1,13 @@
+@import '../01-settings/settings-colors.scss';
+
+.header__info {
+    background: $secondary-800;
+    color: white;
+    padding: 65px 0;
+    text-align: center;
+
+    & h1{
+        margin: 0px;
+        padding-bottom: 25px;
+    }
+}

@@ -1,0 +1,13 @@
+.c-button{
+    border-radius: 100px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #FFA000;
+    text-transform: uppercase;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+}

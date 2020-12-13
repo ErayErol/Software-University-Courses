@@ -1,0 +1,20 @@
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  animation: shimmy 2.5s none;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shimmy {
+  50% {
+    border-radius: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+}

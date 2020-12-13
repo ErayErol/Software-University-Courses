@@ -1,0 +1,18 @@
+@import '../01-settings/settings-colors.scss';
+
+.program-wrapper{
+    padding: 100px 75px;
+
+    .program__summary{
+        padding-bottom: 50px;
+
+        &__title{
+            margin: 0;
+            color: $primary-300;
+        }
+
+        &__content{
+            color: $grey-700;
+        }
+    }
+}

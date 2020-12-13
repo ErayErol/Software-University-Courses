@@ -1,0 +1,24 @@
+.o-row-container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.o-column-container{
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 300px;
+   margin: 20px;
+    flex: 1;
+    align-items: center;
+}
+
+.o-column-p-container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 2px;
+    flex: 1;
+    flex-grow: 1;
+    align-items: center;
+}

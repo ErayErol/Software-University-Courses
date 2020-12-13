@@ -1,0 +1,40 @@
+.c-softuni-projects {
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.c-softuni-projects-info {
+    width: 36%;
+    color: #29394b;
+}
+
+.c-softuni-projects-info p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.c-softuni-projects-images {
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.c-softuni-projects-images img {
+    width: 230px;
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+.c-softuni-projects-images .c-softuni-projects-image-1 {
+    margin-bottom: -80px;
+}
+
+.c-softuni-projects-images .c-softuni-projects-image-2 {
+    margin-top: -80px;
+}

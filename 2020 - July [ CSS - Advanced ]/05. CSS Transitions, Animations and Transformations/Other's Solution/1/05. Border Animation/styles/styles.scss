@@ -1,0 +1,50 @@
+@keyframes border-outline {
+  from {
+    outline-width: 5px;
+  }
+
+  to {
+    outline-width: 10px;
+  }
+}
+
+@keyframes reversed-border-outline {
+  from {
+    outline-width: 10px;
+  }
+
+  to {
+    outline-width: 5px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.site-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: #e8eaee;
+}
+
+a {
+  margin: 5px;
+  padding: 20px;
+  font: 18px sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #203F5D;
+  background: #fff;
+  outline: 5px solid #203F5D;
+  animation: reversed-border-outline 0.5s ease;
+
+  &:hover {
+    animation: border-outline 0.5s ease;
+    animation-fill-mode: forwards;
+  }
+}

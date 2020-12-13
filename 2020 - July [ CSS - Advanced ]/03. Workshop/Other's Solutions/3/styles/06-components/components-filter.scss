@@ -1,0 +1,50 @@
+@import "../01-settings/settings-colors.scss";
+
+.filter--wrapper {
+    background: $grey-50;
+
+    .filter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__title {
+            color: $grey-700;
+        }
+
+        &__label__img {
+            position: relative;
+            top: 5px;
+            right: 15px;
+
+            &--info {
+                left: 10px;
+            }           
+        }
+               
+        &__label::after {
+            content: '';
+            background: url(../../assets/icons/arrow.svg) center no-repeat;
+            width: 12px;
+            height: 8px;
+            display: inline-block;
+            position: relative;
+            right: 30px;
+        }
+        
+        &__label--level::after {
+            content: '';
+            background: url(../../assets/icons/arrow.svg) center no-repeat;
+            width: 12px;
+            height: 8px;
+            display: inline-block;
+            position: relative;
+            right: 50px;
+        }
+        
+    }
+}
+
+
+
+

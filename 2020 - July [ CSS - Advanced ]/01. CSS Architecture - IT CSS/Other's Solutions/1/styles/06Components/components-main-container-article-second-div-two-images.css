@@ -1,0 +1,16 @@
+.o-main-container-article-second-div-two .c-lab1-img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+    margin-left: 5%;
+    border-radius: 8px;
+    margin-top: 12%;
+}
+
+.o-main-container-article-second-div-two .c-lab2-img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+    margin-left: 5%;
+    border-radius: 8px;
+}

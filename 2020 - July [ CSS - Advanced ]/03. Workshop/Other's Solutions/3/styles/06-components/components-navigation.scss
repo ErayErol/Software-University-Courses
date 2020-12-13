@@ -1,0 +1,36 @@
+@import "../01-settings/settings-colors.scss";
+
+.navbar {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+
+    .navbar__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .navbar__items {
+            display: flex;
+        
+            .navbar__item {
+                list-style: none;
+                margin: 15px;
+
+                a { 
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $grey-700;
+
+                    &:hover {
+                        cursor: pointer;
+                        color:$secondary-color-800;
+                    }
+                }               
+            }          
+        }
+    }
+}
+
+
+
+
+

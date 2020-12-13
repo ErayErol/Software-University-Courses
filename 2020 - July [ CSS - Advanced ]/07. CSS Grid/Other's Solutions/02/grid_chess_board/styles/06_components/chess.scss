@@ -1,0 +1,21 @@
+.c-chess {
+    margin: 20px;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+    grid-gap: 15px;
+
+    &__block {
+        border: 1px solid black;
+        border-radius: 10px;
+
+        &:nth-child(odd) {
+            background-color: #000;
+        }
+
+        &:nth-child(even) {
+            background-color: #fff;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@-webkit-keyframes reveal {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.list-items {
+  font: 20px sans-serif;
+}
+
+.list-items .list-item {
+  position: relative;
+  list-style: none;
+  -webkit-animation: reveal 0.5s ease;
+          animation: reveal 0.5s ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.list-items .list-item:nth-child(1) {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+.list-items .list-item:nth-child(2) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.list-items .list-item:nth-child(3) {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+
+.list-items .list-item:nth-child(4) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.list-items .list-item:nth-child(5) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.list-items .list-item:nth-child(6) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.list-items .list-item:nth-child(7) {
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
+}
+
+.list-items .fas {
+  max-width: 10px;
+  font-size: 16px;
+  padding-right: 15px;
+}
+/*# sourceMappingURL=styles.css.map */

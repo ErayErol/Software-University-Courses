@@ -1,0 +1,17 @@
+@import "../settings/settings-colors.scss";
+
+select {
+    width: 167px;
+    height: 44px;
+    background: $grey-50;
+    border: 1px solid $secondary-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    padding: 12px 18px;
+    color: $grey-500;
+}
+
+#level {
+    width: 197px;
+}   

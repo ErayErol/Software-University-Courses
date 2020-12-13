@@ -1,0 +1,8 @@
+p{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 87, 114);
+}

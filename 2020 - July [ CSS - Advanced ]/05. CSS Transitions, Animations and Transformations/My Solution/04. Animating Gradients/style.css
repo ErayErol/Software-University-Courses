@@ -1,0 +1,27 @@
+div {
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+    left: 10%;
+}
+
+.div1 {
+    background: linear-gradient(rgb(129, 146, 158), rgb(231, 235, 237));
+}
+
+/*
+Gradient color can't be transitioned. Trick used here is to have two div elements overlapped via "absolute" position.
+"div2" is after "div1" in the code, so it is in front of it. But since its opacity is 0, it can't be seen.
+Hovering over "div2" increases its opacity and it seems as if the box changes its color. But in reality
+it is just slowly getting replaced by another box.
+*/
+
+.div2 {
+    transition: 2s ease-in-out;
+    background: linear-gradient(rgb(201, 133, 50), rgb(251, 198, 132));
+    opacity: 0;
+}
+
+.div2:hover {
+    opacity: 1;
+}

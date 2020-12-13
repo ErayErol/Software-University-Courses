@@ -1,0 +1,49 @@
+.c-diagram {
+    margin: 20px;
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(7, 1fr);
+    grid-template-areas: ". . . . e . ."
+                         ". . . . e . ."
+                         ". . . . e . ."
+                         ". . . . e f ."
+                         ". . . d e f ."
+                         ". . . d e f ."
+                         ". . . d e f ."
+                         ". . . d e f ."
+                         ". b . d e f ."
+                         ". b . d e f ."
+                         ". b c d e f ."
+                         "a b c d e f g";
+
+    &__pillar {
+        padding: 5px;
+    }
+    &__pillar--a {
+        grid-area: a;
+        background-color: #80fff5;
+    }
+    &__pillar--b {
+        grid-area: b;
+        background-color: #ffff00;
+    }
+    &__pillar--c {
+        grid-area: c;
+        background-color: #ffc4d0;
+    }
+    &__pillar--d {
+        grid-area: d;
+        background-color: #61dbde;
+    }
+    &__pillar--e {
+        grid-area: e;
+        background-color: #cef487;
+    }
+    &__pillar--f {
+        grid-area: f;
+        background-color: #7e1cd3;
+    }
+    &__pillar--g {
+        grid-area: g;
+        background-color: #fa9217;
+    }
+}
