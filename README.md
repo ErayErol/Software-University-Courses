@@ -34,7 +34,8 @@
    </tbody>
 </table>
 <!-- HEAD END -->
-
+</hr>
+</hr>
 <!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
 <details>
@@ -43,10 +44,10 @@
       <table width="100%" cellspacing="11" cellpadding="14" align="center">
          <tbody>
             <tr>
-               <th align="left" width="70%">Technology Fundamentals - September 2018<br /> 
-                  21.09.2018 - 17.12.2018
+               <th align="left">Technology Fundamentals - September 2018<br /> 
+                  21.09.2018 - 16.12.2018
                </th>
-               <th width="40%" align="left">Grade: 5.62 (out of 6.00)<br /> Issue Date: 17/12/2018</th>
+               <th align="left">Grade: 5.62 (out of 6.00)<br /> Issue Date: 17/12/2018</th>
                <th align="left">
                   <p><a title="Technology Fundamentals" href="https://softuni.bg/certificates/details/61142/ca611a05" target="_blank">Certificate</a></p>
                </th>
@@ -54,7 +55,7 @@
          </tbody>
       </table>      
    </summary>
-   <!-- Summary End -->
+<!-- Summary End -->
    
    <table border="0" width="100%" cellspacing="1" cellpadding="1" align="left">
       <tbody>
@@ -275,7 +276,7 @@
 </details>
 <hr />
 <hr />
-<!-- C# Fundamentals End -->
+<!-- C# Technology Fundamentals End -->
 <!-- C# Advanced Start -->  
 <!-- Summary Begin -->
 <details>
@@ -284,11 +285,11 @@
       <table width="100%" cellspacing="11" cellpadding="14" align="center">
          <tbody>
             <tr>
-               <th align="left" width="50%">C# Advanced - September 2019 <br /> 17.09.2019 - 26.10.2019</th>
+               <th align="left" width="70%">C# Advanced - January 2019 <br /> 14.01.2019 - 24.02.2019</th>
                </th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00) <br /> Issue Date: 07/11/2019:</th>
+               <th width="40%" align="left">Grade: 5.54 (out of 6.00) <br /> Issue Date: 28/02/2019:</th>
                <th align="left">
-                  <p><a title="C# Advanced" href="https://softuni.bg/certificates/details/72147/9addc663" target="_blank">Certificate</a></p>
+                  <p><a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a></p>
                </th>
             </tr>
          </tbody>
