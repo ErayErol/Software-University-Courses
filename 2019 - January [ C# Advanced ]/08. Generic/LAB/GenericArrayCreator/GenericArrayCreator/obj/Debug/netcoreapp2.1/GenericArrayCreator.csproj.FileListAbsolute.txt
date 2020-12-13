@@ -1,0 +1,23 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\bin\Debug\netcoreapp2.1\GenericArrayCreator.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\GenericArrayCreator\GenericArrayCreator\obj\Debug\netcoreapp2.1\GenericArrayCreator.genruntimeconfig.cache

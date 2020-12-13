@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\bin\Debug\netcoreapp2.1\12.CupsAndBottles.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\bin\Debug\netcoreapp2.1\12.CupsAndBottles.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\bin\Debug\netcoreapp2.1\12.CupsAndBottles.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\bin\Debug\netcoreapp2.1\12.CupsAndBottles.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\bin\Debug\netcoreapp2.1\12.CupsAndBottles.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\obj\Debug\netcoreapp2.1\12.CupsAndBottles.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\obj\Debug\netcoreapp2.1\12.CupsAndBottles.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\obj\Debug\netcoreapp2.1\12.CupsAndBottles.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\obj\Debug\netcoreapp2.1\12.CupsAndBottles.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\obj\Debug\netcoreapp2.1\12.CupsAndBottles.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\12.CupsAndBottles\obj\Debug\netcoreapp2.1\12.CupsAndBottles.pdb

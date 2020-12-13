@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\bin\Debug\netcoreapp2.1\01.CountSameValuesInArray.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\bin\Debug\netcoreapp2.1\01.CountSameValuesInArray.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\bin\Debug\netcoreapp2.1\01.CountSameValuesInArray.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\bin\Debug\netcoreapp2.1\01.CountSameValuesInArray.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\bin\Debug\netcoreapp2.1\01.CountSameValuesInArray.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\obj\Debug\netcoreapp2.1\01.CountSameValuesInArray.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\obj\Debug\netcoreapp2.1\01.CountSameValuesInArray.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\obj\Debug\netcoreapp2.1\01.CountSameValuesInArray.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\obj\Debug\netcoreapp2.1\01.CountSameValuesInArray.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\obj\Debug\netcoreapp2.1\01.CountSameValuesInArray.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\01.CountSameValuesInArray\obj\Debug\netcoreapp2.1\01.CountSameValuesInArray.pdb

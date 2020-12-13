@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\bin\Debug\netcoreapp2.1\07.KnightGame.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\bin\Debug\netcoreapp2.1\07.KnightGame.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\bin\Debug\netcoreapp2.1\07.KnightGame.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\bin\Debug\netcoreapp2.1\07.KnightGame.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\bin\Debug\netcoreapp2.1\07.KnightGame.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\obj\Debug\netcoreapp2.1\07.KnightGame.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\obj\Debug\netcoreapp2.1\07.KnightGame.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\obj\Debug\netcoreapp2.1\07.KnightGame.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\obj\Debug\netcoreapp2.1\07.KnightGame.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\obj\Debug\netcoreapp2.1\07.KnightGame.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\07.KnightGame\obj\Debug\netcoreapp2.1\07.KnightGame.pdb

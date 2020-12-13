@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\bin\Debug\netcoreapp2.1\07.TheVLogger.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\bin\Debug\netcoreapp2.1\07.TheVLogger.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\bin\Debug\netcoreapp2.1\07.TheVLogger.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\bin\Debug\netcoreapp2.1\07.TheVLogger.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\bin\Debug\netcoreapp2.1\07.TheVLogger.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\obj\Debug\netcoreapp2.1\07.TheVLogger.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\obj\Debug\netcoreapp2.1\07.TheVLogger.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\obj\Debug\netcoreapp2.1\07.TheVLogger.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\obj\Debug\netcoreapp2.1\07.TheVLogger.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\obj\Debug\netcoreapp2.1\07.TheVLogger.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\07.TheVLogger\obj\Debug\netcoreapp2.1\07.TheVLogger.pdb

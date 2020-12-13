@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\bin\Debug\netcoreapp2.1\06.ParkingLot.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\bin\Debug\netcoreapp2.1\06.ParkingLot.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\bin\Debug\netcoreapp2.1\06.ParkingLot.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\bin\Debug\netcoreapp2.1\06.ParkingLot.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\bin\Debug\netcoreapp2.1\06.ParkingLot.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\obj\Debug\netcoreapp2.1\06.ParkingLot.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\obj\Debug\netcoreapp2.1\06.ParkingLot.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\obj\Debug\netcoreapp2.1\06.ParkingLot.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\obj\Debug\netcoreapp2.1\06.ParkingLot.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\06.ParkingLot\obj\Debug\netcoreapp2.1\06.ParkingLot.pdb

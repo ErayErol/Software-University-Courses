@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\bin\Debug\netcoreapp2.1\07.SoftUniParty.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\bin\Debug\netcoreapp2.1\07.SoftUniParty.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\bin\Debug\netcoreapp2.1\07.SoftUniParty.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\bin\Debug\netcoreapp2.1\07.SoftUniParty.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\bin\Debug\netcoreapp2.1\07.SoftUniParty.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\obj\Debug\netcoreapp2.1\07.SoftUniParty.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\obj\Debug\netcoreapp2.1\07.SoftUniParty.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\obj\Debug\netcoreapp2.1\07.SoftUniParty.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\obj\Debug\netcoreapp2.1\07.SoftUniParty.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\obj\Debug\netcoreapp2.1\07.SoftUniParty.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\07.SoftUniParty\obj\Debug\netcoreapp2.1\07.SoftUniParty.pdb

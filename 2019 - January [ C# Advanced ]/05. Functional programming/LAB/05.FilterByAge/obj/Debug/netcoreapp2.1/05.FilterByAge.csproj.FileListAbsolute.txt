@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\bin\Debug\netcoreapp2.1\05.FilterByAge.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\bin\Debug\netcoreapp2.1\05.FilterByAge.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\bin\Debug\netcoreapp2.1\05.FilterByAge.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\bin\Debug\netcoreapp2.1\05.FilterByAge.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\bin\Debug\netcoreapp2.1\05.FilterByAge.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\obj\Debug\netcoreapp2.1\05.FilterByAge.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\obj\Debug\netcoreapp2.1\05.FilterByAge.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\obj\Debug\netcoreapp2.1\05.FilterByAge.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\obj\Debug\netcoreapp2.1\05.FilterByAge.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\obj\Debug\netcoreapp2.1\05.FilterByAge.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\05.FilterByAge\obj\Debug\netcoreapp2.1\05.FilterByAge.pdb

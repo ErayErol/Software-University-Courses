@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\bin\Debug\netcoreapp2.1\03.CountUppercaseWords.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\bin\Debug\netcoreapp2.1\03.CountUppercaseWords.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\bin\Debug\netcoreapp2.1\03.CountUppercaseWords.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\bin\Debug\netcoreapp2.1\03.CountUppercaseWords.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\bin\Debug\netcoreapp2.1\03.CountUppercaseWords.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\obj\Debug\netcoreapp2.1\03.CountUppercaseWords.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\obj\Debug\netcoreapp2.1\03.CountUppercaseWords.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\obj\Debug\netcoreapp2.1\03.CountUppercaseWords.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\obj\Debug\netcoreapp2.1\03.CountUppercaseWords.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\obj\Debug\netcoreapp2.1\03.CountUppercaseWords.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\03.CountUppercaseWords\obj\Debug\netcoreapp2.1\03.CountUppercaseWords.pdb

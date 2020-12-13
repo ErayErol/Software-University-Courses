@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\bin\Debug\netcoreapp2.1\05.RecordUniqueNames.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\bin\Debug\netcoreapp2.1\05.RecordUniqueNames.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\bin\Debug\netcoreapp2.1\05.RecordUniqueNames.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\bin\Debug\netcoreapp2.1\05.RecordUniqueNames.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\bin\Debug\netcoreapp2.1\05.RecordUniqueNames.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\obj\Debug\netcoreapp2.1\05.RecordUniqueNames.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\obj\Debug\netcoreapp2.1\05.RecordUniqueNames.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\obj\Debug\netcoreapp2.1\05.RecordUniqueNames.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\obj\Debug\netcoreapp2.1\05.RecordUniqueNames.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\05.RecordUniqueNames\obj\Debug\netcoreapp2.1\05.RecordUniqueNames.pdb

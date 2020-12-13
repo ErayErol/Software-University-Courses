@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\bin\Debug\netcoreapp2.1\RectangleIntersection.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\bin\Debug\netcoreapp2.1\RectangleIntersection.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\bin\Debug\netcoreapp2.1\RectangleIntersection.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\bin\Debug\netcoreapp2.1\RectangleIntersection.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\bin\Debug\netcoreapp2.1\RectangleIntersection.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\obj\Debug\netcoreapp2.1\RectangleIntersection.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\obj\Debug\netcoreapp2.1\RectangleIntersection.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\obj\Debug\netcoreapp2.1\RectangleIntersection.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\obj\Debug\netcoreapp2.1\RectangleIntersection.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\obj\Debug\netcoreapp2.1\RectangleIntersection.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P09\RectangleIntersection\RectangleIntersection\obj\Debug\netcoreapp2.1\RectangleIntersection.pdb

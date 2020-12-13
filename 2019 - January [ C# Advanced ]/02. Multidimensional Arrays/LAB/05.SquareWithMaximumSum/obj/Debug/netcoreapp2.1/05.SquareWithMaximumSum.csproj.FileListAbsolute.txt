@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\bin\Debug\netcoreapp2.1\05.SquareWithMaximumSum.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\bin\Debug\netcoreapp2.1\05.SquareWithMaximumSum.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\bin\Debug\netcoreapp2.1\05.SquareWithMaximumSum.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\bin\Debug\netcoreapp2.1\05.SquareWithMaximumSum.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\bin\Debug\netcoreapp2.1\05.SquareWithMaximumSum.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\obj\Debug\netcoreapp2.1\05.SquareWithMaximumSum.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\obj\Debug\netcoreapp2.1\05.SquareWithMaximumSum.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\obj\Debug\netcoreapp2.1\05.SquareWithMaximumSum.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\obj\Debug\netcoreapp2.1\05.SquareWithMaximumSum.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\obj\Debug\netcoreapp2.1\05.SquareWithMaximumSum.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\05.SquareWithMaximumSum\obj\Debug\netcoreapp2.1\05.SquareWithMaximumSum.pdb

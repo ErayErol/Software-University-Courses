@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\bin\Debug\netcoreapp2.1\06.Wardrobe.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\bin\Debug\netcoreapp2.1\06.Wardrobe.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\bin\Debug\netcoreapp2.1\06.Wardrobe.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\bin\Debug\netcoreapp2.1\06.Wardrobe.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\bin\Debug\netcoreapp2.1\06.Wardrobe.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\obj\Debug\netcoreapp2.1\06.Wardrobe.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\obj\Debug\netcoreapp2.1\06.Wardrobe.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\obj\Debug\netcoreapp2.1\06.Wardrobe.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\obj\Debug\netcoreapp2.1\06.Wardrobe.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\obj\Debug\netcoreapp2.1\06.Wardrobe.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\06.Wardrobe\obj\Debug\netcoreapp2.1\06.Wardrobe.pdb

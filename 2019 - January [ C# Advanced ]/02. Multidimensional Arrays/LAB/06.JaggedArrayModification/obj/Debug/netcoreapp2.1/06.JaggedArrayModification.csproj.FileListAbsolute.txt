@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\bin\Debug\netcoreapp2.1\06.JaggedArrayModification.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\bin\Debug\netcoreapp2.1\06.JaggedArrayModification.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\bin\Debug\netcoreapp2.1\06.JaggedArrayModification.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\bin\Debug\netcoreapp2.1\06.JaggedArrayModification.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\bin\Debug\netcoreapp2.1\06.JaggedArrayModification.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\obj\Debug\netcoreapp2.1\06.JaggedArrayModification.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\obj\Debug\netcoreapp2.1\06.JaggedArrayModification.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\obj\Debug\netcoreapp2.1\06.JaggedArrayModification.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\obj\Debug\netcoreapp2.1\06.JaggedArrayModification.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\obj\Debug\netcoreapp2.1\06.JaggedArrayModification.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\06.JaggedArrayModification\obj\Debug\netcoreapp2.1\06.JaggedArrayModification.pdb

@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\bin\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.exe
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\bin\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\bin\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\bin\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\bin\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\bin\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\obj\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\obj\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\obj\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\obj\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\obj\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\04.GenericSwapMethodInteger\obj\Debug\netcoreapp3.1\04.GenericSwapMethodInteger.genruntimeconfig.cache

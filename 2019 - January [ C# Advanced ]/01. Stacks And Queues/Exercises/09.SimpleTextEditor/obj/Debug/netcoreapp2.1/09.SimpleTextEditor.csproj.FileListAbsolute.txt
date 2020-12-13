@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\bin\Debug\netcoreapp2.1\09.SimpleTextEditor.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\bin\Debug\netcoreapp2.1\09.SimpleTextEditor.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\bin\Debug\netcoreapp2.1\09.SimpleTextEditor.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\bin\Debug\netcoreapp2.1\09.SimpleTextEditor.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\bin\Debug\netcoreapp2.1\09.SimpleTextEditor.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\obj\Debug\netcoreapp2.1\09.SimpleTextEditor.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\obj\Debug\netcoreapp2.1\09.SimpleTextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\obj\Debug\netcoreapp2.1\09.SimpleTextEditor.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\obj\Debug\netcoreapp2.1\09.SimpleTextEditor.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\obj\Debug\netcoreapp2.1\09.SimpleTextEditor.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\09.SimpleTextEditor\obj\Debug\netcoreapp2.1\09.SimpleTextEditor.pdb

@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\bin\Debug\netcoreapp2.1\05.CountSymbols.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\bin\Debug\netcoreapp2.1\05.CountSymbols.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\bin\Debug\netcoreapp2.1\05.CountSymbols.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\bin\Debug\netcoreapp2.1\05.CountSymbols.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\bin\Debug\netcoreapp2.1\05.CountSymbols.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\obj\Debug\netcoreapp2.1\05.CountSymbols.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\obj\Debug\netcoreapp2.1\05.CountSymbols.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\obj\Debug\netcoreapp2.1\05.CountSymbols.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\obj\Debug\netcoreapp2.1\05.CountSymbols.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\05.CountSymbols\obj\Debug\netcoreapp2.1\05.CountSymbols.pdb

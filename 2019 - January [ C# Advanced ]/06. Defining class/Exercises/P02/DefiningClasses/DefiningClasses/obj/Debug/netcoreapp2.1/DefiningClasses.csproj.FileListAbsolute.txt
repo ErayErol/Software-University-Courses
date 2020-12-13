@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\bin\Debug\netcoreapp2.1\DefiningClasses.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\bin\Debug\netcoreapp2.1\DefiningClasses.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\bin\Debug\netcoreapp2.1\DefiningClasses.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\bin\Debug\netcoreapp2.1\DefiningClasses.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\bin\Debug\netcoreapp2.1\DefiningClasses.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\obj\Debug\netcoreapp2.1\DefiningClasses.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\obj\Debug\netcoreapp2.1\DefiningClasses.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\obj\Debug\netcoreapp2.1\DefiningClasses.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\obj\Debug\netcoreapp2.1\DefiningClasses.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\obj\Debug\netcoreapp2.1\DefiningClasses.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P02\DefiningClasses\DefiningClasses\obj\Debug\netcoreapp2.1\DefiningClasses.pdb

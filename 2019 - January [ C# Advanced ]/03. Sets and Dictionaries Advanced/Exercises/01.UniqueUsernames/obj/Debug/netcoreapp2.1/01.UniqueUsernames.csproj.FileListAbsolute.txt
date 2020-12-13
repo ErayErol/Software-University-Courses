@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\bin\Debug\netcoreapp2.1\01.UniqueUsernames.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\bin\Debug\netcoreapp2.1\01.UniqueUsernames.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\bin\Debug\netcoreapp2.1\01.UniqueUsernames.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\bin\Debug\netcoreapp2.1\01.UniqueUsernames.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\bin\Debug\netcoreapp2.1\01.UniqueUsernames.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\obj\Debug\netcoreapp2.1\01.UniqueUsernames.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\obj\Debug\netcoreapp2.1\01.UniqueUsernames.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\obj\Debug\netcoreapp2.1\01.UniqueUsernames.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\obj\Debug\netcoreapp2.1\01.UniqueUsernames.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\obj\Debug\netcoreapp2.1\01.UniqueUsernames.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\Exercises\01.UniqueUsernames\obj\Debug\netcoreapp2.1\01.UniqueUsernames.pdb

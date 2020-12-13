@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\bin\Debug\netcoreapp2.1\07.PascalTriangle.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\bin\Debug\netcoreapp2.1\07.PascalTriangle.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\bin\Debug\netcoreapp2.1\07.PascalTriangle.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\bin\Debug\netcoreapp2.1\07.PascalTriangle.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\bin\Debug\netcoreapp2.1\07.PascalTriangle.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\obj\Debug\netcoreapp2.1\07.PascalTriangle.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\obj\Debug\netcoreapp2.1\07.PascalTriangle.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\obj\Debug\netcoreapp2.1\07.PascalTriangle.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\obj\Debug\netcoreapp2.1\07.PascalTriangle.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\obj\Debug\netcoreapp2.1\07.PascalTriangle.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\07.PascalTriangle\obj\Debug\netcoreapp2.1\07.PascalTriangle.pdb

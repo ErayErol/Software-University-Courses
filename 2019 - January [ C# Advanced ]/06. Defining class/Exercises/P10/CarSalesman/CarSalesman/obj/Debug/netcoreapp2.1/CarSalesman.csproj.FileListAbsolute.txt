@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\bin\Debug\netcoreapp2.1\CarSalesman.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\bin\Debug\netcoreapp2.1\CarSalesman.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\bin\Debug\netcoreapp2.1\CarSalesman.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\bin\Debug\netcoreapp2.1\CarSalesman.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\bin\Debug\netcoreapp2.1\CarSalesman.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\obj\Debug\netcoreapp2.1\CarSalesman.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\obj\Debug\netcoreapp2.1\CarSalesman.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\obj\Debug\netcoreapp2.1\CarSalesman.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\obj\Debug\netcoreapp2.1\CarSalesman.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\obj\Debug\netcoreapp2.1\CarSalesman.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P10\CarSalesman\CarSalesman\obj\Debug\netcoreapp2.1\CarSalesman.pdb

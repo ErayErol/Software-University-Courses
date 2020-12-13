@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\bin\Debug\netcoreapp2.1\02.AverageStudentGrades.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\bin\Debug\netcoreapp2.1\02.AverageStudentGrades.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\bin\Debug\netcoreapp2.1\02.AverageStudentGrades.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\bin\Debug\netcoreapp2.1\02.AverageStudentGrades.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\bin\Debug\netcoreapp2.1\02.AverageStudentGrades.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\obj\Debug\netcoreapp2.1\02.AverageStudentGrades.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\obj\Debug\netcoreapp2.1\02.AverageStudentGrades.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\obj\Debug\netcoreapp2.1\02.AverageStudentGrades.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\obj\Debug\netcoreapp2.1\02.AverageStudentGrades.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\obj\Debug\netcoreapp2.1\02.AverageStudentGrades.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\02.AverageStudentGrades\obj\Debug\netcoreapp2.1\02.AverageStudentGrades.csprojAssemblyReference.cache

@@ -1,0 +1,22 @@
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.deps.json
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.dll
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.pdb
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.dll
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\bin\Debug\netcoreapp2.1\05.FashionBoutique.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\05.FashionBoutique\obj\Debug\netcoreapp2.1\05.FashionBoutique.pdb

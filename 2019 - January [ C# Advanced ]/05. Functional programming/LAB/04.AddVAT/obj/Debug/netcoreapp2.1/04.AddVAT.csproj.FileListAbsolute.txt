@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\bin\Debug\netcoreapp2.1\04.AddVAT.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\bin\Debug\netcoreapp2.1\04.AddVAT.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\bin\Debug\netcoreapp2.1\04.AddVAT.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\bin\Debug\netcoreapp2.1\04.AddVAT.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\bin\Debug\netcoreapp2.1\04.AddVAT.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\obj\Debug\netcoreapp2.1\04.AddVAT.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\obj\Debug\netcoreapp2.1\04.AddVAT.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\obj\Debug\netcoreapp2.1\04.AddVAT.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\obj\Debug\netcoreapp2.1\04.AddVAT.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\LAB\04.AddVAT\obj\Debug\netcoreapp2.1\04.AddVAT.pdb

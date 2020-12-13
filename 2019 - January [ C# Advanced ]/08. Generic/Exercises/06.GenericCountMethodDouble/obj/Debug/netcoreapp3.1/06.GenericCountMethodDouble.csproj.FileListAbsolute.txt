@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\bin\Debug\netcoreapp3.1\06.GenericCountMethodDouble.exe
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\bin\Debug\netcoreapp3.1\06.GenericCountMethodDouble.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\bin\Debug\netcoreapp3.1\06.GenericCountMethodDouble.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\bin\Debug\netcoreapp3.1\06.GenericCountMethodDouble.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\bin\Debug\netcoreapp3.1\06.GenericCountMethodDouble.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\bin\Debug\netcoreapp3.1\06.GenericCountMethodDouble.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\obj\Debug\netcoreapp3.1\06.GenericCountMethodDouble.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\obj\Debug\netcoreapp3.1\06.GenericCountMethodDouble.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\obj\Debug\netcoreapp3.1\06.GenericCountMethodDouble.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\obj\Debug\netcoreapp3.1\06.GenericCountMethodDouble.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\obj\Debug\netcoreapp3.1\06.GenericCountMethodDouble.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\Exercises\06.GenericCountMethodDouble\obj\Debug\netcoreapp3.1\06.GenericCountMethodDouble.genruntimeconfig.cache

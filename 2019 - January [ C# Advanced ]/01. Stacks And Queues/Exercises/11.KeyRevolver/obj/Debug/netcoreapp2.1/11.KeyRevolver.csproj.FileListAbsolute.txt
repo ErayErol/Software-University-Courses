@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\bin\Debug\netcoreapp2.1\11.KeyRevolver.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\bin\Debug\netcoreapp2.1\11.KeyRevolver.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\bin\Debug\netcoreapp2.1\11.KeyRevolver.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\bin\Debug\netcoreapp2.1\11.KeyRevolver.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\bin\Debug\netcoreapp2.1\11.KeyRevolver.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\obj\Debug\netcoreapp2.1\11.KeyRevolver.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\obj\Debug\netcoreapp2.1\11.KeyRevolver.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\obj\Debug\netcoreapp2.1\11.KeyRevolver.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\obj\Debug\netcoreapp2.1\11.KeyRevolver.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\obj\Debug\netcoreapp2.1\11.KeyRevolver.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\01.Stacks And Queues\Exercises\11.KeyRevolver\obj\Debug\netcoreapp2.1\11.KeyRevolver.pdb

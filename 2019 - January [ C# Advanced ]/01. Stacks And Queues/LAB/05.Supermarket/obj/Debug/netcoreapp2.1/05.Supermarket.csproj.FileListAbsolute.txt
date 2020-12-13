@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\bin\Debug\netcoreapp2.1\05.Supermarket.deps.json
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\bin\Debug\netcoreapp2.1\05.Supermarket.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\bin\Debug\netcoreapp2.1\05.Supermarket.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\bin\Debug\netcoreapp2.1\05.Supermarket.dll
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\bin\Debug\netcoreapp2.1\05.Supermarket.pdb
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\obj\Debug\netcoreapp2.1\05.Supermarket.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\obj\Debug\netcoreapp2.1\05.Supermarket.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\obj\Debug\netcoreapp2.1\05.Supermarket.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\obj\Debug\netcoreapp2.1\05.Supermarket.dll
+C:\Users\Aris\source\repos\SoftUni\03. C# Fundamentals\2019.01 - C# Advanced\C# Advanced - Exercises\01.Stacks And Queues\LAB\05.Supermarket\obj\Debug\netcoreapp2.1\05.Supermarket.pdb

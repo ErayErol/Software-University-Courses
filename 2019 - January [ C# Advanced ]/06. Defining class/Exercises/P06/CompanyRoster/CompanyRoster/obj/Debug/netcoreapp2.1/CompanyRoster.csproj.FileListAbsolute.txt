@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\bin\Debug\netcoreapp2.1\CompanyRoster.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\bin\Debug\netcoreapp2.1\CompanyRoster.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\bin\Debug\netcoreapp2.1\CompanyRoster.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\bin\Debug\netcoreapp2.1\CompanyRoster.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\bin\Debug\netcoreapp2.1\CompanyRoster.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\obj\Debug\netcoreapp2.1\CompanyRoster.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\obj\Debug\netcoreapp2.1\CompanyRoster.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\obj\Debug\netcoreapp2.1\CompanyRoster.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\obj\Debug\netcoreapp2.1\CompanyRoster.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\obj\Debug\netcoreapp2.1\CompanyRoster.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P06\CompanyRoster\CompanyRoster\obj\Debug\netcoreapp2.1\CompanyRoster.pdb

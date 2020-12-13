@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\bin\Debug\netcoreapp2.1\SpeedRacing.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\bin\Debug\netcoreapp2.1\SpeedRacing.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\bin\Debug\netcoreapp2.1\SpeedRacing.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\bin\Debug\netcoreapp2.1\SpeedRacing.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\bin\Debug\netcoreapp2.1\SpeedRacing.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\obj\Debug\netcoreapp2.1\SpeedRacing.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\obj\Debug\netcoreapp2.1\SpeedRacing.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\obj\Debug\netcoreapp2.1\SpeedRacing.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\obj\Debug\netcoreapp2.1\SpeedRacing.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\obj\Debug\netcoreapp2.1\SpeedRacing.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P07\SpeedRacing\SpeedRacing\obj\Debug\netcoreapp2.1\SpeedRacing.pdb

@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\bin\Debug\netcoreapp2.1\01.SumMatrixElements.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\bin\Debug\netcoreapp2.1\01.SumMatrixElements.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\bin\Debug\netcoreapp2.1\01.SumMatrixElements.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\bin\Debug\netcoreapp2.1\01.SumMatrixElements.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\bin\Debug\netcoreapp2.1\01.SumMatrixElements.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\obj\Debug\netcoreapp2.1\01.SumMatrixElements.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\obj\Debug\netcoreapp2.1\01.SumMatrixElements.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\obj\Debug\netcoreapp2.1\01.SumMatrixElements.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\obj\Debug\netcoreapp2.1\01.SumMatrixElements.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\obj\Debug\netcoreapp2.1\01.SumMatrixElements.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\LAB\01.SumMatrixElements\obj\Debug\netcoreapp2.1\01.SumMatrixElements.pdb

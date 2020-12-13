@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\bin\Debug\netcoreapp2.1\13.TriFunction.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\bin\Debug\netcoreapp2.1\13.TriFunction.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\bin\Debug\netcoreapp2.1\13.TriFunction.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\bin\Debug\netcoreapp2.1\13.TriFunction.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\bin\Debug\netcoreapp2.1\13.TriFunction.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\obj\Debug\netcoreapp2.1\13.TriFunction.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\obj\Debug\netcoreapp2.1\13.TriFunction.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\obj\Debug\netcoreapp2.1\13.TriFunction.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\obj\Debug\netcoreapp2.1\13.TriFunction.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\05. Functional programming\Exercises\13.TriFunction\obj\Debug\netcoreapp2.1\13.TriFunction.pdb

@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\bin\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\bin\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\bin\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\bin\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\bin\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\obj\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\obj\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\obj\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\obj\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\obj\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\03. Sets and Dictionaries Advanced\LAB\04.CitiesByContinentAndCountry\obj\Debug\netcoreapp2.1\04.CitiesByContinentAndCountry.pdb

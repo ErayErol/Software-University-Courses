@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\bin\Debug\netcoreapp2.1\02.SquaresInMatrix.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\bin\Debug\netcoreapp2.1\02.SquaresInMatrix.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\bin\Debug\netcoreapp2.1\02.SquaresInMatrix.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\bin\Debug\netcoreapp2.1\02.SquaresInMatrix.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\bin\Debug\netcoreapp2.1\02.SquaresInMatrix.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\obj\Debug\netcoreapp2.1\02.SquaresInMatrix.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\obj\Debug\netcoreapp2.1\02.SquaresInMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\obj\Debug\netcoreapp2.1\02.SquaresInMatrix.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\obj\Debug\netcoreapp2.1\02.SquaresInMatrix.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\obj\Debug\netcoreapp2.1\02.SquaresInMatrix.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\02. Multidimensional Arrays\Exercises\02.SquaresInMatrix\obj\Debug\netcoreapp2.1\02.SquaresInMatrix.pdb

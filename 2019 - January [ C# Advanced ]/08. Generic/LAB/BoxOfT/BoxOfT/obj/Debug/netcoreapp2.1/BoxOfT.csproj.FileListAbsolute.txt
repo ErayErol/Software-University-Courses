@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\bin\Debug\netcoreapp2.1\BoxOfT.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\bin\Debug\netcoreapp2.1\BoxOfT.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\bin\Debug\netcoreapp2.1\BoxOfT.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\bin\Debug\netcoreapp2.1\BoxOfT.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\bin\Debug\netcoreapp2.1\BoxOfT.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-Advanced\2019.01.14 - C# Advanced\08. Generic\LAB\BoxOfT\BoxOfT\obj\Debug\netcoreapp2.1\BoxOfT.genruntimeconfig.cache

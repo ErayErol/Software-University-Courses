@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\bin\Debug\netcoreapp2.1\PokemonTrainer.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\bin\Debug\netcoreapp2.1\PokemonTrainer.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\bin\Debug\netcoreapp2.1\PokemonTrainer.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\bin\Debug\netcoreapp2.1\PokemonTrainer.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\bin\Debug\netcoreapp2.1\PokemonTrainer.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\obj\Debug\netcoreapp2.1\PokemonTrainer.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\obj\Debug\netcoreapp2.1\PokemonTrainer.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\obj\Debug\netcoreapp2.1\PokemonTrainer.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\obj\Debug\netcoreapp2.1\PokemonTrainer.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\obj\Debug\netcoreapp2.1\PokemonTrainer.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\06. Defining class\Exercises\P11\PokemonTrainer\PokemonTrainer\obj\Debug\netcoreapp2.1\PokemonTrainer.pdb
