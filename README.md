@@ -9,13 +9,7 @@
          </td>
          <td align="left" width="33%">
             <h3>
-               ```diff
-               - text in red
-               + text in green
-               ! text in orange
-               # text in gray
-               @@ text in purple (and bold)@@
-               ```
+	    <span style="color:orange;">Word up</span>
                Student name: E.Erol ⭐
             </h3>
             <h3>
