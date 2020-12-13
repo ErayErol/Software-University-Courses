@@ -1,0 +1,105 @@
+body {
+    background-color: #FFE4C4;
+}
+
+textarea, input {
+    resize: none;
+    outline: none;
+    padding: 2%;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 3% auto;
+}
+
+.wrapper .book-create {
+    display: block;
+    width: 100%;
+}
+
+.wrapper .book-create .create-header {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wrapper .book-create .create-title,
+.wrapper .book-create .create-bookitem
+{
+    display: block;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.wrapper .book-create .create-title .create-title-label,
+.wrapper .book-create .create-bookitem .create-bookitem-label
+{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.wrapper .book-create .create-title .create-title-content
+{
+    margin-top: 1%;
+    font-size: 1.5em;
+    width: 80%;
+    
+}
+
+input {
+    border-radius: 15px;
+    border: none;
+}
+
+.wrapper .book-create .create-bookitem .create-bookitem-content
+{
+    margin-top: 1%;
+    font-size: 1.5em;
+    width: 80%;
+    height: 50px;
+}
+
+.wrapper .create-button-holder {
+    display: flex;
+
+    width: 70%;
+    margin: auto;
+}
+
+.wrapper .create-button-holder>* {
+    display: inline-block;
+    background-color: #4B907D;
+}
+
+.wrapper .create-button-holder a[type="button"],
+.wrapper .create-button-holder button
+{
+    width: 30%;
+    margin: 35px;
+    padding: 1.5% 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    /* font-family: Arial; */
+    border-radius: 5px;
+    /* border: 2px solid darkblue; */
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .create-button-holder a[type="button"]:hover,
+.wrapper .create-button-holder button:hover {
+    cursor: pointer;
+    background-color: #CDF0E1;
+    color: #4B907D;
+    border: 1px solid #4B907D;
+}
+
+.wrapper .create-button-holder a[type="button"]:hover,
+.wrapper .create-button-holder button:focus {
+    outline: none;
+}

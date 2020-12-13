@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\bin\Debug\03.Zig-ZagArrays.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\bin\Debug\03.Zig-ZagArrays.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\bin\Debug\03.Zig-ZagArrays.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\obj\Debug\03.Zig-ZagArrays.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\obj\Debug\03.Zig-ZagArrays.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\obj\Debug\03.Zig-ZagArrays.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\03.Zig-ZagArrays\obj\Debug\03.Zig-ZagArrays.pdb

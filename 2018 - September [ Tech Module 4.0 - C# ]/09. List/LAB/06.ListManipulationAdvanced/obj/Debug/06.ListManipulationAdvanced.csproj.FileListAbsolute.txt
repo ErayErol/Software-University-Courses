@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\bin\Debug\06.ListManipulationAdvanced.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\bin\Debug\06.ListManipulationAdvanced.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\bin\Debug\06.ListManipulationAdvanced.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\obj\Debug\06.ListManipulationAdvanced.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\obj\Debug\06.ListManipulationAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\obj\Debug\06.ListManipulationAdvanced.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\06.ListManipulationAdvanced\obj\Debug\06.ListManipulationAdvanced.pdb

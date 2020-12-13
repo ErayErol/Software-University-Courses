@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\bin\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.deps.json
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\bin\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\bin\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\bin\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.dll
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\bin\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.pdb
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\obj\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\obj\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\obj\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\obj\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.dll
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\obj\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.pdb
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\03.Arrays#\More Exercises\04.LongestIncreasingSubsequence\obj\Debug\netcoreapp2.1\04.LongestIncreasingSubsequence.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\03.WordSynonyms\bin\Debug\03.WordSynonyms.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\03.WordSynonyms\bin\Debug\03.WordSynonyms.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\03.WordSynonyms\bin\Debug\03.WordSynonyms.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\03.WordSynonyms\obj\Debug\03.WordSynonyms.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\03.WordSynonyms\obj\Debug\03.WordSynonyms.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\03.WordSynonyms\obj\Debug\03.WordSynonyms.pdb

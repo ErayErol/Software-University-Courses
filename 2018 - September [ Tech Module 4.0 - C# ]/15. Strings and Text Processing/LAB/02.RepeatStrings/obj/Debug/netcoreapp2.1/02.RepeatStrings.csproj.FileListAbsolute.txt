@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\bin\Debug\netcoreapp2.1\02.RepeatStrings.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\bin\Debug\netcoreapp2.1\02.RepeatStrings.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\bin\Debug\netcoreapp2.1\02.RepeatStrings.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\bin\Debug\netcoreapp2.1\02.RepeatStrings.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\bin\Debug\netcoreapp2.1\02.RepeatStrings.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\obj\Debug\netcoreapp2.1\02.RepeatStrings.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\obj\Debug\netcoreapp2.1\02.RepeatStrings.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\obj\Debug\netcoreapp2.1\02.RepeatStrings.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\obj\Debug\netcoreapp2.1\02.RepeatStrings.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\02.RepeatStrings\obj\Debug\netcoreapp2.1\02.RepeatStrings.pdb

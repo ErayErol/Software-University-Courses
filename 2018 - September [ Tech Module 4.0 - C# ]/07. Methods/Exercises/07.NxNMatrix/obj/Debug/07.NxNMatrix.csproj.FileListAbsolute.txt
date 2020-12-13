@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\bin\Debug\07.NxNMatrix.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\bin\Debug\07.NxNMatrix.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\bin\Debug\07.NxNMatrix.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\obj\Debug\07.NxNMatrix.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\obj\Debug\07.NxNMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\obj\Debug\07.NxNMatrix.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\07.NxNMatrix\obj\Debug\07.NxNMatrix.pdb

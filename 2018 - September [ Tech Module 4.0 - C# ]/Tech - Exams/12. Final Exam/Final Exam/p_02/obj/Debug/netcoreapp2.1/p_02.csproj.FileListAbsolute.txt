@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\bin\Debug\netcoreapp2.1\p_02.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\bin\Debug\netcoreapp2.1\p_02.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\bin\Debug\netcoreapp2.1\p_02.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\bin\Debug\netcoreapp2.1\p_02.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\bin\Debug\netcoreapp2.1\p_02.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\obj\Debug\netcoreapp2.1\p_02.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\obj\Debug\netcoreapp2.1\p_02.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\obj\Debug\netcoreapp2.1\p_02.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\obj\Debug\netcoreapp2.1\p_02.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\obj\Debug\netcoreapp2.1\p_02.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0 - C#\12_Final Exam@\Final Exam\p_02\obj\Debug\netcoreapp2.1\p_02.pdb

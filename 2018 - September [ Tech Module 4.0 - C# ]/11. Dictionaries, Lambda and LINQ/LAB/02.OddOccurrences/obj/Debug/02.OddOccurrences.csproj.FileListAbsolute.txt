@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\bin\Debug\02.OddOccurrences.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\bin\Debug\02.OddOccurrences.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\bin\Debug\02.OddOccurrences.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\obj\Debug\02.OddOccurrences.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\obj\Debug\02.OddOccurrences.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\obj\Debug\02.OddOccurrences.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\LAB\02.OddOccurrences\obj\Debug\02.OddOccurrences.pdb

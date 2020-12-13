@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\bin\Debug\netcoreapp2.1\03.ExtractFile.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\bin\Debug\netcoreapp2.1\03.ExtractFile.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\bin\Debug\netcoreapp2.1\03.ExtractFile.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\bin\Debug\netcoreapp2.1\03.ExtractFile.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\bin\Debug\netcoreapp2.1\03.ExtractFile.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\obj\Debug\netcoreapp2.1\03.ExtractFile.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\obj\Debug\netcoreapp2.1\03.ExtractFile.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\obj\Debug\netcoreapp2.1\03.ExtractFile.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\obj\Debug\netcoreapp2.1\03.ExtractFile.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\03.ExtractFile\obj\Debug\netcoreapp2.1\03.ExtractFile.pdb

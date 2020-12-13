@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\bin\Debug\01.SignOfIntegerNumbers.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\bin\Debug\01.SignOfIntegerNumbers.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\bin\Debug\01.SignOfIntegerNumbers.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\obj\Debug\01.SignOfIntegerNumbers.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\obj\Debug\01.SignOfIntegerNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\obj\Debug\01.SignOfIntegerNumbers.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\01.SignOfIntegerNumbers\obj\Debug\01.SignOfIntegerNumbers.pdb

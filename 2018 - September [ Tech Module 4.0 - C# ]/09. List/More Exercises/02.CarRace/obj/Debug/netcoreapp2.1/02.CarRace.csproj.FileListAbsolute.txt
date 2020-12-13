@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\bin\Debug\netcoreapp2.1\02.CarRace.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\bin\Debug\netcoreapp2.1\02.CarRace.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\bin\Debug\netcoreapp2.1\02.CarRace.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\bin\Debug\netcoreapp2.1\02.CarRace.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\bin\Debug\netcoreapp2.1\02.CarRace.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\obj\Debug\netcoreapp2.1\02.CarRace.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\obj\Debug\netcoreapp2.1\02.CarRace.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\obj\Debug\netcoreapp2.1\02.CarRace.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\obj\Debug\netcoreapp2.1\02.CarRace.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\obj\Debug\netcoreapp2.1\02.CarRace.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\02.CarRace\obj\Debug\netcoreapp2.1\02.CarRace.pdb

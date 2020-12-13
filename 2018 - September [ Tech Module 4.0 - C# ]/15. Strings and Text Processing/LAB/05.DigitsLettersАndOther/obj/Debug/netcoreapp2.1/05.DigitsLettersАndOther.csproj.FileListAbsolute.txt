@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\bin\Debug\netcoreapp2.1\05.DigitsLettersАndOther.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\bin\Debug\netcoreapp2.1\05.DigitsLettersАndOther.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\bin\Debug\netcoreapp2.1\05.DigitsLettersАndOther.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\bin\Debug\netcoreapp2.1\05.DigitsLettersАndOther.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\bin\Debug\netcoreapp2.1\05.DigitsLettersАndOther.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\obj\Debug\netcoreapp2.1\05.DigitsLettersАndOther.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\obj\Debug\netcoreapp2.1\05.DigitsLettersАndOther.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\obj\Debug\netcoreapp2.1\05.DigitsLettersАndOther.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\obj\Debug\netcoreapp2.1\05.DigitsLettersАndOther.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\LAB\05.DigitsLettersАndOther\obj\Debug\netcoreapp2.1\05.DigitsLettersАndOther.pdb

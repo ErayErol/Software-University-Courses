@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\bin\Debug\p_01.exe.config
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\bin\Debug\p_01.exe
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\bin\Debug\p_01.pdb
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\obj\Debug\p_01.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\obj\Debug\p_01.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\obj\Debug\p_01.exe
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2018_January_5\p_01\obj\Debug\p_01.pdb

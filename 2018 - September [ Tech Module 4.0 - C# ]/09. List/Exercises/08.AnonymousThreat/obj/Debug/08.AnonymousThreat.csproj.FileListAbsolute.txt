@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\bin\Debug\08.AnonymousThreat.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\bin\Debug\08.AnonymousThreat.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\bin\Debug\08.AnonymousThreat.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\obj\Debug\08.AnonymousThreat.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\obj\Debug\08.AnonymousThreat.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\obj\Debug\08.AnonymousThreat.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\08.AnonymousThreat\obj\Debug\08.AnonymousThreat.pdb

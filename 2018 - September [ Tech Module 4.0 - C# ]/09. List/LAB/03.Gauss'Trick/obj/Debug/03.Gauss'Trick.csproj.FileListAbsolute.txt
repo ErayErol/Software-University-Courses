@@ -1,0 +1,6 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\03.Gauss'Trick\bin\Debug\03.Gauss'Trick.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\03.Gauss'Trick\bin\Debug\03.Gauss'Trick.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\03.Gauss'Trick\bin\Debug\03.Gauss'Trick.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\03.Gauss'Trick\obj\Debug\03.Gauss'Trick.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\03.Gauss'Trick\obj\Debug\03.Gauss'Trick.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\03.Gauss'Trick\obj\Debug\03.Gauss'Trick.pdb

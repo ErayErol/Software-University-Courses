@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\bin\Debug\netcoreapp2.1\02.CharacterMultiplier.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\bin\Debug\netcoreapp2.1\02.CharacterMultiplier.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\bin\Debug\netcoreapp2.1\02.CharacterMultiplier.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\bin\Debug\netcoreapp2.1\02.CharacterMultiplier.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\bin\Debug\netcoreapp2.1\02.CharacterMultiplier.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\obj\Debug\netcoreapp2.1\02.CharacterMultiplier.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\obj\Debug\netcoreapp2.1\02.CharacterMultiplier.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\obj\Debug\netcoreapp2.1\02.CharacterMultiplier.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\obj\Debug\netcoreapp2.1\02.CharacterMultiplier.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\obj\Debug\netcoreapp2.1\02.CharacterMultiplier.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\02.CharacterMultiplier\obj\Debug\netcoreapp2.1\02.CharacterMultiplier.pdb

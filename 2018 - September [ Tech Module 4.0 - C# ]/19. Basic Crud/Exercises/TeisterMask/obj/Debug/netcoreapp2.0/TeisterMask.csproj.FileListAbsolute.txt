@@ -1,0 +1,33 @@
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.deps.json
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.runtimeconfig.json
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.runtimeconfig.dev.json
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.dll
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.pdb
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.csprojAssemblyReference.cache
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.csproj.CoreCompileInputs.cache
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.AssemblyInfoInputs.cache
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.AssemblyInfo.cs
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.dll
+C:\Users\Galin\Desktop\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.pdb
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.deps.json
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.runtimeconfig.json
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.runtimeconfig.dev.json
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.dll
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.pdb
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.csprojAssemblyReference.cache
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.csproj.CoreCompileInputs.cache
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.AssemblyInfoInputs.cache
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.AssemblyInfo.cs
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.dll
+C:\Users\Galin\Desktop\New folder (2)\CSharp-Skeleton\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\bin\Debug\netcoreapp2.0\TeisterMask.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\10.Basic Crud\Exercises\TeisterMask\obj\Debug\netcoreapp2.0\TeisterMask.pdb

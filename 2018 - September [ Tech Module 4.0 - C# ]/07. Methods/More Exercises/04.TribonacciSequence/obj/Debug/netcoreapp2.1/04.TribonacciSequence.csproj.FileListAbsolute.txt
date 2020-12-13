@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\bin\Debug\netcoreapp2.1\04.TribonacciSequence.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\bin\Debug\netcoreapp2.1\04.TribonacciSequence.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\bin\Debug\netcoreapp2.1\04.TribonacciSequence.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\bin\Debug\netcoreapp2.1\04.TribonacciSequence.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\bin\Debug\netcoreapp2.1\04.TribonacciSequence.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\obj\Debug\netcoreapp2.1\04.TribonacciSequence.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\obj\Debug\netcoreapp2.1\04.TribonacciSequence.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\obj\Debug\netcoreapp2.1\04.TribonacciSequence.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\obj\Debug\netcoreapp2.1\04.TribonacciSequence.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\obj\Debug\netcoreapp2.1\04.TribonacciSequence.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\04.TribonacciSequence\obj\Debug\netcoreapp2.1\04.TribonacciSequence.pdb

@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\bin\Debug\netcoreapp2.1\02.MatchPhoneNumber.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\bin\Debug\netcoreapp2.1\02.MatchPhoneNumber.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\bin\Debug\netcoreapp2.1\02.MatchPhoneNumber.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\bin\Debug\netcoreapp2.1\02.MatchPhoneNumber.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\bin\Debug\netcoreapp2.1\02.MatchPhoneNumber.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\obj\Debug\netcoreapp2.1\02.MatchPhoneNumber.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\obj\Debug\netcoreapp2.1\02.MatchPhoneNumber.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\obj\Debug\netcoreapp2.1\02.MatchPhoneNumber.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\obj\Debug\netcoreapp2.1\02.MatchPhoneNumber.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\obj\Debug\netcoreapp2.1\02.MatchPhoneNumber.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\LAB\02.MatchPhoneNumber\obj\Debug\netcoreapp2.1\02.MatchPhoneNumber.pdb

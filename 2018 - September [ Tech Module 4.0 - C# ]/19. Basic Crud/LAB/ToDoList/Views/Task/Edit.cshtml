@@ -1,0 +1,16 @@
+﻿@model ToDoList.Models.Task
+
+<div class="col-md-4" style="margin-top:10px; padding-top:10px">
+    <form method="post">
+        <div class="form-group">
+            <label for="taskTitle"><b>Task Title:</b></label>
+            <input type="text" class="form-control" asp-for="Title" id="taskTitle" placeholder="Task Title">
+        </div>
+        <div class="form-group">
+            <label for="taskComment"><b>Task Comments</b></label>
+            <textarea asp-for="Comments" class="form-control" id="taskComment" name="comments" rows="4"></textarea>
+        </div>
+        <button type="submit" asp-action="Edit" asp-controller="Task" class="btn btn-dark bg-dark">Edit</button>
+        <button formmethod="get" asp-controller="Task" asp-action="Index" class="btn btn-dark bg-dark">Cancel</button>
+    </form>
+</div>

@@ -1,0 +1,6 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\06.EvenAndOddSubtraction\bin\Debug\06.EvenAndOddSubtraction.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\06.EvenAndOddSubtraction\bin\Debug\06.EvenAndOddSubtraction.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\06.EvenAndOddSubtraction\bin\Debug\06.EvenAndOddSubtraction.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\06.EvenAndOddSubtraction\obj\Debug\06.EvenAndOddSubtraction.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\06.EvenAndOddSubtraction\obj\Debug\06.EvenAndOddSubtraction.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\06.EvenAndOddSubtraction\obj\Debug\06.EvenAndOddSubtraction.pdb

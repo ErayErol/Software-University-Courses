@@ -1,0 +1,23 @@
+﻿@model Book
+
+<form class="book-create" asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <div class="create-header">
+        Remove Book
+    </div>
+    <div class="create-title">
+        <div class="create-title-label">Title</div>
+        <input class="create-title-content" name="title" disabled="disabled" readonly value=@Model.Title />
+    </div>
+    <div class="create-bookitem">
+        <div class="create-bookitem-label">Author</div>
+        <input rows="3" class="create-bookitem-content" name="author" disabled="disabled" readonly value=@Model.Author/>
+    </div>
+    <div class="create-bookitem">
+        <div class="create-bookitem-label">Price</div>
+        <input type="number" step="any" min="1" rows="3" class="create-bookitem-content" name="price" value=@Model.Price disabled="disabled" readonly />
+    </div>
+    <div class="create-button-holder">
+        <button type="submit" class="button">Remove Book</button>
+        <a type="button" asp-controller="Library" asp-action="Index" class="button">Back</a>
+    </div>
+</form>

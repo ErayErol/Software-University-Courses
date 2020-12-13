@@ -1,0 +1,33 @@
+﻿@model List<Book>
+
+<div class="button-holder">
+    <a type="button" asp-controller="Library" asp-action="Create" class="button">Add a new Book</a>
+</div>
+<div class="content">
+    <div class="header">
+        <div class="book-label">Title</div>
+        <div class="book-label">Author</div>
+        <div class="book-label">Price</div>
+        <div class="actions-label">Actions</div>
+    </div>
+    <div class="main">
+        @foreach (var item in Model)
+        {
+            <div class="book">
+                <div class="book-title">
+                    @item.Title
+                </div>
+                <div class="book-item">
+                    @item.Author
+                </div>
+                <div class="book-item">
+                    @item.Price
+                </div>
+                <div class="project-actions">
+                    <a type="button" asp-action="Edit" asp-route-id="@item.Id" class="bookbutton">Edit</a>
+                    <a type="button" asp-action="Delete" asp-route-id="@item.Id" class="bookbutton">Remove</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,14 @@
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\bin\Debug\p_01.exe.config
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\bin\Debug\p_01.exe
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\bin\Debug\p_01.pdb
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\obj\Debug\p_01.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\obj\Debug\p_01.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\obj\Debug\p_01.exe
+C:\Users\Aris\source\repos\02. Exam_Tech_Module\2016_September_11\p_01\obj\Debug\p_01.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\bin\Debug\p_01.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\bin\Debug\p_01.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\bin\Debug\p_01.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\obj\Debug\p_01.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\obj\Debug\p_01.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\obj\Debug\p_01.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.09.11\p_01\obj\Debug\p_01.pdb

@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\bin\Debug\02.RandomizeWords.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\bin\Debug\02.RandomizeWords.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\bin\Debug\02.RandomizeWords.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\obj\Debug\02.RandomizeWords.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\obj\Debug\02.RandomizeWords.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\obj\Debug\02.RandomizeWords.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\02.RandomizeWords\obj\Debug\02.RandomizeWords.pdb

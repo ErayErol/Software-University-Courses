@@ -1,0 +1,22 @@
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\bin\Debug\netcoreapp2.0\Library.deps.json
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.json
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.dev.json
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\bin\Debug\netcoreapp2.0\Library.dll
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\bin\Debug\netcoreapp2.0\Library.pdb
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\obj\Debug\netcoreapp2.0\Library.csprojAssemblyReference.cache
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\obj\Debug\netcoreapp2.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\obj\Debug\netcoreapp2.0\Library.AssemblyInfoInputs.cache
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\obj\Debug\netcoreapp2.0\Library.AssemblyInfo.cs
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\obj\Debug\netcoreapp2.0\Library.dll
+C:\Users\Galin\Desktop\Demo Exam CSharp Skeleton\Library\Library\obj\Debug\netcoreapp2.0\Library.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\bin\Debug\netcoreapp2.0\Library.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\bin\Debug\netcoreapp2.0\Library.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\bin\Debug\netcoreapp2.0\Library.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\obj\Debug\netcoreapp2.0\Library.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\obj\Debug\netcoreapp2.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\obj\Debug\netcoreapp2.0\Library.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\obj\Debug\netcoreapp2.0\Library.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\obj\Debug\netcoreapp2.0\Library.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\11_Demo Final Exam@\DemoExam\Skeleton-C#\Skeleton-C#\Library\obj\Debug\netcoreapp2.0\Library.pdb

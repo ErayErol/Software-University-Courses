@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\bin\Debug\p_02.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\bin\Debug\p_02.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\bin\Debug\p_02.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\obj\Debug\p_02.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\obj\Debug\p_02.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\obj\Debug\p_02.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\05_Demo Exam\DemoExam\p_02\obj\Debug\p_02.pdb

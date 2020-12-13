@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\bin\Debug\netcoreapp2.1\p_04.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\bin\Debug\netcoreapp2.1\p_04.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\bin\Debug\netcoreapp2.1\p_04.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\bin\Debug\netcoreapp2.1\p_04.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\bin\Debug\netcoreapp2.1\p_04.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\obj\Debug\netcoreapp2.1\p_04.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\obj\Debug\netcoreapp2.1\p_04.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\obj\Debug\netcoreapp2.1\p_04.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\obj\Debug\netcoreapp2.1\p_04.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\obj\Debug\netcoreapp2.1\p_04.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2018.10.28\Part II\p_04\obj\Debug\netcoreapp2.1\p_04.pdb
