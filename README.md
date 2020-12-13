@@ -41,7 +41,6 @@
 <!-- Summary Begin -->
 <details>
    <summary>
-      <strong> Click </strong> for more detailed information
       <table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
@@ -61,7 +60,8 @@
                </th>
             </tr>
          </tbody>
-      </table>      
+      </table>
+      <strong> Click </strong> for more detailed information
    </summary>
 <!-- Summary End -->
    
