@@ -23,9 +23,13 @@
             <img src="https://avatars3.githubusercontent.com/u/42773965?s=460&u=77e86dac05c259d9b9291199306afc83bbfc5c26&v=4" width = 125/>
 		   </a>
             <h4>
-               Student name : E.Erol 
-               My target : Diploma with C#
-               My Credits : 77
+               Student name : E.Erol ⭐
+            </h4>
+            <h4>
+               My target : Diploma with C# 🏆
+            </h4>
+            <h4>
+               My Credits : 77 🎯
             </h4>
          </td>
       </tr>
