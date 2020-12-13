@@ -2,7 +2,11 @@
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
    <tbody>
       <tr>
-         <td align="left" width="33%"><img style="text-align: center;" src="http://conf.softuni.bg/wp-content/uploads/2015/01/SoftUni-Logo-Flat_square-blue-300x235.png"/></td>
+         <td align="left" width="33%">
+         <a href="https://softuni.bg">
+            <img src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 />
+         </a>
+         </td>
          <td align="left" width="33%">
             <h2>
                C# ✅
