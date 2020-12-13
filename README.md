@@ -290,18 +290,27 @@
 <details>
    <summary>
       <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
+      <table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="70%">C# Advanced - January 2019 <br /> 14.01.2019 - 24.02.2019</th>
-               </th>
-               <th width="40%" align="left">Grade: 5.54 (out of 6.00) <br /> Issue Date: 28/02/2019:</th>
                <th align="left">
-                  <p><a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a></p>
+                  C# Advanced - January 2019
+                  <br /> 
+                  14.01.2019 - 24.02.2019
+               </th>
+               <th align="left">
+                  Grade: 5.62 (out of 6.00)
+                  <br />
+                  Issue Date: 28/02/2019
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>
+      </table>      
    </summary>
    <!-- Summary End -->
    
