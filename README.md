@@ -8,8 +8,8 @@
          </a>
          </td>
          <td align="left" width="33%">
+		 <span style="color:orange;">Word up</span>
             <h3>
-	    <span style="color:orange;">Word up</span>
                Student name: E.Erol ⭐
             </h3>
             <h3>
