@@ -9,14 +9,21 @@
          </td>
          <td align="left" width="33%">
             <h3>
+               ```diff
+               - text in red
+               + text in green
+               ! text in orange
+               # text in gray
+               @@ text in purple (and bold)@@
+               ```
                Student name: E.Erol ⭐
             </h3>
             <h3>
-               <p>My target:</p>
-               <p>Full Stack Web Developer 🏆</p>
+               My Credits: 77 🎯
             </h3>
             <h3>
-               My Credits: 77 🎯
+               <p>My target: Full Stack</p>
+               <p>Web Developer 🏆</p>
             </h3>
          </td>
          <td align="left" width="33%">
