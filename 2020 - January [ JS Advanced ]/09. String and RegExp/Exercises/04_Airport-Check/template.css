@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html {
+    font-family: "Lato", sans-serif;
+    color: #234465;
+}
+
+body {
+    background: url(flight.png) no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+#container {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    border-radius: 4px;
+    padding: 35px 0;
+    font-size: 28px;
+}
+
+#exercise > form > div > label {
+    display: block;
+}
+
+input {
+    width: 80%;
+    margin: 12px auto;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+}
+
+#exercise > form > input[type="button"] {
+    width: 39%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, .7);
+    border: 2px solid white;
+}
+
+#exercise > form > input[type="button"]:hover {
+    color: rgba(0, 0, 0, .7);
+    background: white;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+#result p {
+    padding: 0 15px;
+}
