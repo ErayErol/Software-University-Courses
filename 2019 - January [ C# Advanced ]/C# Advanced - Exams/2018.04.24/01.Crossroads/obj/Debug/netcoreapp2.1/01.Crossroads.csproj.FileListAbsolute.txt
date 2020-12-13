@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\bin\Debug\netcoreapp2.1\01.Crossroads.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\bin\Debug\netcoreapp2.1\01.Crossroads.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\bin\Debug\netcoreapp2.1\01.Crossroads.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\bin\Debug\netcoreapp2.1\01.Crossroads.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\bin\Debug\netcoreapp2.1\01.Crossroads.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\obj\Debug\netcoreapp2.1\01.Crossroads.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\obj\Debug\netcoreapp2.1\01.Crossroads.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\obj\Debug\netcoreapp2.1\01.Crossroads.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\obj\Debug\netcoreapp2.1\01.Crossroads.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\obj\Debug\netcoreapp2.1\01.Crossroads.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\01.Crossroads\obj\Debug\netcoreapp2.1\01.Crossroads.pdb

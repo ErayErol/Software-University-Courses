@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\bin\Debug\netcoreapp2.1\04.CupsAndBottles.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\bin\Debug\netcoreapp2.1\04.CupsAndBottles.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\bin\Debug\netcoreapp2.1\04.CupsAndBottles.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\bin\Debug\netcoreapp2.1\04.CupsAndBottles.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\bin\Debug\netcoreapp2.1\04.CupsAndBottles.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\obj\Debug\netcoreapp2.1\04.CupsAndBottles.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\obj\Debug\netcoreapp2.1\04.CupsAndBottles.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\obj\Debug\netcoreapp2.1\04.CupsAndBottles.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\obj\Debug\netcoreapp2.1\04.CupsAndBottles.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\obj\Debug\netcoreapp2.1\04.CupsAndBottles.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.10.14\04.CupsAndBottles\obj\Debug\netcoreapp2.1\04.CupsAndBottles.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\bin\Debug\netcoreapp2.1\04.TheKitchen.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\bin\Debug\netcoreapp2.1\04.TheKitchen.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\bin\Debug\netcoreapp2.1\04.TheKitchen.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\bin\Debug\netcoreapp2.1\04.TheKitchen.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\bin\Debug\netcoreapp2.1\04.TheKitchen.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\obj\Debug\netcoreapp2.1\04.TheKitchen.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\obj\Debug\netcoreapp2.1\04.TheKitchen.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\obj\Debug\netcoreapp2.1\04.TheKitchen.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\obj\Debug\netcoreapp2.1\04.TheKitchen.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2018.12.17\04.TheKitchen\obj\Debug\netcoreapp2.1\04.TheKitchen.pdb

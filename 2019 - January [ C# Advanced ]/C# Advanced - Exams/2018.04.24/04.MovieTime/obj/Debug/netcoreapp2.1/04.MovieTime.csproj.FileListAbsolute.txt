@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\bin\Debug\netcoreapp2.1\04.MovieTime.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\bin\Debug\netcoreapp2.1\04.MovieTime.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\bin\Debug\netcoreapp2.1\04.MovieTime.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\bin\Debug\netcoreapp2.1\04.MovieTime.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\bin\Debug\netcoreapp2.1\04.MovieTime.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\obj\Debug\netcoreapp2.1\04.MovieTime.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\obj\Debug\netcoreapp2.1\04.MovieTime.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\obj\Debug\netcoreapp2.1\04.MovieTime.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\obj\Debug\netcoreapp2.1\04.MovieTime.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\obj\Debug\netcoreapp2.1\04.MovieTime.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced- Exam - 2\2018.04.24\04.MovieTime\obj\Debug\netcoreapp2.1\04.MovieTime.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\bin\Debug\netcoreapp2.1\01.Hospital.deps.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\bin\Debug\netcoreapp2.1\01.Hospital.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\bin\Debug\netcoreapp2.1\01.Hospital.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\bin\Debug\netcoreapp2.1\01.Hospital.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\bin\Debug\netcoreapp2.1\01.Hospital.pdb
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\obj\Debug\netcoreapp2.1\01.Hospital.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\obj\Debug\netcoreapp2.1\01.Hospital.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\obj\Debug\netcoreapp2.1\01.Hospital.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\obj\Debug\netcoreapp2.1\01.Hospital.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\obj\Debug\netcoreapp2.1\01.Hospital.dll
+C:\Users\Aris\source\repos\SoftUni\2019.01.14 - C# Advanced\C# Advanced - Exams\2019.02.19 - Sample Exam\01.Hospital\obj\Debug\netcoreapp2.1\01.Hospital.pdb
