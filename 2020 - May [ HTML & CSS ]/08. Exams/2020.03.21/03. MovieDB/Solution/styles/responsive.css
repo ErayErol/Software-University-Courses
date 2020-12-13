@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    .main-movie {
+        height: 300px;
+    }
+
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie-trailer {
+        height: 500px;
+    }
+
+    .main-movie-trailer iframe {
+        width: 500px;
+        height: 300px;
+    }
+
+    .main-movie ul {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .movie {
+        height: 210px;
+    }
+
+    .movies {
+        width: 100%;
+        color: rgb(226, 182, 22);
+        margin: 50px 0 200px 0;
+    }
+
+    .classics {
+        margin-top: -50px;
+        margin-bottom: 170px;
+    }
+}
+
+
+@media (max-width: 414px) {
+
+    .main-movie-poster {
+        display: none;
+    }
+
+    header {
+        width: 413px;
+    }
+
+    .main-movie ul li {
+        padding: 0 0px;
+    }
+
+    .main-movie {
+        display: block;
+    }
+
+    .main-movie-trailer iframe {
+        width: 413px;
+        height: 348px;
+    }
+
+    .movie-list {
+        flex-direction: column;
+    }
+
+    .movie {
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+
+    .movie img {
+        padding: 0 20px;
+    }
+
+    .movies {
+        width: 100%;
+        color: rgb(226, 182, 22);
+        margin: 100px 0 200px 0;
+    }
+
+    footer {
+        color: rgb(200,200,200);
+        margin-top: -80px;
+    }
+}

@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+    padding-top: 2%;
+}
+
+h1,
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    position: absolute;
+    transform: translate(-50%, -85%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.card-title {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, 20%);
+    left: 50%;
+    top: 50%;
+    max-width: 450px;
+    height: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+button {
+    background-color: rgb(0, 153, 0);
+    border-color: rgb(0, 153, 0);
+    border-radius: 3px;
+    border: none;
+    position: absolute;
+    color: white;
+    padding: 8px 15px;
+    right: 8%;
+    bottom: 15%;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    width: 65%;
+    display: block;
+}
+
+aside {
+  vertical-align: top;
+  max-width: 20%;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    padding-bottom: 28px;
+}
+
+ul {
+    list-style: square;
+}
+
+main {
+    max-width: 70%;
+}
+
+main,
+aside{
+    display: inline-block;
+}

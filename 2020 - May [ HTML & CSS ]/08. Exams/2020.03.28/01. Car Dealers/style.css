@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+h1 {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-right: 52px;
+    font-size: 3em;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+}
+
+.section-first{
+    width: 50%;
+}
+
+.p-first{
+    font-weight: bold;
+    width: 710px;
+    font-size: 26px;
+    margin-top: 18px;
+}
+
+.p-second{
+    width: 750px;
+    color: gray;
+
+}
+
+.img-car{
+    margin-left: -100px;
+    width: 700px;
+}
+
+.article-first{
+    margin-top: -24px;
+    margin-bottom: 70px;
+}
+
+.article-second-first,
+.article-second-second,
+.article-second-third{
+    display: flex;
+    align-items: center;
+    margin-left: -9px;
+}
+
+.img-little{
+    width: 67px;
+    height: 54px
+}
+
+.right-side-p h5 {
+    height: 0px;
+}
+
+.right-side-p {
+    margin-left: 15px;
+    margin-top: -15px;
+    color: gray;
+}
+
+.article-second{
+    margin-top: -44px;
+}
+
+h5{
+    color: #666666;
+}

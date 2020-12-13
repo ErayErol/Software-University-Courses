@@ -1,0 +1,28 @@
+body,
+ul,
+li {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    margin: 50px 150px;
+}
+
+ul {
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+li {
+    flex: 1;
+    background: white;
+    border: 10px solid black;
+    box-shadow: 0px 0px 20px 0px black;
+    padding: 40px 10px;
+    margin: 20px;
+    align-self: stretch;
+}

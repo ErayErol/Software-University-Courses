@@ -1,0 +1,162 @@
+html {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 23px;
+    line-height: 1.5;
+    background-color: rgb(230, 230, 230);
+    margin: 5rem 5rem;
+}
+
+body {
+    justify-content: center;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+nav,
+p.site-title {
+    display: inline-block;
+}
+
+p.site-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    order: 1;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-style: italic;
+    border-left: 3px solid rgb(175, 175, 175);
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+div.block {
+    display: flex;
+}
+
+blockquote>p:first-child {
+    margin: 0;
+    padding: 0;
+    min-width: 50%;
+}
+
+.block-p-side {
+    padding-right: 2rem;
+    margin: 0;
+    min-width: 50%;
+}
+
+img:first-child {
+    float: right;
+    border: 3px solid black;
+    padding: 8px;
+    width: 10rem;
+    height: 15rem;
+    margin: 60px 0 5px 20px;
+}
+
+img:last-of-type {
+    float: left;
+    border: 3px solid black;
+    padding: 8px;
+    margin: 0 20px 15px 0;
+}
+
+.author {
+    text-align: right;
+}
+
+p:nth-last-child(2) {
+    margin: 0;
+}
+
+p.last-p {
+    width: 100%;
+}
+
+@media (max-width: 1800px) {
+
+    /* For big desktop up ...*/
+    html {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    /* For desktop up ...*/
+    html {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    /* For tablet landscape up ...*/
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* For tablet portrait up ...*/
+    html {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 299px) {
+
+    /* For phone only ...*/
+    html {
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    div.block {
+        flex-direction: column;
+    }
+
+    .block-p-side{
+        order: 1;
+    }
+
+    blockquote{
+        margin: 5px 0 20px 20px;
+        padding-left: 30px;
+    }
+
+    img:last-of-type {
+        float: none;
+    }
+    img:first-child {
+        float: none;
+    }
+}

@@ -1,0 +1,72 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
+
+/* @media (max-width: 1000px){
+
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html {
+    box-sizing: border-box;
+    background-color: rgb(48, 96, 133);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    width: 90%;
+}
+
+main {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+.p-last{
+    font-style: italic;
+    color: rgb(112, 145, 171);
+    width: 840px;
+}
+
+span{
+    font-weight: bold;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.p-middle {
+    width: 90%;
+}
+
+.section-second {
+    display: flex;
+    align-items: center;
+    background: url("./images/arrow.svg");
+    background-size: 100% 100%;
+}
+
+.img-c {
+    padding-right: 30px;
+}

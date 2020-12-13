@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    padding-left: 50px;
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body h1, body h2 {
+    /* font-family: Cormorant, serif; */
+    line-height: 1.2;
+    font-weight: bold;
+    padding-top: 40px;
+}

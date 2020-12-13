@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+div,
+section,
+.workweek,
+.weekend,
+.workday,
+.weekend-day,
+.reminders,
+.special-dates {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 65vw;
+    margin: 0 auto;
+}
+
+span {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.notes {
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.week {
+    flex-flow: row wrap;
+    min-height: 500px;
+}
+
+.workweek,
+.weekend {
+    width: 100%;
+}
+
+.reminders,
+.special-dates {
+    padding-top: 10px;
+}
+
+.workday,
+.weekend-day,
+.reminders,
+.special-dates {
+    flex: 1;
+}

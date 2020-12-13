@@ -1,0 +1,36 @@
+body {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+}
+
+aside {
+    float:right;
+}
+
+img {
+    max-width: 20em;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+img.right {
+    float: right;
+}
+
+img.left {
+    float:left;
+}
+
+blockquote {
+    float:right;
+    display: inline-block;
+    padding-left: 2em;
+    width: 40%;
+}
+
+cite {
+    float: right;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}

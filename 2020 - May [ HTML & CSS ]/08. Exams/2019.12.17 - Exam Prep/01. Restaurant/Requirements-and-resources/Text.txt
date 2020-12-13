@@ -1,0 +1,6 @@
+Booking place for your dinner!
+Your name
+Your phone number
+Time
+Number of people
+Book now

@@ -1,0 +1,164 @@
+/*basic stuff*/
+
+body {
+    padding: 3em;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+img {
+    display: block; /*inline is the default. Not really needed now, but it's nice to have*/
+    width: 100%; /*take up the space provided by the container. This allows controlling the size of image by the container*/
+}
+
+.float-right {
+    float: right;
+}
+
+.cleaner {
+    clear: both;
+}
+
+/*flex containers*/
+
+.page, .page-main, .page-footer, .page-our-team, .page-testimonials {
+    display: flex; /*create a flex container*/
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.page-header, .page-intro, .team-members, .testimonial-members, .page-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*when there is no more room, pass the items onto a new row*/
+    align-items: center; /*center the elements on the vertical*/
+}
+
+/*start of page*/
+
+.page-header {
+    justify-content: space-between; /*have the two items on two opposite ends of the page*/
+}
+
+/*page intro*/
+
+.page-intro-info {
+    flex-basis: 50%; /*justify-content does not work because there is no spare space. The two items take up everything when they are 50%*/
+}
+
+.page-intro-img-container {
+    flex-basis: 20%; /*this controls the size of the image container and respectively the size of the image*/
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+/*page our team AND testimonial members*/
+
+.page-our-team > h2, .page-testimonials > h2 { /*part of flex container with column direction*/
+    text-align: center;
+    border-bottom: 0.25rem solid gray;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.team-members, .testimonial-members {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member-section, .testimonial-member-section {
+    flex-basis: 35%;
+    text-align: center;
+}
+
+.team-member-image-container, .testimonial-member-image-container {
+    width: 75%;
+    height: auto;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+/*page sign in*/
+
+.page-sign-in {
+    background-color: purple;
+    text-align: center;
+}
+
+.page-sign-in > * {
+    margin-bottom: 2rem;
+}
+
+.page-sign-in h2 {
+    color: white;
+    border-bottom-style: solid;
+    border-width: 0.25rem;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 0.5rem;
+}
+
+.page-sign-in input {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border-style: none;
+}
+
+/*page footer*/
+.page-footer {
+    justify-content: space-around;
+    border-top-style: solid;
+    border-width: 0.5rem;
+    border-color: gray;
+    border-radius: 1rem;
+}
+
+.page-footer-sitemap-items {
+    display:flex;
+    flex-direction: column;
+    height: 8rem;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.page-footer-contacts-list {
+    padding-left: 0;
+}
+
+.page-footer-sitemap-items li,
+.page-footer-contacts-list li {
+    list-style: none;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 800px) {
+    .page-footer > * {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 800px) {
+    .page-footer {
+        display: flex; /*create a flex container*/
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .page-footer > * {
+        width: 100%;
+    }
+}
+
+
+
+
+

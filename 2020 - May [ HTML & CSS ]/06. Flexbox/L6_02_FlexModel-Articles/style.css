@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    position: relative;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+    line-height: 1.2;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+article{
+    padding-left: 50px;
+}
+
+p {
+    width: 235px;
+}
+
+h2{
+    width: 200px;
+}

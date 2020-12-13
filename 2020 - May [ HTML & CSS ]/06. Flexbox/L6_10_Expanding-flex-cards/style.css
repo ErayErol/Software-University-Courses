@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    width: 950px;
+    display: flex;
+    position: absolute;
+    flex-flow: row wrap;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    margin: 10px;
+    width: 100px;
+    height: 350px;
+    border-radius: 10px;
+    text-indent: -9999px;
+    box-shadow: 0 0 5px 1px rgb(142, 134, 134);
+}
+
+.normal{
+    width: 520px;
+    height: 350px;
+    box-shadow: -13px 0px 0px 0pt black, 13px 0px 0px 0pt black;
+}
+
+.small-1 {
+    background: url("./images/Image1.jpg") center center;
+    margin-right: 20px;
+}
+
+.small-3 {
+    background: url("./images/Image3.jpg") center center;
+    margin-left: 20px;
+}
+
+.small-4 {
+    background: url("./images/Image4.jpg") center center;
+}

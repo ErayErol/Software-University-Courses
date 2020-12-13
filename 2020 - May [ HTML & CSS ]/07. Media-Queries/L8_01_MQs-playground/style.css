@@ -1,0 +1,22 @@
+section::after {
+    color: green;
+}
+
+@media (min-width: 600px) {
+    section.mq-width::after {
+        content: ' Viewport width is larger than 600px';
+    }
+}
+
+
+@media (min-height: 600px) {
+    section.mq-height::after {
+        content: ' Viewport height is larger than 600px'
+    }
+}
+
+@media (min-aspect-ratio: 8/5) {
+    section.mq-ar::after {
+        content: ' Aspect ratio is larger than 8/5';
+    }
+}

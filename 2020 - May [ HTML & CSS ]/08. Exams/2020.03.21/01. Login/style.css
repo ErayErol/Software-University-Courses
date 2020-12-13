@@ -1,0 +1,83 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 900px;
+
+}
+
+img {
+    position: relative;
+    filter: brightness(30%);
+    width: 100%;
+    height: 981px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 20px;
+    margin-top: 16px;
+    padding-left: 60px;
+    font-size: 1em;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 240px;
+    top: 400px;
+    position: absolute;
+    left: 700px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    position: absolute;
+    top: -35%;
+    color: wheat;
+    filter: brightness(150%);
+    left: 18%;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+button{
+    margin-top: 24px;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 40px;
+    letter-spacing: -1px;
+    margin-left: 111px;
+    background-color: rgb(212, 24, 114);
+    color: white;
+    font-weight: bold;
+    border: transparent;
+}
+
+i {
+    color: gray;
+    position: absolute;
+}
+
+.fa-user {
+    top: 35px;
+    left: 20px;
+}
+
+.fa-lock{
+    top: 111px;
+    left: 20px;
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 20px 150px;
+}
+
+div.container{
+    margin: 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.masonry, div.flex {
+    display: flex;
+    width: 85%;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+div.flex{
+    flex-flow: row wrap;
+}
+
+div.masonry{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 2000px;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+    border: 1.5px solid #cccccc;
+    flex-direction: column;
+    border-radius: 8px;
+    display: flex;
+    margin: 10px;
+    width: 259px;
+}
+
+.masonry>section {
+    height: 100%;
+}
+
+.flex>section {
+    height: 700px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+p {
+    margin: 20px;
+}
+
+div.cards-layout.flex>section>hr {
+    position: absolute;
+    bottom: 10%;
+}
+
+hr, h2{
+    width: 100%;
+}
+
+h2 {
+    margin-left: 9%;
+}
+
+section>p:nth-child(2) {
+    margin-bottom: -10px;
+}
+
+div.cards-layout.flex>section>p:nth-child(5) {
+    position: absolute;
+    bottom: 0;
+}

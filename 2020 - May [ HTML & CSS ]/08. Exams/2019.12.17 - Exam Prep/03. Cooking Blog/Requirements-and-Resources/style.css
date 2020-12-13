@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+    font-family: 'Gelasio', serif;
+}
+
+body {
+    position: relative;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgb(230, 227, 222);
+    height: 60px;
+}
+
+header h2 {
+    margin-top: 16px;
+    margin-left: 30px;
+    color: rgb(100, 95, 89);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+header li {
+    display: flex;
+}
+
+header button {
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 90px;
+    background-color: rgb(85, 73, 56);
+    color: white;
+    border: none;
+    padding: 7px;
+}
+
+header ul li a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(102, 78, 50);
+}
+
+header i {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.first-section {
+    width: 1824px;
+    overflow: hidden;
+    position: relative;
+    background: url("./Media/craving.jpg") center center;
+    height: 550px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    position: absolute;
+    color: white;
+    left: 35%;
+    top: 18%;
+}
+
+.first-section input {
+    font-size: 2.4rem;
+    position: absolute;
+    color: black;
+    left: 37%;
+    top: 42%;
+    border: none;
+    opacity: 0.6;
+}
+
+.first-section i {
+    left: 38%;
+    top: 43.5%;
+    font-size: 1.8rem;
+    position: absolute;
+}
+
+.second-section {
+    width: 1824px;
+    overflow: hidden;
+    position: relative;
+    background: url("./Media/background.jpg") center center;
+    height: 1700px;
+}
+
+.first-article,
+.second-article {
+    display: flex;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 340px;
+}
+
+.first-article img {
+    width: 750px;
+}
+
+.article-cocktails,
+.article-cookies {
+    background-color: rgb(230, 227, 222);
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.article-cocktails h2,
+.article-cocktails p,
+.article-cookies h2,
+.article-cookies p {
+    margin: 0;
+}
+
+.article-cocktails h2 {
+    margin-top: 70px;
+}
+
+.article-cocktails button {
+    margin-top: 30px;
+    height: 35px;
+    background-color: rgb(85, 73, 56);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.second-article img {
+    width: 750px;
+}
+
+.article-cookies h2 {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.cookie-toolbox {
+    margin: 0 auto;
+    text-align: center;
+    width: 160px;
+    margin-top: 40px;
+    padding: 7px;
+    background-color: rgb(219, 220, 218);
+    font-size: 1.2em;
+    color: rgb(85, 73, 56);
+    font-weight: bold;
+}
+
+.last-section figure,
+.last-section figure img {
+    height: 200px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+}
+
+.last-section figure figcaption {
+    text-align: center;
+    margin-top: -6px;
+    padding: 10px;
+    background-color: rgb(219, 220, 218);
+    font-size: 1.2em;
+    opacity: 0.7;
+    color: black;
+    font-style: italic;
+}
+
+.third-article button {
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(220, 79, 54);
+    border: none;
+    width: 240px;
+    font-size: 0.78em;
+    padding: 9px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(225, 224, 220);
+    display: flex;
+    margin-top: 35px;
+    height: 100%;
+    opacity: 0.8;
+}
+
+footer ul {
+    display: flex;
+    margin-left: 145px;
+    margin-top: 35px;
+    color: black;
+}
+
+footer ul li{
+    display: flex;
+    margin-left: 10px;
+}
+
+footer ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.right-border{
+    border-right: 1px solid gray;
+    height: 20px;
+    padding-right: 15px;
+}

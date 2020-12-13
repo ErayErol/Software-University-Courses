@@ -1,0 +1,37 @@
+body{
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    margin: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+header,
+ul{
+    display: flex;
+}
+
+ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+li {
+    list-style: none;
+    padding-left: 20px;
+}
