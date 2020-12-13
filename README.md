@@ -34,16 +34,16 @@
    </tbody>
 </table>
 <!-- HEAD END -->
-<hr />
-<hr />
-<hr />
-<hr />
+<hr>
+<hr>
+<hr>
+<hr>
 <!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
 <details>
    <summary>
       <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="left">
+      <table width="100%" cellspacing="11" cellpadding="14" align="center">
          <tbody>
             <tr>
                <th align="left">
