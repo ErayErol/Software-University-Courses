@@ -1,7 +1,9 @@
 # <a href="https://softuni.bg"><p align="center">
  <p align="center"><img src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 /></p><p></a>
+ 
+ # <a href="https://softuni.bg/trainings/2609/js-advanced-january-2020"><p align="center">:book:JS Advanced<p></a>
 
-# <a href="https://softuni.bg/trainings/2447/js-advanced-september-2019"><p align="center">:book:JS Advanced<p></a>
+# <a href="https://softuni.bg/certificates/details/81303/a8a65ba6"><p align="center"> :clipboard:Certificate<p></a>
 
 <table>
 <tr>
@@ -240,6 +242,6 @@
   <td>
    <p align="center">
   <a 
-     href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/JS%20Advanced%20-%20Exams" >✅
+     href="https://github.com/ErayErol/JS-Advanced/tree/master/JS%20Advanced%20-%202019.09.16/10.%20Exams" >✅
   </a>
 </table>
