@@ -35,8 +35,7 @@
 </table>
 <!-- HEAD END -->
 
-<!-- C# Fundamentals Start -->
-<hr />
+<!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
 <details>
    <summary>
@@ -44,12 +43,12 @@
       <table width="100%" cellspacing="11" cellpadding="14" align="center">
          <tbody>
             <tr>
-               <th align="left" width="50%">2018 September - [ C# Tech Module ]<br /> 
-                  [ 17.09.2018 - 17.12.2018 ]
+               <th align="left" width="70%">Technology Fundamentals - September 2018<br /> 
+                  21.09.2018 - 17.12.2018
                </th>
-               <th width="40%" align="left">[ Grade: 6.00 (out of 6.00) ]<br /> Issue Date: 12/08/2019</th>
+               <th width="40%" align="left">Grade: 5.62 (out of 6.00)<br /> Issue Date: 17/12/2018</th>
                <th align="left">
-                  <p><a title="C# Fundamentals" href="https://softuni.bg/certificates/details/69255/3315630e" target="_blank">Certificate</a></p>
+                  <p><a title="Technology Fundamentals" href="https://softuni.bg/certificates/details/61142/ca611a05" target="_blank">Certificate</a></p>
                </th>
             </tr>
          </tbody>
@@ -64,12 +63,12 @@
             <td width="19.5%">
                <ul>
                   <li>
-                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic sintax, conditional statements and loops - exercises</a></p>
+                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic syntax, conditional statements and loops - exercises</a></p>
                   </li>
                </ul>
                <ul>
                   <li>
-                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic sintax, conditional statements and loops - additional exercises</a></p>
+                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic syntax, conditional statements and loops - additional exercises</a></p>
                   </li>
                </ul>
             </td>
