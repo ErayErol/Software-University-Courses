@@ -17,7 +17,7 @@
             Student name: 
             <strong>
             <a title="Eray Erol" href="XXXX" target="_blank">
-            Eray Erol
+            Eray Erol ✅
             </a>
             </strong></p>
          </td>
