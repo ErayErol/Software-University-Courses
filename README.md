@@ -19,15 +19,18 @@
             </h2>
          </td>
          <td align="left" width="33%">
-            <h4>
+            <h2>
                Student name: E.Erol ⭐
-            </h4>
-            <h4>
-               My target: Full Stack Web Developer 🏆
-            </h4>
-            <h4>
+            </h2>
+            <h2>
+               My target:
+            </h2>
+	    <h2>
+               Full Stack Web Developer 🏆
+            </h2>
+            <h2>
                My Credits: 77 🎯
-            </h4>
+            </h2>
          </td>
       </tr>
    </tbody>
