@@ -1,0 +1,14 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\bin\Debug\06.EqualSum.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\bin\Debug\06.EqualSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\bin\Debug\06.EqualSum.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\bin\Debug\06.EqualSum.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\bin\Debug\06.EqualSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\bin\Debug\06.EqualSum.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\Exercises\06.EqualSum\obj\Debug\06.EqualSum.pdb

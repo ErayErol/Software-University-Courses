@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\bin\Debug\netcoreapp2.1\03.Race.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\bin\Debug\netcoreapp2.1\03.Race.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\bin\Debug\netcoreapp2.1\03.Race.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\bin\Debug\netcoreapp2.1\03.Race.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\bin\Debug\netcoreapp2.1\03.Race.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\obj\Debug\netcoreapp2.1\03.Race.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\obj\Debug\netcoreapp2.1\03.Race.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\obj\Debug\netcoreapp2.1\03.Race.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\obj\Debug\netcoreapp2.1\03.Race.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\obj\Debug\netcoreapp2.1\03.Race.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\03.Race\obj\Debug\netcoreapp2.1\03.Race.pdb

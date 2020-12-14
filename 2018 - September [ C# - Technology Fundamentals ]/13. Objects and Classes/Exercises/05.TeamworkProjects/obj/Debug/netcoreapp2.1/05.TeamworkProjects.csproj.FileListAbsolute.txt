@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\bin\Debug\netcoreapp2.1\05.TeamworkProjects.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\bin\Debug\netcoreapp2.1\05.TeamworkProjects.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\bin\Debug\netcoreapp2.1\05.TeamworkProjects.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\bin\Debug\netcoreapp2.1\05.TeamworkProjects.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\bin\Debug\netcoreapp2.1\05.TeamworkProjects.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\obj\Debug\netcoreapp2.1\05.TeamworkProjects.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\obj\Debug\netcoreapp2.1\05.TeamworkProjects.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\obj\Debug\netcoreapp2.1\05.TeamworkProjects.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\obj\Debug\netcoreapp2.1\05.TeamworkProjects.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\obj\Debug\netcoreapp2.1\05.TeamworkProjects.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\Exercises\05.TeamworkProjects\obj\Debug\netcoreapp2.1\05.TeamworkProjects.pdb

@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\bin\Debug\netcoreapp2.1\05.MultiplicationSign.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\bin\Debug\netcoreapp2.1\05.MultiplicationSign.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\bin\Debug\netcoreapp2.1\05.MultiplicationSign.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\bin\Debug\netcoreapp2.1\05.MultiplicationSign.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\bin\Debug\netcoreapp2.1\05.MultiplicationSign.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\obj\Debug\netcoreapp2.1\05.MultiplicationSign.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\obj\Debug\netcoreapp2.1\05.MultiplicationSign.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\obj\Debug\netcoreapp2.1\05.MultiplicationSign.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\obj\Debug\netcoreapp2.1\05.MultiplicationSign.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\obj\Debug\netcoreapp2.1\05.MultiplicationSign.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\04.Methods\More Exercises\05.MultiplicationSign\obj\Debug\netcoreapp2.1\05.MultiplicationSign.pdb

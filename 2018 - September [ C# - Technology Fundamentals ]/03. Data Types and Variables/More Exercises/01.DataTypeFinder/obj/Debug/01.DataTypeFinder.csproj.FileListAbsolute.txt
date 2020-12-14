@@ -1,0 +1,14 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\bin\Debug\01.DataTypeFinder.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\bin\Debug\01.DataTypeFinder.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\bin\Debug\01.DataTypeFinder.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\bin\Debug\01.DataTypeFinder.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\bin\Debug\01.DataTypeFinder.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\bin\Debug\01.DataTypeFinder.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\02.Data Types and Variables\More Exercises\01.DataTypeFinder\obj\Debug\01.DataTypeFinder.pdb

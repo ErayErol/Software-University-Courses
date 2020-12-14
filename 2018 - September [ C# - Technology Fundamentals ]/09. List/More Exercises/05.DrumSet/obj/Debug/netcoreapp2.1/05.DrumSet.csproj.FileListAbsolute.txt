@@ -1,0 +1,22 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.pdb
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.deps.json
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.dll
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\bin\Debug\netcoreapp2.1\05.DrumSet.pdb
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.dll
+C:\Users\Aris\source\repos\SoftUni\2018.09.17 - Tech Module 4.0 - C#\05.List#\More Exercises\05.DrumSet\obj\Debug\netcoreapp2.1\05.DrumSet.pdb

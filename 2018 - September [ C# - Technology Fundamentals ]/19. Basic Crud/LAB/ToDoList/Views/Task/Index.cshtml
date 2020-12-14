@@ -1,0 +1,11 @@
+﻿@model List<ToDoList.Models.Task>
+<div class="album py-5 ">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <partial name="_Task" model="item"/>
+            }
+        </div>
+    </div>
+</div>

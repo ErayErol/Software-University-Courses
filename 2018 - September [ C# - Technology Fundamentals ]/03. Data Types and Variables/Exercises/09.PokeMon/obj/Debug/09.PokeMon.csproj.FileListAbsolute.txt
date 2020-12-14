@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\09.PokeMon\bin\Debug\09.PokeMon.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\09.PokeMon\bin\Debug\09.PokeMon.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\09.PokeMon\bin\Debug\09.PokeMon.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\09.PokeMon\obj\Debug\09.PokeMon.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\09.PokeMon\obj\Debug\09.PokeMon.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\09.PokeMon\obj\Debug\09.PokeMon.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\09.PokeMon\bin\Debug\09.PokeMon.exe.config
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\09.PokeMon\bin\Debug\09.PokeMon.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\09.PokeMon\bin\Debug\09.PokeMon.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\09.PokeMon\obj\Debug\09.PokeMon.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\09.PokeMon\obj\Debug\09.PokeMon.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\09.PokeMon\obj\Debug\09.PokeMon.pdb

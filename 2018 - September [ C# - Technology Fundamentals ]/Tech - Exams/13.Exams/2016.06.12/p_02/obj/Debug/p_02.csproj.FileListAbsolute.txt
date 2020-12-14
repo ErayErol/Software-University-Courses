@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\bin\Debug\p_02.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\bin\Debug\p_02.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\bin\Debug\p_02.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\obj\Debug\p_02.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\obj\Debug\p_02.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\obj\Debug\p_02.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\Exams\2016.06.12\p_02\obj\Debug\p_02.csprojAssemblyReference.cache

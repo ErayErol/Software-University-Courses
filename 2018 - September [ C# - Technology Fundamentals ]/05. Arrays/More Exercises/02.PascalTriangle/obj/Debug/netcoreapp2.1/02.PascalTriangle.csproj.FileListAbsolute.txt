@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\bin\Debug\netcoreapp2.1\02.PascalTriangle.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\bin\Debug\netcoreapp2.1\02.PascalTriangle.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\bin\Debug\netcoreapp2.1\02.PascalTriangle.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\bin\Debug\netcoreapp2.1\02.PascalTriangle.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\bin\Debug\netcoreapp2.1\02.PascalTriangle.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\obj\Debug\netcoreapp2.1\02.PascalTriangle.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\obj\Debug\netcoreapp2.1\02.PascalTriangle.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\obj\Debug\netcoreapp2.1\02.PascalTriangle.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\obj\Debug\netcoreapp2.1\02.PascalTriangle.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\obj\Debug\netcoreapp2.1\02.PascalTriangle.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\03.Arrays\More Exercises\02.PascalTriangle\obj\Debug\netcoreapp2.1\02.PascalTriangle.pdb

@@ -1,0 +1,6 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\07.MaxSequenceOfEqualElements\bin\Debug\07.MaxSequenceOfEqualElements.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\07.MaxSequenceOfEqualElements\bin\Debug\07.MaxSequenceOfEqualElements.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\07.MaxSequenceOfEqualElements\bin\Debug\07.MaxSequenceOfEqualElements.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\07.MaxSequenceOfEqualElements\obj\Debug\07.MaxSequenceOfEqualElements.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\07.MaxSequenceOfEqualElements\obj\Debug\07.MaxSequenceOfEqualElements.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\07.MaxSequenceOfEqualElements\obj\Debug\07.MaxSequenceOfEqualElements.pdb

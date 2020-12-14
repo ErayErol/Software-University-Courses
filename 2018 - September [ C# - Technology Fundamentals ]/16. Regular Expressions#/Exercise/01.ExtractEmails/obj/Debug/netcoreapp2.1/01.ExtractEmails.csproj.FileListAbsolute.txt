@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\bin\Debug\netcoreapp2.1\01.ExtractEmails.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\bin\Debug\netcoreapp2.1\01.ExtractEmails.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\bin\Debug\netcoreapp2.1\01.ExtractEmails.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\bin\Debug\netcoreapp2.1\01.ExtractEmails.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\bin\Debug\netcoreapp2.1\01.ExtractEmails.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\obj\Debug\netcoreapp2.1\01.ExtractEmails.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\obj\Debug\netcoreapp2.1\01.ExtractEmails.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\obj\Debug\netcoreapp2.1\01.ExtractEmails.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\obj\Debug\netcoreapp2.1\01.ExtractEmails.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\obj\Debug\netcoreapp2.1\01.ExtractEmails.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\08_Regular Expressions\Exercise\01.ExtractEmails\obj\Debug\netcoreapp2.1\01.ExtractEmails.pdb

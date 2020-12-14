@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\bin\Debug\07.EqualArrays.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\bin\Debug\07.EqualArrays.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\bin\Debug\07.EqualArrays.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\obj\Debug\07.EqualArrays.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\obj\Debug\07.EqualArrays.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\obj\Debug\07.EqualArrays.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\LAB\07.EqualArrays\obj\Debug\07.EqualArrays.pdb

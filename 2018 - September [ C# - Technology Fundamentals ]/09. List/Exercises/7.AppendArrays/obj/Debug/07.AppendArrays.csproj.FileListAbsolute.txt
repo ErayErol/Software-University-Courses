@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\bin\Debug\7.AppendArrays.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\bin\Debug\7.AppendArrays.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\bin\Debug\7.AppendArrays.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\obj\Debug\07.AppendArrays.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\obj\Debug\07.AppendArrays.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\obj\Debug\7.AppendArrays.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\7.AppendArrays\obj\Debug\7.AppendArrays.pdb

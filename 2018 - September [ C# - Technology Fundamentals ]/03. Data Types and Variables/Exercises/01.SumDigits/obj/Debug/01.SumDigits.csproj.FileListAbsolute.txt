@@ -1,0 +1,14 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\bin\Debug\01.SumDigits.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\bin\Debug\01.SumDigits.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\bin\Debug\01.SumDigits.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\bin\Debug\01.SumDigits.exe.config
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\bin\Debug\01.SumDigits.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\bin\Debug\01.SumDigits.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\01.SumDigits\obj\Debug\01.SumDigits.pdb

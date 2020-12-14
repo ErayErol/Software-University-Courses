@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\bin\Debug\04.ListOfProducts.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\bin\Debug\04.ListOfProducts.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\bin\Debug\04.ListOfProducts.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\obj\Debug\04.ListOfProducts.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\obj\Debug\04.ListOfProducts.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\obj\Debug\04.ListOfProducts.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\04.ListOfProducts\obj\Debug\04.ListOfProducts.pdb

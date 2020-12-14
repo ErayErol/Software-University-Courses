@@ -1,0 +1,6 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\07.MathPower\bin\Debug\07.MathPower.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\07.MathPower\bin\Debug\07.MathPower.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\07.MathPower\bin\Debug\07.MathPower.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\07.MathPower\obj\Debug\07.MathPower.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\07.MathPower\obj\Debug\07.MathPower.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\07.MathPower\obj\Debug\07.MathPower.pdb

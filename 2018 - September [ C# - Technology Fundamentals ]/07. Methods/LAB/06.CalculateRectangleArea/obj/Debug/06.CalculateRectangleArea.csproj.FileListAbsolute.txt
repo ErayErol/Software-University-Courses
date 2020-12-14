@@ -1,0 +1,6 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\06.CalculateRectangleArea\bin\Debug\06.CalculateRectangleArea.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\06.CalculateRectangleArea\bin\Debug\06.CalculateRectangleArea.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\06.CalculateRectangleArea\bin\Debug\06.CalculateRectangleArea.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\06.CalculateRectangleArea\obj\Debug\06.CalculateRectangleArea.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\06.CalculateRectangleArea\obj\Debug\06.CalculateRectangleArea.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\06.CalculateRectangleArea\obj\Debug\06.CalculateRectangleArea.pdb

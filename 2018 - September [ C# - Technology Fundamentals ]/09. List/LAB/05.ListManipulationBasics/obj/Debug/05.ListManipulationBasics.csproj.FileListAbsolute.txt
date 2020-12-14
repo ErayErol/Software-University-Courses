@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\bin\Debug\05.ListManipulationBasics.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\bin\Debug\05.ListManipulationBasics.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\bin\Debug\05.ListManipulationBasics.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\obj\Debug\05.ListManipulationBasics.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\obj\Debug\05.ListManipulationBasics.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\obj\Debug\05.ListManipulationBasics.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\05.ListManipulationBasics\obj\Debug\05.ListManipulationBasics.pdb

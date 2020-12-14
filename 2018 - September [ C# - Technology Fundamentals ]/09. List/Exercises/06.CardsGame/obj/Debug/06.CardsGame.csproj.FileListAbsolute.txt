@@ -1,0 +1,7 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\bin\Debug\06.CardsGame.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\bin\Debug\06.CardsGame.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\bin\Debug\06.CardsGame.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\obj\Debug\06.CardsGame.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\obj\Debug\06.CardsGame.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\obj\Debug\06.CardsGame.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\06.CardsGame\obj\Debug\06.CardsGame.pdb

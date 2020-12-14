@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\bin\Debug\netcoreapp2.1\03.ExchangeIntegers.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\bin\Debug\netcoreapp2.1\03.ExchangeIntegers.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\bin\Debug\netcoreapp2.1\03.ExchangeIntegers.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\bin\Debug\netcoreapp2.1\03.ExchangeIntegers.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\bin\Debug\netcoreapp2.1\03.ExchangeIntegers.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\obj\Debug\netcoreapp2.1\03.ExchangeIntegers.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\obj\Debug\netcoreapp2.1\03.ExchangeIntegers.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\obj\Debug\netcoreapp2.1\03.ExchangeIntegers.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\obj\Debug\netcoreapp2.1\03.ExchangeIntegers.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\obj\Debug\netcoreapp2.1\03.ExchangeIntegers.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\02.Data Types and Variables\More Exercises\03.ExchangeIntegers\obj\Debug\netcoreapp2.1\03.ExchangeIntegers.pdb

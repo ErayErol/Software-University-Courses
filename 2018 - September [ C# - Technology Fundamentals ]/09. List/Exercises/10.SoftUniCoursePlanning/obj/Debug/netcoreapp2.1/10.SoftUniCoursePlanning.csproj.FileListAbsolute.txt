@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\C#\05.List\Exercises\10.SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10.SoftUniCoursePlanning.pdb

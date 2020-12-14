@@ -1,0 +1,152 @@
+body {
+    background-color: #FFE4C4;
+    font-family: Arial;
+}
+
+.button {
+    background: #4B907D;
+    border-radius:30px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #4AA789;
+}
+
+.bookbutton {
+
+  background: #4B907D;
+
+    border-radius:30px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    padding:6px 13px;
+    text-decoration:none;
+}
+.wrapper {
+    width: 100%;
+    margin: 3% auto;
+}
+
+.wrapper>* {
+    display: block;
+    width: 100%;
+}
+
+.wrapper .button-holder a[type="button"],
+.wrapper .button-holder button {
+    display: block;
+    width: 23%;
+    margin: auto;
+    padding: 1.5% 1.5%;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.wrapper .button-holder a[type="button"]:hover,
+.wrapper .button-holder button:hover {
+    cursor: pointer;
+    color: #F0F0F0;
+}
+
+.wrapper  .main .button-holder a[type="button"]:hover,
+.wrapper .button-holder button:focus {
+    outline: none;
+}
+
+.content
+{
+    border-radius: 15px;
+}
+
+.wrapper .content {
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+    border: 1px solid white;
+}
+
+.content .header {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-top-left-radius:  15px;
+    border-top-right-radius:  15px;
+    border-bottom: 1px solid white;
+}
+
+.main .book {
+    color: white;
+    font-weight: 300;
+    border-bottom-left-radius:  15px;
+    border-bottom-right-radius:  15px;
+}
+
+.wrapper .content .header,
+.wrapper .content .main
+ {
+    display: block;
+    width: 100%;
+    background-color: #4B907D;
+}
+
+.wrapper .content .header>* {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.wrapper .content .header .book-label {
+    width: 20%;
+}
+
+.wrapper .content .header .actions-label {
+    width: 20%;
+}
+
+.wrapper .content .main .book {
+    display: block;
+    width: 100%;
+}
+
+.wrapper .content .main .book>* {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.wrapper .content .main .book .book-title {
+    width: 20%;
+}
+
+.wrapper .content .main .book .book-item {
+    width: 20%;
+}
+
+.wrapper .content .main .book .book-actions {
+    width: 20%;
+}
+
+.wrapper .content .main .book .book-actions>* {
+    padding-right: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    color: #000000;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-radius: 5px;
+}

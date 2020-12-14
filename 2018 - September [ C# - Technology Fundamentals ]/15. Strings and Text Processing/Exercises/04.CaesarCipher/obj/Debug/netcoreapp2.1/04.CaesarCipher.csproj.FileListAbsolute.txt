@@ -1,0 +1,10 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\bin\Debug\netcoreapp2.1\04.CaesarCipher.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\bin\Debug\netcoreapp2.1\04.CaesarCipher.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\bin\Debug\netcoreapp2.1\04.CaesarCipher.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\bin\Debug\netcoreapp2.1\04.CaesarCipher.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\bin\Debug\netcoreapp2.1\04.CaesarCipher.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\obj\Debug\netcoreapp2.1\04.CaesarCipher.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\obj\Debug\netcoreapp2.1\04.CaesarCipher.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\obj\Debug\netcoreapp2.1\04.CaesarCipher.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\obj\Debug\netcoreapp2.1\04.CaesarCipher.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\08.Strings and Text Processing\Exercises\04.CaesarCipher\obj\Debug\netcoreapp2.1\04.CaesarCipher.pdb

@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\08.MagicSum\bin\Debug\08.MagicSum.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\08.MagicSum\bin\Debug\08.MagicSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\08.MagicSum\bin\Debug\08.MagicSum.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\08.MagicSum\obj\Debug\08.MagicSum.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\08.MagicSum\obj\Debug\08.MagicSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\03.Arrays\Exercises\08.MagicSum\obj\Debug\08.MagicSum.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\03.Arrays\Exercises\08.MagicSum\bin\Debug\08.MagicSum.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\03.Arrays\Exercises\08.MagicSum\bin\Debug\08.MagicSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\03.Arrays\Exercises\08.MagicSum\bin\Debug\08.MagicSum.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\03.Arrays\Exercises\08.MagicSum\obj\Debug\08.MagicSum.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\03.Arrays\Exercises\08.MagicSum\obj\Debug\08.MagicSum.exe
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\03.Arrays\Exercises\08.MagicSum\obj\Debug\08.MagicSum.pdb

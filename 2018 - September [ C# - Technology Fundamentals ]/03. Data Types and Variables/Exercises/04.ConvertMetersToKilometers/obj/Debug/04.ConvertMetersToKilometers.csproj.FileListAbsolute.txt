@@ -1,0 +1,13 @@
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\04.ConvertMetersToKilometers\bin\Debug\04.ConvertMetersToKilometers.exe.config
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\04.ConvertMetersToKilometers\bin\Debug\04.ConvertMetersToKilometers.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\04.ConvertMetersToKilometers\bin\Debug\04.ConvertMetersToKilometers.pdb
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.exe
+C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\bin\Debug\04.ConvertMetersToKilometers.exe.config
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\bin\Debug\04.ConvertMetersToKilometers.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\bin\Debug\04.ConvertMetersToKilometers.pdb
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.exe
+C:\Users\Aris\source\repos\SoftUni\Technology-Fundamentals\2018.09.17 - Tech Module 4.0 - C#\03. Data Types and Variables\Exercises\04.ConvertMetersToKilometers\obj\Debug\04.ConvertMetersToKilometers.pdb

@@ -1,0 +1,11 @@
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\bin\Debug\netcoreapp2.1\05.Students.deps.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\bin\Debug\netcoreapp2.1\05.Students.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\bin\Debug\netcoreapp2.1\05.Students.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\bin\Debug\netcoreapp2.1\05.Students.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\bin\Debug\netcoreapp2.1\05.Students.pdb
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\obj\Debug\netcoreapp2.1\05.Students.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\obj\Debug\netcoreapp2.1\05.Students.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\obj\Debug\netcoreapp2.1\05.Students.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\obj\Debug\netcoreapp2.1\05.Students.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\obj\Debug\netcoreapp2.1\05.Students.dll
+C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\05.Students\obj\Debug\netcoreapp2.1\05.Students.pdb
