@@ -6,7 +6,7 @@
              <a href="https://softuni.bg">
              	<img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 300 />
              </a>
-	     <a href="https://softuni.bg">
+	     <a href="https://softuni.bg" align="center">
              	Softuni.bg
              </a>	 
          </td>
