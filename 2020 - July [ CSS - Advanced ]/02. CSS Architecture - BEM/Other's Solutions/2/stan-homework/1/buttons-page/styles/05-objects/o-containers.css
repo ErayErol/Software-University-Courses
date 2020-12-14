@@ -1,9 +1,0 @@
-.o-row-container{
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-.o-column-container{
-    display: flex;
-    flex-flow: column wrap;
-}
