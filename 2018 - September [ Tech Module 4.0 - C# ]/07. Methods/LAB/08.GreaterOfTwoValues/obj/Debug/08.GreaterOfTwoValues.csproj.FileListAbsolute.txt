@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\bin\Debug\08.GreaterOfTwoValues.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\bin\Debug\08.GreaterOfTwoValues.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\bin\Debug\08.GreaterOfTwoValues.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\obj\Debug\08.GreaterOfTwoValues.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\obj\Debug\08.GreaterOfTwoValues.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\obj\Debug\08.GreaterOfTwoValues.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\08.GreaterOfTwoValues\obj\Debug\08.GreaterOfTwoValues.pdb

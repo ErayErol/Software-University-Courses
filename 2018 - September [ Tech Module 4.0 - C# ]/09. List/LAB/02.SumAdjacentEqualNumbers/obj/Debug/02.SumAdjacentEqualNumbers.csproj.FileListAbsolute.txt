@@ -1,6 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\02.SumAdjacentEqualNumbers\bin\Debug\02.SumAdjacentEqualNumbers.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\02.SumAdjacentEqualNumbers\bin\Debug\02.SumAdjacentEqualNumbers.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\02.SumAdjacentEqualNumbers\bin\Debug\02.SumAdjacentEqualNumbers.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\02.SumAdjacentEqualNumbers\obj\Debug\02.SumAdjacentEqualNumbers.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\02.SumAdjacentEqualNumbers\obj\Debug\02.SumAdjacentEqualNumbers.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\02.SumAdjacentEqualNumbers\obj\Debug\02.SumAdjacentEqualNumbers.pdb

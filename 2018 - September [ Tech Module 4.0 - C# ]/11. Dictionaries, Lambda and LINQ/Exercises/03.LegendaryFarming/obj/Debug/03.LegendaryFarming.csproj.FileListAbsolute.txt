@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\bin\Debug\03.LegendaryFarming.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\bin\Debug\03.LegendaryFarming.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\bin\Debug\03.LegendaryFarming.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\obj\Debug\03.LegendaryFarming.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\obj\Debug\03.LegendaryFarming.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\obj\Debug\03.LegendaryFarming.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\03.LegendaryFarming\obj\Debug\03.LegendaryFarming.pdb

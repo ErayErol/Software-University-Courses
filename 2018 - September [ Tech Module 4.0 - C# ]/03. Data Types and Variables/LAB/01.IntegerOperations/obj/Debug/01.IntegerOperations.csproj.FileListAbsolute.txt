@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\bin\Debug\01.IntegerOperations.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\bin\Debug\01.IntegerOperations.exe
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\bin\Debug\01.IntegerOperations.pdb
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\obj\Debug\01.IntegerOperations.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\obj\Debug\01.IntegerOperations.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\obj\Debug\01.IntegerOperations.exe
-C:\Users\Aris\source\repos\SoftUni\02.TechModule\2018.09.Tech_Module4.0\02.Data Types and Variables\LAB\01.IntegerOperations\obj\Debug\01.IntegerOperations.pdb

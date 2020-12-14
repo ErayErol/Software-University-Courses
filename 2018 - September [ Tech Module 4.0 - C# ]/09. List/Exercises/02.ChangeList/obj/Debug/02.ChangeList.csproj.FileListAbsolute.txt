@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\bin\Debug\02.ChangeList.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\bin\Debug\02.ChangeList.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\bin\Debug\02.ChangeList.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\obj\Debug\02.ChangeList.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\obj\Debug\02.ChangeList.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\obj\Debug\02.ChangeList.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\02.ChangeList\obj\Debug\02.ChangeList.pdb

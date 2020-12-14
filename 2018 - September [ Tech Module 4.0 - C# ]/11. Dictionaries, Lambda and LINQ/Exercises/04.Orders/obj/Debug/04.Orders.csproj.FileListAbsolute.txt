@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\obj\Debug\04.Orders.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\obj\Debug\04.Orders.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\bin\Debug\04.Orders.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\bin\Debug\04.Orders.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\bin\Debug\04.Orders.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\obj\Debug\04.Orders.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\04.Orders\obj\Debug\04.Orders.pdb

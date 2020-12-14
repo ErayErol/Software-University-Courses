@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\bin\Debug\05.SoftUniParking.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\bin\Debug\05.SoftUniParking.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\bin\Debug\05.SoftUniParking.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\obj\Debug\05.SoftUniParking.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\obj\Debug\05.SoftUniParking.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\obj\Debug\05.SoftUniParking.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\05.SoftUniParking\obj\Debug\05.SoftUniParking.pdb

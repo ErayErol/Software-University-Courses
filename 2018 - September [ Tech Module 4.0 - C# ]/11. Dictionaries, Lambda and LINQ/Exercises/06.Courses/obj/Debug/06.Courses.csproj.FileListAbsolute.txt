@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\bin\Debug\06.Courses.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\bin\Debug\06.Courses.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\bin\Debug\06.Courses.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\obj\Debug\06.Courses.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\obj\Debug\06.Courses.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\obj\Debug\06.Courses.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\06.Courses\obj\Debug\06.Courses.pdb

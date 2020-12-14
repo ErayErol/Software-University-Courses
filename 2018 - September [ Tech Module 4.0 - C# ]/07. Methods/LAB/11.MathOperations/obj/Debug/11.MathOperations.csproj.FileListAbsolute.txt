@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\bin\Debug\11.MathOperations.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\bin\Debug\11.MathOperations.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\bin\Debug\11.MathOperations.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\obj\Debug\11.MathOperations.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\obj\Debug\11.MathOperations.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\obj\Debug\11.MathOperations.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\11.MathOperations\obj\Debug\11.MathOperations.csprojAssemblyReference.cache

@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\bin\Debug\03.Calculations.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\bin\Debug\03.Calculations.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\bin\Debug\03.Calculations.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\obj\Debug\03.Calculations.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\obj\Debug\03.Calculations.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\obj\Debug\03.Calculations.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\03.Calculations\obj\Debug\03.Calculations.pdb

@@ -1,6 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\02.VowelsCount\bin\Debug\02.VowelsCount.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\02.VowelsCount\bin\Debug\02.VowelsCount.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\02.VowelsCount\bin\Debug\02.VowelsCount.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\02.VowelsCount\obj\Debug\02.VowelsCount.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\02.VowelsCount\obj\Debug\02.VowelsCount.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\02.VowelsCount\obj\Debug\02.VowelsCount.pdb

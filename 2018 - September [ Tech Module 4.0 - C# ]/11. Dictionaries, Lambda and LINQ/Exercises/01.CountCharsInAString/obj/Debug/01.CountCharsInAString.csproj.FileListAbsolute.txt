@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\bin\Debug\01.CountCharsInAString.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\bin\Debug\01.CountCharsInAString.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\bin\Debug\01.CountCharsInAString.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\obj\Debug\01.CountCharsInAString.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\obj\Debug\01.CountCharsInAString.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\obj\Debug\01.CountCharsInAString.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\06.Dictionaries, Lambda and LINQ\Exercises\01.CountCharsInAString\obj\Debug\01.CountCharsInAString.pdb

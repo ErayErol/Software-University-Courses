@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\bin\Debug\01.SmallestOfThreeNumbers.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\bin\Debug\01.SmallestOfThreeNumbers.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\bin\Debug\01.SmallestOfThreeNumbers.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\obj\Debug\01.SmallestOfThreeNumbers.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\obj\Debug\01.SmallestOfThreeNumbers.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\obj\Debug\01.SmallestOfThreeNumbers.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\01.SmallestOfThreeNumbers\obj\Debug\01.SmallestOfThreeNumbers.pdb
