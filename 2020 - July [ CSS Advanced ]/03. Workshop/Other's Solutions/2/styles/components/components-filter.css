@@ -1,0 +1,43 @@
+.filter--wrapper {
+    background: #F8F8F8;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter__title {
+    color: #565656;
+}
+
+.filter__label__img {
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+
+.filter__label__img--info {
+    left: 10px;
+}
+
+.filter__label::after {
+    content: '';
+    background: url(../../assets/icons/arrow.svg) center no-repeat;
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+}
+
+.filter__label--level::after {
+    content: '';
+    background: url(../../assets/icons/arrow.svg) center no-repeat;
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+}

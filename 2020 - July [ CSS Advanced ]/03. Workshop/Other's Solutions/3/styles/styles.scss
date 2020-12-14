@@ -1,0 +1,24 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import "./01-settings/settings-typography.scss";
+@import "./01-settings/settings-media.scss";
+
+@import "./03-generic/generic-normalize.scss";
+
+@import "./04-elements/elements-links.scss";
+@import "./04-elements/elements-input-fields.scss";
+@import "./04-elements/elements-lists.scss";
+
+@import "./05-objects/objects-containers.scss";
+@import "./05-objects/objects-rectangle.scss";
+
+@import "./07-utilities/utilities-centered.scss";
+@import "./07-utilities/utilities-hidden.scss";
+
+@import "./06-components/components-button.scss";
+@import "./06-components/components-card.scss";
+@import "./06-components/components-filter.scss";
+@import "./06-components/components-header.scss";
+@import "./06-components/components-footer.scss";
+@import "./06-components/components-navigation.scss";
+@import "./06-components/components-program.scss";

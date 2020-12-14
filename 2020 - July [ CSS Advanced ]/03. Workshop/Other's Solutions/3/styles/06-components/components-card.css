@@ -1,0 +1,105 @@
+.cards--wrapper {
+  margin: 50px 0;
+}
+
+.cards--wrapper .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards--wrapper .cards .card {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.cards--wrapper .cards .card:hover {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.cards--wrapper .cards .card__header {
+  min-height: 160px;
+  color: #FFFFFF;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.cards--wrapper .cards .card__header--blue {
+  background: #44A9F8;
+}
+
+.cards--wrapper .cards .card__header--green {
+  background: #41BEAD;
+}
+
+.cards--wrapper .cards .card__label {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: fit-content;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.cards--wrapper .cards .card__label--gray {
+  background: #676781;
+}
+
+.cards--wrapper .cards .card__label--violet {
+  background: #9A5DC6;
+}
+
+.cards--wrapper .cards .card__title {
+  text-align: center;
+}
+
+.cards--wrapper .cards .card__content {
+  text-align: center;
+  height: 100px;
+  padding: 15px 0;
+}
+
+.cards--wrapper .cards .card__info {
+  display: inline-block;
+  width: 40%;
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.cards--wrapper .cards .card__footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.cards--wrapper .cards .card__footer::before {
+  content: "";
+  background: #F1F1F1;
+  width: 360px;
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+.cards--wrapper .cards .card__price {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FC4C50;
+  margin-right: 20px;
+}
+
+.card:hover .card__content,
+.card:hover .card__footer {
+  background: #F8F8F8;
+}

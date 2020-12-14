@@ -1,0 +1,23 @@
+.header {
+  background-color: #FF9100;
+}
+
+.header .header__info {
+  text-align: center;
+  color: #FFFFFF;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.header .header__info .header__title {
+  margin: 0;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.header .header__info .header__text {
+  width: 850px;
+  margin: 0 auto;
+}

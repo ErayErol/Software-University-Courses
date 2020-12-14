@@ -1,0 +1,9 @@
+.o-card {
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}

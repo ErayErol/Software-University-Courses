@@ -1,0 +1,9 @@
+.u-foot-img {
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    border-radius: 8px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+}

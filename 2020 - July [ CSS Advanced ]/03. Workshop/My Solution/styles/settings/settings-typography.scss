@@ -1,0 +1,76 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import "../settings/settings-colors.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('/font/Lato/fonts/Lato-Regular.ttf') format('truetype');
+}
+
+html,
+* {
+    font-family: 'LatoWeb';
+    line-height: 16px;
+    font-style: normal;
+}
+
+@each $header,
+$size in (h2: 36px, h3: 24px, h4: 20px, h5: 18px, ) {
+    #{$header} {
+        font-size: $size;
+    }
+}
+
+@each $header,
+$weight in (h2: 600, h3: bold, h4: 600, h5: bold, ) {
+    #{$header} {
+        font-weight: $weight;
+    }
+}
+
+@each $header,
+$height in (h2: 44px, h3: 30px, h4: 24px, h5: 22px, ) {
+    #{$header} {
+        line-height: $height;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: $white-color;
+}
+
+h5 {
+    font-family: 'LatoWeb';
+}
+
+a {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+p,
+button,
+option {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p {
+    font-weight: normal;
+}
+
+button {
+    font-weight: 800;
+}
+
+option {
+    color: $grey-700;
+}

@@ -1,0 +1,10 @@
+.o-container {
+  max-width: 80vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.o-container--bordered {
+  margin-bottom: 6rem;
+  border-bottom: 8px dotted #DFF4F1;
+}

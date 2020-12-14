@@ -1,0 +1,48 @@
+@import './styles/01.settings/_settings-colors';
+@import './styles/01.settings/_settings-animations';
+@import './styles/01.settings/_settings-shadows';
+@import './styles/01.settings/_settings-breakpoints';
+@import './styles/01.settings/_settings-borders';
+@import './styles/01.settings/_settings-mixins';
+
+@import './styles/03.generic/_generic-normalize';
+
+@import './styles/04.elements/_elements-typography';
+@import './styles/04.elements/_elements-links';
+@import './styles/04.elements/_elements-input-fields';
+@import './styles/04.elements/_elements-images.scss';
+@import './styles/04.elements/_elements-lists.scss';
+
+@import './styles/05.objects/_objects-containers';
+@import './styles/05.objects/_objects-wrappers';
+
+@import './styles/07.utilities/_utilities-centered';
+@import './styles/07.utilities/_utilities-hidden';
+@import './styles/07.utilities/_utilities-animations';
+@import './styles/07.utilities/_utilities-display';
+@import './styles/07.utilities/_utilities-positions';
+@import './styles/07.utilities/_utilities-flex';
+@import './styles/07.utilities/_utilities-margin';
+@import './styles/07.utilities/_utilities-underline';
+
+@import './styles/06.components/_components-button';
+@import './styles/06.components/_components-border';
+@import './styles/06.components/_components-input';
+@import './styles/06.components/_components-card';
+@import './styles/06.components/_components-filter';
+@import './styles/06.components/_components-header';
+@import './styles/06.components/_components-footer';
+@import './styles/06.components/_components-navigation';
+@import './styles/06.components/_components-program';
+@import './styles/06.components/_components-door';
+@import './styles/06.components/_components-revealing-list';
+@import './styles/06.components/_components-popup';
+@import './styles/06.components/_components-level-label';
+@import './styles/06.components/_components-level-popup';
+@import './styles/06.components/_components-title';
+@import './styles/06.components/_components-blog-card';
+@import './styles/06.components/_components-award.scss';
+@import './styles/06.components/_components-image.scss';
+@import './styles/06.components/page-1/_components-course-main';
+@import './styles/06.components/page-2/_components-trainers-main';
+@import './styles/06.components/page-3/_components-contact-us-main';

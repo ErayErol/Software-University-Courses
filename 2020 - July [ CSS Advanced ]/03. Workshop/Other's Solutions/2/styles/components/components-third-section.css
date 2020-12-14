@@ -1,0 +1,53 @@
+.third-section-containter {
+    width: 629px;
+    height: 259px;
+    border: 4px solid #44A9F8;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #E3F3FD;
+    margin-bottom: 128px;
+    
+}
+.third-section-containter:hover{
+    border: 5px solid #44A9F8;
+}
+
+.third-section-img__group129 {
+    width: 30.67px;
+    height: 21.33px;
+    margin-right: 10px;
+}
+
+.third-main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.third-section-containter--2 {
+    border: 4px solid #00AF9B !important;
+}
+.third-section-containter--2:hover {
+    border: 5px solid #00AF9B !important;
+}
+
+footer .fb__icon {
+    margin-right: 20px;
+}
+
+.instagram__icon {
+    color: white;
+}
+
+footer .fb__icon, .instagram__icon {
+    padding-top: 20px;
+}
+.third-section__card {
+    margin-left: 16px;
+}
+.third-section-containter--2 {
+    margin-right: 16px;
+}

@@ -1,0 +1,96 @@
+@import "../settings/settings-colors.scss";
+
+.cards__container {
+    margin-top: 64px;
+
+    .card {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20);
+        background: $white-color;
+        width: 409px;
+        height: 363px;
+        border-radius: 12px;
+
+        .card__header {
+            height: 162px;
+            background: $blue-400;
+            border-radius: 12px 12px 0px 0px;
+            position: relative;
+
+            .card__level {
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+                padding: 4px 8px;
+                background: $grey-600;
+                border-radius: 4px;
+                font-size: 12px;
+                line-height: 14px;
+                color: $white-color;
+                text-align: center;
+                text-transform: uppercase;
+                position: absolute;
+                left: 24px;
+                top: 20px;
+            }
+
+            .card__level--violet {
+                background: $violet-700;
+            }
+
+            .card__title {
+                text-align: center;
+                position: absolute;
+                top: 43px;
+            }
+        }
+
+        .card__header--green {
+            background: $primary-300;
+        }
+
+        .card__main {
+            display: flex;
+            flex-flow: row wrap;
+            padding-top: 19px;
+            padding-bottom: 24px;
+            margin: 0 30px;
+            height: 104px;
+            align-items: center;
+
+            .card__item {
+                display: flex;
+                margin: 5px 15px;
+                align-items: center;
+
+                span {
+                    margin-left: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $grey-700;
+                }
+            }
+        }
+
+        .card__main__centered{
+            justify-content: center;
+        }
+
+        .card__footer {
+            border-top: 1px solid #F1F1F1;
+            margin: 0 24px;
+
+            .card__price {
+                font-family: "Montserrat";
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+                color: $red-500;
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+            background: $grey-50;
+        }
+    }
+}

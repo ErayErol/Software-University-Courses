@@ -1,0 +1,22 @@
+.o-main-container-article-first {
+    display: flex;
+    
+    align-items: center;
+}
+
+.o-main-container-article-first-div-one {
+    max-width: 40%;
+    color: #29394b;
+}
+
+.o-main-container-article-first-div-two {
+    max-width: 60%;
+    display: flex;
+}
+
+.o-main-container-article-first-div-two img {
+    margin-top: 25%;
+    margin-left: 5%;
+    border-radius: 8px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+}

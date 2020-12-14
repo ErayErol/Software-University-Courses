@@ -1,0 +1,118 @@
+@import '../01-settings/settings-breakpoints.scss';
+@import '../01-settings/settings-colors.scss';
+.navigation__wrapper {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*@include for-phone-only {
+            flex-flow: column wrap;
+            padding: 10px 0;
+        }*/
+        /* menu icon */
+        .navigation__menu-icon {
+            cursor: pointer;
+            padding: 28px 20px;
+            position: relative;
+            user-select: none;
+            display: none;
+            @include for-tablet-landscape-up {
+                display: inline-block;
+                z-index: 15;
+            }
+        }
+        .navigation__menu-icon .navigation__navicon {
+            background: #333;
+            display: block;
+            height: 2px;
+            position: relative;
+            transition: background .2s ease-out;
+            width: 18px;
+        }
+        .navigation__menu-icon .navigation__navicon:before,
+        .navigation__menu-icon .navigation__navicon:after {
+            background: #333;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%;
+        }
+        .navigation__menu-icon .navigation__navicon:before {
+            top: 5px;
+        }
+        .navigation__menu-icon .navigation__navicon:after {
+            top: -5px;
+        }
+        /* menu btn */
+        .navigation__menu-btn {
+            display: none;
+        }
+        .navigation__menu-btn:checked~.navigation__items {
+            display: flex;
+        }
+        .navigation__menu-btn:checked~.navigation__menu-icon .navigation__navicon {
+            background: transparent;
+        }
+        .navigation__menu-btn:checked~.navigation__menu-icon .navigation__navicon:before {
+            transform: rotate(-45deg);
+        }
+        .navigation__menu-btn:checked~.navigation__menu-icon .navigation__navicon:after {
+            transform: rotate(45deg);
+        }
+        .navigation__menu-btn:checked~.navigation__menu-icon:not(.steps) .navigation__navicon:before,
+        .navigation__menu-btn:checked~.navigation__menu-icon:not(.steps) .navigation__navicon:after {
+            top: 0;
+        }
+        .navigation__logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            & img {
+                margin-right: 10px;
+            }
+        }
+        .navigation__items {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            @include for-tablet-landscape-up {
+                display: none;
+                flex-flow: column wrap;
+                justify-content: center;
+                padding: 0;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background: white;
+                z-index: 5;
+            }
+        }
+        .navigation__item {
+            list-style: none;
+            padding: 30px 10px;
+            margin: 0 12px;
+            &--search {
+                @include for-phone-only {
+                    display: none;
+                }
+            }
+            /*@include for-phone-only {
+                margin: 10px;
+                padding: 0;
+            }*/
+        }
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $grey-700;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

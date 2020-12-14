@@ -1,0 +1,31 @@
+.c-primary-site-nav{
+    margin-right: 8px;
+}
+.c-primary-site-nav-list{
+    flex: 1;
+}
+.c-primary-site-nav-link{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #29394b;
+    padding: 5px;
+    text-decoration: none;
+}
+.c-primary-site-nav-link:hover{
+    
+    background-color: #f4f5f7;
+}
+.c-primary-site-nav-list .c-primary-site-nav-link-current{
+   position: relative;
+} 
+header .c-primary-site-nav-list .c-primary-site-nav-link-current::before{
+    
+    content: '';
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #44a9f8;
+}

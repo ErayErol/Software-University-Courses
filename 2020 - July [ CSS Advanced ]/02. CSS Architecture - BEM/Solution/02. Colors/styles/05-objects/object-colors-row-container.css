@@ -1,0 +1,4 @@
+.o-colors-row-container{
+    display: flex;
+    flex-flow: row wrap;
+}

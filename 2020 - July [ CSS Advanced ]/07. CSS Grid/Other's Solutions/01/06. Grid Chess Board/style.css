@@ -1,0 +1,17 @@
+body{
+    margin: 40px 380px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+div{
+    border: 1px solid black;
+    height: 130px;
+    border-radius: 10px;
+}
+
+div:nth-child(odd){
+    background: black;
+}

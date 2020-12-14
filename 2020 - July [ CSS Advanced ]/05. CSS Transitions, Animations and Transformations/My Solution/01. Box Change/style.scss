@@ -1,0 +1,24 @@
+.box {
+    padding: 5px 30px;
+    background-color: red;
+    border-radius: 10px;
+    width: 90px;
+    height: 125px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    animation: shimmy 2s none;
+    animation-fill-mode: forwards;
+    
+    @keyframes shimmy {
+        100% {
+            color: yellow;
+            background-color: blue;
+            transform: translate(150px, 10px);
+            padding: 5px;
+            font-size: 16px;
+            width: 75px;
+            height: 75px;
+        }
+    }
+}

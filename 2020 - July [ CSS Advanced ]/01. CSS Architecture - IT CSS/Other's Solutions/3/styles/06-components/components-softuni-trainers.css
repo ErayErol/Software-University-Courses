@@ -1,0 +1,13 @@
+.c-softuni-trainers {
+    margin-left: 25px;
+    width: 95%;
+    height: 430px;
+    padding: 60px 0;
+}
+
+.c-softuni-trainers-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

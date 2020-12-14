@@ -1,0 +1,43 @@
+.c-grey__50 {
+    background-color: rgb(248, 248, 248);
+}
+
+.c-grey__100 {
+    background-color: rgb(241, 241, 241);
+}
+
+.c-grey__200 {
+    background-color: rgb(230, 230, 230);
+}
+
+.c-grey__300 {
+    background-color: rgb(214, 214, 214);
+}
+
+.c-grey__400 {
+    background-color: rgb(178, 178, 178);
+}
+
+.c-grey__500 {
+    background-color: rgb(145, 145, 145);
+}
+
+.c-grey__600 {
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+
+.c-grey__700 {
+    background-color: rgb(86, 86, 86);
+    color: white;
+}
+
+.c-grey__800 {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.c-grey__900 {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}

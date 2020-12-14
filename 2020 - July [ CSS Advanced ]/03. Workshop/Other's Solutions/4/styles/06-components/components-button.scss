@@ -1,0 +1,28 @@
+@import '../01-settings/settings-colors.scss';
+
+.btn {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.20);
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    background: $secondary-800;
+    color: white;
+
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+    }
+
+    &--small{
+        padding: 10px 22px;
+        max-height: 36px;
+    }
+
+    &--large{
+        padding: 14px 32px;
+        font-size: 16px;
+        line-height: 20px;
+        max-height: 48px;
+    }
+}

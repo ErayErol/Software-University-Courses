@@ -1,0 +1,22 @@
+.o-header-section {
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/about-page-hero.jpg);
+    z-index: 1;
+}
+
+.o-header-section::after {
+    content: "";
+    background-color: #45ADF7;
+    opacity: 0.8;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.o-header-section-article {
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+.navbar {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+}
+
+.navbar__container {
+  height: 74px;
+}
+
+.navbar__container .navbar__links {
+  display: flex;
+}
+
+.navbar__container .navbar__links li {
+  list-style: none;
+  margin-left: 48px;
+  text-transform: uppercase;
+}
+
+.navbar__container .navbar__links a {
+  text-decoration: none;
+}
+
+.navbar__container .navbar__links a:hover {
+  color: #FF9100;
+  cursor: pointer;
+}
+
+.navbar__container .navbar__logo {
+  flex: 1;
+  margin-left: 16.34px;
+}
+
+.navbar__container .navbar__search {
+  margin-left: 60px;
+}
+
+.navbar__container .navbar__button {
+  margin-left: 18px;
+}

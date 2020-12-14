@@ -1,0 +1,76 @@
+@-webkit-keyframes border-outline {
+  from {
+    outline-width: 5px;
+  }
+  to {
+    outline-width: 10px;
+  }
+}
+
+@keyframes border-outline {
+  from {
+    outline-width: 5px;
+  }
+  to {
+    outline-width: 10px;
+  }
+}
+
+@-webkit-keyframes reversed-border-outline {
+  from {
+    outline-width: 10px;
+  }
+  to {
+    outline-width: 5px;
+  }
+}
+
+@keyframes reversed-border-outline {
+  from {
+    outline-width: 10px;
+  }
+  to {
+    outline-width: 5px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: #e8eaee;
+}
+
+a {
+  margin: 5px;
+  padding: 20px;
+  font: 18px sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #203F5D;
+  background: #fff;
+  outline: 5px solid #203F5D;
+  -webkit-animation: reversed-border-outline 0.5s ease;
+          animation: reversed-border-outline 0.5s ease;
+}
+
+a:hover {
+  -webkit-animation: border-outline 0.5s ease;
+          animation: border-outline 0.5s ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+@import '../01-settings/settings-colors.scss';
+select {
+    background: #F8F8F8;
+    border: 1px solid $secondary-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 15px;
+    -webkit-appearance: none;
+    min-width: 200px;
+    min-height: 45px;
+    padding: 12px 18px;
+    &:hover {
+        cursor: pointer;
+    }
+    &::placeholder {
+        color: $grey-500;
+    }
+}

@@ -1,0 +1,20 @@
+.c-button--primary--enabled{
+    padding: 14px 32px;
+}
+
+.c-button--primary--enabled:hover{
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: rgb(255, 160, 0);
+}
+
+.c-button--primary--disabled{
+    border-color: #D6D6D6;
+    background-color: #D6D6D6;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 12px 32px;
+    box-shadow: none;
+}

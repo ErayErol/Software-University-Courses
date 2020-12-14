@@ -1,0 +1,37 @@
+.c-blog-card {
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: $image-radius;
+    box-shadow: $primary-shadow;
+    background: #fff;
+    overflow: hidden;
+
+    &__header {
+        object-fit: cover;
+        height: 155px;
+        overflow: hidden;
+
+        img {
+            transform: translateX(50px) scale(1.4);
+        }
+    }
+
+    &__main {
+        background-color: #fff;
+        flex: 1;
+        padding: 16px;
+    }
+
+    &__title {
+        color: $secondary-color;
+        font-family: 'Lato';
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__description {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px 0;
+    }
+}

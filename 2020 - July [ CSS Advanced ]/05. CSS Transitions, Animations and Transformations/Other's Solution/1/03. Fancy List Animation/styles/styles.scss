@@ -1,0 +1,34 @@
+@keyframes reveal {
+  0% {
+    left: -20px;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.list-items {
+  font: 20px sans-serif;
+
+  .list-item {
+    position: relative;
+    list-style: none;
+    animation: reveal 0.5s ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+    @for $i from 1 through 7 {
+      &:nth-child(#{$i}) {
+        animation-delay: #{$i * 0.15}s;
+      }
+    }
+  }
+
+  .fas {
+    max-width: 10px;
+    font-size: 16px;
+    padding-right: 15px;
+  }
+}

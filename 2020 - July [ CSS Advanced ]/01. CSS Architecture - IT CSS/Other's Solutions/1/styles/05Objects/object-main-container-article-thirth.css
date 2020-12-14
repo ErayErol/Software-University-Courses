@@ -1,0 +1,22 @@
+.o-main-container-article-thirth {
+    color: white;
+    background-color: #42ABF8;
+    padding: 10px;
+    width: 82%;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+.o-fifth {
+    color: white;
+    background-color: #42ABF8;
+    padding: 10px;
+    width: 82%;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 5%;
+    height: 200px;
+    position: relative;
+}
+

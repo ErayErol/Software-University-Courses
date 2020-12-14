@@ -1,0 +1,30 @@
+.c-award {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__image {
+      width: 110px;
+      height: 66px;
+    }
+
+    &__name {
+      font-family: 'Lato';
+      font-weight: bold;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      color: $primary-300;
+      margin: 24px 0 12px;
+    }
+
+    &__issuer {
+      font-family: 'Lato';
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 500;
+      color: $grey-700;
+    }
+}

@@ -1,0 +1,27 @@
+.c-button--secondary--enabled {
+    padding: 14px 24px;
+    background-color: white;
+    color: #FFA000;
+    border: 1px solid #FFA000;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.c-button--secondary--enabled:hover {
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: rgba(255, 160, 0, 0.06)
+}
+
+.c-button--secondary--disabled {
+    border: 1px solid #D6D6D6;
+    color: #D6D6D6;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 14px 24px;
+    box-shadow: none;
+}

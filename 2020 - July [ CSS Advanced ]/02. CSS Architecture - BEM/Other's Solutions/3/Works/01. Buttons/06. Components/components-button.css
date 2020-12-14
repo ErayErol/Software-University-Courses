@@ -1,0 +1,64 @@
+.c-button {
+    padding: 12px 32px;
+    margin: 10px;
+    background-color: #FFA000;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.c-button--primary {
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.c-button--primary:hover {
+    margin: 0;
+    font-size: 14px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.c-button--primary-pressed {
+    margin: 0;
+    font-size: 14px;
+    box-shadow: none;
+    background-color: #FFB401;
+}
+
+.c-button--primary-disabled {
+    background-color: #D6D6D6;
+}
+
+.c-button--secondary {
+    padding: 12px 24px;
+    margin: 0;
+    background-color: white;
+    border: 1px solid #FFA000;
+    color: #FFA000;
+    font-size: 14px;
+}
+
+.c-button--secondary:hover {
+    background-color: rgba(255, 160, 0, 0.06);
+    cursor: pointer;
+}
+
+.c-button--secondary-pressed{
+    background-color: rgba(255,160,0,0.2);
+}
+
+.c-button--secondary-disabled {
+    margin: 0;
+    background-color: white;
+    border: 1px solid #D6D6D6;
+    color: #D6D6D6;
+    font-size: 14px;
+}
+
+.c-button--small{
+    font-size: 11px;
+    padding: 9px 18px;
+}

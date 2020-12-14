@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+// @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato/lato.regular.ttf') format('truetype');
+}
+
+html, * {
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+button {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 800;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+@each $header, $size in (h1:36px, h2:30px, h3:24px, h4:20px, h5:18px, h6:16px){
+    #{$header}{
+        font-size: $size;
+    }
+}
+
+@each $header, $height in (h1:44px, h2:36px, h3:30px, h4:24px, h5:20px, h6:18px){
+    #{$header}{
+        line-height: $height;
+    }
+}

@@ -1,0 +1,27 @@
+.c-button-white-white-blue,.c-button-white-blue-white{
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    padding: 7px 30px;
+}
+.c-button-white-white-blue{      
+    background-color: #ffffff;
+    color: rgb(69, 158, 226);
+    margin-right: 10px;
+}
+.c-button-white-blue-white{
+    color: #ffffff;
+    background-color:transparent; 
+    margin-left: 10px;
+}
+.c-button-white-blue-white::before{
+    content: '';
+    width: 2px;
+    height: 35px;
+    background-color: #fff;
+    color: #fff;
+    position: absolute;
+    left: 280px;
+    bottom: 60px;
+}
+

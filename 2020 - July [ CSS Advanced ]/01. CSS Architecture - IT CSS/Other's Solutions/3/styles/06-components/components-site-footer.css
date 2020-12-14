@@ -1,0 +1,28 @@
+.c-site-footer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    width: 100%;
+    border-top: 1px solid #29394b;
+    min-height: 80px;
+}
+
+.c-primary-site-logo-and-credits {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin-right: auto;
+}
+
+.c-primary-site-logo-and-credits img {
+    width: 70%;
+    height: 70%;
+    margin-right: 25px;
+}
+
+.c-primary-site-logo-and-credits p {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+}

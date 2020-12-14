@@ -1,0 +1,81 @@
+@import '../01-settings/settings-colors.scss';
+// @import '../01-settings/settings-breakpoints.scss';
+
+.filter--wrapper {
+    background: $grey-50;
+
+    .filter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .filter__label-wrapper{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            width: 85%;
+
+            // @include for-tablet-landscape-up{
+            //     width: 90%;
+            // }
+        }
+
+        &__title{
+            color: $grey-700;
+        }
+    
+        &__label{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 0px;
+
+            &::after{
+                content: '';
+                background: url(../../assets/icons/arrow.svg) center no-repeat;
+                width: 12px;
+                height: 8px;
+                display: inline-block;
+                position: relative;
+                right: 25px;
+                pointer-events: none;
+            }
+
+            &--level select{
+                min-width:200px;
+
+                // @include for-tablet-landscape-up{
+                //     min-width:170px;
+                // }
+            }
+
+            &--level::after{
+                right: 55px;
+            }
+
+            &__img--info{
+                margin-left: 10px;
+                filter: brightness(0)
+                        saturate(100%)
+                        invert(74%) 
+                        sepia(13%) 
+                        saturate(12%) 
+                        hue-rotate(323deg) 
+                        brightness(93%) 
+                        contrast(95%);
+
+                &:hover{
+                    cursor: pointer;
+                    filter: brightness(0)
+                        saturate(100%)
+                        invert(34%) 
+                        sepia(3%) 
+                        saturate(11%) 
+                        hue-rotate(322deg) 
+                        brightness(94%) 
+                        contrast(90%);
+                }
+            }
+        }
+    }
+}

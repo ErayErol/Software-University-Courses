@@ -1,0 +1,9 @@
+.o-site-footer {
+    width: 82%;
+    border-top: 1px solid #3e4c5d;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    
+    align-items: center;
+}

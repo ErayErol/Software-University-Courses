@@ -1,0 +1,36 @@
+.container {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.points-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 128px 0 96px 0;
+}
+
+.row-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.column-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.column-container--nomargin {
+  margin-right: 0;
+}
+
+.footer-container {
+  margin-right: 85px;
+}
+
+.footer-container--kids {
+  min-width: 256px;
+}

@@ -1,0 +1,73 @@
+html {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.icons {
+  list-style: none;
+}
+
+.icons li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.icons li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.icons li:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.icons li:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.icons li:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.icons li:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.icons li:nth-child(7) {
+  animation-delay: 1.4s;
+}
+
+.icons li:nth-child(8) {
+  animation-delay: 1.6s;
+}
+
+.icons li:nth-child(9) {
+  animation-delay: 1.8s;
+}
+
+.icons li:nth-child(10) {
+  animation-delay: 2s;
+}
+
+.icons li {
+  opacity: 0;
+  padding: 1px;
+  width: 10%;
+  height: 3%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  animation: shimmy 1s ease-out forwards;
+}
+
+@keyframes shimmy {
+  0% {
+    transform: translateX(-40px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.icons li i {
+  margin-right: 15px;
+}

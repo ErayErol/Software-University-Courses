@@ -1,0 +1,55 @@
+.summary-images-wrapper{
+    align-self: center;
+    margin-left: auto;
+    position: relative;
+    
+}
+.img-logo-about:first-of-type::before{
+        content: '';
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: url('../images/softuni-logo.png');
+        background-color: #ffffff;
+        background-repeat:no-repeat ;   
+        background-position: 50%;
+        position: absolute;
+        z-index: 3;
+        top: -60px;
+        left: -30px;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 8px 16px 0px rgba(148,148,148,1);
+        -moz-box-shadow: 0px 8px 10px 0px rgba(148,148,148,1);
+        box-shadow: 0px 8px 10px 0px rgba(148,148,148,1);    
+}
+.img-logo-about:last-of-type::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url('../images/software-university-logo.png');
+    background-color: #ffffff;
+    background-repeat:no-repeat ;   
+    background-position: 50%;
+    position: absolute;
+    z-index: 3;
+    top: -60px;
+    right: -30px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(148,148,148,1);
+    -moz-box-shadow: 0px 8px 10px 0px rgba(148,148,148,1);
+    box-shadow: 0px 8px 10px 0px rgba(148,148,148,1);    
+}
+
+.img-projects:first-of-type{
+   position: absolute;
+   top: -50px;
+   right: 286px;
+}
+.img-projects:last-of-type{
+    position: absolute;
+    top: -124px;
+    right: 0px;
+}

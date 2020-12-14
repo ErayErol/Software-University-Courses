@@ -1,0 +1,38 @@
+.c-main-header {
+    background: #fff;
+    box-shadow: $secondary-shadow;
+
+    // Used to show box-shadow on top of next element
+    position: relative;
+    z-index: 1;
+
+    .o-page-content-wrapper {
+        grid-template-columns: max-content 1fr;
+        justify-items: end;
+        display: grid;
+        height: 100%;
+        grid-column-gap: 32px;
+
+        @include for-tablet-landscape-up{
+            grid-template-columns: max-content 1fr max-content;
+        }
+    }
+
+    &__logo-and-arrow {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: 16px;
+        align-items: center;
+    }
+
+    &__logo {
+        display: flex; // to wrap the svg icon
+    }
+
+    &__search-and-entrance {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        align-items: center;
+        grid-column-gap: 32px;
+    }
+}

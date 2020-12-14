@@ -1,0 +1,36 @@
+.o-card {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 30px 10px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    border-radius: 8px;
+}
+
+.o-card-image img {
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    height: auto;
+}
+
+.o-card-info {
+    color: #29394b;
+    padding: 0;
+    text-align: center;
+}
+
+.o-card-info h2, .o-card-info p {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.o-card-info h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.o-card-info p {
+    margin-top: 0;
+    font-size: 13px;
+}

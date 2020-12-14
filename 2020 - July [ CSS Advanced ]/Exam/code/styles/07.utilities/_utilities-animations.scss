@@ -1,0 +1,41 @@
+.u-text-color-animatable {
+    &:hover {
+        .character {
+            animation-name: grey-to-secondary;
+        }
+    }
+
+    .character {
+        animation-duration: 0.3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+
+    @for $i from 1 to 50 {
+        .character:nth-child(#{$i}) {
+            animation-delay: 0.1s * $i
+        }
+    }
+}
+
+.u-fade-in {
+    animation: fade-in 1.5s forwards 1 ease-out;
+    opacity: 0;
+
+    &--delay-500 {
+        animation-delay: 500ms;
+    }
+
+    &--delay-1000 {
+        animation-delay: 1000ms;
+    }
+
+    $i: 100;
+    @while $i < 2100 {
+        &--delay-#{$i} {
+            animation-delay: #{$i}ms;
+        }
+
+      $i: $i + 100;
+    }
+}

@@ -1,0 +1,13 @@
+.o-3x3-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.o-letter-container {
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}

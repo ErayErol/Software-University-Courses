@@ -1,0 +1,8 @@
+.centered {
+  text-align: center;
+}
+
+.centered__container {
+  width: 65%;
+  margin: 0 auto;
+}

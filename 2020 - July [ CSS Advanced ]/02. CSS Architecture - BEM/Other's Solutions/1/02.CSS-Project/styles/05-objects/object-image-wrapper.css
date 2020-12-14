@@ -1,0 +1,16 @@
+.o-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.o-image-wrapper .o-image-wrapper-imgbox {
+  max-width: 100%;
+  font-style: italic;
+  vertical-align: middle;
+  box-shadow: 0 6px 10px 0 rgba(41, 57, 75, 0.25);
+  border-radius: 8px;
+}

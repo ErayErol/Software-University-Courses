@@ -1,0 +1,29 @@
+.c-site-header {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 30px;
+    box-shadow: 0 6px 10px 0 rgba(41, 57, 75,.25);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    min-height: 80px;
+    background-color: white;
+}
+
+.c-site-header .c-primary-login {
+    align-items: center;
+}
+
+.c-site-header .c-site-primary-logo {
+    width: 120px;
+    display: flex;
+    margin-right: auto;
+}
+
+.c-site-header .c-primary-login button {
+    color: white;
+    background-color: #45ADF7;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+}

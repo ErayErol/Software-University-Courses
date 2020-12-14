@@ -1,0 +1,19 @@
+@import "../01-settings/settings-colors.scss";
+
+.rectangle {
+
+    display: flex;
+
+    &__small {        
+        height: 12px;
+        background-color: $grey-500;
+    }
+
+    &__biggest {
+        height: 312px;
+        background-color: $grey-700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

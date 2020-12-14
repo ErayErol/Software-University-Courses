@@ -1,0 +1,16 @@
+.rectangle {
+  display: flex;
+}
+
+.rectangle__small {
+  height: 12px;
+  background-color: #919191;
+}
+
+.rectangle__biggest {
+  height: 312px;
+  background-color: #565656;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

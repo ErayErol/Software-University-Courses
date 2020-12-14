@@ -1,0 +1,148 @@
+@import '../01-settings/settings-colors.scss';
+// @import '../01-settings/settings-breakpoints.scss';
+
+.footer{
+    border-top: 12px solid $grey-500;
+    background-color: $grey-700;
+    height: 330px;
+
+    &__wrapper{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        height: 100%;
+
+        .footer__image-wrapper{
+            width: 220px;
+            position: relative;
+
+            & img{
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
+        .footer__navigation{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 65px 0px 65px 75px;
+            flex: 1 0 auto;
+
+            // @include for-desktop-up{
+            //     margin: 30px 0px 30px 35px;
+            // }
+
+            &__column{
+                display: flex;
+                flex-flow: column nowrap;
+                height: 100%;
+
+                &:first-child{
+                    min-width: 250px;
+
+                    // @include for-tablet-landscape-up{
+                    //     min-width: fit-content;
+                    // }
+
+                    & ul{
+                        display: flex;
+                        flex-flow: column wrap;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        flex: 1 1 auto;
+                        overflow: auto;
+                        height: 100%;
+                        width: 100%;
+
+                        // @include for-tablet-landscape-up{
+                        //     display: block;
+                        // }
+
+                        & li{
+                            display: flex;
+                            flex: 0 1 auto;
+
+                            &:nth-last-child(1),
+                            &:nth-last-child(2){
+                                padding-left: 15px;
+
+                                // @include for-tablet-landscape-up{
+                                //     padding-left: 0px;
+                                // }
+                            }
+                        }
+                    }
+                }
+
+                &:last-child {
+                    padding-right: 0px;
+                    max-width: 180px;
+
+                    & ul{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: flex-start;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        & li img{
+                            padding-right: 30px;
+                            filter: brightness(0) 
+                                    saturate(100%)
+                                    invert(100%) 
+                                    sepia(6%) 
+                                    saturate(195%) 
+                                    hue-rotate(85deg) 
+                                    brightness(115%) 
+                                    contrast(80%);
+
+                            &:hover{
+                                cursor: pointer;
+                                filter: brightness(0) 
+                                        saturate(100%)
+                                        invert(66%) 
+                                        sepia(56%) 
+                                        saturate(433%) 
+                                        hue-rotate(122deg) 
+                                        brightness(88%) 
+                                        contrast(87%);
+                            }
+                        }
+                    }
+
+                    & p{
+                        color: $grey-500;
+                    }
+                }
+
+                & h5{
+                    margin: 0px;
+                    padding-bottom: 16px;
+                    color: white;
+                }
+
+                & li{
+                    padding-bottom: 12px;
+
+                    &:last-child{
+                        padding-bottom: 0px;
+                    }
+
+                    a{
+                        color: $grey-200;
+                        line-height: 19px;
+
+                        &:hover{
+                            color: $primary-300;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

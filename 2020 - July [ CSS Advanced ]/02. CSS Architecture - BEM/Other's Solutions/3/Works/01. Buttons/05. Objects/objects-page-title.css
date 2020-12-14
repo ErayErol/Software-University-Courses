@@ -1,0 +1,9 @@
+.o-page-title{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: rgb(34, 67, 100);
+}

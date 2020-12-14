@@ -1,0 +1,79 @@
+@import "../settings/settings-colors.scss";
+
+.program__container {
+    border-top: 10px dotted $primary-50;
+    margin: 127px 75px 96px 75px;
+
+    .program__info {
+        flex-direction: column;
+        text-align: center;
+        width: 850px;
+        margin: 0 auto;
+        margin-top: 96px;
+
+        .program__title {
+            color: $primary-300;
+            margin: 0;
+        }
+
+        .program__text {
+            color: $grey-700;
+            margin: 0;
+            padding-top: 24px;
+        }
+    }
+
+    .program__cards {
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+
+        .program__card {
+            width: 629px;
+            height: 259px;
+            background: $blue-50;
+            border: 4px solid $blue-400;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            padding: 31px 0;
+
+            .program__card__header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                margin: 0 140px;
+
+                .program__card__title {
+                    color: $blue-400;
+                    font-weight: 600;
+                    margin: 0;
+
+                    &--green {
+                        color: #00AF9B;
+                    }
+                }
+            }
+
+            .program__card__main {
+                margin: 0 auto;
+                width: 533px;
+                color: $grey-700;
+            }
+
+            &--green {
+                background: $primary-50;
+                border: 4px solid #00AF9B;
+                position: relative;
+
+                .circle-over-hardware-img {
+                    position: absolute;
+                    left: 149px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+@-webkit-keyframes show-background {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes show-background {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes hide-background {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hide-background {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.gradients-container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+
+.gradients-container:before, .gradients-container:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.gradients-container:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8495a0), to(#e5eaec));
+  background: linear-gradient(#8495a0, #e5eaec);
+}
+
+.gradients-container:after {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ca8635), to(#fbc582));
+  background: linear-gradient(#ca8635, #fbc582);
+  -webkit-animation: hide-background 0.5s ease-in alternate;
+          animation: hide-background 0.5s ease-in alternate;
+}
+
+.gradients-container:hover:after {
+  -webkit-animation: show-background 0.5s ease-in alternate;
+          animation: show-background 0.5s ease-in alternate;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+/*# sourceMappingURL=styles.css.map */

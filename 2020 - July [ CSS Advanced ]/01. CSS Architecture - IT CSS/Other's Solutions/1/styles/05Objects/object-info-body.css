@@ -1,0 +1,21 @@
+.o-info-body {
+    color: #3e4c5d;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 6px 8px 15px 1px rgb(27,139,249,.4);
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    z-index: 4;
+    transform: rotate(270deg);
+    right: -35px;
+    top: 350px;
+    padding: 5px;
+}
+
+.o-info-body i {
+    margin-right: 5px;
+}

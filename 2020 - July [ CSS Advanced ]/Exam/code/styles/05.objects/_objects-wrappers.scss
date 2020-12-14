@@ -1,0 +1,50 @@
+.o-page-wrapper-course {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 72px min-content 590px;
+    grid-template-columns: 100%;
+
+    // @include for-tablet-portrait-up {
+    //     grid-template-rows: 72px 90% 590px;
+    // }
+
+    @include for-tablet-landscape-up {
+        grid-template-rows: 72px min-content 325px;
+    }
+
+    // @include for-desktop-up {
+    //     grid-template-rows: 72px 100% 325px;
+    // }
+}
+
+.o-page-wrapper-trainers {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 72px min-content 590px;
+    grid-template-columns: 100%;
+
+    @include for-tablet-landscape-up {
+        grid-template-rows: 72px min-content 325px;
+    }
+
+    // @include for-desktop-up {
+    //     grid-template-rows: 72px 90% 325px;
+    // }
+}
+
+.o-page-wrapper-contact-us {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 72px min-content 590px;
+    grid-template-columns: 100%;
+
+    @include for-tablet-landscape-up {
+        grid-template-rows: 72px 1694px 325px;
+    }
+}
+
+.o-page-content-wrapper {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

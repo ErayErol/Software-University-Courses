@@ -1,0 +1,92 @@
+.c-button {
+  background: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.c-button--primary {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background-color: #ffa000;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.c-button--primary:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.c-button--disabled {
+  box-shadow: none;
+}
+
+.c-button--disabled:hover {
+  cursor: not-allowed;
+}
+
+.c-button--disabled-primary {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background-color: #d6d6d6;
+  color: #fff;
+  font-weight: 700;
+}
+
+.c-button--secondary {
+  border: 1px solid #FFA000;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #FFA000;
+  font-weight: 700;
+}
+
+.c-button--secondary:hover {
+  cursor: pointer;
+  background-color: rgba(255, 160, 0, 0.06);
+}
+
+.c-button--secondary-disabled {
+  border: 1px solid #D6D6D6;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 14px;
+  color: rgb(214, 214, 214);
+  font-weight: 700;
+}
+
+.c-button--small {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ffa000;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.c-button--small:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.c-button--small-disabled {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #d6d6d6;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/generic/generic-normalize.css">
+
+    <link rel="stylesheet" href="styles/settings/settings-typography.css">
+
+    <link rel="stylesheet" href="styles/objects/objects-containers.css">
+
+    <link rel="stylesheet" href="styles/elements/elements-links.css">
+    <link rel="stylesheet" href="styles/elements/elements-input-fields.css">
+
+    <link rel="stylesheet" href="styles/utilities/utilities-centered.css">
+    <link rel="stylesheet" href="styles/utilities/utilities-hidden.css">
+
+    <link rel="stylesheet" href="styles/components/components-button.css">
+    <link rel="stylesheet" href="styles/components/components-card.css">
+    <link rel="stylesheet" href="styles/components/components-filter.css">
+    <link rel="stylesheet" href="styles/components/components-header.css">
+    <link rel="stylesheet" href="styles/components/components-footer.css">
+    <link rel="stylesheet" href="styles/components/components-navigation.css">
+    <link rel="stylesheet" href="styles/components/components-program.css">
+    <link rel="stylesheet" href="styles/components/components-secondary-text.css">
+    <link rel="stylesheet" href="styles/components/components-circle-underline.css">
+    <link rel="stylesheet" href="styles/components/components-third-section.css">
+    <link rel="stylesheet" href="styles/components/components-secondary-text.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__wrapper container">
+                <article class="navbar__logo">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </article>
+                <ul class="navbar__items">
+                    <li class="navbar__item">
+                        <a href="#">обучения</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Събития</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Преподаватели</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Блог</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Контакти</a>
+                    </li>
+                    <li class="navbar__item">
+                        <img src="assets/icons/search.png" alt="Search">
+                    </li>
+                    <button class="btn btn--secondary">
+                        вход
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <section class="header__info">
+            <article class="centered centered__container">
+                <h1>Обучения</h1>
+                <p>At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. Ut eu hac risus a suscipit
+                    cras
+                    sagittis viverra gravida. Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo
+                    at.
+                    Augue ullamcorper suspendisse. Sit morbi risus</p>
+            </article>
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="filter--wrapper">
+            <div class="filter container">
+                <h4 class="filter__title">
+                    Филтър:
+                </h4>
+                <label class="filter__label filter__label--level">
+                    <img class="filter__label__img" src="assets/icons/level.svg">
+                    <select name="level" id="level">
+                        <option value="level">Ниво</option>
+                        <option value="basic">Начинаещ</option>
+                        <option value="advanced">Напреднал</option>
+                    </select>
+                    <img class="filter__label__img filter__label__img--info" src="assets/icons/info.svg">
+                </label>
+                <label class="filter__label">
+                    <img class="filter__label__img" src="assets/icons/location.svg">
+                    <select name="location" id="location">
+                        <option value="level">Локация</option>
+                        <option value="basic">София</option>
+                        <option value="advanced">Онлайн</option>
+                    </select>
+                </label>
+                <label class="filter__label">
+                    <img class="filter__label__img" src="assets/icons/people.svg">
+                    <select name="suitable-for" id="suitable-for">
+                        <option value="suitable-for">Подходящ за</option>
+                        <option value="basic">Начинаещ</option>
+                        <option value="advanced">Напреднал</option>
+                    </select>
+                </label>
+                <label class="filter__label">
+                    <img class="filter__label__img" src="assets/icons/people.svg">
+                    <select name="type" id="type">
+                        <option value="type">Вид</option>
+                        <option value="online">Онлайн</option>
+                        <option value="onsite">Присъствено</option>
+                    </select>
+                </label>
+        </section>
+        <section class="cards--wrapper">
+            <div class="cards container">
+                <article class="card">
+                    <header class="card__header card__header--blue">
+                        <div class="card__label card__label--gray">
+                            Начинаещ
+                        </div>
+                        <h3 class="card__title">
+                            Първи стъпки в програмирането
+                        </h3>
+                    </header>
+                    <div class="card__content">
+                        <div class="card__info">
+                            <img src="assets/icons/play.svg">
+                            16 май 2020
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/time.png">
+                            4 седмици
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/user.svg">
+                            1-3 клас
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/location-icon.svg">
+                            София - жк. Изток
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <span class="card__price">
+                            110 лв.
+                        </span>
+                        <button class="btn btn--secondary">
+                            към обучението
+                        </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <header class="card__header card__header--green">
+                        <div class="card__label card__label--gray">
+                            Начинаещ
+                        </div>
+                        <h3 class="card__title">
+                            Първи стъпки в програмирането
+                        </h3>
+                    </header>
+                    <div class="card__content">
+                        <div class="card__info">
+                            <img src="assets/icons/play.svg">
+                            16 май 2020
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/time.png">
+                            4 седмици
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/user.svg">
+                            1-3 клас
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/location-icon.svg">
+                            София - жк. Изток
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <span class="card__price">
+                            110 лв.
+                        </span>
+                        <button class="btn btn--secondary">
+                            към обучението
+                        </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <header class="card__header card__header--blue">
+                        <div class="card__label card__label--violet">
+                            Начинаещ
+                        </div>
+                        <h3 class="card__title">
+                            Първи стъпки в програмирането
+                        </h3>
+                    </header>
+                    <div class="card__content">
+                        <div class="card__info">
+                            <img src="assets/icons/play.svg">
+                            16 май 2020
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/time.png">
+                            4 седмици
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/user.svg">
+                            1-3 клас
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/location-icon.svg">
+                            София - жк. Изток
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <span class="card__price">
+                            110 лв.
+                        </span>
+                        <button class="btn btn--secondary">
+                            към обучението
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="circle-underline">
+            <article class="circle-underline-dots">
+                <svg width="1288" height="10" viewBox="0 0 1288 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 779 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 941 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1103 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1265 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 635 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 797 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 959 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1121 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1283 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 653 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 815 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 977 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1139 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 671 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 833 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 995 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1157 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 689 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 851 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1013 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1175 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 707 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 869 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1031 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1193 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 725 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 887 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1049 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1211 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 743 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 905 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1067 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1229 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 761 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 923 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1085 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 1247 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 617 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 455 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 293 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 131 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 473 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 311 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 149 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 491 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 329 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 167 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 5 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 509 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 347 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 185 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 23 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 527 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 365 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 203 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 41 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 545 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 383 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 221 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 59 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 563 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 401 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 239 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 77 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 581 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 419 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 257 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 95 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 599 5.00006)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 437 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 275 5.00003)" fill="#DFF4F1" />
+                    <circle r="5" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 113 5.00003)" fill="#DFF4F1" />
+                </svg>
+            </article>
+        </section>
+        </div>
+        <section class="header__info--middle header__info">
+            <article class="centered__container--middle centered__container">
+                <h1 class="header-middle-h1">Учебни програми</h1>
+                <p class="header-middle-p1">At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. Ut eu hac risus a suscipit
+                    cras
+                    sagittis viverra gravida. Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo
+                    at.
+                    Augue ullamcorper suspendisse. Sit morbi risus</p>
+            </article>
+        </section>
+        <section class="third-main-section">
+            <section class="third-section-wrapper">
+                <article class="third-section__card">
+                    <div class="third-section-containter">
+                        <div class="third-section-main">
+                            <p class="third-section-first-p"><img class="third-section-img__group129" src="assets/exported/Group 129.svg"> Софтурерна програма</p>
+                        </div>
+                        <div>
+                            <p class="third-section-second-p">At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. Ut eu hac risus a suscipit cras sagittis viverra gravida. Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo at.
+    
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn--third__section">виж софтуерна програма</button>
+                        </div>
+                    </article>
+                    </div>
+            </section>
+            <section class="third-secondary-wrapper third-section-wrapper">
+                <article class="third-section__card--secondary third-section__card">
+                    <div class="third-section-containter--2 third-section-containter">
+                        <div class="third-section-main">
+                            <p class="third-section--p2 third-section-first-p"><img class="third-section-img__group129" src="assets/exported/settings 1.svg"> Хардуерна програма</p>
+                        </div>
+                        <div>
+                            <p class="third-section-second-p">At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. Ut eu hac risus a suscipit cras sagittis viverra gravida. Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo at.
+    
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn--third__section">виж хардуерна програма</button>
+                        </div>
+                    </article>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="little-grey-rectangle"><p></p></div>
+        <section class="footer-section">
+            
+                <img class="footer__img" src="/assets/exported/Choveche.svg">
+            
+            <article class="footer-first-section">
+                <div>
+                    <h1 class="footer-h1-section">Softuni Kids</h1>
+                    <p class="footer-p">Начало</p>
+                    <p class="footer-p">Летни академии</p>
+                    <p class="footer-p">Преподаватели</p>
+                    <p class="footer-p">Блог</p>
+                    <p class="footer-p">Контакти</p>
+                </div>
+            </article>
+            <article class="footer-middle-section">
+                <div class="footer-middle__section">
+                    <p class="footer-p">Общи условия</p>
+                    <p class="footer-p">Лични данни</p>
+                </div>
+            </article>
+            <article class="footer-1-section">
+                <div>
+                    <h1 class="footer-h1-section--2 footer-h1-section">Всички обучения</h1>
+                    <p class="footer-p">Курсове</p>
+                    <p class="footer-p">Събитияи</p>
+                </div>
+            </article>
+            <article class="footer-2-section">
+                <div>
+                    <h1 class="footer-h1-section--3 footer-h1-section">Всички инициативи</h1>
+                    <p class="footer-p">Software University</p>
+                    <p class="footer-p">SoftUni Digital</p>
+                    <p class="footer-p">SoftUni Creative</p>
+                    <p class="footer-p">SoftUni Svetlina</p>
+                    <p class="footer-p">SoftUni Foundation</p>
+                </div>
+            </article>
+            <article class="footer-3-section">
+                <div>
+                    <h1 class="footer-h1-section--4 footer-h1-section">Намери ни</h1>
+                    <p><img class="fb__icon" src="/assets/exported/fb-icon.svg"> <img class="instagram__icon" src="/assets/exported/instagram-icon.svg"></p>
+                    <p class="copyright">© 2016-2020 - SoftUni Kids. All Rights Reserved.</p>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>
