@@ -1,180 +1,83 @@
-# SoftUni-Courses
-C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Software University(SoftUni) program. 
 <!-- HEAD START -->
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
    <tbody>
       <tr>
-         <td align="left" width="33%"><img style="text-align: center;" src="http://conf.softuni.bg/wp-content/uploads/2015/01/SoftUni-Logo-Flat_square-blue-300x235.png"/></td>
-         <td align="left" width="33%">
-            <h1><a href="https://softuni.bg/">SoftUni</a></h1>
-            <h2>C#</h2>
-            <h2>JavaScript</h2>
-	    <h2>HTML & CSS</h2>
-            <h2>MS SQL</h2>
+         <td align="left" width="25%">
+         <a href="https://softuni.bg">
+            <img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 />
+         </a>
          </td>
          <td align="left" width="33%">
-            <img src="https://avatars3.githubusercontent.com/u/42773965?s=460&u=77e86dac05c259d9b9291199306afc83bbfc5c26&v=4"/>
-            <!--   TODO: Add linkedIn profile -->
-            <!-- <img src="https://avatars1.githubusercontent.com/u/52930559?s=460&u=56c073c9be5078b046e7d01ceff70417375ceb2f&v=4" width = 20% height= 20% alt="LinkedIn" /> -->
-            Student name: 
-            <strong>
-            <a title="Eray Erol" href="XXXX" target="_blank">
-            Eray Erol
-            </a>
-            </strong></p>
+            <h3>
+               Student name: E.Erol ⭐
+            </h3>
+            <h3>
+               My Credits: 77 🎯
+            </h3>
+            <h3>
+               <p>My target: Full Stack</p>
+               <p>Web Developer 🏆</p>
+            </h3>
+         </td>
+         <td align="left" width="25%">
+            <h2>
+               C# ✅
+            </h2>
+            <h2>
+               JavaScript ✅
+            </h2>
+	         <h2>
+               HTML & CSS ✅
+            </h2>
          </td>
       </tr>
    </tbody>
 </table>
 <!-- HEAD END -->
-<!-- C# Basics Start -->
-
-<hr />
+<hr>
+<hr>
+<hr>
+<!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-      <table width="100%" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">Programming basics with C# - March 2019 <br /> 
-                  09.03.2019 - 20.04.2019
-               </th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 24/04/2019</th>
                <th align="left">
-                  <p><a width="10% title="C# Basics" href="https://softuni.bg/certificates/details/66322/4f0418c3" target="_blank">Certificate</a></p>
+                  Technology Fundamentals - September 2018
+                  <br />
+                  21.09.2018 - 16.12.2018
+               </th>
+               <th align="left">
+                  Grade: 5.62 (out of 6.00)
+                  <br /> 
+                  Issue Date: 17/12/2018
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="Technology Fundamentals" href="https://softuni.bg/certificates/details/61142/ca611a05" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>
-   </summary>
-
-   <!-- Summary End -->
-
-   <table width="100%" cellspacing="5" cellpadding="5" align="left">
-      <tbody>
-         <!-- Course Body -->
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Simple operations and calculations" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/1.%20Simple%20Operations%20and%20Calculations" target="_blank">Simple operations and calculations - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Conditional statements" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/2_Conditional-statements" target="_blank">Conditional statements - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Nested conditional statements" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/3_Nested-conditional-statements" target="_blank">Nested conditional statements - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="While loop" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/4_While-loop" target="_blank">While loop - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="For loop" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/5_For-loop" target="_blank">For loop - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="20%">
-               <ul>
-                  <li>
-                     <p><a title="Nested loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exercises/6_Nested-loops" target="_blank">Nested loops - exercises</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-         <tr>
-         <tr>
-            <td colspan="3" align="center" width="100%">
-               <h3><i><b>Exam Preparation</b></i></h3>
-            </td>
-         </tr>
-         </tr>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Exam 24 November 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exams/Exam%20-%2024%20November%202019" target="_blank">Programming basics with C# Exam - 24 November 2019</a></p>
-                  </li>
-               </ul>
-            </td>
-            <td colspan="2" width="20%">
-               <ul>
-                  <li>
-                     <p><a title="Exam 20 April 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exams/Exam%20-%2020%20%20April%202019" target="_blank">Programming basics with C# - 20 April 2019 (exam)</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-      <tbody>
-         <tr>
-            <td width="19.5%">
-               <ul>
-                  <li>
-                     <p><a title="Programming basics Exam - 9/10 March" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Basics/Exams/Exams%20-%209%20and%2010%20March%202019" target="_blank">Programming basics Exams - 9 and 10 March 2019</a></p>
-                  </li>
-               </ul>
-            </td>
-         </tr>
-   </table>
-   </tbody>
-</details>
-<hr />
-<!-- C# Basics End -->
-<!-- C# Fundamentals Start -->
-<hr />
-<!-- Summary Begin -->
+</table>
+<!-- Summary End -->
 <details>
    <summary>
       <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
-         <tbody>
-            <tr>
-               <th align="left" width="50%">C# Fundamentals - May 2019<br /> 
-                  15.05.2019 - 03.08.2019
-               </th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 12/08/2019</th>
-               <th align="left">
-                  <p><a title="C# Fundamentals" href="https://softuni.bg/certificates/details/69255/3315630e" target="_blank">Certificate</a></p>
-               </th>
-            </tr>
-         </tbody>
-      </table>      
    </summary>
-   <!-- Summary End -->
-   
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="1" cellpadding="1" align="left">
       <tbody>
-         <!-- Course Body -->
          <tr>
             <td width="19.5%">
                <ul>
                   <li>
-                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic sintax, conditional statements and loops - exercises</a></p>
+                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic syntax, conditional statements and loops - exercises</a></p>
                   </li>
                </ul>
                <ul>
                   <li>
-                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic sintax, conditional statements and loops - additional exercises</a></p>
+                     <p><a title="Basic sintax, conditional statements and loops" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Fundamentals/01_BasicSyntaxConditionalStatementsAndLoops/Exercises/Exercisesss" target="_blank">Basic syntax, conditional statements and loops - additional exercises</a></p>
                   </li>
                </ul>
             </td>
@@ -379,31 +282,39 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
       </tbody>
    </table>
 </details>
+<!-- C# Technology Fundamentals End -->
 <hr />
 <hr />
-<!-- C# Fundamentals End -->
-<!-- C# Advanced Start -->  
+<!-- C# Advanced Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">C# Advanced - September 2019 <br /> 17.09.2019 - 26.10.2019</th>
-               </th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00) <br /> Issue Date: 07/11/2019:</th>
                <th align="left">
-                  <p><a title="C# Advanced" href="https://softuni.bg/certificates/details/72147/9addc663" target="_blank">Certificate</a></p>
+                  C# Advanced - January 2019
+                  <br />
+                  14.01.2019 - 24.02.2019
+               </th>
+               <th align="left">
+                  Grade: 5.54 (out of 6.00)
+                  <br />
+                  Issue Date: 28/02/2019
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-   
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -525,30 +436,39 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
       </tr>
    </table>
 </details>
-<hr />
 <!-- C# Advanced End -->
-<!-- C# OOP Start -->  
 <hr />
+<hr />
+<!-- C# OOP Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-      <table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">C# OOP - October 2019 <br /> 29.10.2019 - 15.12.2019</th>               
-               <th align="left" width="40%">Grade: 6.00 (out of 6.00) <br /> Issue Date: 23/12/2019</th>
-               <th align="left" width="10%">
-                  <p><a title="C# OOP" href="https://softuni.bg/certificates/details/75306/fc669a56" target="_blank">Certificate</a></p>
+               <th align="left">
+                  C# OOP - October 2020
+                  <br />
+                  27.10.2020 - 12.12.2020
+               </th>
+               <th align="left">
+                  Soon<!-- Grade: 5.64 (out of 6.00) -->
+                  <br />
+                  Soon<!-- Issue Date: 23/12/2020 -->
+               </th>
+               <th align="left">
+                  <p>
+                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a> -->
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-   
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -670,30 +590,39 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
       </tr>
    </table>
 </details>
-<hr />
 <!-- C# OOP End -->
-<!-- JavaScript Advanced Start -->  
 <hr />
+<hr />
+<!-- JavaScript Advanced Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">JavaScript Advanced - January 2020 <br /> 13.01.2020 - 23.02.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 28/02/2020</th>
                <th align="left">
-                  <p><a title="JS Advanced" href="https://softuni.bg/certificates/details/76354/4b5497b1" target="_blank">Certificate</a></p>
+                  JavaScript Advanced - January 2020
+                  <br />
+                  13.01.2020 - 23.02.2020
+               </th>
+               <th align="left">
+                  Grade: 6.00 (out of 6.00)
+                  <br />
+                  Issue Date: 28/02/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/80525/8bead0a3" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>     
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -831,30 +760,39 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
       </tr>
    </table>
 </details>
-<hr />
 <!-- JS Advanced End -->
-<!-- JavaScript Applications Start -->  
 <hr />
+<hr />
+<!-- JavaScript Applications Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">JavaScript Applications - February 2020 <br /> 24.02.2020 - 05.04.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 21/04/2020:</th>
                <th align="left">
-                  <p><a title="JS Applications" href="https://softuni.bg/certificates/details/80325/d2299076" target="_blank">Certificate</a></p>
+                  JavaScript Applications - February 2020
+                  <br />
+                  24.02.2020 - 05.04.2020
+               </th>
+               <th align="left">
+                  Grade: 6.00 (out of 6.00)
+                  <br />
+                  Issue Date: 21/04/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/80470/3750ade7" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -947,32 +885,42 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
             </ul>
          </td>
       </tr>
-      <!-- JavaScript Applications End --> 
-      <!-- MS SQL Basics Start -->  
       <hr />
    </table>
 </details>
+<!-- JavaScript Applications End -->
+<hr />
+<hr />
+<!-- MS SQL Basics Start -->
 <!-- Summary Begin -->
-<hr />
-<hr />
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">MS SQL Basics - May 2020 <br /> 18.05.2020 - 21.06.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 28/06/2020</th>
                <th align="left">
-                  <p><a title="MS SQL Basics" href="https://softuni.bg/certificates/details/83021/5bb4e9e7" target="_blank">Certificate</a></p>
+                  MS SQL Basics - January 2021
+                  <br />
+                  11.01.2021 - 13.02.2021
+               </th>
+               <th align="left">
+                  Soon<!-- Grade: 6.00 (out of 6.00) -->
+                  <br />
+                  Soon<!-- Issue Date: 21/04/2020 -->
+               </th>
+               <th align="left">
+                  <p>
+                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/80470/3750ade7" target="_blank">Certificate</a> -->
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -1088,32 +1036,40 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
       <hr />
    </table>
 </details>
-<hr />
 <!-- MS SQL Basics End -->
-<!-- MS SQL Advanced / EF Core Start -->  
 <hr />
-</table>
-</details>
+<hr />
+<!-- MS SQL Advanced / EF Core Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">Entity Framework Core - June 2020 <br /> 22.06.2020 - 08.08.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: 18/08/2020:</th>
                <th align="left">
-                 <p><a title="MSSQL advanced - Entity Framework Core" href="https://softuni.bg/certificates/details/86322/358ff520" target="_blank">Certificate</a></p>
+                  Entity Framework Core - February 2021
+                  <br />
+                  13.02.2021 - 08.04.2021
+               </th>
+               <th align="left">
+                  Soon<!-- Grade: 6.00 (out of 6.00) -->
+                  <br />
+                  Soon<!-- Issue Date: 21/04/2020 -->
+               </th>
+               <th align="left">
+                  <p>
+                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/80470/3750ade7" target="_blank">Certificate</a> -->
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+</details>
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
@@ -1148,7 +1104,7 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
             </ul>
          </td>
       </tr>
-	<tr >
+	   <tr >
          <td width="19.5%">
             <ul >
                <li>
@@ -1165,7 +1121,7 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
             </ul>
          </td>
       </tr>
-  <tr >
+      <tr >
          <td width="19.5%">
             <ul >
                <li>
@@ -1182,10 +1138,7 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
             </ul>
          </td>
       </tr>
-  
-  
-  
-  <tr >
+      <tr >
          <td width="19.5%">
             <ul >
                <li>
@@ -1225,7 +1178,7 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
                </li>
             </ul>
          </td>
-      </tr>	
+      </tr>
       <tr >
          <td width="19.5%">
             <ul >
@@ -1253,59 +1206,47 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
             </ul>
          </td>
 	 <tr >
-      <!-- MS SQL Advanced / EF Core End -->  
       </tbody>
    </table>
 </details>
+<!-- MS SQL Advanced / EF Core End -->
 <hr />
-
-
-<!-- C# Web Basics START --> 
 <hr />
-</table>
-</details>
+<!--HTML & CSS Start -->
 <!-- Summary Begin -->
-<details>
-   <summary>
-      <strong> Click </strong> for more detailed information
-		<table width="100%" cellspacing="11" cellpadding="14" align="center">
+<table width="100%" cellspacing="11" cellpadding="14">
          <tbody>
             <tr>
-               <th align="left" width="50%">C# Web Basics - September 2020 <br /> 15.09.2020 - 25.10.2020</th>
-               <th width="40%" align="left">Grade: 6.00 (out of 6.00)<br /> Issue Date: XX/XX/XXXX:</th>
                <th align="left">
-                 <p><a title="MSSQL advanced - Entity Framework Core" href="https://softuni.bg/certificates/details/86322/358ff520" target="_blank">Certificate</a></p>
+                  HTML & CSS - May 2020
+                  <br />
+                  13.01.2020 - 23.02.2020
+               </th>
+               <th align="left">
+                  Grade: 6.00 (out of 6.00)
+                  <br />
+                  Issue Date: 22/07/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/84903/376c266d" target="_blank">Certificate</a>
+                  </p>
                </th>
             </tr>
          </tbody>
-      </table>  
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
    </summary>
-   <!-- Summary End -->
-	
+<!-- Course Body -->
    <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
-      <!-- Course Body -->
       <tr >
          <td width="19.5%">
             <ul >
                <li>
-                  <p><a title="ADO.Net" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Custom%20MVC%20Framework">Custom MVC Framework - result of all workshops</a>
-                  </p>
-               </li>
-            </ul>
-         </td>         
-      </tr>   
-      <tr>
-         <tr>
-            <td colspan="3" align="center" width="100%">
-               <h3><i><b>Exam Preparation</b></i></h3>
-            </td>
-         </tr>
-      </tr>
-	 <tr >
-         <td width="19.5%">
-            <ul >
-               <li>
-                  <p><a title="Entity Framework Core Exam - 13 Dec 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/Exam%20-%2016%20Feb%202020%20-%20Shared%20trip" target="_blank">Exam - 16 Feb 2020 - Shared trip</a>
+                  <p><a title="Syntax, functions and statements" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/1.%20Syntax%2C%20Functions%20and%20Statements" target="_blank">Introduction to HTML and CSS</a>
                   </p>
                </li>
             </ul>
@@ -1313,7 +1254,7 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
          <td colspan="2" width="20%">
             <ul >
                <li>
-                  <p><a title="Entity Framework Core Retake Exam - 18 Apr 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/Exam%20-%2016%20Jun%202019%20-%20SULS" target="_blank">Exam - 16 Jun 2019 - SULS</a></p>
+                  <p><a title="Arrays" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/2.%20Arrays" target="_blank">HTML Structure</a></p>
                </li>
             </ul>
          </td>
@@ -1322,7 +1263,7 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
          <td width="19.5%">
             <ul >
                <li>
-                  <p><a title="Entity Framework Core Exam - 13 Dec 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/Exam%20-%2028%20Apr%202020%20-%20Battle%20cards" target="_blank">Exam - 28 Apr 2020 - Battle cards</a>
+                  <p><a title="Objects" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/3.%20Objects" target="_blank">CSS and Typography</a>
                   </p>
                </li>
             </ul>
@@ -1330,12 +1271,214 @@ C# / JavaScript / MS SQL / HTML & CSS - homeworks and exams according to the Sof
          <td colspan="2" width="20%">
             <ul >
                <li>
-                  <p><a title="Entity Framework Core Retake Exam - 18 Apr 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/C%23%20Web%20Basics/Exams/My%20exam%20-%2025.10.2020%20-%20Git" target="_blank">My exam - 25.10.2020 - Git</a></p>
+                  <p><a title="Advanced functions" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/4.%20Advanced%20Functions" target="_blank">CSS Box Model</a></p>
                </li>
             </ul>
          </td>
-      </tr>      
-      <!-- C# Web Basics END -->  
-      </tbody>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="DOM" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/5.%20DOM" target="_blank">Position & Float</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="DOM manipulation" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/6.%20DOM%20Manipulations" target="_blank">Flexbox</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+         <td colspan="3" align="center" width="100%">
+            <h3><i><b>Exam Preparation</b></i></h3>
+         </td>
+      </tr>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="26 October 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20-%2026%20October%202019" target="_blank">Exam - 26 October 2019</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="07 July 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Exam%20-%2007%20July%202019" target="_blank">Exam - 07 July 2019</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="July 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Exam%20Preparation%20-%20July%202019" target="_blank"><i>Exam preparation -  July  2019</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="08 April 2020" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Retake%20-%2008%20April%202020" target="_blank">Exam - 08 April 2020</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="08 August 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Retake%20-%2008%20August%202019" target="_blank">Exam - 08 August 2019</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="10 December 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/Mid%20Exams/JS%20Advanced%20Retake%20Exam%20-%2010%20December%202019" target="_blank">Exam - 10 December 2019</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
    </table>
 </details>
+<!-- HTML & CSS End -->
+<hr />
+<hr />
+<!-- CSS Advanced Start -->
+<!-- Summary Begin -->
+<table width="100%" cellspacing="11" cellpadding="14">
+         <tbody>
+            <tr>
+               <th align="left">
+                  CSS Advanced - July 2020
+                  <br />
+                  06.07.2020 - 08.08.2020
+               </th>
+               <th align="left">
+                  Grade: 5.86 (out of 6.00)
+                  <br />
+                  Issue Date: 31/08/2020
+               </th>
+               <th align="left">
+                  <p>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/87631/d8b5539d" target="_blank">Certificate</a>
+                  </p>
+               </th>
+            </tr>
+         </tbody>
+</table>
+<!-- Summary End -->
+<details>
+   <summary>
+      <strong> Click </strong> for more detailed information
+   </summary>
+<!-- Course Body -->
+   <table border="0" width="100%" cellspacing="0" cellpadding="0" align="left">
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="This" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/1_This" target="_blank">This - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Object composition" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/2_Object_Composition" target="_blank">Object composition - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Prototypes and inheritance" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/3_Prototypes_and_Inheritance" target="_blank">Prototypes and inheritance - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="REST Services and AJAX" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/4_Rest_Services_and_AJAX" target="_blank">REST services and AJAX - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Asynchronous programming" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/5_Asynchronous_Programming" target="_blank">Asynchronous programming - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Remote DB" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/6_Remote_Databases" target="_blank">Remote DataBases - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="Templating" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/7_Templating" target="_blank">Templating - exercises</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="Routing" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/Exercises/8.%20Unit%20Testing" target="_blank">Routing - exercises</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <tr>
+      <tr>
+         <td colspan="3" align="center" width="100%">
+            <h3><i><b>Exam Preparation</b></i></h3>
+         </td>
+      </tr>
+      </tr>
+      <tr >
+         <td width="19.5%">
+            <ul >
+               <li>
+                  <p><a title="05 April 2020" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/Exams" target="_blank">Exam - 05 April 2020</a>
+                  </p>
+               </li>
+            </ul>
+         </td>
+         <td colspan="2" width="20%">
+            <ul >
+               <li>
+                  <p><a title="07 December 2019" href="https://github.com/q2kPetrov/SoftUni-Courses/tree/master/JavaScript%20Applications/Exams" target="_blank">Exam - 07 December 2019</a></p>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      <hr />
+   </table>
+</details>
+<!-- CSS Advanced End -->
+<hr />
+<hr />
