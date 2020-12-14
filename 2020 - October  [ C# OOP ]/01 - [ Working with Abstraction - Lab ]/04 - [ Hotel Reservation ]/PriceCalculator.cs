@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HotelReservation
+﻿namespace HotelReservation
 {
     public class PriceCalculator
     {
-        public PriceCalculator(
-            decimal pricePerDay,
+        public PriceCalculator(decimal pricePerDay,
             int daysCount,
             Season season,
             DiscountType discountType = 0)
@@ -15,7 +10,7 @@ namespace HotelReservation
             this.PricePerDay = pricePerDay;
             this.DaysCount = daysCount;
             this.Season = season;
-            this.DiscoundType = discountType;
+            this.DiscountType = discountType;
         }
 
         public decimal PricePerDay { get; set; }
@@ -24,15 +19,13 @@ namespace HotelReservation
 
         public Season Season { get; set; }
 
-        public DiscountType DiscoundType { get; set; }
+        public DiscountType DiscountType { get; set; }
 
         public decimal PriceCalculation()
         {
-            var price = this.PricePerDay *
-                 this.DaysCount *
-                 (int)this.Season;
+            var price = this.PricePerDay * this.DaysCount * (int) this.Season;
 
-            return price -= (int)this.DiscoundType * price / 100;
+            return price -= (int) this.DiscountType * price / 100;
         }
     }
 }

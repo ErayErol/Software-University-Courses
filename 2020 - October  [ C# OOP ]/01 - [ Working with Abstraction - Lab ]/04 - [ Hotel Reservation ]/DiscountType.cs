@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HotelReservation
+﻿namespace HotelReservation
 {
     public enum DiscountType
     {
