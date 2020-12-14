@@ -7,7 +7,7 @@
              	<img style="text-align: center" src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 300 />
              </a>
 	     <a href="https://softuni.bg">
-             	<h4 align="center" width="25%"> Softuni.bg </h4>
+             	Softuni.bg
              </a>	 
          </td>
          <td align="left" width="33%">
