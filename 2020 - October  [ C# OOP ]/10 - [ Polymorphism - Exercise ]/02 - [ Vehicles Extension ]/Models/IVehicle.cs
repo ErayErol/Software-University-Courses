@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Vehicles.Interfaces
+﻿namespace Vehicles.Models
 {
     public interface IVehicle
     {
@@ -10,16 +6,10 @@ namespace Vehicles.Interfaces
 
         double FuelConsumption { get; }
 
-        double TankCapacity { get; }
-
         bool HasAirConditioner { get; }
 
         bool Drive(double distance);
 
         void Refuel(double amount);
-
-        void TurnOnAirConditioner();
-
-        void TurnOffAirConditioner();
     }
 }

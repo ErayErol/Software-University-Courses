@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Vehicles.ExceptionsMessages;
-using Vehicles.Interfaces;
+﻿using Vehicles.ExceptionsMessages;
 
 namespace Vehicles.Models
 {
@@ -46,7 +42,7 @@ namespace Vehicles.Models
 
         public virtual double AirConditionerIncrease { get; private set; }
 
-        public bool Drive(double distance)
+        public virtual bool Drive(double distance)
         {
             double neededFuel = distance * this.FuelConsumption;
 
@@ -71,12 +67,12 @@ namespace Vehicles.Models
             this.FuelQuantity += amount;
         }
 
-        public void TurnOnAirConditioner()
+        protected void TurnOnAirConditioner()
         {
             this.HasAirConditioner = true;
         }
 
-        public void TurnOffAirConditioner()
+        protected void TurnOffAirConditioner()
         {
             this.HasAirConditioner = false;
         }
@@ -85,5 +81,6 @@ namespace Vehicles.Models
         {
             return $"{this.GetType().Name}: {this.FuelQuantity:f2}";
         }
+
     }
 }

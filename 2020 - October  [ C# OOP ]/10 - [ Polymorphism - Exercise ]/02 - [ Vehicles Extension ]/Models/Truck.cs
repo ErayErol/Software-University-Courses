@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Vehicles.ExceptionsMessages;
+﻿using Vehicles.ExceptionsMessages;
 
 namespace Vehicles.Models
 {
@@ -24,5 +21,6 @@ namespace Vehicles.Models
 
             base.Refuel(amount * FUEL_DECREASE);
         }
+
     }
 }

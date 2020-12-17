@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Vehicles.Interfaces
+﻿namespace Vehicles.IO
 {
     public interface IWriter
     {

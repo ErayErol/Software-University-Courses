@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Vehicles.Interfaces;
-using Vehicles.Models;
-
-namespace Vehicles.Core
+﻿namespace Vehicles.Core
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Vehicles.Factories;
+    using Vehicles.IO;
+    using Vehicles.Models;
+    using Vehicles.Utilities.Enums;
+
     public class Engine : IEngine
     {
         private readonly IReader reader;
@@ -22,137 +23,135 @@ namespace Vehicles.Core
 
         public void Proceed()
         {
-            var carData = Reading(this.reader);
+            Vehicle(out var car, out var truck, out var bus);
 
-            string type;
+            var commandsCount = int.Parse(reader.ReadLine());
+            DoCommands(commandsCount, car, truck, bus);
+
+            List<IVehicle> vehicles = new List<IVehicle>() { car, truck, bus, };
+            Print(vehicles);
+        }
+
+        private void Vehicle(out IVehicle car, out IVehicle truck, out IVehicle bus)
+        {
+            VehicleType type;
             double fuelQuantity;
             double fuelConsumption;
             double tankCapacity;
 
+            var carData = Reading(this.reader);
             GetArgs(carData, out type, out fuelQuantity, out fuelConsumption, out tankCapacity);
-
-            IVehicle car = this.vehicleFactory.CreateVehicle(type, fuelQuantity, fuelConsumption, tankCapacity);
+            car = this.vehicleFactory.CreateVehicle(type, fuelQuantity, fuelConsumption, tankCapacity);
 
             var truckData = Reading(this.reader);
-
             GetArgs(truckData, out type, out fuelQuantity, out fuelConsumption, out tankCapacity);
-
-            IVehicle truck = this.vehicleFactory.CreateVehicle(type, fuelQuantity, fuelConsumption, tankCapacity);
+            truck = this.vehicleFactory.CreateVehicle(type, fuelQuantity, fuelConsumption, tankCapacity);
 
             var busData = Reading(this.reader);
-
             GetArgs(busData, out type, out fuelQuantity, out fuelConsumption, out tankCapacity);
+            bus = this.vehicleFactory.CreateVehicle(type, fuelQuantity, fuelConsumption, tankCapacity);
+        }
 
-            IVehicle bus = this.vehicleFactory.CreateVehicle(type, fuelQuantity, fuelConsumption, tankCapacity);
-
-            var commandsCount = int.Parse(Console.ReadLine());
+        private void DoCommands(int commandsCount, IVehicle car, IVehicle truck, IVehicle bus)
+        {
             for (int i = 1; i <= commandsCount; i++)
             {
                 var input = Reading(this.reader);
 
                 var command = input[0];
-                var vehicleType = input[1];
+                Enum.TryParse(input[1], out VehicleType vehicleType);
                 var argument = double.Parse(input[2]);
+
+                var vehicle = GetVehicle(car, truck, bus, vehicleType);
+
                 try
                 {
-                    ExecuteCommand(car, truck, bus, command, vehicleType, argument);
+                    ExecuteCommand(command, vehicle, argument);
                 }
-                catch (ArgumentException e)
+                catch (Exception e)
                 {
                     this.writer.WriteLine(e.Message);
                 }
             }
-
-            Print(car, truck, bus);
         }
 
-        private static List<string> Reading(IReader reader)
-                => reader
-                   .ReadLine()
-                   .Split()
-                   .ToList();
-
-        private void ExecuteCommand(IVehicle car, IVehicle truck, IVehicle bus, string command, string vehicleType, double argument)
+        private void ExecuteCommand(string command, IVehicle vehicle, double argument)
         {
             if (command == "Drive")
             {
-                DriveVehicle(command, car, truck, bus, vehicleType, argument);
+                DriveVehicle(vehicle, argument);
             }
             else if (command == "DriveEmpty")
             {
-                DriveVehicle(command, car, truck, bus, vehicleType, argument);
+                DriveEmptyVehicle(vehicle, argument);
             }
             else if (command == "Refuel")
             {
-                RefuelVehicle(car, truck, bus, vehicleType, argument);
+                RefuelVehicle(vehicle, argument);
             }
         }
 
-        private static void GetArgs(List<string> data, out string type, out double fuelQuantity, out double fuelConsumption, out double tankCapacity)
+        private static IVehicle GetVehicle(IVehicle car, IVehicle truck, IVehicle bus, VehicleType vehicleType)
         {
-            type = data[0];
+            IVehicle vehicle = vehicleType switch
+            {
+                VehicleType.Car => car,
+                VehicleType.Truck => truck,
+                VehicleType.Bus => bus,
+                _ => null
+            };
+            return vehicle;
+        }
+
+        private static void GetArgs(List<string> data, out VehicleType type, out double fuelQuantity, out double fuelConsumption, out double tankCapacity)
+        {
+            Enum.TryParse(data[0], out type);
             fuelQuantity = double.Parse(data[1]);
             fuelConsumption = double.Parse(data[2]);
             tankCapacity = double.Parse(data[3]);
         }
 
-        private void DriveVehicle(string type, IVehicle car, IVehicle truck, IVehicle bus, string vehicleType, double argument)
+        private void DriveVehicle(IVehicle vehicle, double distance)
         {
-            bool isDrive = false;
+            bool isDrive = vehicle.Drive(distance);
+            string vehicleType = vehicle.GetType().Name;
 
-            if (vehicleType == "Car")
-            {
-                isDrive = car.Drive(argument);
-            }
-            else if (vehicleType == "Truck")
-            {
-                isDrive = truck.Drive(argument);
-            }
-            else if (vehicleType == "Bus")
-            {
-                if (type == "DriveEmpty")
-                {
-                    bus.TurnOffAirConditioner();
-                }
-                else
-                {
-                    bus.TurnOnAirConditioner();
-                }
+            PrintDrive(distance, isDrive, vehicleType);
+        }
 
-                isDrive = bus.Drive(argument);
-            }
+        private void DriveEmptyVehicle(IVehicle vehicle, double distance)
+        {
+            Bus bus = (Bus)vehicle;
+            bool isDrive = bus.DriveEmpty(distance);
+            string vehicleType = vehicle.GetType().Name;
 
-            if (isDrive)
+            PrintDrive(distance, isDrive, vehicleType);
+        }
+
+        private void PrintDrive(double distance, bool isDrive, string vehicleType)
+        {
+            this.writer.WriteLine(isDrive
+                ? $"{vehicleType} travelled {distance} km"
+                : $"{vehicleType} needs refueling");
+        }
+
+        private static void RefuelVehicle(IVehicle vehicle, double amount)
+        {
+            vehicle.Refuel(amount);
+        }
+
+        private void Print(List<IVehicle> vehicles)
+        {
+            foreach (var vehicle in vehicles)
             {
-                this.writer.WriteLine($"{vehicleType} travelled {argument} km");
-            }
-            else
-            {
-                this.writer.WriteLine($"{vehicleType} needs refueling");
+                this.writer.WriteLine(vehicle.ToString());
             }
         }
 
-        private static void RefuelVehicle(IVehicle car, IVehicle truck, IVehicle bus, string vehicleType, double argument)
-        {
-            if (vehicleType == "Car")
-            {
-                car.Refuel(argument);
-            }
-            else if (vehicleType == "Truck")
-            {
-                truck.Refuel(argument);
-            }
-            else if (vehicleType == "Bus")
-            {
-                bus.Refuel(argument);
-            }
-        }
-
-        private void Print(IVehicle car, IVehicle truck, IVehicle bus)
-        {
-            this.writer.WriteLine(car.ToString());
-            this.writer.WriteLine(truck.ToString());
-            this.writer.WriteLine(bus.ToString());
-        }
+        private static List<string> Reading(IReader reader)
+            => reader
+                .ReadLine()
+                .Split()
+                .ToList();
     }
 }

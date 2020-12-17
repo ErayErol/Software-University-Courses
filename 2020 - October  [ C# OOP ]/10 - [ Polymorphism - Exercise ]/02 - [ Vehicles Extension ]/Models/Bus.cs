@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Vehicles.Models
+﻿namespace Vehicles.Models
 {
     public class Bus : Vehicle
     {
@@ -14,5 +10,16 @@ namespace Vehicles.Models
         }
 
         public override double AirConditionerIncrease => AIR_CONDITIONER_FUEL_INCREASE;
+
+        public override bool Drive(double distance)
+        {   this.TurnOnAirConditioner();
+            return base.Drive(distance);
+        }
+
+        public bool DriveEmpty(double distance)
+        {
+            this.TurnOffAirConditioner();
+            return base.Drive(distance);
+        }
     }
 }

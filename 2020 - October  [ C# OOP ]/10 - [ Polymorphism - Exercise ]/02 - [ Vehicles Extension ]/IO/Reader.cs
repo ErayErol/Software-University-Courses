@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Vehicles.Interfaces;
 
-namespace Vehicles.Models
+namespace Vehicles.IO
 {
     public class Reader : IReader
     {
