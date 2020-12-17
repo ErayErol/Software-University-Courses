@@ -601,16 +601,16 @@
                <th align="left">
                   JavaScript Advanced - January 2020
                   <br />
-                  13.01.2020 - 23.02.2020
+                  16.09.2019 - 26.10.2019
                </th>
                <th align="left">
                   Grade: 6.00 (out of 6.00)
                   <br />
-                  Issue Date: 28/02/2020
+                  Issue date: 11/05/2020
                </th>
                <th align="left">
                   <p>
-                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/80525/8bead0a3" target="_blank">Certificate</a>
+                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/81303/a8a65ba6" target="_blank">Certificate</a>
                   </p>
                </th>
             </tr>
