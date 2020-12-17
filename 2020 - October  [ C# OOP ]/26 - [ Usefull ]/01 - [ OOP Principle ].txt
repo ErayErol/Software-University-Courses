@@ -1,0 +1,8 @@
+ABSTRACTION - Modeling objects that are relevant to the application, the abtraction give us options what we can use
+
+INHERITANCE - Reusing properties and members of a class in order not to repeat and keep the code clean
+
+ENCAPSULATION - To hide data from the outside world. Encapsulation works with access modifiers to protect
+the info and objects in the application from changing or bad behaviour
+
+POLYMORPHISM - To reuse an object through one of his base classes 

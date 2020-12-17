@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Restaurant
+﻿namespace Restaurant
 {
-    public class Product
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
+    public abstract class Product
     {
         public Product(string name, decimal price)
         {

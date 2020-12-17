@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace PersonsInfo
+﻿namespace PersonsInfo
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Engine
     {
         public void Proceed()
@@ -40,9 +40,9 @@ namespace PersonsInfo
 
         private static void Printing(List<Person> persons)
         {
-            foreach (var item in persons)
+            foreach (var person in persons)
             {
-                Console.WriteLine(item.ToString());
+                Console.WriteLine(person.ToString());
             }
         }
     }

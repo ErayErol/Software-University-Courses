@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PersonsInfo
+﻿namespace PersonsInfo
 {
     public class Person
     {

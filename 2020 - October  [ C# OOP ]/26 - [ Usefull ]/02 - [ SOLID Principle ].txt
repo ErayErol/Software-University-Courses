@@ -1,0 +1,36 @@
+SINGLE RESPONSABILITY - a class should not have more than one reason to be changed!!!
+	-Each task maps a single code unit
+	-A method should do one operation
+	-A class should represent one entity
+	Strong Cohesion / Loose Coupling 
+	Small number of instance variables inside a class
+	Each method of a class should manipulate one or more of those variables
+	Two modules should exchange as little information as possible
+	Creating an easily reusable subsystem 
+
+OPEN/CLOSED - to expand the functionality of a class without change it- using  interfaces etc.!!!
+	-Extensibility 
+	Adding a new behavior doesn’t require changes over existing source code
+	-Reusability  
+	subsystems are suitable for reusing in other projects – modularity
+	Parameters 
+ 	Control behavior specifics via a parameter or a delegate
+		Rely on abstraction, not implementation
+	Inheritance / Template Method Pattern
+	Strategy Pattern
+	Plug in model (insert a new implementation of the interface)
+	By experience – know the problem domain and if a change is very likely to recur
+	New domain problem – implement the most simple way
+	Changes once – modify, second time – refactor
+	TANSTAAFL – There Ain’t No Such Thing As A Free Lunch
+	OCP adds complexity to design
+	No design can be closed against all changes - know which onesto guard
+
+LISKOV SUBSTITUTION - to not inherit and change the logic of a base class 
+by overriding methods used in the base constructor etc
+
+INTERFACE SEGREGATION - do not construct a fat interfaces or methods who have many responsibility,
+ because in case of inheritance you may have properties than you don't need to use
+
+DEPENDANCY INVERSION - make all dependencies to be given from outside the class,
+ do not implement their logic in the class

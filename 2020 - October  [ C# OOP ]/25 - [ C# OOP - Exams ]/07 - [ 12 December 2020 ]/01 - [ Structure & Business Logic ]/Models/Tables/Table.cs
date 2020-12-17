@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Bakery.Models.BakedFoods;
-using Bakery.Models.BakedFoods.Contracts;
-using Bakery.Models.Drinks;
-using Bakery.Models.Drinks.Contracts;
-using Bakery.Models.Tables.Contracts;
-using Bakery.Utilities.Messages;
-
-namespace Bakery.Models.Tables
+﻿namespace Bakery.Models.Tables
 {
+    using Bakery.Models.BakedFoods.Contracts;
+    using Bakery.Models.Drinks.Contracts;
+    using Bakery.Models.Tables.Contracts;
+    using Bakery.Utilities.Messages;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public abstract class Table : ITable
     {
         private readonly List<IBakedFood> foodOrders;

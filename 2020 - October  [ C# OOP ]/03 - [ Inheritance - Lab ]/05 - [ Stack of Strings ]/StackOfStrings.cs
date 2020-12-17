@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CustomStack
+﻿namespace CustomStack
 {
+    using System.Collections.Generic;
+
     public class StackOfStrings : Stack<string>
     {
         public bool IsEmpty()

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Animals
+﻿namespace Animals
 {
+    using System.Text;
+
     public abstract class Animal
     {
         public Animal(string name, int age, string gender)
@@ -13,11 +11,11 @@ namespace Animals
             this.Gender = gender;
         }
 
-        public string Name { get; set; }
+        public string Name { get; }
 
-        public int Age { get; set; }
+        public int Age { get; }
 
-        public string Gender { get; set; }
+        public string Gender { get; }
 
         public abstract string ProduceSound();
 

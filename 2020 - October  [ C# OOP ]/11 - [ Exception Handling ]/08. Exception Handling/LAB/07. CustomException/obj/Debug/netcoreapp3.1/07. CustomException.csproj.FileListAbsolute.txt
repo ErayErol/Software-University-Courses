@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\bin\Debug\netcoreapp3.1\07. CustomException.exe
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\bin\Debug\netcoreapp3.1\07. CustomException.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\bin\Debug\netcoreapp3.1\07. CustomException.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\bin\Debug\netcoreapp3.1\07. CustomException.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\bin\Debug\netcoreapp3.1\07. CustomException.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\bin\Debug\netcoreapp3.1\07. CustomException.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\obj\Debug\netcoreapp3.1\07. CustomException.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\obj\Debug\netcoreapp3.1\07. CustomException.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\obj\Debug\netcoreapp3.1\07. CustomException.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\obj\Debug\netcoreapp3.1\07. CustomException.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\obj\Debug\netcoreapp3.1\07. CustomException.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\07. CustomException\obj\Debug\netcoreapp3.1\07. CustomException.genruntimeconfig.cache

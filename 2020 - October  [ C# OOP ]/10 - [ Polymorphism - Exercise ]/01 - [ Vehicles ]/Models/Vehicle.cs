@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Vehicles.Interfaces;
-
-namespace Vehicles.Models
+﻿namespace Vehicles.Models
 {
     public abstract class Vehicle : IVehicle
     {

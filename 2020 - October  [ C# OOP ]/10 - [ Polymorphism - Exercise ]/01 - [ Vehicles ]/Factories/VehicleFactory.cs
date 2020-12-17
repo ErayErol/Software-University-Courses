@@ -1,26 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
-using Vehicles.Interfaces;
 using Vehicles.Models;
+using Vehicles.Utilities.Enums;
 
 namespace Vehicles.Factories
 {
     public class VehicleFactory : IVehicleFactory
     {
-        public IVehicle CreateVehicle(string type, double fuelQuantity, double fuelConsumption, bool hasAirConditioner = true)
+        public IVehicle CreateVehicle(VehicleType type, double fuelQuantity, double fuelConsumption, bool hasAirConditioner = true)
         {
-            IVehicle vehicle = null;
-
-            switch (type)
+            IVehicle vehicle = type switch
             {
-                case nameof(Car):
-                    vehicle = new Car(fuelQuantity, fuelConsumption, hasAirConditioner);
-                    break;
-                case nameof(Truck):
-                    vehicle = new Truck(fuelQuantity, fuelConsumption, hasAirConditioner);
-                    break;
-            }
+                VehicleType.Car => new Car(fuelQuantity, fuelConsumption, hasAirConditioner),
+                VehicleType.Truck => new Truck(fuelQuantity, fuelConsumption, hasAirConditioner),
+                _ => null
+            };
 
             return vehicle;
         }

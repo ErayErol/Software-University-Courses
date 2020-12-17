@@ -1,27 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Animals
+﻿namespace Animals
 {
+    using System;
+    using System.Linq;
+    using System.Text;
+
     public class Engine
     {
         public void Proceed()
         {
-            Animal animal = null;
-
             var sb = new StringBuilder();
 
-            string input = "";
-            while ((input = Console.ReadLine()) != "Beast!")
+            while (true)
             {
+                var input = Console.ReadLine();
+
+                if (input == "Beast!")
+                {
+                    Console.WriteLine(sb.ToString());
+                    return;
+                }
+
                 var animalType = input;
 
-                var animalArgs = Console
-                    .ReadLine()
-                    .Split()
-                    .ToList();
+                var animalArgs = Console.ReadLine().Split().ToList();
 
                 var animalName = animalArgs[0];
                 var animalAge = int.Parse(animalArgs[1]);
@@ -33,36 +34,18 @@ namespace Animals
                     continue;
                 }
 
-                animal = CreatingAnimal(animal, animalType, animalName, animalAge, animalGender);
+                Animal animal = animalType switch
+                {
+                    "Dog" => new Dog(animalName, animalAge, animalGender),
+                    "Frog" => new Frog(animalName, animalAge, animalGender),
+                    "Cat" => new Cat(animalName, animalAge, animalGender),
+                    "Kitten" => new Kitten(animalName, animalAge),
+                    "Tomcat" => new Tomcat(animalName, animalAge),
+                    _ => null
+                };
 
                 sb.AppendLine(animal.ToString());
             }
-
-            Console.WriteLine(sb.ToString());
-        }
-
-        private static Animal CreatingAnimal(Animal animal, string animalType, string animalName, int animalAge, string animalGender)
-        {
-            switch (animalType)
-            {
-                case "Dog":
-                    animal = new Dog(animalName, animalAge, animalGender);
-                    break;
-                case "Frog":
-                    animal = new Frog(animalName, animalAge, animalGender);
-                    break;
-                case "Cat":
-                    animal = new Cat(animalName, animalAge, animalGender);
-                    break;
-                case "Kitten":
-                    animal = new Kitten(animalName, animalAge);
-                    break;
-                case "Tomcat":
-                    animal = new Tomcat(animalName, animalAge);
-                    break;
-            }
-
-            return animal;
         }
     }
 }

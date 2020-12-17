@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Bakery.Core.Contracts;
-using Bakery.Models.BakedFoods;
-using Bakery.Models.BakedFoods.Contracts;
-using Bakery.Models.Drinks;
-using Bakery.Models.Drinks.Contracts;
-using Bakery.Models.Tables;
-using Bakery.Models.Tables.Contracts;
-using Bakery.Utilities.Messages;
-
-namespace Bakery.Core
+﻿namespace Bakery.Core
 {
+    using Bakery.Core.Contracts;
+    using Bakery.Models.BakedFoods;
+    using Bakery.Models.BakedFoods.Contracts;
+    using Bakery.Models.Drinks;
+    using Bakery.Models.Drinks.Contracts;
+    using Bakery.Models.Tables;
+    using Bakery.Models.Tables.Contracts;
+    using Bakery.Utilities.Messages;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public class Controller : IController
     {
         private decimal totalPrice = 0m;
@@ -75,8 +74,7 @@ namespace Bakery.Core
 
         public string ReserveTable(int numberOfPeople)
         {
-            var table = this.tables
-                .FirstOrDefault(t => t.IsReserved == false && t.Capacity >= numberOfPeople);
+            var table = this.tables.FirstOrDefault(t => t.IsReserved == false && t.Capacity >= numberOfPeople);
 
             table?.Reserve(numberOfPeople);
 
@@ -89,8 +87,7 @@ namespace Bakery.Core
 
         public string OrderFood(int tableNumber, string foodName)
         {
-            var table = this.tables
-                .FirstOrDefault(t => t.TableNumber == tableNumber);
+            var table = this.tables.FirstOrDefault(t => t.TableNumber == tableNumber);
 
             if (table == null)
             {

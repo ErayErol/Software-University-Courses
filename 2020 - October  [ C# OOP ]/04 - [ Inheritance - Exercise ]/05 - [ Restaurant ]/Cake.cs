@@ -6,12 +6,12 @@ namespace Restaurant
 {
     public class Cake : Dessert
     {
-        private const double defaultGrams = 250;
-        private const double defaultCalories = 1000;
-        private const decimal defaultCakePrice = 5;
+        private const double DefaulGrams = 250;
+        private const double DefaulCalories = 1000;
+        private const decimal DefaulPrice = 5m;
 
         public Cake(string name)
-            : base(name, defaultCakePrice, defaultGrams, defaultCalories)
+            : base(name, DefaulPrice, DefaulGrams, DefaulCalories)
         {
         }
     }

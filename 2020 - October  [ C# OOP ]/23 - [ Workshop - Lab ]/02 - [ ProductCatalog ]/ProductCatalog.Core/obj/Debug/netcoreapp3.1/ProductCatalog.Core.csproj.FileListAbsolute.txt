@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\bin\Debug\netcoreapp3.1\ProductCatalog.Core.deps.json
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\bin\Debug\netcoreapp3.1\ProductCatalog.Core.dll
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\bin\Debug\netcoreapp3.1\ProductCatalog.Core.pdb
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\bin\Debug\netcoreapp3.1\ProductCatalog.Infrastructure.dll
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\bin\Debug\netcoreapp3.1\ProductCatalog.Infrastructure.pdb
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.AssemblyInfo.cs
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.csproj.CopyComplete
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.dll
+C:\Users\Aris\source\repos\Software-University-Courses\2020 - October  [ C# OOP ]\23 - [ Workshop - Lab ]\02 - [ ProductCatalog ]\ProductCatalog.Core\obj\Debug\netcoreapp3.1\ProductCatalog.Core.pdb

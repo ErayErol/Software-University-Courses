@@ -1,0 +1,25 @@
+Public Class - you can call this class and his public properties and methods everywhere in the solution
+- if you have a protected method/property set/ in the public class - this protected method is unaccessible
+
+Internal Class- you can use this class everywhere  in your current project
+- not a good practice to make some propery of a child class internal, because it's not protected 
+
+Sealed Class/Method/Property of base class - you can not make child classes if the base class is sealed, 
+prevents other classes from inheriting from it and prevents the ovverriding of specific virtual methods and properties
+
+Private - just for this class
+Protected - can be used from current class and every his child classes
+- you don't need a protected set in a sealed class, because noone can inherit this class
+
+Constructors - if your base class have a constructor with parameters /not empty constructor/,
+ you are obligate to reuse in the child class the constructor of the base class 
+- Base class Person with constructor(string name) - child class Student have to use -
+constructor (string name) : base(name) or empty constructor with : base(string.Empty)
+
+Public virtual Method/property/ in a base class - every child classes cam override this method 
+
+Extended class  have to be static with static methods
+
+The Abstract class is a class that can not be initialize /like Animal/ 
+- in the abstract class we can write an abstract methods /they return nothing, 
+but they can be used to override it in the child classes

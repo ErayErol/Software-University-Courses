@@ -1,12 +1,16 @@
-﻿using System;
-
-namespace NeedForSpeed
+﻿namespace NeedForSpeed
 {
+    using System;
+
     public class StartUp
     {
         public static void Main(string[] args)
         {
-            Car car = new Car(10, 100);
+            var vehicle = new Car(380, 20);
+            vehicle.Drive(100);
+            //vehicle.Drive(50);
+            //vehicle.Drive(30);
+            Console.WriteLine(vehicle.Fuel);
         }
     }
 }

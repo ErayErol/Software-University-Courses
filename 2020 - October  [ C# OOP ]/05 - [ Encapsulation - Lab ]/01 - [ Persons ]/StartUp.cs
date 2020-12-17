@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PersonsInfo
+﻿namespace PersonsInfo
 {
     public class StartUp
     {

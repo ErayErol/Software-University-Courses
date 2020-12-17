@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\bin\Debug\netcoreapp2.1\SingletonDemo.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\bin\Debug\netcoreapp2.1\SingletonDemo.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\bin\Debug\netcoreapp2.1\SingletonDemo.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\bin\Debug\netcoreapp2.1\SingletonDemo.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\bin\Debug\netcoreapp2.1\SingletonDemo.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\12. Design Patterns\SingletonDemo\obj\Debug\netcoreapp2.1\SingletonDemo.genruntimeconfig.cache

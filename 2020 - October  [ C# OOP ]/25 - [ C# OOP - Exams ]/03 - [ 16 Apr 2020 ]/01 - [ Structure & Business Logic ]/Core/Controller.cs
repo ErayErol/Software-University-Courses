@@ -21,8 +21,15 @@ namespace RobotService.Core
         public Controller()
         {
             this._garage = new Garage();
-            this._procedures = new Dictionary<Procedures, IProcedure>();
-            AddProcedures();
+            this._procedures = new Dictionary<Procedures, IProcedure>()
+            {
+                {Procedures.Chip , new Chip()},
+                {Procedures.TechCheck, new TechCheck()},
+                {Procedures.Rest, new Rest()},
+                {Procedures.Work, new Work()},
+                {Procedures.Charge, new Charge()},
+                {Procedures.Polish, new Polish()},
+            };
         }
 
         public string Manufacture(string robotType, string name, int energy, int happiness, int procedureTime)
@@ -33,19 +40,13 @@ namespace RobotService.Core
                 throw new ArgumentException(msg);
             }
 
-            IRobot robot = null;
-            switch (currRobotsType)
+            IRobot robot = currRobotsType switch
             {
-                case RobotsTypes.HouseholdRobot:
-                    robot = new HouseholdRobot(name, energy, happiness, procedureTime);
-                    break;
-                case RobotsTypes.WalkerRobot:
-                    robot = new WalkerRobot(name, energy, happiness, procedureTime);
-                    break;
-                case RobotsTypes.PetRobot:
-                    robot = new PetRobot(name, energy, happiness, procedureTime);
-                    break;
-            }
+                RobotsTypes.PetRobot => new PetRobot(name, energy, happiness, procedureTime),
+                RobotsTypes.HouseholdRobot => new HouseholdRobot(name, energy, happiness, procedureTime),
+                RobotsTypes.WalkerRobot => new WalkerRobot(name, energy, happiness, procedureTime),
+                _ => null
+            };
 
             this._garage.Manufacture(robot);
             var outputMsg = string.Format(OutputMessages.RobotManufactured, name);
@@ -88,19 +89,14 @@ namespace RobotService.Core
         {
             var msg = string.Format(ExceptionMessages.InexistingRobot, robotName);
             CheckRobotExisting(robotName, msg);
-            var robot = this._garage.Robots[robotName];
 
+            var robot = this._garage.Robots[robotName];
             this._garage.Sell(robotName, ownerName);
 
-            var outputMsg = "";
-            if (robot.IsChipped)
-            {
-                outputMsg = $"{ownerName} bought robot with chip";
-            }
-            else
-            {
-                outputMsg = $"{ownerName} bought robot without chip";
-            }
+
+            var outputMsg = robot.IsChipped
+                ? $"{ownerName} bought robot with chip"
+                : $"{ownerName} bought robot without chip";
 
             return outputMsg;
         }
@@ -134,16 +130,6 @@ namespace RobotService.Core
 
             var outputMsg = string.Format(output, robotName);
             return outputMsg;
-        }
-
-        private void AddProcedures()
-        {
-            this._procedures.Add(Procedures.Charge, new Charge());
-            this._procedures.Add(Procedures.Chip, new Chip());
-            this._procedures.Add(Procedures.Polish, new Polish());
-            this._procedures.Add(Procedures.Rest, new Rest());
-            this._procedures.Add(Procedures.Work, new Work());
-            this._procedures.Add(Procedures.TechCheck, new TechCheck());
         }
     }
 }

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace NeedForSpeed
+﻿namespace NeedForSpeed
 {
     public class Vehicle
     {
-        private const double defaultFuelConsumption = 1.25;
+        private const double DefaultFuelConsumption = 1.25;
 
         public Vehicle(int horsePower, double fuel)
         {
@@ -14,22 +10,21 @@ namespace NeedForSpeed
             this.Fuel = fuel;
         }
 
-
-        public virtual double FuelConsumption
-        {
-            get
-            {
-                return defaultFuelConsumption;
-            }
-        }
+        public int HorsePower { get; set; }
 
         public double Fuel { get; set; }
 
-        public int HorsePower { get; set; }
+        public virtual double FuelConsumption
+            => DefaultFuelConsumption;
 
         public virtual void Drive(double kilometers)
         {
-            this.Fuel -= this.FuelConsumption * kilometers;
+            var canDrive = this.Fuel - kilometers * this.FuelConsumption >= 0;
+
+            if (canDrive) 
+            {
+                this.Fuel -= kilometers * this.FuelConsumption;
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NeedForSpeed
+namespace Zoo
 {
     public class Animal
     {

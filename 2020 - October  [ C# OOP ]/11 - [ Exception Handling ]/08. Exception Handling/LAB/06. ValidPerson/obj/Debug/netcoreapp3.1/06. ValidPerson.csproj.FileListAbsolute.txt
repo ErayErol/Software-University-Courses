@@ -1,0 +1,12 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\bin\Debug\netcoreapp3.1\06. ValidPerson.exe
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\bin\Debug\netcoreapp3.1\06. ValidPerson.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\bin\Debug\netcoreapp3.1\06. ValidPerson.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\bin\Debug\netcoreapp3.1\06. ValidPerson.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\bin\Debug\netcoreapp3.1\06. ValidPerson.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\bin\Debug\netcoreapp3.1\06. ValidPerson.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\obj\Debug\netcoreapp3.1\06. ValidPerson.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\obj\Debug\netcoreapp3.1\06. ValidPerson.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\obj\Debug\netcoreapp3.1\06. ValidPerson.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\obj\Debug\netcoreapp3.1\06. ValidPerson.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\obj\Debug\netcoreapp3.1\06. ValidPerson.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\06. ValidPerson\obj\Debug\netcoreapp3.1\06. ValidPerson.genruntimeconfig.cache

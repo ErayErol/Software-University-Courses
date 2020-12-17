@@ -1,0 +1,13 @@
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\bin\Debug\netcoreapp3.1\01. SquareRoot.exe
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\bin\Debug\netcoreapp3.1\01. SquareRoot.deps.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\bin\Debug\netcoreapp3.1\01. SquareRoot.runtimeconfig.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\bin\Debug\netcoreapp3.1\01. SquareRoot.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\bin\Debug\netcoreapp3.1\01. SquareRoot.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\bin\Debug\netcoreapp3.1\01. SquareRoot.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.AssemblyInfo.cs
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.dll
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.pdb
+C:\Users\Aris\source\repos\SoftUni\CSharp-OOP\2019.06.28 - C# OPP\08. Exception Handling\LAB\01. SquareRoot\obj\Debug\netcoreapp3.1\01. SquareRoot.genruntimeconfig.cache

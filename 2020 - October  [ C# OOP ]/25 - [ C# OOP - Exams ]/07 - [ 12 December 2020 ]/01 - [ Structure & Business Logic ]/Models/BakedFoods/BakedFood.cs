@@ -1,9 +1,9 @@
-﻿using System;
-using Bakery.Models.BakedFoods.Contracts;
-using Bakery.Utilities.Messages;
-
-namespace Bakery.Models.BakedFoods
+﻿namespace Bakery.Models.BakedFoods
 {
+    using Bakery.Models.BakedFoods.Contracts;
+    using Bakery.Utilities.Messages;
+    using System;
+
     public abstract class BakedFood : IBakedFood
     {
         private string name;
