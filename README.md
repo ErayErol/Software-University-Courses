@@ -599,7 +599,7 @@
          <tbody>
             <tr>
                <th align="left">
-                  JavaScript Advanced - January 2020
+                  JavaScript Advanced - September 2019
                   <br />
                   16.09.2019 - 26.10.2019
                </th>
@@ -610,7 +610,7 @@
                </th>
                <th align="left">
                   <p>
-                     <a title="C# Advanced" href="https://softuni.bg/certificates/details/81303/a8a65ba6" target="_blank">Certificate</a>
+                     <a title="JS Advanced" href="https://softuni.bg/certificates/details/81303/a8a65ba6" target="_blank">Certificate</a>
                   </p>
                </th>
             </tr>
