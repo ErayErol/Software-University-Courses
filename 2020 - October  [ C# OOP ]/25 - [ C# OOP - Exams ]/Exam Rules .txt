@@ -2,31 +2,10 @@
 - Add reference
 - Live Unit Testing
 
-[SetUp]
-public void SetUp()
-{
-    
-}
-
-[Test]
-public void Test2()
-{
-    Assert.Throws<ArgumentException>(() =>
-    this._robotManager = new RobotManager(-10));
-}
-
-- When you send your solution
-- Open Structure sln 
-- Open Structure Description
-- Check after 1-2 minutes for Unit testing result in Judge
-
-2. Structure
-- You have to have a pencil and a piece of paper
-- Open all files to look what you have given from skelet
-- Open StartUp and look for all code
-- Look IController
-- When you look all code then open description and start reading from line 0 to end
-- Read it slow, because if structure is not ok => business logic is not ok too
-
-- Copy method text and paste in visual studio ( /*  */)
-- Step by step solved the problems
+2. Structure:
+- inheritance
+- abstract class
+- protected ctor
+- always private set
+- virtual prop
+- overriding method/prop
