@@ -447,10 +447,10 @@
                <th align="left">
                   C# OOP - October 2020
                   <br />
-                  27.10.2020 - 12.12.2020
+                  27.10.2020 - 13.12.2020
                </th>
                <th align="left">
-                  Soon<!-- Grade: 5.64 (out of 6.00) -->
+                  Grade: 5.76 (out of 6.00)
                   <br />
                   Soon<!-- Issue Date: 23/12/2020 -->
                </th>
