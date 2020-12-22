@@ -1220,7 +1220,7 @@
                <th align="left">
                   HTML & CSS - May 2020
                   <br />
-                  13.01.2020 - 23.02.2020
+                  18.05.2020 - 05.07.2020
                </th>
                <th align="left">
                   Grade: 6.00 (out of 6.00)
