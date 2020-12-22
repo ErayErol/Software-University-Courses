@@ -12,7 +12,7 @@
                Student name: E.Erol ⭐
             </h3>
             <h3>
-               My Credits: 77 🎯
+               My Credits: 92 🎯
             </h3>
             <h3>
                <p>My target: Full Stack</p>
