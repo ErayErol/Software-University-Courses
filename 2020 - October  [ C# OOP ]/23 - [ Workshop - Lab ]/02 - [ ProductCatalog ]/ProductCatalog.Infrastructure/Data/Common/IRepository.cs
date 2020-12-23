@@ -7,10 +7,10 @@ namespace ProductCatalog.Infrastructure.Data.Common
 {
     public interface IRepository : IDisposable
     {
-        IQueryable<T> All<T>()
+        IQueryable<T> All<T>() // Read
             where T : class;
 
-        void Add<T>(T entity)
+        void Add<T>(T entity) // Add
             where T : class;
 
         T GetById<T>(object id)

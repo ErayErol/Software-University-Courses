@@ -1,23 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using WarCroft.Entities.Characters.Contracts;
-
-namespace WarCroft.Entities.Items
+﻿namespace WarCroft.Entities.Items
 {
+    using WarCroft.Entities.Characters.Contracts;
+
     public class FirePotion : Item
     {
-        /* The Fire potion is a type of item. It always has a weight of 5.
-           Behavior
-           Each FirePotion has the following behavior:
-
-           void AffectCharacter(Character character)
-           For an item to affect a character, the character needs to be alive.
-           The character’s health gets decreased by 20 points. If the character’s health drops to zero, the character dies (IsAlive  false).
-
-        A FirePotion should be able to be instantiated without any parameters.
-            */
-
         private const int DEFAULT_WEIGHT = 5;
 
         public FirePotion()
@@ -29,9 +15,15 @@ namespace WarCroft.Entities.Items
         {
             base.AffectCharacter(character);
 
-            // TODO: The character’s health gets decreased by 20 points.If the character’s health drops to zero, the character dies(IsAlive  false).
-
-            character.Health -= 20;
+            if (character.Health > 20)
+            {
+                character.Health -= 20;
+            }
+            else
+            {
+                character.Health = 0;
+                character.IsAlive = false;
+            }
         }
     }
 }
