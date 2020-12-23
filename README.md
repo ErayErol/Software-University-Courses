@@ -12,7 +12,7 @@
                Student name: E.Erol ⭐
             </h3>
             <h3>
-               My Credits: 77 🎯
+               My Credits: 92 🎯
             </h3>
             <h3>
                <p>My target: Full Stack</p>
@@ -447,10 +447,10 @@
                <th align="left">
                   C# OOP - October 2020
                   <br />
-                  27.10.2020 - 12.12.2020
+                  27.10.2020 - 13.12.2020
                </th>
                <th align="left">
-                  Soon<!-- Grade: 5.64 (out of 6.00) -->
+                  Grade: 5.76 (out of 6.00)
                   <br />
                   Soon<!-- Issue Date: 23/12/2020 -->
                </th>
@@ -1220,7 +1220,7 @@
                <th align="left">
                   HTML & CSS - May 2020
                   <br />
-                  13.01.2020 - 23.02.2020
+                  18.05.2020 - 05.07.2020
                </th>
                <th align="left">
                   Grade: 6.00 (out of 6.00)
