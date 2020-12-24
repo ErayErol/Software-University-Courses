@@ -1,40 +1,37 @@
-﻿using System;
+﻿using ProductCatalog.Core.Contracts;
+using ProductCatalog.Infrastucture.Data.Common;
+using ProductCatalog.Infrastucture.Data.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using ProductCatalog.Core.Contracts;
-using ProductCatalog.Infrastructure.Data.Common;
-using ProductCatalog.Infrastructure.Data.Model;
+using System.Text;
 
 namespace ProductCatalog.Core.Services
 {
     public class ProductService : IProductService
     {
-        private readonly IRepository repo;
-
+        private readonly IRepository _repo;
         public ProductService(IRepository repo)
         {
-            this.repo = repo;
+            this._repo = repo;
         }
-
         public IEnumerable<Product> GetProducts()
         {
-            return this.repo
-                .All<Product>()
-                .AsEnumerable();
+            return this._repo.All<Product>().AsEnumerable();
         }
 
         public void Save(Product product)
         {
-            if (product.Id == 0)
+            if (product.Id==0)
             {
-                this.repo.Add(product);
+                this._repo.Add(product);
             }
             else
             {
-                repo.Update(product);
+                this._repo.Update(product);
             }
+            this._repo.SaveChanges();
 
-            repo.SaveChanges();
         }
     }
 }

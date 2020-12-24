@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ProductCatalog.Utilities;
+﻿using ProductCatalog.Utilities;
 
 namespace ProductCatalog
 {
@@ -9,20 +6,16 @@ namespace ProductCatalog
     {
         private readonly Menu menu;
 
-        public Application(Menu menu)
+        public Application(Menu _menu)
         {
-            this.menu = menu;
+            this.menu = _menu;
         }
-
-
-
         public void Run(string[] args)
         {
             bool running = true;
-
             while (running)
             {
-                running = menu.MainMenu();
+                running = this.menu.MainMenu();
             }
         }
     }

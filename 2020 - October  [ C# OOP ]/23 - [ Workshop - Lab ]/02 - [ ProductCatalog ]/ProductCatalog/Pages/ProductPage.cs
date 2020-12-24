@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ConsoleTables;
+﻿using ConsoleTables;
+
 using ProductCatalog.Core.Contracts;
-using ProductCatalog.Infrastructure.Data.Model;
+using ProductCatalog.Infrastucture.Data.Model;
 using ProductCatalog.Utilities;
+using System;
 
 namespace ProductCatalog.Pages
 {
     public class ProductPage
     {
-        private readonly IProductService productService;
-
+        private readonly IProductService _productService;
         public ProductPage(IProductService productService)
         {
-            this.productService = productService;
+            this._productService = productService;
         }
 
         public void Show(Menu menu)
         {
             bool running = true;
-
             while (running)
             {
                 running = menu.ProductMenu();
@@ -29,8 +26,7 @@ namespace ProductCatalog.Pages
 
         public void List()
         {
-            var products = this.productService
-                .GetProducts();
+            var products = this._productService.GetProducts();
 
             ConsoleTable.From(products)
                 .Configure(o => o.NumberAlignment = Alignment.Right)
@@ -39,31 +35,29 @@ namespace ProductCatalog.Pages
 
         public void Add()
         {
-            Console.Write("Name: ");
+           Console.Write("Name: ");
             string name = Console.ReadLine();
-
             Console.Write("Quantity: ");
-            string qty = Console.ReadLine();
-
+            string quantity = Console.ReadLine();
             Console.Write("Price: ");
-            string price = Console.ReadLine();
+           string price = Console.ReadLine();
 
             try
             {
                 Product product = new Product()
                 {
                     Name = name,
-                    Quantity = int.Parse(qty),
-                    Price = decimal.Parse(price),
+                    Quantity = int.Parse(quantity),
+                    Price = decimal.Parse(price)
+
                 };
+                this._productService.Save(product);
 
-                this.productService.Save(product);
-
-                Console.WriteLine("Successfully added product!");
+                Console.WriteLine("Product added successfully");
             }
             catch (Exception)
             {
-                Console.WriteLine("Product not added!");
+                Console.WriteLine("Product not added");
             }
         }
     }
