@@ -1,0 +1,26 @@
+div{
+    display: inline-block;
+    width: 30%;
+    margin-left:2%;
+    vertical-align: top;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.circle-type{
+    list-style-type: circle;
+}
+p{
+    color: darkviolet;
+}
+li{
+    border: solid yellow;
+}
+strong{
+    border-style: dotted;
+    border-color: darkcyan;
+}
+

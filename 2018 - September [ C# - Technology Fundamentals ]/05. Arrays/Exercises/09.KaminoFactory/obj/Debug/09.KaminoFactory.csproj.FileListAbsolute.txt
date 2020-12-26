@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\bin\Debug\09.KaminoFactory.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\bin\Debug\09.KaminoFactory.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\bin\Debug\09.KaminoFactory.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\obj\Debug\09.KaminoFactory.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\obj\Debug\09.KaminoFactory.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\obj\Debug\09.KaminoFactory.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\03.Arrays\Exercises\09.KaminoFactory\obj\Debug\09.KaminoFactory.pdb

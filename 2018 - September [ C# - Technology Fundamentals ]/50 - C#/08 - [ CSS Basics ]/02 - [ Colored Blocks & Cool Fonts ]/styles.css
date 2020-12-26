@@ -1,0 +1,47 @@
+span{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.circle-type{
+    list-style-type: circle;
+}
+p{
+    color: darkviolet;
+}
+li{
+    border: solid yellow;
+}
+strong{
+    border-style: dotted;
+    border-color: darkcyan;
+}
+#green{
+    background-color: darkgreen;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#purple{
+    background-color: purple;
+}
+#orange{
+    background-color: orange;
+}
+div{
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid yellow;
+    margin: 20px 20px 20px 20px;
+    color: white;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+
