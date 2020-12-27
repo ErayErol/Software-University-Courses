@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\bin\Debug\04.Songs.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\bin\Debug\04.Songs.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\bin\Debug\04.Songs.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\obj\Debug\04.Songs.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\obj\Debug\04.Songs.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\obj\Debug\04.Songs.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09 - Tech Module 4.0\07.Objects and Classes\LAB\04.Songs\obj\Debug\04.Songs.pdb

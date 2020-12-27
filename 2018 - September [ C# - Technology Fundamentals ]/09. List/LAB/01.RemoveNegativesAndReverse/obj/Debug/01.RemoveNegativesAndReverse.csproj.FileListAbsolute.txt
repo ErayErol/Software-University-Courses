@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\bin\Debug\01.RemoveNegativesAndReverse.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\bin\Debug\01.RemoveNegativesAndReverse.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\bin\Debug\01.RemoveNegativesAndReverse.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\obj\Debug\01.RemoveNegativesAndReverse.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\obj\Debug\01.RemoveNegativesAndReverse.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\obj\Debug\01.RemoveNegativesAndReverse.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\01.RemoveNegativesAndReverse\obj\Debug\01.RemoveNegativesAndReverse.pdb

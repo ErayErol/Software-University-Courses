@@ -1,6 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\05.AddAndSubtract\bin\Debug\05.AddAndSubtract.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\05.AddAndSubtract\bin\Debug\05.AddAndSubtract.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\05.AddAndSubtract\bin\Debug\05.AddAndSubtract.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\05.AddAndSubtract\obj\Debug\05.AddAndSubtract.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\05.AddAndSubtract\obj\Debug\05.AddAndSubtract.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\05.AddAndSubtract\obj\Debug\05.AddAndSubtract.pdb

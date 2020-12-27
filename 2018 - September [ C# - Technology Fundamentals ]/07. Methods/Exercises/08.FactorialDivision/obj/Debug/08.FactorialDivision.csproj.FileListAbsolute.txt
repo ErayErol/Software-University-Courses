@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\bin\Debug\08.FactorialDivision.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\bin\Debug\08.FactorialDivision.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\bin\Debug\08.FactorialDivision.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\obj\Debug\08.FactorialDivision.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\obj\Debug\08.FactorialDivision.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\obj\Debug\08.FactorialDivision.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\08.FactorialDivision\obj\Debug\08.FactorialDivision.pdb

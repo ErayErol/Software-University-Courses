@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\bin\Debug\02.Grades.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\bin\Debug\02.Grades.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\bin\Debug\02.Grades.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\obj\Debug\02.Grades.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\obj\Debug\02.Grades.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\obj\Debug\02.Grades.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\02.Grades\obj\Debug\02.Grades.pdb

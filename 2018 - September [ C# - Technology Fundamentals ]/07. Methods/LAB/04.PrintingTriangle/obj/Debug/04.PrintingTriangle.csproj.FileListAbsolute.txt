@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\bin\Debug\04.PrintingTriangle.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\bin\Debug\04.PrintingTriangle.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\bin\Debug\04.PrintingTriangle.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\obj\Debug\04.PrintingTriangle.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\obj\Debug\04.PrintingTriangle.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\obj\Debug\04.PrintingTriangle.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\LAB\04.PrintingTriangle\obj\Debug\04.PrintingTriangle.pdb

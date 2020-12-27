@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\bin\Debug\04.ListOperations.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\bin\Debug\04.ListOperations.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\bin\Debug\04.ListOperations.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\obj\Debug\04.ListOperations.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\obj\Debug\04.ListOperations.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\obj\Debug\04.ListOperations.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\04.ListOperations\obj\Debug\04.ListOperations.pdb

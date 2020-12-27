@@ -1,6 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\06.MiddleCharacters\bin\Debug\06.MiddleCharacters.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\06.MiddleCharacters\bin\Debug\06.MiddleCharacters.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\06.MiddleCharacters\bin\Debug\06.MiddleCharacters.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\06.MiddleCharacters\obj\Debug\06.MiddleCharacters.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\06.MiddleCharacters\obj\Debug\06.MiddleCharacters.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\06.MiddleCharacters\obj\Debug\06.MiddleCharacters.pdb

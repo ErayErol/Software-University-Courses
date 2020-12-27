@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\bin\Debug\01.DataTypes.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\bin\Debug\01.DataTypes.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\bin\Debug\01.DataTypes.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\obj\Debug\01.DataTypes.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\obj\Debug\01.DataTypes.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\obj\Debug\01.DataTypes.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\More Exercises\01.DataTypes\obj\Debug\01.DataTypes.pdb

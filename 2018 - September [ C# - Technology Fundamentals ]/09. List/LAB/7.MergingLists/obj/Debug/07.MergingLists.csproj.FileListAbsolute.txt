@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\bin\Debug\7.MergingLists.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\bin\Debug\7.MergingLists.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\bin\Debug\7.MergingLists.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\obj\Debug\07.MergingLists.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\obj\Debug\07.MergingLists.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\obj\Debug\7.MergingLists.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\LAB\7.MergingLists\obj\Debug\7.MergingLists.pdb

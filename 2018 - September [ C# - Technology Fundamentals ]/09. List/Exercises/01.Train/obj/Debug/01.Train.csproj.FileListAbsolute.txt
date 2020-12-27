@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\bin\Debug\01.Train.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\bin\Debug\01.Train.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\bin\Debug\01.Train.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\obj\Debug\01.Train.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\obj\Debug\01.Train.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\obj\Debug\01.Train.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\01.Train\obj\Debug\01.Train.pdb

@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\bin\Debug\03.CharactersInRange.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\bin\Debug\03.CharactersInRange.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\bin\Debug\03.CharactersInRange.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\obj\Debug\03.CharactersInRange.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\obj\Debug\03.CharactersInRange.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\obj\Debug\03.CharactersInRange.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\04.Methods\Exercises\03.CharactersInRange\obj\Debug\03.CharactersInRange.csprojAssemblyReference.cache

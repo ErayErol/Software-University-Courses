@@ -1,6 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\05.BombNumbers\bin\Debug\05.BombNumbers.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\05.BombNumbers\bin\Debug\05.BombNumbers.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\05.BombNumbers\bin\Debug\05.BombNumbers.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\05.BombNumbers\obj\Debug\05.BombNumbers.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\05.BombNumbers\obj\Debug\05.BombNumbers.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\05.BombNumbers\obj\Debug\05.BombNumbers.pdb

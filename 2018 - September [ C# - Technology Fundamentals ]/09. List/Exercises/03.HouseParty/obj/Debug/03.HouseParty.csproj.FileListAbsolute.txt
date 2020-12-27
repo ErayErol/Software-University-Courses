@@ -1,7 +1,0 @@
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\bin\Debug\03.HouseParty.exe.config
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\bin\Debug\03.HouseParty.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\bin\Debug\03.HouseParty.pdb
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\obj\Debug\03.HouseParty.csprojAssemblyReference.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\obj\Debug\03.HouseParty.csproj.CoreCompileInputs.cache
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\obj\Debug\03.HouseParty.exe
-C:\Users\Aris\source\repos\SoftUni\02.Tech Module\2018.09\05.List\Exercises\03.HouseParty\obj\Debug\03.HouseParty.pdb
