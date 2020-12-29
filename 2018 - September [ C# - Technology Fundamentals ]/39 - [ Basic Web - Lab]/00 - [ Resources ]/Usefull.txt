@@ -1,2 +1,16 @@
 LINK
 => https://www.youtube.com/watch?v=l6-nqcB4p9U&feature=youtu.be [ Костов 2019 Януари ]
+=> https://www.youtube.com/watch?v=LVqbakjP5Eo&feature=youtu.be [ Кенов 2018 ]
+=> https://www.youtube.com/watch?v=a7v_l-PAcYU&feature=youtu.be [ Уилиам JS 2018 ]
+
+Model	
+=> класове, които описват данните
+=> всеки един клас който репрезентира някакъв реален обект от живота 
+
+View 
+=> презентиране на информацията за потребителя
+=> user interface (презентация пред потребителя)
+
+Controller
+=> описва как данните от Model да се прехвърлят във (html) View
+=> съдържа бизнес логиката вътре
