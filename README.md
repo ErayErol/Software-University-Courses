@@ -452,11 +452,11 @@
                <th align="left">
                   Grade: 5.76 (out of 6.00)
                   <br />
-                  Soon<!-- Issue Date: 23/12/2020 -->
+                  Issue date: 30/12/2020
                </th>
                <th align="left">
                   <p>
-                     Soon<!-- <a title="C# Advanced" href="https://softuni.bg/certificates/details/63113/c00d4fc8" target="_blank">Certificate</a> -->
+                     <a title="C# OOP" href="https://softuni.bg/certificates/details/95864/115c65bc" target="_blank">Certificate</a>
                   </p>
                </th>
             </tr>
