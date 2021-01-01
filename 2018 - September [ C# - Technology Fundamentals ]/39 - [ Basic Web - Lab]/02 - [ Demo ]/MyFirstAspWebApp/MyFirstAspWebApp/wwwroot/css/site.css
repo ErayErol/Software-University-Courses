@@ -1,0 +1,133 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+#booking {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 17);
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#booking input {
+    border: none;
+    border-bottom: 1px solid rgb(113, 113, 113);
+    margin: 20px;
+    background-color: transparent;
+    width: 380px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#booking form,
+#booking .form-h2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#booking .form-h2 {
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#booking .image-restaurant img {
+    width: 750px;
+    height: 100%;
+}
+
+#booking h2 {
+    color: white;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+#booking button {
+    background-color: rgb(237, 183, 125);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 17px 45px;
+    margin-right: 40%;
+    margin-top: 2%;
+    font-size: 16px;
+}

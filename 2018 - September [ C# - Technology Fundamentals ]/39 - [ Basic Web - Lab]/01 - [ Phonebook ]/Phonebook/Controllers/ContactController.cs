@@ -10,13 +10,20 @@ namespace Phonebook.Controllers
 {
     public class ContactController : Controller
     {
-
         [HttpPost]
-        public IActionResult Create (Contact contact)
+        public IActionResult Create(Contact contact)
         {
-            DataAccsess.Contacts.Add(contact);
+            if (ModelState.IsValid == false)
+            {
+                TempData["Error"] = "Name and number are required!";
+            }
+            else
+            {
+                DataAccsess.Contacts.Add(contact);
+            }
 
             return RedirectToAction("Index", "Home");
+
         }
     }
 }
