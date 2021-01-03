@@ -5,9 +5,9 @@ namespace ToDoList.Data
 {
     public class ToDoDbContext : DbContext
     {
-        public virtual DbSet<Task> Tasks { get; set; }
+        private const string ConnectionString = @"Server=.;Database=ToDoList;Integrated Security=true;";
 
-        private const string ConnectionString = @"Server=.\SQLEXPRESS;Database=ToDoList;Integrated Security=true;";
+        public virtual DbSet<Task> Tasks { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

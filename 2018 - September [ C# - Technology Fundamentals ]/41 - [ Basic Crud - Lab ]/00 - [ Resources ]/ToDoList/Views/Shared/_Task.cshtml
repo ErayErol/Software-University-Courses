@@ -1,0 +1,15 @@
+﻿@model ToDoList.Models.Task
+<div class="col-md-4">
+    <div class="card mb-4">
+        <div class="card-footer bg-dark text-light"> @Model.Title</div>
+        <div class="card-body">
+            <p class="card-text">@Model.Comments</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <form>
+                    <button formmethod="get" class="btn btn-dark" asp-controller="Task" asp-action="Details" asp-route-id="@Model.Id">Delete</button>
+                    @*<button formmethod="get" class="btn btn-dark" asp-controller="Task" asp-action="Edit" asp-route-id="@Model.Id">Edit</button>*@
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
