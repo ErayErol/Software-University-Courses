@@ -1,7 +1,3 @@
-<textarea rows="10" cols="30">
-   The cat was playing in the garden.
-</textarea>
-
 <!-- HEAD START -->
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
    <tbody>
