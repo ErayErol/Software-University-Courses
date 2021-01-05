@@ -20,15 +20,18 @@
             </h3>
          </td>
          <td align="left" width="25%">
-            <h2>
+            <h4>
                C# ✅
-            </h2>
-            <h2>
+            </h4>
+	    <h4>
+               SQL ✅
+            </h4>
+            <h4>
                JavaScript ✅
-            </h2>
-	         <h2>
+            </h4>
+	    <h4>
                HTML & CSS ✅
-            </h2>
+            </h4>
          </td>
       </tr>
    </tbody>
