@@ -24,7 +24,7 @@
                C# ✅
             </h4>
 	    <h4>
-               SQL ✅
+               MS SQL ✅
             </h4>
             <h4>
                JavaScript ✅
