@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html, * {
+    font-family: 'Lato', sans-serif;
+}
+
+a, button {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+a {
+    font-weight: 600;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+button {
+    font-weight: 800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@each $header, $size in (h1: 36px, h2: 30px, h3: 24px, h4: 20px, h5: 18px, h6: 16px) {
+    #{$header} {
+        font-size: $size;
+    }
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

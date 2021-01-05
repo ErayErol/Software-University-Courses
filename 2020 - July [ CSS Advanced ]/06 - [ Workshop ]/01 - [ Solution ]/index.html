@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__wrapper container">
+                <article class="navbar__logo">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </article>
+                <ul class="navbar__items">
+                    <li class="navbar__item u-fade-in">
+                        <a href="#" class="u-text-color-animatable">
+                            <span class="character">о</span>
+                            <span class="character">б</span>
+                            <span class="character">у</span>
+                            <span class="character">ч</span>
+                            <span class="character">е</span>
+                            <span class="character">н</span>
+                            <span class="character">и</span>
+                            <span class="character">я</span>
+                        </a>
+                    </li>
+                    <li class="navbar__item u-fade-in">
+                        <a href="#">Събития</a>
+                    </li>
+                    <li class="navbar__item u-fade-in">
+                        <a href="#">Преподаватели</a>
+                    </li>
+                    <li class="navbar__item u-fade-in">
+                        <a href="#">Блог</a>
+                    </li>
+                    <li class="navbar__item u-fade-in">
+                        <a href="#">Контакти</a>
+                    </li>
+                    <li class="navbar__item u-fade-in">
+                        <img src="assets/icons/search.png" alt="Search">
+                    </li>
+                    <button class="btn btn--secondary u-fade-in">
+                        вход
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <section class="header__info">
+            <article class="centered centered__container">
+                <h1 class="u-fade-in u-fade-in--delay-500">Обучения</h1>
+                <p class="u-fade-in u-fade-in--delay-1500">At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. Ut eu hac risus a suscipit cras
+                    sagittis viverra gravida. Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo at.
+                    Augue ullamcorper suspendisse. Sit morbi risus</p>
+            </article>
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="filter--wrapper">
+            <div class="filter container">
+                <h4 class="filter__title">
+                    Филтър:
+                </h4>
+                <label class="filter__label filter__label--level">
+                    <img class="filter__label__img" src="assets/icons/level.svg">
+                    <select name="level" id="level">
+                        <option value="level">Ниво</option>
+                        <option value="basic">Начинаещ</option>
+                        <option value="advanced">Напреднал</option>
+                    </select>
+                    <div class="c-popup c-level-popup u-inline">
+                        <span class="c-popup__trigger">
+                            <img class="filter__label__img filter__label__img--info u-position--static" src="assets/icons/info.svg">
+                        </span>
+                        <div class="o-standard-box o-standard-box--white c-popup__bubble">
+                            <p class="o-row-container u-margin-reset">
+                                <span class="o-standard-box c-level-label c-level-label--beginner">
+                                    Начинаещ
+                                </span>
+                                <span class="u-flex-expand">
+                                    за деца без никакъв опит , но можещи да работят с компютър
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </label>
+                <label class="filter__label">
+                    <img class="filter__label__img" src="assets/icons/location.svg">
+                    <select name="location" id="location">
+                        <option value="level">Локация</option>
+                        <option value="basic">София</option>
+                        <option value="advanced">Онлайн</option>
+                    </select>
+                </label>
+                <label class="filter__label">
+                    <img class="filter__label__img" src="assets/icons/people.svg">
+                    <select name="suitable-for" id="suitable-for">
+                        <option value="suitable-for">Подходящ за</option>
+                        <option value="basic">Начинаещ</option>
+                        <option value="advanced">Напреднал</option>
+                    </select>
+                </label>
+                <label class="filter__label">
+                    <img class="filter__label__img" src="assets/icons/people.svg">
+                    <select name="type" id="type">
+                        <option value="type">Вид</option>
+                        <option value="online">Онлайн</option>
+                        <option value="onsite">Присъствено</option>
+                    </select>
+                </label>
+        </section>
+        <section class="cards--wrapper">
+            <div class="cards container">
+                <article class="card">
+                    <header class="card__header card__header--blue">
+                        <div class="card__label card__label--gray">
+                            Начинаещ
+                        </div>
+                        <h3 class="card__title u-fade-in u-fade-in--delay-1000">
+                            Първи стъпки в програмирането
+                        </h3>
+                    </header>
+                    <div class="card__content">
+                        <div class="card__info">
+                            <img src="assets/icons/play.svg">
+                            16 май 2020
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/time.png">
+                            4 седмици
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/user.svg">
+                            1-3 клас
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/location-icon.svg">
+                            София - жк. Изток
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <span class="card__price">
+                            110 лв.
+                        </span>
+                        <button class="btn btn--secondary">
+                            към обучението
+                        </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <header class="card__header card__header--green">
+                        <div class="card__label card__label--gray">
+                            Начинаещ
+                        </div>
+                        <h3 class="card__title">
+                            Първи стъпки в програмирането
+                        </h3>
+                    </header>
+                    <div class="card__content">
+                        <div class="card__info">
+                            <img src="assets/icons/play.svg">
+                            16 май 2020
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/time.png">
+                            4 седмици
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/user.svg">
+                            1-3 клас
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/location-icon.svg">
+                            София - жк. Изток
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <span class="card__price">
+                            110 лв.
+                        </span>
+                        <button class="btn btn--secondary">
+                            към обучението
+                        </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <header class="card__header card__header--blue">
+                        <div class="card__label card__label--violet">
+                            Начинаещ
+                        </div>
+                        <h3 class="card__title">
+                            Първи стъпки в програмирането
+                        </h3>
+                    </header>
+                    <div class="card__content">
+                        <div class="card__info">
+                            <img src="assets/icons/play.svg">
+                            16 май 2020
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/time.png">
+                            4 седмици
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/user.svg">
+                            1-3 клас
+                        </div>
+                        <div class="card__info">
+                            <img src="assets/icons/location-icon.svg">
+                            София - жк. Изток
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <span class="card__price">
+                            110 лв.
+                        </span>
+                        <button class="btn btn--secondary">
+                            към обучението
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        </div>
+    </main>
+</body>
+</html>

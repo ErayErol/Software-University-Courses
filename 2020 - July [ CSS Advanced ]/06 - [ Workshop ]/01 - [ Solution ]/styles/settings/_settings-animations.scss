@@ -1,0 +1,56 @@
+@import './_settings-colors';
+
+@keyframes expand-and-square {
+    0% {
+        border-radius: 50%;
+        background-color: red;
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+    }
+}
+
+@keyframes reveal-left {
+    from {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  
+@keyframes grey-to-secondary {
+  0% {
+    color: $grey-700;
+  }
+
+  100% {
+    color: $secondary-color;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,18 @@
+.btn {
+    box-shadow: $primary-shadow;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 10px 22px;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+    }
+
+    &--secondary {
+        background: $secondary-color;
+        color: #fff;
+    }
+}

@@ -1,0 +1,37 @@
+@import './styles/generic/_generic-normalize';
+
+@import './styles/settings/_settings-typography';
+@import './styles/settings/_settings-animations';
+@import './styles/settings/_settings-shadows';
+@import './styles/settings/_settings-colors';
+@import './styles/settings/_settings-breakpoints';
+@import './styles/settings/_settings-borders';
+@import './styles/settings/_settings-mixins';
+
+@import './styles/objects/_objects-containers';
+@import './styles/objects/_objects-box';
+
+@import './styles/elements/_elements-links';
+@import './styles/elements/_elements-input-fields';
+
+@import './styles/utilities/_utilities-centered';
+@import './styles/utilities/_utilities-hidden';
+@import './styles/utilities/_utilities-animations';
+@import './styles/utilities/_utilities-display';
+@import './styles/utilities/_utilities-positions';
+@import './styles/utilities/_utilities-flex';
+@import './styles/utilities/_utilities-margin';
+
+@import './styles/components/_components-button';
+@import './styles/components/_components-card';
+@import './styles/components/_components-filter';
+@import './styles/components/_components-header';
+@import './styles/components/_components-footer';
+@import './styles/components/_components-navigation';
+@import './styles/components/_components-program';
+@import './styles/components/_components-door';
+@import './styles/components/_components-revealing-list';
+@import './styles/components/_components-popup';
+@import './styles/components/_components-level-label';
+@import './styles/components/_components-level-popup';
+

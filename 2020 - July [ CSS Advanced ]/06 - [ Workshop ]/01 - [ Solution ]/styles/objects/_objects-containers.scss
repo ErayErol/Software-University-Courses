@@ -1,0 +1,42 @@
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.o-boxes-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 300px;
+}
+
+.o-inline-container {
+    display: inline-flex;
+}
+
+.o-standard-box {
+    box-shadow: $primary-shadow;
+    border-radius: $primary-radius;
+    padding: 16px;
+
+    &--white {
+        background-color: #fff;
+    }
+
+    &--vertical {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    &--centered {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.o-row-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}

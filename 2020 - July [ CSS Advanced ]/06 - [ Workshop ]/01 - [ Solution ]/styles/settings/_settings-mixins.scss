@@ -1,0 +1,4 @@
+@mixin horizontal-center-absolute {
+    left: 50%;
+    transform: translateX(-50%);
+}

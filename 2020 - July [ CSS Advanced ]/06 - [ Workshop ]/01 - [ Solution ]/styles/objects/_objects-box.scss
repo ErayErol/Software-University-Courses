@@ -1,0 +1,22 @@
+.o-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+
+    &--blue {
+        background-color: $blue-400;
+    }
+
+    &--green {
+        background-color: $primary-300;
+    }
+
+    &--red {
+        background-color: $red-500;
+    }
+
+    &--circle {
+        border-radius: 50%;
+    }
+}
