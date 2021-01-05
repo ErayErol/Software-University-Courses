@@ -1,11 +1,6 @@
-<form>
-    <label for="colors">Choose a color:</label>
-    <select id="colors" name="colors">
-        <option value="volvo">Red</option>
-        <option value="saab">Black</option>
-        <option value="fiat">White</option>
-    </select>
-</form>
+<textarea rows="10" cols="30">
+   The cat was playing in the garden.
+</textarea>
 
 <!-- HEAD START -->
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
