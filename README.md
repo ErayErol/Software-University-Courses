@@ -1,4 +1,15 @@
-<input type="email" required="true" />
+<form>
+    <fieldset>
+        <legend>Customer Details</legend>
+        <input type="text" name="fName" />
+        <input type="text" name="lName" />
+    </fieldset>
+    <fieldset>
+        <legend>Order Details</legend>
+        <input type="text" name="quantity" />
+        <textarea name="remarks"></textarea>
+    </fieldset>
+</form>
 
 <!-- HEAD START -->
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
