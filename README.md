@@ -1,3 +1,5 @@
+<input type="email" required="true" />
+
 <!-- HEAD START -->
 <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
    <tbody>
