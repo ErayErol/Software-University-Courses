@@ -1,14 +1,10 @@
 <form>
-    <fieldset>
-        <legend>Customer Details</legend>
-        <input type="text" name="fName" />
-        <input type="text" name="lName" />
-    </fieldset>
-    <fieldset>
-        <legend>Order Details</legend>
-        <input type="text" name="quantity" />
-        <textarea name="remarks"></textarea>
-    </fieldset>
+    <label for="colors">Choose a color:</label>
+    <select id="colors" name="colors">
+        <option value="volvo">Red</option>
+        <option value="saab">Black</option>
+        <option value="fiat">White</option>
+    </select>
 </form>
 
 <!-- HEAD START -->
