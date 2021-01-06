@@ -1,29 +1,27 @@
-function solve(num1, num2, operator) {
-    let result;
-    switch (operator) {
-        case '+':
-            result = num1 + num2;
-            break;
-        case '/':
-            result = num1 / num2;
-            break;
-        case '-':
-            result = num1 - num2;
-            break;
-        case '*':
-            result = num1 * num2;
-            break;
-        case '%':
-            result = num1 % num2;
-            break;
-        case '**':
-            result = num1 ** num2;
-            break;
+let operators = ['+', '-', '*', '/', '%', '**'];
+
+let operation = {
+    '+': (x, y) => x + y,
+    '-': (x, y) => x - y,
+    '*': (x, y) => x * y,
+    '/': (x, y) => x / y,
+    '%': (x, y) => x % y,
+    '**': (x, y) => x ** y,
+};
+
+let mathOperations = (operator, ...numbers) => {
+    if (!operators.includes(operator)) {
+        return "Try again with operator.";
     }
 
-    console.log(result);
-}
+    let reducer = (accumulator, currentValue) => operation[operator](accumulator, currentValue);
+    let initialValue = Number(numbers.shift()); 
+    let sum = numbers.reduce(reducer, initialValue);
+    return sum;
+};
 
-solve(5, 6, '+');
+let result = mathOperations('+', 5, 6, 8, 9);
+console.log(result);
 
-solve(3, 5.5, '*');
+let result2 = mathOperations('*', 3, 5.5);
+console.log(result2);
