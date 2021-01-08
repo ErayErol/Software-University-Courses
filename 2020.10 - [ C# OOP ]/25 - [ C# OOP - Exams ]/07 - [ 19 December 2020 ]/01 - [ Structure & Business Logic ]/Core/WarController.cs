@@ -106,7 +106,13 @@
         public string GetStats()
         {
             var characters = this.party
-                .OrderByDescending(c => c.IsAlive).ThenByDescending(c => c.Health);
+                .OrderByDescending(c => c.IsAlive)
+                .ThenByDescending(c => c.Health);
+
+            //var characters =
+            //    from character in this.party
+            //    orderby character.IsAlive descending, character.Health descending
+            //    select character;
 
             StringBuilder sb = new StringBuilder();
             foreach (var character in characters)
