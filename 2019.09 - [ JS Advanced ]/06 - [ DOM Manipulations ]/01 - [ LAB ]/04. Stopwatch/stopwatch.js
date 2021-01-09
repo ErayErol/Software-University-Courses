@@ -36,8 +36,9 @@ function stopwatch() {
     });
 
     let stopBtn = document.getElementById('stopBtn');
-    stopBtn.addEventListener('click', () => {
+    stopBtn.addEventListener('click', (evn) => {
 
+        
         if (intervalId) {
             clearInterval(intervalId);
         }

@@ -13,7 +13,7 @@ class Ticket {
                 } else {
                     return a[prop] - b[prop];
                 }
-            })
+            });
     }
 }
 
