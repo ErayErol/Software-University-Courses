@@ -4,99 +4,84 @@ import models from "../models/index.js";
 
 export default {
     get: {
-        create(context) {
-            extend(context).then(function () {
-                this.partial("../views/home/home.hbs");
-            });
-        },
         edit(context) {
-            const { xId } = context.params;
-            context.xId = xId;
-            models.x.getDocument(xId)
-                .then((response) => {
-                    let x = docModifier(response);
-                    const { uid } = x;
-                    if (uid === localStorage.getItem("userId")) {
-                        const { title, category, content } = x;
-                        context.title = title;
-                        context.category = category;
-                        context.content = content;
+            (async () => {
+                const { xId } = context.params;
+                context.xId = xId;
+                const response = await models.x.getDocument(context.xId);
+                const x = docModifier(response);
 
-                        extend(context).then(function () {
-                            this.partial("../views/x/edit.hbs");
-                        });
-                    } else {
-                        context.redirect("#/home");
-                        toastr.warning("You only can edit posts that you created!");
-                    }
-                }).catch((e) => console.error(e));
+                if (x.uid === localStorage.getItem("userId")) {
+                    context.title = x.title;
+                    context.category = x.category;
+                    context.content = x.content;
+
+                    const sammy = extend(context);
+                    sammy.partial("../views/x/edit.hbs");
+                } else {
+                    context.redirect("#/home");
+                    toastr.warning("You only can edit posts that you created!");
+                }
+            })();
         },
         details(context) {
-            const { xId } = context.params;
-            context.xId = xId;
-            models.x.getDocument(xId)
-                .then((response) => {
-                    const x = docModifier(response);
-                    context.posts = x;
+            (async () => {
+                context.xId = context.params.xId;
+                const response = await models.x.getDocument(context.xId);
+                const x = docModifier(response);
+                context.posts = x;
 
-                    Object.keys(x).forEach((key) => {
-                        context[key] = x[key];
-                    });
+                Object.keys(x).forEach((key) => {
+                    context[key] = x[key];
+                });
 
-                    extend(context).then(function () {
-                        this.partial("../views/x/details.hbs");
-                    });
-                }).catch((e) => console.error(e));
+                const sammy = extend(context);
+                sammy.partial("../views/x/details.hbs");
+            })();
         },
     },
     post: {
         create(context) {
-            const data = {
-                ...context.params,
-                uid: localStorage.getItem("userId"),
-            };
+            (async () => {
+                const data = {
+                    ...context.params,
+                    uid: localStorage.getItem("userId"),
+                };
 
-            models.x.createDocument(data)
-                .then((response) => {
-                    toastr.success("Added post!");
-                    context.redirect("#/home");
-                }).catch((e) => console.error(e));
+                await models.x.createDocument(data);
+                toastr.success("Added post!");
+                context.redirect("#/home");
+            })();
         },
         edit(context) {
-            let xId = localStorage.getItem("xId");
-            models.x.getDocument(xId)
-                .then((response) => {
-                    let x = docModifier(response);
-                    const { title, category, content } = context.params;
-                    x.title = title;
-                    x.category = category;
-                    x.content = content;
-                    return models.x.updateDocument(xId, x);
-                }).then((response2) => {
-                    toastr.success("Edited post!");
-                    context.redirect(`#/home`);
-                })
-                .catch((e) => console.error(e));
+            (async () => {
+                const xId = localStorage.getItem("xId");
+                const response = await models.x.getDocument(xId);
+                const x = docModifier(response);
+                x.title = context.params.title;
+                x.category = context.params.category;
+                x.content = context.params.content;
+                toastr.success("Edited post!");
+                context.redirect(`#/home`);
+                return await models.x.updateDocument(xId, x);
+            })();
         },
     },
     del: {
         deleteX(context) {
-            const { xId } = context.params;
-            models.x.getDocument(xId)
-                .then((response) => {
-                    let x = docModifier(response);
-                    let { uid } = x;
-                    if (uid === localStorage.getItem("userId")) {
-                        models.x.deleteDocument(xId)
-                            .then((response) => {
-                                toastr.success('Post is deleted!');
-                                context.redirect("#/home");
-                            }).catch((e) => console.error(e));
-                    } else {
-                        context.redirect("#/home");
-                        toastr.warning("You only can delete posts that you created!");
-                    }
-                }).catch((e) => console.error(e));
+            (async () => {
+                const { xId } = context.params;
+                const response = await models.x.getDocument(xId);
+                const x = docModifier(response);
+
+                if (x.uid === localStorage.getItem("userId")) {
+                    await models.x.deleteDocument(xId);
+                    toastr.success('Post is deleted!');
+                    context.redirect("#/home");
+                } else {
+                    toastr.warning("You only can delete posts that you created!");
+                }
+            })();
         },
     },
 };

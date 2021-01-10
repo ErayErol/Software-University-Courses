@@ -17,7 +17,6 @@ const app = Sammy("#root", function () {
     this.get("#/user/logout", controllers.user.get.logout);
 
     // Collection
-    this.get("#/x/create", controllers.x.get.create);
     this.post("#/x/create", controllers.x.post.create);
 
     this.get("#/details/:xId", controllers.x.get.details);

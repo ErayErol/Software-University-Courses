@@ -5,21 +5,22 @@ import models from "../models/index.js";
 export default {
     get: {
         home(context) {
-            models.x.getAll()
-                .then((response) => {
-                    const y = response.docs.map(docModifier);
-                    if (y.length > 0) {
-                        context.posts = y;
-                    }
-                }).then((response2) => {
-                    extend(context).then(function () {
-                        this.partial("../views/home/home.hbs");
-                    });
-                }).catch((e) => {
-                    extend(context).then(function () {
-                        this.partial("../views/home/home.hbs");
-                    });
-                });
+            const getBlogs = async () => {
+                const response = await models.x.getAll();
+                const y = response.docs.map(docModifier);
+                if (y.length > 0) {
+                    context.posts = y;
+                }
+            };
+
+            function output() {
+                const sammy = extend(context);
+                sammy.partial("../views/home/home.hbs");
+            }
+
+            getBlogs()
+                .then(output)
+                .catch(output);
         }
     },
 };
