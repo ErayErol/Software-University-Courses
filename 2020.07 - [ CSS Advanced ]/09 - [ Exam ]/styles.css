@@ -927,8 +927,8 @@ ol[class] {
 }
 
 .u-fade-in {
-  -webkit-animation: fade-in 1.5s forwards 1 ease-out;
-          animation: fade-in 1.5s forwards 1 ease-out;
+  -webkit-animation: fade-in 0.5s forwards 1 ease-out;
+          animation: fade-in 0.5s forwards 1 ease-out;
   opacity: 0;
 }
 

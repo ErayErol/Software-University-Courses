@@ -1,13 +1,16 @@
 import models from "../models/index.js";
 import extend from "../utils/context.js";
+import checkSymbols from "../utils/validEmailSymbolsChecker.js";
 
 export default {
     get: {
-        login(context) {
-            extend(context).partial("../views/user/login.hbs");
+        async login(context) {
+            await extend(context).partial("../views/user/login.hbs");
+            checkSymbols();
         },
-        register(context) {
-            extend(context).partial("../views/user/register.hbs");
+        async register(context) {
+            await extend(context).partial("../views/user/register.hbs");
+            checkSymbols();
         },
         logout(context) {
             models.user.logout();

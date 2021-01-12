@@ -21,11 +21,11 @@
   list-style: none;
 }
 
-#nav li {
-  margin: 0 15px;
+#header>li {
+  list-style-type: none;
 }
 
-#nav a {
+.header__nav__li--a {
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
@@ -33,7 +33,7 @@
   transition: 0.5s;
 }
 
-#nav a:hover {
+.header__nav__li--a:hover {
   background: #fff;
   color: #212121;
   padding: 10px 20px;

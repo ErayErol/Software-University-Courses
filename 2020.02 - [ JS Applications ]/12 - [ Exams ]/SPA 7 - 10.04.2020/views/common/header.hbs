@@ -4,11 +4,11 @@
     <h2>Welcome <span>{{username}}</span>!</h2>
     <nav id="nav">
         <ul>
-            <li><a href="#/user/logout">Logout</a></li>
+            <li><a href="#/user/logout" class="header__nav__li--a">Logout</a></li>
             {{else}}
-            <li><a href="#/home">Home</a></li>
-            <li><a href="#/user/login">Login</a></li>
-            <li><a href="#/user/register">Register</a></li>
+            <li><a href="#/home" class="header__nav__li--a">Home</a></li>
+            <li><a href="#/user/login" class="header__nav__li--a">Login</a></li>
+            <li><a href="#/user/register" class="header__nav__li--a">Register</a></li>
         </ul>
     </nav>
     {{/if}}
