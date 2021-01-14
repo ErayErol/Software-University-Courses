@@ -24,7 +24,7 @@ CREATE TABLE Cars
 	Manufacturer NVARCHAR(50) NOT NULL,
 	Model NVARCHAR(50) NOT NULL,
 	CarYear DATETIME2 NOT NULL,
-	CategoryId INT NOT NULL,
+	CategoryId INT CONSTRAINT FK_Cars_CategoryId FOREIGN KEY REFERENCES Categories(Id),
 	Doors TINYINT,
 	Picture IMAGE,
 	Condition CHAR(1) NOT NULL,
@@ -72,41 +72,28 @@ VALUES
 (9876543210, 'Erduan Yilmaz', 'Pod Sportna sreshta', 'Haskovo', 6300, NULL),
 (5678901234, 'Osi Mehmed', 'StockholmUniversity', 'Stockholm', 11122, NULL)
 
-
 CREATE TABLE RentalOrders
 (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
-	EmployeeId INT NOT NULL,
-	CustomerId INT NOT NULL,
-	CarId INT NOT NULL,
+	EmployeeId INT CONSTRAINT FK_RentalOrdersEmployeeId_EmployeeId FOREIGN KEY REFERENCES Employees(Id),
+	CustomerId INT CONSTRAINT FK_RentalOrdersCustomerId_CustomerId FOREIGN KEY REFERENCES Customers(Id),
+	CarId INT CONSTRAINT FK_RentalOrdersCarId_CarId FOREIGN KEY REFERENCES Cars(Id),
 	TankLevel TINYINT NOT NULL,
 	KilometrageStart INT NOT NULL,
 	KilometrageEnd INT NOT NULL,
-	TotalKilometrage INT NOT NULL,
+	TotalKilometrage AS KilometrageEnd-KilometrageStart,
 	StartDate DATETIME2 NOT NULL,
 	EndDate DATETIME2 NOT NULL,
-	TotalDays SMALLINT NOT NULL,
+	TotalDays AS DATEDIFF(DAY,StartDate,EndDate),
 	RateApplied TINYINT,
 	TaxRate TINYINT NOT NULL,
 	OrderStatus NVARCHAR(50) NOT NULL,
 	Notes NVARCHAR(MAX)
 )
 
-ALTER TABLE RentalOrders 
-ADD CONSTRAINT FK_RentalOrdersEmployeeId_EmployeeId
-FOREIGN KEY (EmployeeId) REFERENCES Employees (Id)
-
-ALTER TABLE RentalOrders 
-ADD CONSTRAINT FK_RentalOrdersCustomerId_CustomerId
-FOREIGN KEY (CustomerId) REFERENCES Customers (Id)
-
-ALTER TABLE RentalOrders 
-ADD CONSTRAINT FK_RentalOrdersCarId_CarId
-FOREIGN KEY (CarId) REFERENCES Cars (Id)
-
 INSERT INTO RentalOrders
-(EmployeeId, CustomerId, CarId, TankLevel, KilometrageStart, KilometrageEnd, TotalKilometrage, StartDate, EndDate, TotalDays, RateApplied, TaxRate, OrderStatus, Notes)
+(EmployeeId, CustomerId, CarId, TankLevel, KilometrageStart, KilometrageEnd, StartDate, EndDate, RateApplied, TaxRate, OrderStatus, Notes)
 VALUES
-(1, 1, 1, 10, 175000, 185000, 10000, '2021-01-14', '2021-02-15', 30, 10, 10, 'Proccesing', NULL),
-(2, 2, 2, 8, 195000, 215000, 20000, '2021-01-14', '2021-04-15', 90, 10, 10, 'Proccesing', NULL),
-(3, 3, 3, 5, 105000, 115000, 10000, '2021-01-14', '2021-01-21', 7, 10, 10, 'Proccesing', NULL)
+(1, 1, 1, 10, 175000, 185000, '2021-01-14', '2021-02-15', 10, 10, 'Proccesing', NULL),
+(2, 2, 2, 8, 195000, 215000, '2021-01-14', '2021-04-15', 10, 10, 'Proccesing', NULL),
+(3, 3, 3, 5, 105000, 115000, '2021-01-14', '2021-01-21', 10, 10, 'Proccesing', NULL)
