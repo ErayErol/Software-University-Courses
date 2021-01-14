@@ -1,4 +1,4 @@
---CREATE DATABASE Movies UNCOMMENT FOR JUGDE
+--CREATE DATABASE Movies Comment because of Judge
 
 CREATE TABLE Directors
 (
@@ -35,12 +35,12 @@ VALUES
 CREATE TABLE Categories
 (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
-	CategorieName NVARCHAR(50) NOT NULL,
+	CategoryName NVARCHAR(50) NOT NULL,
 	Notes NVARCHAR(MAX)
 )
 
 INSERT INTO Categories
-(CategorieName)
+(CategoryName)
 VALUES
 ('Film/HD'),
 ('Film/SD'),
