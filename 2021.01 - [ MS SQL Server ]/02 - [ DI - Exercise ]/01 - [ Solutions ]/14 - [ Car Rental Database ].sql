@@ -84,7 +84,7 @@ CREATE TABLE RentalOrders
 	TotalKilometrage AS KilometrageEnd-KilometrageStart,
 	StartDate DATETIME2 NOT NULL,
 	EndDate DATETIME2 NOT NULL,
-	TotalDays AS DATEDIFF(DAY,StartDate,EndDate),
+	TotalDays AS DATEDIFF(DAY, StartDate, EndDate),
 	RateApplied TINYINT,
 	TaxRate TINYINT NOT NULL,
 	OrderStatus NVARCHAR(50) NOT NULL,

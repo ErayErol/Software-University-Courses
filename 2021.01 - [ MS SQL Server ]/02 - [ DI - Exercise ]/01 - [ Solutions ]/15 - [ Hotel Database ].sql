@@ -102,24 +102,25 @@ CREATE TABLE Payments
 	TotalDays AS DATEDIFF(DAY, FirstDateOccupied, LastDateOccupied),
 	AmountCharged DECIMAL(7,2) NOT NULL,
 	TaxRate DECIMAL(7,2) NOT NULL,
-	TaxAmount DECIMAL(7,2) NOT NULL,
+	TaxAmount AS AmountCharged*TaxRate,
 	PaymentTotal DECIMAL(7,2) NOT NULL,
 	Notes NVARCHAR(MAX)
 )
 
 INSERT INTO Payments
-(EmployeeId, PaymentDate, AccountNumber, FirstDateOccupied, LastDateOccupied, TotalDays, AmountCharged, TaxRate, TaxAmount, PaymentTotal, Notes)
+(EmployeeId, PaymentDate, AccountNumber, FirstDateOccupied, LastDateOccupied, AmountCharged, TaxRate, PaymentTotal, Notes)
 VALUES
-()
-
+(1, '2021-01-15', 1, '2021-02-10', '2021-02-15', 220, 20, 260, NULL),
+(2, '2021-01-16', 2, '2021-02-11', '2021-02-18', 240, 40, 280, NULL),
+(3, '2021-01-17', 3, '2021-02-12', '2021-02-19', 250, 50, 290, NULL)
 
 CREATE TABLE Occupancies
 (
 	Id INT PRIMARY KEY IDENTITY,
 	EmployeeId INT NOT NULL CONSTRAINT FK_OccupanciesEmployeeId_EmployeeId FOREIGN KEY REFERENCES Employees(Id),
-	DateOccupancied	 DATETIME2 NOT NULL,
+	DateOccupied DATETIME2 NOT NULL,
 	AccountNumber INT NOT NULL CONSTRAINT FK_OccupanciesAccountNumber_CustomerAccountNumber FOREIGN KEY REFERENCES Customers(AccountNumber),
-	RoomNumber INT NOT NULL,
+	RoomNumber INT NOT NULL CONSTRAINT FK_OccupanciesRoomNumber_RoomNumber FOREIGN KEY REFERENCES Rooms(RoomNumber),
 	RateApplied DECIMAL(7,2),
 	PhoneCharge DECIMAL(7,2),
 	Notes NVARCHAR(MAX)
@@ -128,4 +129,6 @@ CREATE TABLE Occupancies
 INSERT INTO Occupancies
 (EmployeeId, DateOccupied, AccountNumber, RoomNumber, RateApplied, PhoneCharge, Notes)
 VALUES
-()
+(1, '2021-02-10', 1,  1, 300, NULL, NULL),
+(2, '2021-02-11', 2,  2, 320, NULL, NULL),
+(3, '2021-02-12', 3,  3, 340, NULL, NULL)
