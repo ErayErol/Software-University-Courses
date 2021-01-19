@@ -1,7 +1,7 @@
 CREATE TABLE Passports
 (
 	PassportID		INT IDENTITY(101, 1) PRIMARY KEY,
-	PassportNumber	NVARCHAR(20)
+	PassportNumber	NVARCHAR(8)
 )
 
 CREATE TABLE Persons
@@ -10,7 +10,7 @@ CREATE TABLE Persons
     FirstName	NVARCHAR(25) NOT NULL,
     Salary		DECIMAL(7, 2) NOT NULL,
 	PassportID	INT UNIQUE,
-		CONSTRAINT	FK_Persons_Passports
+		CONSTRAINT	FK_PersonsPassportID_PassportsPassportID
 		FOREIGN KEY	(PassportID)
 		REFERENCES	Passports (PassportID)
 )
