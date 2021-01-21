@@ -1,3 +1,12 @@
+<details>
+   <summary>
+	    <strong> 🔓 CLICK </strong> to see my wakatime ✔️
+   </summary>
+	
+   [![Eray's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ErayErol)](https://github.com/erayerol/github-readme-stats)
+   
+</details>
+
 <!-- Technology Fundamentals Start -->
 <!-- Summary Begin -->
 <table width="100%" cellspacing="11" cellpadding="14">
