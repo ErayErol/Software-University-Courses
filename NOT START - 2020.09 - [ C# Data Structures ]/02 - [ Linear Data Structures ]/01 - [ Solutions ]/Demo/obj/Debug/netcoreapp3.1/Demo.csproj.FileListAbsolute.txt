@@ -1,0 +1,13 @@
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\bin\Debug\netcoreapp3.1\Demo.exe
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\bin\Debug\netcoreapp3.1\Demo.deps.json
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\bin\Debug\netcoreapp3.1\Demo.runtimeconfig.json
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\bin\Debug\netcoreapp3.1\Demo.runtimeconfig.dev.json
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\bin\Debug\netcoreapp3.1\Demo.dll
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\bin\Debug\netcoreapp3.1\Demo.pdb
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.csprojAssemblyReference.cache
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.AssemblyInfoInputs.cache
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.AssemblyInfo.cs
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.dll
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.pdb
+C:\Users\Aris\source\repos\Software-University-Courses\NOT START - 2020.09 - [ C# Data Structures ]\02 - [ Linear Data Structures ]\01 - [ Solutions ]\Demo\obj\Debug\netcoreapp3.1\Demo.genruntimeconfig.cache

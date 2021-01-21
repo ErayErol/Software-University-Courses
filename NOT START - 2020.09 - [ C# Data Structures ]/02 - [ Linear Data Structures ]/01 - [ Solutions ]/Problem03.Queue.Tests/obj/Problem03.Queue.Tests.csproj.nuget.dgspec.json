@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue.Tests\\Problem03.Queue.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue.Tests\\Problem03.Queue.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue.Tests\\Problem03.Queue.Tests.csproj",
+        "projectName": "Problem03.Queue.Tests",
+        "projectPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue.Tests\\Problem03.Queue.Tests.csproj",
+        "packagesPath": "C:\\Users\\Aris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue\\Problem03.Queue.csproj": {
+                "projectPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue\\Problem03.Queue.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue\\Problem03.Queue.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue\\Problem03.Queue.csproj",
+        "projectName": "Problem03.Queue",
+        "projectPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue\\Problem03.Queue.csproj",
+        "packagesPath": "C:\\Users\\Aris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\NOT START - 2020.09 - [ C# Data Structures ]\\02 - [ Linear Data Structures ]\\01 - [ Solutions ]\\Problem03.Queue\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

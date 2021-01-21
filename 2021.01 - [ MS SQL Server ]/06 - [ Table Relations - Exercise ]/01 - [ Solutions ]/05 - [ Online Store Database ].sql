@@ -1,5 +1,47 @@
-SELECT 
-FirstName,
-MiddleName,
-LastName
-FROM Employees
+CREATE TABLE Cities
+(
+	CityID INT PRIMARY KEY,
+	[Name] VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE Customers
+(
+	CustomerID INT PRIMARY KEY,
+	[Name] VARCHAR(50) NOT NULL,
+	Birthday DATE,
+	CityID INT NOT NULL FOREIGN KEY REFERENCES Cities (CityID)
+)
+
+CREATE TABLE ItemTypes
+(
+	ItemTypeID INT PRIMARY KEY,
+	[Name] VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE Items
+(
+	ItemID INT PRIMARY KEY,
+	[Name] VARCHAR(50) NOT NULL,
+	ItemTypeID INT NOT NULL FOREIGN KEY REFERENCES ItemTypes (ItemTypeID)
+)
+
+
+CREATE TABLE Orders
+(
+	OrderID INT PRIMARY KEY,
+	CustomerID INT NOT NULL FOREIGN KEY REFERENCES Customers (CustomerID)
+)
+
+CREATE TABLE OrderItems
+(
+	OrderID INT,
+	ItemID	INT,
+		CONSTRAINT PK_OrdersOrderID_ItemsItemID
+		PRIMARY KEY(OrderID, ItemID),
+		
+		FOREIGN KEY(OrderID)
+		REFERENCES OrderS(OrderID),
+
+		FOREIGN KEY(ItemID)
+		REFERENCES ItemS(ItemID)
+)
