@@ -1,4 +1,4 @@
 SELECT TownID, Name
     FROM Towns
-    WHERE Name NOT LIKE ('[RBD]%')
+    WHERE Name LIKE ('[^RBD]%')
     ORDER BY Name

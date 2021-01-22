@@ -1,4 +1,4 @@
-SELECT FirstName, LastName, Salary
-FROM Employees
-WHERE Salary > 50000
-ORDER BY Salary DESC
+SELECT CountryName, IsoCode
+FROM Countries
+WHERE CountryName LIKE '%a%a%a%'
+ORDER BY IsoCode

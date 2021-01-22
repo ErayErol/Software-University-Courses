@@ -1,4 +1,9 @@
-SELECT TOP(5) FirstName, LastName
-FROM Employees
-WHERE Salary > 50000
-ORDER BY Salary DESC
+SELECT	PeakName,
+		RiverName, 
+		LOWER(CONCAT(
+			PeakName, SUBSTRING(
+				RiverName, 2, LEN(
+					RiverName)-1))) AS Mix
+FROM Peaks,Rivers
+	WHERE RIGHT(PeakName, 1) = LEFT(RiverName, 1)
+		ORDER BY Mix
