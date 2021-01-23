@@ -1,6 +1,11 @@
-CREATE VIEW V_EmployeesSalaries AS
-SELECT FirstName, LastName, Salary
-FROM Employees
+SELECT Username, IpAddress 
+	FROM Users
+		WHERE IpAddress LIKE 
+			('[0-9][0-9][0-9].[1]%.[0-9][0-9][0-9]')
+ORDER BY Username
 
-GO
-SELECT * FROM V_EmployeesSalaries
+--SELECT Username, IpAddress 
+--	FROM Users
+--		WHERE IpAddress LIKE 
+--			('___.[1]%.___')
+--ORDER BY Username
