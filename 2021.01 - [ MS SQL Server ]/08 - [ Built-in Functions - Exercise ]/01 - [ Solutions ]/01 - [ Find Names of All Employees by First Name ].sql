@@ -1,3 +1,3 @@
 SELECT FirstName, LastName 
 FROM Employees
-WHERE FirstName LIKE 'sa%'
+WHERE FirstName LIKE 'SA%'
