@@ -1,4 +1,6 @@
-SELECT CountryName, IsoCode
+SELECT 
+[CountryName] AS 'Country Name',
+IsoCode AS 'ISO Code'
 FROM Countries
-WHERE CountryName LIKE '%a%a%a%'
+WHERE LEN([CountryName]) - LEN(REPLACE(CountryName ,'A', '')) >= 3
 ORDER BY IsoCode

@@ -46,7 +46,8 @@ INSERT INTO Words
 VALUES
 (1, 'Order'),
 (2, 'However'),
-(3, 'Addition')
+(3, 'Addition'),
+(4, 'Along')
 
 INSERT INTO WordsTranslate
 ([Translate], WordID)
@@ -56,7 +57,8 @@ VALUES
 ('Заповед', 1),
 ('Обаче', 2),
 ('Въпреки това', 2),
-('Допълнение', 3)
+('Допълнение', 3),
+('Заедно', 4)
 
 INSERT INTO Phrases
 (ID, [Name], WordID)
@@ -64,7 +66,9 @@ VALUES
 (1, 'In order to [...]', 1),
 (2, 'However you are free to [...]', 2),
 (3, 'In addition to [...]', 3),
-(4, 'Аddition and subtraction', 3)
+(4, 'Аddition and subtraction', 3),
+(5, 'Along with', 4),
+(6, 'Somewhere along the code/way/stadium/....', 4)
 
 INSERT INTO PhrasesTranslate
 ([Translate], PhraseID)
@@ -72,21 +76,25 @@ VALUES
 ('За да', 1),
 ('Oбаче сте свободни', 2),
 ('В допълнение към', 3),
-('Събиране и изваждане', 3)
+('Събиране и изваждане', 4),
+('Заедно с', 5),
+('Някъде по кода/пътя/стадиона/....', 6)
 
 INSERT INTO Sentances
 (ID, [Name], WordID)
 VALUES
 (1, 'You have to [...] in order to [...]', 1),
 (2, 'However you are free to add more methods', 2),
-(3, 'This method should in addition increase the size of the structure', 3)
+(3, 'This method should in addition increase the size of the structure', 3),
+(4, 'Аlong with the gods', 5)
 
 INSERT INTO SentancesTranslate
 ([Translate], SentanceID)
 VALUES
 ('Трябва да [...], за да [...]', 1),
 ('Но, можете да добавите още методи', 2),
-('Този метод трябва допълнително да увеличи размера на структурата', 3)
+('Този метод трябва допълнително да увеличи размера на структурата', 3),
+('Заедно с боговете', 4)
 
 SELECT w.[Name], wt.[Translate], p.[Name], pt.[Translate], s.[Name], st.[Translate]
 FROM Words w
@@ -95,7 +103,7 @@ INNER JOIN Phrases p ON p.WordID = w.ID
 INNER JOIN PhrasesTranslate pt ON pt.PhraseID = p.ID
 INNER JOIN Sentances s ON s.WordID = w.ID
 INNER JOIN SentancesTranslate st ON st.SentanceID = s.ID
-WHERE w.[Name] = 'Addition'
+WHERE w.[Name] = 'Along'
 
 --DROP TABLE Phrases
 --DROP TABLE PhrasesTranslate
