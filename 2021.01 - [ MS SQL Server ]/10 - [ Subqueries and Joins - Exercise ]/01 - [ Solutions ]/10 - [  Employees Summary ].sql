@@ -1,5 +1,9 @@
-SELECT EmployeeID, FirstName, LastName, Salary,
-DENSE_RANK() OVER (PARTITION BY Salary ORDER BY EmployeeID) AS Rank
-FROM Employees
-WHERE Salary BETWEEN 10000 AND 50000
-ORDER BY Salary DESC
+SELECT TOP(50)
+	e.EmployeeID,
+	CONCAT(e.FirstName, ' ', e.LastName) AS EmployeeName,
+	CONCAT(m.FirstName, ' ', m.LastName) AS ManagerName,
+	d.[Name] AS DepartmentName
+  FROM Employees AS e
+	JOIN Employees AS m ON m.EmployeeID = e.ManagerID
+	JOIN Departments AS d ON d.DepartmentID = e.DepartmentID
+ORDER BY e.EmployeeID

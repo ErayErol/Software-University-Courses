@@ -1,5 +1,6 @@
-SELECT FirstName
-FROM Employees
-WHERE DepartmentID = 3 
-OR DepartmentID = 10 
-AND HireDate BETWEEN '1995-01-01' AND '2005-12-31'
+SELECT 
+	e.EmployeeID, e.FirstName, e.LastName, d.[Name] AS DepartmentName
+  FROM Employees e
+	JOIN Departments d ON d.DepartmentID = e.DepartmentID
+  WHERE d.[Name] = 'Sales'
+	ORDER BY e.EmployeeID

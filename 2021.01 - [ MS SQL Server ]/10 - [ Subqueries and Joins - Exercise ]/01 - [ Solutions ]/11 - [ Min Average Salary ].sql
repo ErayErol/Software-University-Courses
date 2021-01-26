@@ -1,27 +1,15 @@
-SELECT * FROM
+WITH GroupedDepartmentsByAvgSalary (DepartmentID, AverageSalary) AS
 (
-	SELECT 
-		EmployeeID,
-		FirstName, 
-		LastName, 
-		Salary,
-		DENSE_RANK() OVER (PARTITION BY Salary ORDER BY EmployeeID) AS Rank
-		FROM Employees
-		WHERE (Salary BETWEEN 10000 AND 50000)
-) AS OrderEmployees
-	WHERE OrderEmployees.Rank = 2
-	ORDER BY OrderEmployees.Salary DESC
+  SELECT e.DepartmentID, 
+		 AVG(e.Salary) AS AverageSalary
+	FROM Employees AS e
+	 GROUP BY e.DepartmentID
+)
 
---CREATE VIEW V_OrderEmployees AS
---	SELECT 
---		EmployeeID,
---		FirstName, 
---		LastName, 
---		Salary,
---		DENSE_RANK() OVER (PARTITION BY Salary ORDER BY EmployeeID) AS Rank
---		FROM Employees
---		WHERE (Salary BETWEEN 10000 AND 50000)
+SELECT MIN(AverageSalary) AS MinAverageSalary
+  FROM GroupedDepartmentsByAvgSalary
 
---SELECT * FROM V_OrderEmployees
---	WHERE [Rank] = 2
---		ORDER BY Salary DESC
+--SELECT d.[Name], gd.AverageSalary
+--  FROM GroupedDepartmentsByAvgSalary gd
+--	JOIN Departments d ON d.DepartmentID = gd.DepartmentID
+--ORDER BY gd.AverageSalary
