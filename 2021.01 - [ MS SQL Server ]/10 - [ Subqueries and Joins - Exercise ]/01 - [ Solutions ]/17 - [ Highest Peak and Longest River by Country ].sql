@@ -1,15 +1,12 @@
-SELECT 
-[Name],
-CASE
-    WHEN DATEPART(HOUR, [Start]) BETWEEN 0 AND 11 THEN 'Morning'
-	WHEN DATEPART(HOUR, [Start]) BETWEEN 12 AND 17 THEN 'Afternoon'
-	WHEN DATEPART(HOUR, [Start]) BETWEEN 18 AND 23 THEN 'Evening'
-END AS [Part of the Day],
-CASE
-    WHEN Duration <= 3 THEN 'Extra Short'
-	WHEN Duration BETWEEN 4 AND 6 THEN 'Short'
-	WHEN Duration > 6 THEN 'Long'
-	ELSE 'Extra Long'
-END AS [Duration]
-		FROM Games
-			ORDER BY [Name], Duration
+SELECT TOP(5)
+	c.CountryName,
+	MAX(p.Elevation) AS HighestPeakElevation,
+	MAX(r.[Length]) AS LongestRiverLength
+  FROM Countries c
+	LEFT JOIN MountainsCountries mc ON mc.CountryCode = c.CountryCode
+	LEFT JOIN Mountains m ON m.Id = mc.MountainId
+	LEFT JOIN Peaks p ON p.MountainId = m.Id
+	LEFT JOIN CountriesRivers cr ON cr.CountryCode = c.CountryCode
+	LEFT JOIN Rivers r ON r.Id = cr.RiverId
+  GROUP BY c.CountryName
+ORDER BY HighestPeakElevation DESC, LongestRiverLength DESC, c.CountryName
