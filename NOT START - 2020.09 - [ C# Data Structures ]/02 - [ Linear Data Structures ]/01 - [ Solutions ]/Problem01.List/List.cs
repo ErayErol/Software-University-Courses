@@ -1,4 +1,6 @@
-﻿namespace Problem01.List
+﻿using System.Runtime.CompilerServices;
+
+namespace Problem01.List
 {
     using System;
     using System.Collections;
@@ -37,21 +39,13 @@
 
         public void Add(T item)
         {
-            this.EnsureNotEmpty();
+            this.Grow();
             this._items[this.Count++] = item;
         }
 
         public bool Contains(T item)
         {
-            for (int i = 0; i < this.Count; i++)
-            {
-                if (this._items[i].Equals(item))
-                {
-                    return true;
-                }
-            }
-
-            return false;
+            return this.IndexOf(item) != -1;
         }
 
 
@@ -71,7 +65,7 @@
         public void Insert(int index, T item)
         {
             this.ValidateIndex(index);
-            this.EnsureNotEmpty();
+            this.Grow();
 
             for (int i = this.Count; i > index; i--)
             {
@@ -84,34 +78,61 @@
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            int index = this.IndexOf(item);
+            if (index == -1)
+            {
+                return false;
+            }
+
+            this.RemoveAt(index);
+            return true;
         }
 
         public void RemoveAt(int index)
         {
-            throw new NotImplementedException();
+            this.ValidateIndex(index);
+
+            for (int i = index; i < this.Count; i++)
+            {
+                this._items[i] = this._items[i + 1];
+            }
+
+            this.Count--;
+            this.Shrink();
         }
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator() 
-            => throw new NotImplementedException();
-
-        private void EnsureNotEmpty()
-        {
-            if (this.Count == this._items.Length)
+            for (int i = 0; i < this.Count; i++)
             {
-                this.Resize();
+                yield return this._items[i];
             }
         }
 
-        private void Resize()
+        IEnumerator IEnumerable.GetEnumerator()
+            => this.GetEnumerator();
+
+        private void Grow()
         {
-            var newArray = new T[this._items.Length * 2];
-            for (int i = 0; i < this._items.Length; i++)
+            if (this.Count == this._items.Length)
+            {
+                var newArray = new T[this._items.Length * 2];
+                DoNewLength(newArray, this._items.Length);
+            }
+        }
+
+        private void Shrink()
+        {
+            if (this.Count == this._items.Length / 2)
+            {
+                var newArray = new T[this._items.Length / 2];
+                DoNewLength(newArray, newArray.Length);
+            }
+        }
+
+        private void DoNewLength(T[] newArray, int length)
+        {
+            for (int i = 0; i < length; i++)
             {
                 newArray[i] = this._items[i];
             }
