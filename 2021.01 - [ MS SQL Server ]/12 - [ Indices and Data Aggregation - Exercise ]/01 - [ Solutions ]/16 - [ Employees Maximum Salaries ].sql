@@ -1,5 +1,6 @@
 SELECT 
-	COUNT(c.ContinentCode) AS [Count]
-  FROM Countries c
-	LEFT JOIN MountainsCountries mc ON mc.CountryCode = c.CountryCode
-WHERE mc.CountryCode IS NULL
+	DepartmentID,
+	MAX(Salary) AS MaxSalary
+  FROM Employees
+	GROUP BY DepartmentID
+HAVING MAX(Salary)  < 30000 OR MAX(Salary) > 70000

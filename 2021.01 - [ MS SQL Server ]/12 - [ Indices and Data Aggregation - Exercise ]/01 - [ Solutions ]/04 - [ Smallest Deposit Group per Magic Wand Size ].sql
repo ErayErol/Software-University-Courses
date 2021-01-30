@@ -1,6 +1,9 @@
-SELECT TOP(5)
-	e.EmployeeID, e.FirstName, e.Salary, d.[Name] AS DepartmentName
-  FROM Employees e
-	JOIN Departments d ON d.DepartmentID = e.DepartmentID
-  WHERE e.Salary > 15000
-	ORDER BY D.DepartmentID
+SELECT TOP(2)
+	k.DepositGroup 
+  FROM(
+	SELECT 
+	  DepositGroup, 
+	  AVG(MagicWandSize) AverageMagicWandSize
+	FROM WizzardDeposits
+  GROUP BY DepositGroup) AS k
+ORDER BY k.AverageMagicWandSize

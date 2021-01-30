@@ -1,9 +1,14 @@
-SELECT
-	e.EmployeeID,
-	e.FirstName,
-	e.ManagerID,
-	m.FirstName AS ManagerName
-  FROM Employees AS e
-	LEFT JOIN Employees AS m ON m.EmployeeID = e.ManagerID
-  WHERE e.ManagerID = 3 OR e.ManagerID = 7
-ORDER BY e.EmployeeID
+--SELECT * FROM WizzardDeposits
+
+SELECT 
+	Age,
+	COUNT(Age) AS CountOfAge,
+	NTILE(7) OVER(ORDER BY Age) AS [Group]
+  FROM WizzardDeposits
+	GROUP BY Age
+  ORDER BY Age
+
+SELECT 
+	Age,
+	NTILE(7) OVER(ORDER BY Age) AS [Group]
+  FROM WizzardDeposits

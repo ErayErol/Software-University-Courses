@@ -1,9 +1,6 @@
-SELECT TOP(50)
-	e.EmployeeID,
-	CONCAT(e.FirstName, ' ', e.LastName) AS EmployeeName,
-	CONCAT(m.FirstName, ' ', m.LastName) AS ManagerName,
-	d.[Name] AS DepartmentName
-  FROM Employees AS e
-	JOIN Employees AS m ON m.EmployeeID = e.ManagerID
-	JOIN Departments AS d ON d.DepartmentID = e.DepartmentID
-ORDER BY e.EmployeeID
+SELECT 
+	LEFT(FirstName, 1) AS FirstLetter
+  FROM WizzardDeposits
+    GROUP BY DepositGroup, LEFT(FirstName, 1)
+  HAVING DepositGroup = 'Troll Chest'
+ORDER BY LEFT(FirstName, 1)

@@ -1,8 +1,8 @@
-SELECT TOP(5)
-	c.CountryName,
-	r.RiverName
-  FROM Countries c
-	LEFT JOIN CountriesRivers cr ON cr.CountryCode = c.CountryCode
-	LEFT JOIN Rivers r ON r.Id = cr.RiverId
-  WHERE c.ContinentCode = 'AF'
-ORDER BY c.CountryName
+SELECT 
+	DepartmentID, 
+	MIN(Salary) as TotalSalary
+  FROM Employees
+	WHERE HireDate > '01/01/2000'
+  GROUP BY DepartmentID
+	HAVING DepartmentID IN (2,5,7)
+ORDER BY DepartmentID
