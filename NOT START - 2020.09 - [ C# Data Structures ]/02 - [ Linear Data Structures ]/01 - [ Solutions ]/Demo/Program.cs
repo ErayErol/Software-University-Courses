@@ -1,5 +1,7 @@
 ﻿using System;
-using Problem01.List;
+using Problem02.Stack;
+using Problem03.Queue;
+using Problem04.SinglyLinkedList;
 
 namespace Demo
 {
@@ -7,14 +9,21 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            IAbstractList<int> list = new List<int>();
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
-            list.Add(4);
-            list.Add(5);
+            var singly = new SinglyLinkedList<int>();
+            singly.AddLast(2);
+            singly.AddLast(3);
+            singly.AddLast(4);
+            singly.AddFirst(1);
 
-            list.RemoveAt(4);
+            Console.WriteLine(singly.Count);
+            Console.WriteLine(singly.RemoveLast());
+            Console.WriteLine(singly.Count);
+
+            Console.WriteLine(singly.GetLast());
+            Console.WriteLine(singly.GetFirst());
+
+            singly.AddFirst(0);
+            Console.WriteLine(singly.RemoveFirst());
         }
     }
 }

@@ -84,7 +84,7 @@ namespace SinglyLinkedList.Tests
         [Test]
         public void RemoveLastShouldWorkAsExpected()
         {
-            var count = this._random.Next(10, 30);
+            var count = 5;
             var array = new int[count];
 
             for (var i = 0; i < count; i++)

@@ -1,6 +1,5 @@
 ﻿namespace Problem02.Stack
 {
-    using Problem01.List;
     using System;
     using System.Collections;
     using System.Collections.Generic;
@@ -25,7 +24,18 @@
 
         public bool Contains(T item)
         {
-            throw new NotImplementedException();
+            var current = this._top;
+            
+            while (current != null)
+            {
+                if (current.Element.Equals(item))
+                {
+                    return true;
+                }
+                current = current.Next;
+            }
+
+            return false;
         }
 
         public T Peek()
@@ -43,14 +53,6 @@
             return pop;
         }
 
-        private void EnsureNotEmpty()
-        {
-            if (this.Count <= 0)
-            {
-                throw new InvalidOperationException("Stack is empty!");
-            }
-        }
-
         public void Push(T item)
         {
             var newNode = new Node<T>
@@ -65,14 +67,24 @@
 
         public IEnumerator<T> GetEnumerator()
         {
-            while (this._top.Element != null)
+            var current = this._top;
+
+            while (current != null)
             {
-                yield return this._top.Element;
-                this._top = this._top.Next;
+                yield return current.Element;
+                current = current.Next;
             }
         }
 
         IEnumerator IEnumerable.GetEnumerator()
             => this.GetEnumerator();
+
+        private void EnsureNotEmpty()
+        {
+            if (this.Count <= 0)
+            {
+                throw new InvalidOperationException("Stack is empty!");
+            }
+        }
     }
 }
