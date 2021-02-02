@@ -1,26 +1,28 @@
 CREATE OR ALTER FUNCTION ufn_GetSalaryLevel(@Salary MONEY)
-RETURNS NVARCHAR(10)
+RETURNS NVARCHAR(35)
 AS
 BEGIN
-    DECLARE @LevelOfTheSalary NVARCHAR(25);
-    IF(@Salary < 30000)
-	BEGIN
+    DECLARE @LevelOfTheSalary NVARCHAR(35);
+	IF(@Salary <= 0)
+        SET @LevelOfTheSalary = 'Cannot be zero or negative'
+    ELSE IF(@Salary < 30000)
         SET @LevelOfTheSalary = 'Low'
-	END
-	ELSE IF (@Salary >= 30000 AND @Salary <= 50000 )
-	BEGIN
+	ELSE IF (@Salary <= 50000 )
         SET @LevelOfTheSalary = 'Average'
-	END
 	ELSE IF (@Salary > 50000)
-	BEGIN
 		SET @LevelOfTheSalary = 'High'
-	END
+	ELSE 
+		SET @LevelOfTheSalary = 'Unknown'
     RETURN @LevelOfTheSalary;
 END
+
+GO
 
 SELECT 
   FirstName, 
   LastName, 
   Salary, 
-  (SELECT dbo.ufn_GetSalaryLevel(Salary))AS [SalaryLevel]
+  (SELECT dbo.ufn_GetSalaryLevel(Salary)) AS [SalaryLevel]
 FROM Employees
+
+SELECT dbo.ufn_GetSalaryLevel(NULL)
