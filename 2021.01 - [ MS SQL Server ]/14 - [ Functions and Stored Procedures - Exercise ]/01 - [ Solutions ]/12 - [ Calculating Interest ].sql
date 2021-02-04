@@ -1,25 +1,23 @@
--- 1. Execute from Start a to End a
--- 2. Execute from Start b to End b
--- 3. Execute from Start to End
--- 4. I hope you understand it. :)
+CREATE PROC usp_CalculateFutureValueForAccount (@accountID INT ,@interestRate FLOAT)
+AS
+SELECT
+	a.Id AS [Account Id],
+	ah.FirstName AS [First Name],
+	ah.LastName AS [Last Name],
+	a.Balance AS [Current Balance],
+	dbo.ufn_CalculateFutureValue(a.Balance, @interestRate, 5) AS [Balance in 5 years]
+  FROM Accounts a
+	JOIN AccountHolders ah ON ah.Id = a.AccountHolderId
+WHERE a.Id = @accountID
 
-SELECT -- Start
-	SUM(b.[Difference]) AS SumDifference 
-FROM (
-	SELECT -- Start b
-		a.[Current] - a.[Next]AS [Difference]
-	FROM (
-		SELECT -- Start a
-			DepositAmount AS [Current],
-			LEAD(DepositAmount, 1) OVER (ORDER BY Id) AS [Next]
-		FROM WizzardDeposits -- End a
-	)AS a  -- End b
-)AS b -- End
+usp_CalculateFutureValueForAccount 1, 0.1
 
-/*
-Other solution
-SELECT 
-	SUM(Guest.DepositAmount - Host.DepositAmount) AS [SumDifference]
-  FROM WizzardDeposits Host
-JOIN WizzardDeposits Guest ON Guest.Id + 1 = Host.Id
-*/
+SELECT
+	a.Id AS [Account Id],
+	ah.FirstName AS [First Name],
+	ah.LastName AS [Last Name],
+	a.Balance AS [Current Balance],
+	dbo.ufn_CalculateFutureValue(a.Balance, 0.1, 5) AS [Balance in 5 years]
+  FROM Accounts a
+	JOIN AccountHolders ah ON ah.Id = a.AccountHolderId
+WHERE a.Id = 1

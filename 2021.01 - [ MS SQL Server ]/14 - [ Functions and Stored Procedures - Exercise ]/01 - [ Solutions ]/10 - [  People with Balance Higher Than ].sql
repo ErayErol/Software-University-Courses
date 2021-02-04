@@ -1,6 +1,12 @@
+CREATE PROC usp_GetHoldersWithBalanceHigherThan(@inputSalary MONEY)
+AS
 SELECT 
-	LEFT(FirstName, 1) AS FirstLetter
-  FROM WizzardDeposits
-    GROUP BY DepositGroup, LEFT(FirstName, 1)
-  HAVING DepositGroup = 'Troll Chest'
-ORDER BY LEFT(FirstName, 1)
+	ah.FirstName,
+	ah.LastName
+  FROM Accounts a
+  JOIN AccountHolders ah ON ah.Id = a.AccountHolderId
+  GROUP BY a.AccountHolderId, ah.FirstName, ah.LastName
+ HAVING SUM(a.Balance) > @inputSalary
+ORDER BY ah.FirstName, ah.LastName
+
+EXEC usp_GetHoldersWithBalanceHigherThan 50000

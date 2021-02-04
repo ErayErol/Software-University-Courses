@@ -8,7 +8,7 @@ BEGIN
   BEGIN
     DECLARE @currentLetter NVARCHAR(1) = SUBSTRING(@word, @i, 1);
 
-    IF(@setOfLetters NOT LIKE '%' + @currentLetter + '%')
+    IF(@setOfLetters NOT LIKE '%' + @currentLetter + '%') -- IF(CHARINDEX(@currentLetter, @setOfLetters) = 0)
 	  RETURN 0
 
     SET @i += 1;
