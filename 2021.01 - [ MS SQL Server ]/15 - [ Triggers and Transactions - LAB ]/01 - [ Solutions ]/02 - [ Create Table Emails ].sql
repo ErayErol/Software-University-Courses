@@ -1,11 +1,28 @@
-CREATE FUNCTION udf_AverageSalaryByDepartment()
-RETURNS TABLE AS
-RETURN 
+CREATE TABLE NotificationEmails 
 (
-	SELECT d.[Name] AS Department, AVG(e.Salary) AS AverageSalary 
-	FROM Departments AS d 
-	JOIN Employees AS e ON d.DepartmentID = e.DepartmentID
-	GROUP BY d.DepartmentID, d.[Name]
+	Id INT PRIMARY KEY IDENTITY,
+	Recipient INT FOREIGN KEY REFERENCES Accounts(Id), 
+	[Subject] NVARCHAR(150) NOT NULL, 
+	[Body] NVARCHAR(200) NOT NULL
 )
 
-SELECT * FROM dbo.udf_AverageSalaryByDepartment()
+CREATE TRIGGER tr_NotificationEmail ON Logs FOR INSERT
+AS
+BEGIN
+	INSERT INTO NotificationEmails (Recipient, [Subject], [Body])
+	SELECT i.LogId,
+		   CAST('Balance change for account: ' + i.AccountId AS NVARCHAR(150)),
+		   'On ' 
+			 + CAST(GETDATE() AS NVARCHAR(50)) 
+			 + ' your balance was changed from ' 
+			 + CAST(i.OldSum AS NVARCHAR(20)) 
+			 + ' to ' 
+			 + CAST(i.NewSum AS NVARCHAR(20)) 
+			 + '.'
+	FROM inserted i
+END
+
+UPDATE Accounts SET Balance -= 10 WHERE Id = 1
+SELECT * FROM Accounts
+SELECT * FROM Logs
+SELECT * FROM NotificationEmails
