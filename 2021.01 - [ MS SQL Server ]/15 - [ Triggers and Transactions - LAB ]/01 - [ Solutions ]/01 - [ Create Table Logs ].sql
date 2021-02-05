@@ -1,0 +1,13 @@
+CREATE TABLE Logs 
+(
+	LogId INT PRIMARY KEY IDENTITY,
+	AccountId INT FOREIGN KEY REFERENCES Accounts (Id), 
+	OldSum MONEY, 
+	NewSum MONEY
+)
+
+CREATE TRIGGER tr_SumChange ON Lo FOR UPDATE
+AS
+
+
+SELECT * FROM Accounts
