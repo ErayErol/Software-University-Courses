@@ -1,13 +1,46 @@
-CREATE PROCEDURE dbo.usp_AddNumbers
-   @firstNumber SMALLINT,
-   @secondNumber SMALLINT,
-   @result INT OUTPUT
+-- 1
+
+CREATE TRIGGER tr_RestrictItem ON UserGameItems FOR INSERT
 AS
-   SET @result = @firstNumber + @secondNumber
-GO
+  BEGIN
+    INSERT INTO UserGameItems (ItemId, UserGameId)
+	  SELECT i.ItemId, i.UserGameId
+		FROM inserted i
+		  JOIN Items it ON it.Id = i.ItemId
+		  JOIN UsersGames ug ON ug.Id = i.UserGameId
+		  JOIN Users u ON u.Id = ug.UserId
+		  WHERE ug.[Level] >= it.MinLevel	
+  END
 
-DECLARE @answer smallint
-EXECUTE usp_AddNumbers 5, 6, @answer OUTPUT
-SELECT 'The result is: ', @answer
+-- 2
 
--- The result is: 11
+UPDATE UsersGames
+SET Cash += 50000
+WHERE GameId = 212
+
+-- 3
+
+DECLARE @indexId INT = 251;
+	
+WHILE @indexId < 300
+BEGIN
+	
+	INSERT INTO UserGameItems (ItemId, UserGameId)
+	SELECT @indexId, ug.GameId
+	FROM Items i, UsersGames ug
+	WHERE ug.GameId = 212
+	SET @indexId += 1;
+END
+
+
+SELECT * FROM UserGameItems
+
+SELECT * FROM Users WHERE Id = 61
+
+SELECT * FROM UsersGames WHERE GameId = 212
+
+DECLARE @firstGroupItems INT = (SELECT Id FROM Items WHERE Id BETWEEN 251 AND 299)
+
+SELECT * FROM Items WHERE Id BETWEEN 501 AND 539
+
+SELECT * FROM Games WHERE Name = 'Bali'

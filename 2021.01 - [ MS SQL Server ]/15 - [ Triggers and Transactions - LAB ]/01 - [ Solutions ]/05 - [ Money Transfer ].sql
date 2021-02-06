@@ -1,28 +1,14 @@
-CREATE OR ALTER FUNCTION ufn_GetSalaryLevel(@Salary MONEY)
-RETURNS NVARCHAR(35)
+-- For Judge
+CREATE PROC usp_TransferMoney (@senderId INT, @receiverId INT, @amount DECIMAL(15, 4))
 AS
-BEGIN
-    DECLARE @LevelOfTheSalary NVARCHAR(35);
-	IF(@Salary <= 0)
-        SET @LevelOfTheSalary = 'Cannot be zero or negative'
-    ELSE IF(@Salary < 30000)
-        SET @LevelOfTheSalary = 'Low'
-	ELSE IF (@Salary <= 50000 )
-        SET @LevelOfTheSalary = 'Average'
-	ELSE IF (@Salary > 50000)
-		SET @LevelOfTheSalary = 'High'
-	ELSE 
-		SET @LevelOfTheSalary = 'Unknown'
-    RETURN @LevelOfTheSalary;
-END
+BEGIN TRANSACTION
+  EXEC usp_WithdrawMoney @senderId, @amount
+  EXEC usp_DepositMoney @receiverId, @amount
+COMMIT
+--
 
-GO
+EXEC usp_TransferMoney 5, 1, 5000
 
-SELECT 
-  FirstName, 
-  LastName, 
-  Salary, 
-  (SELECT dbo.ufn_GetSalaryLevel(Salary)) AS [SalaryLevel]
-FROM Employees
+EXEC usp_TransferMoney 1, 5, 5000
 
-SELECT dbo.ufn_GetSalaryLevel(NULL)
+SELECT * FROM Accounts WHERE Id IN (1,5)

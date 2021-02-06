@@ -1,18 +1,27 @@
-CREATE FUNCTION udf_EmployeeListByDepartment(@DepName nvarchar(20))
-RETURNS @result TABLE(
-    FirstName nvarchar(50) NOT NULL,
-    LastName nvarchar(50) NOT NULL,
-    DepartmentName nvarchar(20) NOT NULL) AS
-BEGIN
-    WITH Employees_CTE (FirstName, LastName, DepartmentName)
-    AS(
-        SELECT e.FirstName, e.LastName, d.[Name]
-        FROM Employees AS e 
-        LEFT JOIN Departments AS d ON d.DepartmentID = e.DepartmentID)
+-- For Judge
+CREATE PROC usp_DepositMoney (@accountId INT, @moneyAmount DECIMAL(15, 4))
+AS
+BEGIN TRANSACTION
+ DECLARE @account INT = (SELECT Id FROM Accounts WHERE Id = @accountId)
+  IF(@account IS NULL)
+  BEGIN
+    ROLLBACK
+	RAISERROR('Invalid Account Id!', 16, 1)
+	RETURN
+  END
+  IF(@moneyAmount <= 0)
+  BEGIN
+    ROLLBACK
+	RAISERROR('Money amount cannot be zero or negative!', 16, 1)
+	RETURN
+  END
 
-    INSERT INTO @result SELECT FirstName, LastName, DepartmentName 
-      FROM Employees_CTE WHERE DepartmentName = @DepName
-    RETURN
-END
+  UPDATE Accounts 
+    SET Balance += @moneyAmount 
+      WHERE Id = @accountId
+COMMIT
+--
 
-SELECT * FROM dbo.udf_EmployeeListByDepartment('Engineering')
+SELECT * FROM Accounts
+
+EXEC usp_DepositMoney 1, 100
