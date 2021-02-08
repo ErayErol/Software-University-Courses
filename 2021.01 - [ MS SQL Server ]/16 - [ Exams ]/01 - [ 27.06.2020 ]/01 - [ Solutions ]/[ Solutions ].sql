@@ -155,8 +155,6 @@ FROM
 WHERE 
 	'Finished' = ALL(SELECT j.[Status] FROM Jobs j WHERE j.MechanicId = m.MechanicId) OR
 	NOT NULL = ALL(SELECT j.FinishDate FROM Jobs j WHERE j.MechanicId = m.MechanicId)
-GROUP BY
-	m.MechanicId, m.FirstName + ' ' +  m.LastName
 ORDER BY m.MechanicId
 
 --9
@@ -164,12 +162,9 @@ SELECT
 	j.JobId, ISNULL(SUM(p.Price * op.Quantity), 0) AS Total
 FROM 
 	Jobs j
-LEFT JOIN 
-	Orders o ON j.JobId = o.JobId
-LEFT JOIN 
-	OrderParts op ON op.OrderId = o.OrderId
-LEFT JOIN 
-	Parts p ON p.PartId IN (op.PartId)
+LEFT JOIN Orders o ON j.JobId = o.JobId
+LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
+LEFT JOIN Parts p ON p.PartId IN (op.PartId)
 WHERE 
 	j.[Status] = 'Finished'
 GROUP BY 
@@ -189,15 +184,81 @@ SELECT
   END AS [Ordered]
 FROM 
 	PartsNeeded pn
-LEFT JOIN 
-	Jobs j ON j.JobId = pn.JobId
-LEFT JOIN 
-	Parts p ON p.PartId = pn.PartId
-LEFT JOIN 
-	Orders o On o.JobId = j.JobId
+LEFT JOIN Jobs j ON j.JobId = pn.JobId
+LEFT JOIN Parts p ON p.PartId = pn.PartId
+LEFT JOIN Orders o On o.JobId = j.JobId
 WHERE 
-	j.Status <> 'Finished' AND pn.Quantity - p.StockQty > 0 AND o.Delivered IS NULL
+  j.Status <> 'Finished' AND 
+  pn.Quantity - p.StockQty > 0 AND 
+  o.Delivered IS NULL
 ORDER BY 
 	p.PartId
 
 --11
+select top 3 * from Jobs
+select top 3 * from Orders
+select top 3 * from OrderParts
+select top 3 * from Parts
+
+CREATE OR ALTER PROC usp_PlaceOrder (@jobId INT, @partSerialNumber VARCHAR(50), @quantity INT)
+AS
+BEGIN 
+	
+	IF(@quantity <= 0)
+		THROW 50012, 'Part quantity must be more than zero!', 1
+	ELSE IF NOT EXISTS(SELECT JobId FROM Jobs WHERE JobId = @jobId)
+		THROW 50013, 'Job not found!', 1
+	ELSE IF EXISTS(SELECT Status FROM Jobs WHERE JobId = @jobId AND Status = 'Finished')
+		THROW 50011, 'This job is not active!', 1
+	ELSE IF NOT EXISTS(SELECT PartId FROM Parts WHERE SerialNumber = @partSerialNumber)
+		THROW 50014, 'Part not found!', 1
+
+	DECLARE @jobStatus VARCHAR(50) = (SELECT [Status] FROM Jobs WHERE JobId = @jobId)
+	DECLARE @isJobIdExist INT = (SELECT JobId FROM Jobs WHERE JobId = @jobId)
+	DECLARE @partId INT = (SELECT PartId FROM Parts WHERE SerialNumber = @partSerialNumber)
+	DECLARE @orderId INT = (SELECT OrderId FROM Orders WHERE JobId = @jobId AND IssueDate IS NULL)
+
+	IF (@orderId IS NULL)
+	BEGIN
+		INSERT INTO Orders(JobId, IssueDate, Delivered) VALUES (@jobId, NULL, 0)
+	END
+
+	SET @orderId = (SELECT OrderId FROM Orders WHERE JobId = @jobId AND IssueDate IS NULL)
+	
+	DECLARE @orderPartQty INT = (SELECT Quantity FROM OrderParts WHERE OrderId = @orderId AND PartId = @partId)
+	IF (@orderPartQty IS NULL)
+	BEGIN
+		INSERT INTO OrderParts (OrderId, PartId, Quantity) VALUES (@orderId, @partId, @quantity)
+	END
+	ELSE
+	BEGIN
+		UPDATE OrderParts SET Quantity += @quantity WHERE OrderId = @orderId AND PartId = @partId
+	END
+
+END
+
+--12
+CREATE FUNCTION udf_GetCost (@jobsId INT)
+RETURNS DECIMAL (15,2)
+AS 
+BEGIN
+DECLARE @RESULT DECIMAL (15,2);
+
+SET @RESULT =
+(
+	SELECT 
+		ISNULL(SUM(op.Quantity * p.Price), 0) AS [Sum] 
+	FROM 
+		Jobs j
+	LEFT JOIN Orders o ON o.JobId = j.JobId
+	LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
+	LEFT JOIN Parts p ON p.PartId = op.PartId
+	WHERE 
+		j.JobId = @jobsId
+	GROUP BY
+		j.JobId
+)
+RETURN @RESULT
+END
+
+SELECT dbo.udf_GetCost(2) as Result
