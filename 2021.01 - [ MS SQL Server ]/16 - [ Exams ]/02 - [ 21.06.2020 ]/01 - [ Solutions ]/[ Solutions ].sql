@@ -53,35 +53,41 @@ CREATE TABLE AccountsTrips
 	TripId	INT FOREIGN KEY REFERENCES Trips(Id) NOT NULL,
 	Luggage INT CHECK(Luggage >= 0) NOT NULL
 
-	CONSTRAINT PK_AccountsTrips PRIMARY KEY (AccountId, TripId)
+	PRIMARY KEY (AccountId, TripId)
 )
 
 --2
 INSERT INTO Accounts 
-(FirstName, MiddleName, LastName, CityId, BirthDate, Email) 
-VALUES
-('John', 'Smith', 'Smith', 34, '1975-07-21', 'j_smith@gmail.com'),
-('Gosho', NULL, 'Petrov', 11, '1978-05-16', 'g_petrov@gmail.com'),
-('Ivan', 'Petrovich', 'Pavlov', 59, '1849-09-26', 'i_pavlov@softuni.bg'),
-('Friedrich', 'Wilhelm', 'Nietzsche', 2, '1844-10-15', 'f_nietzsche@softuni.bg')
+			(FirstName, MiddleName, LastName, CityId, BirthDate, Email) 
+			VALUES
+			('John', 'Smith', 'Smith', 34, '1975-07-21', 'j_smith@gmail.com'),
+			('Gosho', NULL, 'Petrov', 11, '1978-05-16', 'g_petrov@gmail.com'),
+			('Ivan', 'Petrovich', 'Pavlov', 59, '1849-09-26', 'i_pavlov@softuni.bg'),
+			('Friedrich', 'Wilhelm', 'Nietzsche', 2, '1844-10-15', 'f_nietzsche@softuni.bg')
 
 INSERT INTO Trips 
-(RoomId, BookDate, ArrivalDate, ReturnDate, CancelDate) 
-VALUES
-(101, '2015-04-12',	'2015-04-24', '2015-04-20',	'2015-02-02'),
-(102, '2015-07-07',	'2015-07-15', '2015-07-22',	'2015-04-29'),
-(103, '2013-07-17',	'2013-07-23', '2013-07-24',	NULL),
-(104, '2012-03-17',	'2012-03-31', '2012-04-01',	'2012-01-10'),
-(109, '2017-08-07',	'2017-08-28', '2017-08-29',	NULL)
+			(RoomId, BookDate, ArrivalDate, ReturnDate, CancelDate) 
+			VALUES
+			(101, '2015-04-12',	'2015-04-24', '2015-04-20',	'2015-02-02'),
+			(102, '2015-07-07',	'2015-07-15', '2015-07-22',	'2015-04-29'),
+			(103, '2013-07-17',	'2013-07-23', '2013-07-24',	NULL),
+			(104, '2012-03-17',	'2012-03-31', '2012-04-01',	'2012-01-10'),
+			(109, '2017-08-07',	'2017-08-28', '2017-08-29',	NULL)
 
 --3
-UPDATE Rooms 
-SET Price = Price + (Price * 0.14)
-WHERE HotelId IN (5,7,9)
+UPDATE 
+	Rooms 
+	SET Price = Price + (Price * 0.14)
+	WHERE HotelId IN (5,7,9)
 
 --4
-DELETE FROM AccountsTrips WHERE AccountId = 47
-DELETE FROM Accounts WHERE Id = 47
+DELETE 
+	FROM AccountsTrips 
+	WHERE AccountId = 47
+
+DELETE 
+	FROM Accounts 
+	WHERE Id = 47
 
 --5
 SELECT 
@@ -90,26 +96,18 @@ SELECT
 	FORMAT (A.BirthDate, 'MM-dd-yyyy') AS BirthDate,
 	C.[Name] AS Hometown,
 	A.Email
-FROM 
-	Accounts A
-LEFT JOIN 
-	Cities C ON C.Id = A.CityId
-WHERE 
-	A.Email LIKE 'E%'
-ORDER BY 
-	C.[Name] 
+	FROM Accounts A
+	LEFT JOIN Cities C ON C.Id = A.CityId
+	WHERE A.Email LIKE 'E%'
+	ORDER BY C.[Name] 
 
 --6
 SELECT 
 	C.[Name], COUNT(*) AS Hotels 
-FROM 
-	Hotels H 
-JOIN 
-	Cities C ON C.Id = H.CityId 
-GROUP BY 
-	C.[Name] 
-ORDER BY 
-	Hotels DESC, C.[Name]
+	FROM Hotels H 
+	JOIN Cities C ON C.Id = H.CityId 
+	GROUP BY C.[Name] 
+	ORDER BY Hotels DESC, C.[Name]
 
 --7
 SELECT 
@@ -117,43 +115,38 @@ SELECT
 	A.FirstName + ' ' + A.LastName AS [FullName], 
 	MAX(DATEDIFF(DAY, T.ArrivalDate, T.ReturnDate)) AS LongestTrip, 
 	MIN(DATEDIFF(DAY, T.ArrivalDate, T.ReturnDate)) AS ShortestTrip
-FROM 
-	AccountsTrips AT
-LEFT JOIN Accounts A ON A.Id = AT.AccountId
-LEFT JOIN Trips T ON T.Id = AT.TripId
-WHERE 
-	A.MiddleName IS NULL AND T.CancelDate IS NULL
-GROUP BY 
-	AT.AccountId, A.FirstName, A.LastName
-ORDER BY 
-	LongestTrip desc, ShortestTrip
+	FROM AccountsTrips AT
+	LEFT JOIN Accounts A ON A.Id = AT.AccountId
+	LEFT JOIN Trips T ON T.Id = AT.TripId
+	WHERE A.MiddleName IS NULL AND T.CancelDate IS NULL
+	GROUP BY AT.AccountId, A.FirstName, A.LastName
+	ORDER BY LongestTrip desc, ShortestTrip
 
 --8
 SELECT TOP 10
-	A.CityId, C.[Name], C.CountryCode, COUNT(CityId) AS Accounts 
-FROM 
-	Accounts A
-JOIN 
-	Cities C ON C.Id = A.CityId
-GROUP BY 
-	A.CityId, C.[Name], C.CountryCode
-ORDER BY 
-	Accounts DESC
+	A.CityId, 
+	C.[Name], 
+	C.CountryCode, 
+	COUNT(CityId) AS Accounts 
+	FROM Accounts A
+	JOIN Cities C ON C.Id = A.CityId
+	GROUP BY A.CityId, C.[Name], C.CountryCode
+	ORDER BY Accounts DESC
 
 --9
 SELECT 
-	AT.AccountId, A.Email, C.[Name], COUNT(AT.AccountId) AS Trips
-FROM 
-	AccountsTrips AT
-JOIN Accounts A ON A.Id = AT.AccountId
-JOIN Trips T ON T.Id = AT.TripId
-JOIN Rooms R ON R.Id = T.RoomId
-JOIN Hotels H ON H.Id = R.HotelId
-JOIN Cities C ON C.Id = H.CityId AND C.Id = A.CityId
-GROUP BY 
-	AT.AccountId, A.Email, C.[Name]
-ORDER BY 
-	COUNT(AT.AccountId) DESC, AT.AccountId
+	AT.AccountId, 
+	A.Email, 
+	C.[Name], 
+	COUNT(AT.AccountId) AS Trips
+	FROM AccountsTrips AT
+	JOIN Accounts A ON A.Id = AT.AccountId
+	JOIN Trips T ON T.Id = AT.TripId
+	JOIN Rooms R ON R.Id = T.RoomId
+	JOIN Hotels H ON H.Id = R.HotelId
+	JOIN Cities C ON C.Id = H.CityId AND C.Id = A.CityId
+	GROUP BY AT.AccountId, A.Email, C.[Name]
+	ORDER BY COUNT(AT.AccountId) DESC, AT.AccountId
 
 --10
 SELECT 
@@ -162,16 +155,14 @@ SELECT
 	C.[Name] AS [From],
 	C2.[Name] AS [To],
 	IIF(T.CancelDate IS NULL, CAST(DATEDIFF(DAY, T.ArrivalDate, T.ReturnDate) AS VARCHAR(MAX)) + ' days', 'Canceled') AS [Duration]
-FROM 
-	AccountsTrips AT
-JOIN Accounts A ON A.Id = AT.AccountId
-JOIN Cities C ON C.Id = A.CityId
-JOIN Trips T ON T.Id = AT.TripId
-JOIN Rooms R ON R.Id = T.RoomId
-JOIN Hotels H ON H.Id = R.HotelId
-JOIN Cities C2 ON C2.Id = H.CityId
-ORDER BY 
-	[Full Name], T.Id
+	FROM AccountsTrips AT
+	JOIN Accounts A ON A.Id = AT.AccountId
+	JOIN Cities C ON C.Id = A.CityId
+	JOIN Trips T ON T.Id = AT.TripId
+	JOIN Rooms R ON R.Id = T.RoomId
+	JOIN Hotels H ON H.Id = R.HotelId
+	JOIN Cities C2 ON C2.Id = H.CityId
+	ORDER BY [Full Name], T.Id
 
 --11
 CREATE FUNCTION udf_GetAvailableRoom (@hotelId INT, @date DATE, @people INT)
@@ -250,5 +241,8 @@ BEGIN
 	IF (@bedsNeeded > @beds)
 		THROW 50002, 'Not enough beds in target room!', 1
 
-	UPDATE Trips SET RoomId = @TargetRoomId WHERE Id = @TripId
+	UPDATE 
+		Trips 
+		SET RoomId = @TargetRoomId 
+		WHERE Id = @TripId
 END

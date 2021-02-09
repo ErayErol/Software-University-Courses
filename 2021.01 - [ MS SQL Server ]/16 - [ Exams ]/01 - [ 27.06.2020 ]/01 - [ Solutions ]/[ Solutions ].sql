@@ -75,132 +75,106 @@ CREATE TABLE PartsNeeded
 )
 
 -- 2
-INSERT INTO 
-	Clients (FirstName, LastName, Phone) 
-VALUES
-	('Teri', 'Ennaco', '570-889-5187'),
-	('Merlyn', 'Lawler', '201-588-7810'),
-	('Georgene', 'Montezuma', '925-615-5185'),
-	('Jettie', 'Mconnell', '908-802-3564'),
-	('Lemuel', 'Latzke', '631-748-6479'),
-	('Melodie', 'Knipp', '805-690-1682'),
-	('Candida', 'Corbley', '908-275-8357')
+INSERT INTO Clients 
+			(FirstName, LastName, Phone) 
+			VALUES
+			('Teri', 'Ennaco', '570-889-5187'),
+			('Merlyn', 'Lawler', '201-588-7810'),
+			('Georgene', 'Montezuma', '925-615-5185'),
+			('Jettie', 'Mconnell', '908-802-3564'),
+			('Lemuel', 'Latzke', '631-748-6479'),
+			('Melodie', 'Knipp', '805-690-1682'),
+			('Candida', 'Corbley', '908-275-8357')
 
-INSERT INTO 
-	Parts (SerialNumber, [Description], Price, VendorId) 
-VALUES
-	('WP8182119', 'Door Boot Seal', 117.86, 2),
-	('W10780048', 'Suspension Rod', 42.81, 1),
-	('W10841140', 'Silicone Adhesive ', 6.77, 4),
-	('WPY055980', 'High Temperature Adhesive', 13.94, 3)
+INSERT INTO Parts 
+			(SerialNumber, [Description], Price, VendorId) 
+			VALUES
+			('WP8182119', 'Door Boot Seal', 117.86, 2),
+			('W10780048', 'Suspension Rod', 42.81, 1),
+			('W10841140', 'Silicone Adhesive ', 6.77, 4),
+			('WPY055980', 'High Temperature Adhesive', 13.94, 3)
 
 -- 3
 UPDATE 
 	Jobs
-SET 
-	MechanicId = 3, [Status] = 'In Progress'
-WHERE 
-	[Status] = 'Pending'
+	SET MechanicId = 3, [Status] = 'In Progress'
+	WHERE [Status] = 'Pending'
 
 --4
-DELETE FROM 
-	OrderParts 
-WHERE 
-	OrderId = 19
-DELETE FROM 
-	Orders 
-WHERE 
-	OrderId = 19
+DELETE 
+	FROM OrderParts 
+	WHERE OrderId = 19
+
+DELETE 
+	FROM Orders 
+	WHERE OrderId = 19
 
 --5
 SELECT 
-	m.FirstName + ' ' + m.LastName AS [Mechanic], j.[Status], j.IssueDate
-FROM 
-	Mechanics m
-JOIN 
-	Jobs j ON j.MechanicId = m.MechanicId
-ORDER BY 
-	m.MechanicId, j.IssueDate, j.JobId
+	m.FirstName + ' ' + m.LastName AS [Mechanic],
+	j.[Status],
+	j.IssueDate
+	FROM Mechanics m
+	JOIN Jobs j ON j.MechanicId = m.MechanicId
+	ORDER BY m.MechanicId, j.IssueDate, j.JobId
 
 --6
 SELECT 
 	c.FirstName + ' ' + c.LastName AS [Client],
 	DATEDIFF(DAY, j.IssueDate, '2017-04-24') AS [Days going],
 	j.[Status]
-FROM 
-	Clients c
-LEFT JOIN 
-	Jobs j ON j.ClientId = c.ClientId
-WHERE 
-	j.[Status] <> 'Finished'
-ORDER BY 
-	[Days going] DESC, c.ClientId
+	FROM Clients c
+	LEFT JOIN Jobs j ON j.ClientId = c.ClientId
+	WHERE j.[Status] <> 'Finished'
+	ORDER BY [Days going] DESC, c.ClientId
 
 --7
 SELECT 
 	m.FirstName + ' ' + m.LastName AS [Mechanic],
 	AVG(DATEDIFF(DAY, IssueDate, FinishDate)) AS [Average Days]
-FROM 
-	Jobs j
-JOIN 
-	Mechanics m ON m.MechanicId = j.MechanicId
-GROUP BY 
-	m.MechanicId, m.FirstName, m.LastName
+	FROM Jobs j
+	JOIN Mechanics m ON m.MechanicId = j.MechanicId
+	GROUP BY m.MechanicId, m.FirstName, m.LastName
 
 --8
 SELECT 
 	m.FirstName + ' ' +  m.LastName AS Available
-FROM 
-	Mechanics AS m
-WHERE 
-	'Finished' = ALL(SELECT j.[Status] FROM Jobs j WHERE j.MechanicId = m.MechanicId) OR
-	NOT NULL = ALL(SELECT j.FinishDate FROM Jobs j WHERE j.MechanicId = m.MechanicId)
-ORDER BY m.MechanicId
+	FROM Mechanics AS m
+	WHERE 'Finished' = ALL(SELECT j.[Status] FROM Jobs j WHERE j.MechanicId = m.MechanicId) OR
+	  NOT NULL = ALL(SELECT j.FinishDate FROM Jobs j WHERE j.MechanicId = m.MechanicId)
+	ORDER BY m.MechanicId
 
 --9
 SELECT 
-	j.JobId, ISNULL(SUM(p.Price * op.Quantity), 0) AS Total
-FROM 
-	Jobs j
-LEFT JOIN Orders o ON j.JobId = o.JobId
-LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
-LEFT JOIN Parts p ON p.PartId IN (op.PartId)
-WHERE 
-	j.[Status] = 'Finished'
-GROUP BY 
-	j.JobId
-ORDER BY 
-	Total DESC, j.JobId
+	j.JobId,
+	ISNULL(SUM(p.Price * op.Quantity), 0) AS Total
+	FROM Jobs j
+	LEFT JOIN Orders o ON j.JobId = o.JobId
+	LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
+	LEFT JOIN Parts p ON p.PartId IN (op.PartId)
+	WHERE j.[Status] = 'Finished'
+	GROUP BY j.JobId
+	ORDER BY Total DESC, j.JobId
 
 --10
 SELECT 
-  p.PartId, 
-  p.[Description], 
-  pn.Quantity AS [Required], 
-  p.StockQty AS [In Stock],
-  CASE 
-    WHEN ISNULL(o.Delivered, 0) = 'False' THEN 0 
-    ELSE NULL 
-  END AS [Ordered]
-FROM 
-	PartsNeeded pn
-LEFT JOIN Jobs j ON j.JobId = pn.JobId
-LEFT JOIN Parts p ON p.PartId = pn.PartId
-LEFT JOIN Orders o On o.JobId = j.JobId
-WHERE 
-  j.Status <> 'Finished' AND 
-  pn.Quantity - p.StockQty > 0 AND 
-  o.Delivered IS NULL
-ORDER BY 
-	p.PartId
+	p.PartId, 
+	p.[Description], 
+	pn.Quantity AS [Required], 
+	p.StockQty AS [In Stock],
+	CASE 
+	  WHEN ISNULL(o.Delivered, 0) = 'False' THEN 0 
+	  ELSE NULL 
+	END AS [Ordered]
+	FROM PartsNeeded pn
+	LEFT JOIN Jobs j ON j.JobId = pn.JobId
+	LEFT JOIN Parts p ON p.PartId = pn.PartId
+	LEFT JOIN Orders o On o.JobId = j.JobId
+	WHERE j.Status <> 'Finished' AND pn.Quantity - p.StockQty > 0 AND o.Delivered IS NULL
+	ORDER BY p.PartId
 
 --11
-select top 3 * from Jobs
-select top 3 * from Orders
-select top 3 * from OrderParts
-select top 3 * from Parts
-
-CREATE OR ALTER PROC usp_PlaceOrder (@jobId INT, @partSerialNumber VARCHAR(50), @quantity INT)
+CREATE PROC usp_PlaceOrder (@jobId INT, @partSerialNumber VARCHAR(50), @quantity INT)
 AS
 BEGIN 
 	
@@ -232,7 +206,10 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		UPDATE OrderParts SET Quantity += @quantity WHERE OrderId = @orderId AND PartId = @partId
+		UPDATE 
+			OrderParts 
+			SET Quantity += @quantity 
+			WHERE OrderId = @orderId AND PartId = @partId
 	END
 
 END
@@ -245,20 +222,15 @@ BEGIN
 
 	DECLARE @RESULT DECIMAL (15,2);
 	
-	SET @RESULT =
-	(
-		SELECT 
-			ISNULL(SUM(op.Quantity * p.Price), 0) AS [Sum] 
-		FROM 
-			Jobs j
-		LEFT JOIN Orders o ON o.JobId = j.JobId
-		LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
-		LEFT JOIN Parts p ON p.PartId = op.PartId
-		WHERE 
-			j.JobId = @jobsId
-		GROUP BY
-			j.JobId
-	)
+	SET @RESULT = (SELECT 
+					ISNULL(SUM(op.Quantity * p.Price), 0) AS [Sum] 
+					FROM Jobs j
+					LEFT JOIN Orders o ON o.JobId = j.JobId
+					LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
+					LEFT JOIN Parts p ON p.PartId = op.PartId
+					WHERE j.JobId = @jobsId
+					GROUP BY j.JobId)
+	
 	RETURN @RESULT
 
 END
