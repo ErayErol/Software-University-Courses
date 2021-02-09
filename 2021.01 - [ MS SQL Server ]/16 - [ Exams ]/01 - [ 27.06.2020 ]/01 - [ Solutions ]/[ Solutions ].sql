@@ -242,23 +242,23 @@ CREATE FUNCTION udf_GetCost (@jobsId INT)
 RETURNS DECIMAL (15,2)
 AS 
 BEGIN
-DECLARE @RESULT DECIMAL (15,2);
 
-SET @RESULT =
-(
-	SELECT 
-		ISNULL(SUM(op.Quantity * p.Price), 0) AS [Sum] 
-	FROM 
-		Jobs j
-	LEFT JOIN Orders o ON o.JobId = j.JobId
-	LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
-	LEFT JOIN Parts p ON p.PartId = op.PartId
-	WHERE 
-		j.JobId = @jobsId
-	GROUP BY
-		j.JobId
-)
-RETURN @RESULT
+	DECLARE @RESULT DECIMAL (15,2);
+	
+	SET @RESULT =
+	(
+		SELECT 
+			ISNULL(SUM(op.Quantity * p.Price), 0) AS [Sum] 
+		FROM 
+			Jobs j
+		LEFT JOIN Orders o ON o.JobId = j.JobId
+		LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
+		LEFT JOIN Parts p ON p.PartId = op.PartId
+		WHERE 
+			j.JobId = @jobsId
+		GROUP BY
+			j.JobId
+	)
+	RETURN @RESULT
+
 END
-
-SELECT dbo.udf_GetCost(2) as Result
