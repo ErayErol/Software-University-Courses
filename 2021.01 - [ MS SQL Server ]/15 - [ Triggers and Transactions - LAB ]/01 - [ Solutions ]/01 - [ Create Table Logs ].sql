@@ -9,13 +9,13 @@ CREATE TABLE Logs
 -- For Judge
 CREATE TRIGGER tr_AddToLogsOnAccountUpdate ON Accounts FOR UPDATE
 AS
-  BEGIN
-    INSERT INTO Logs (AccountId, OldSum, NewSum)
-	  SELECT i.Id, d.Balance, i.Balance
-		FROM inserted i
-		JOIN deleted d ON d.Id = i.Id
-	  WHERE i.Balance != d.Balance;
-  END
+BEGIN
+	INSERT INTO Logs (AccountId, OldSum, NewSum)
+			SELECT i.Id, d.Balance, i.Balance
+			FROM inserted i
+			JOIN deleted d ON d.Id = i.Id
+			WHERE i.Balance != d.Balance;
+END
 --
 UPDATE Accounts SET Balance -= 10 WHERE Id = 1
 SELECT * FROM Logs
