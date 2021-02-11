@@ -1,8 +1,3 @@
--- CREATE DATABASE Airport
--- DROP DATABASE Airport
--- USE Airport
--- USE SoftUni
-
 --1
 CREATE TABLE Planes
 (
@@ -83,7 +78,6 @@ UPDATE
 	WHERE FlightId = 41
 
 --4
-
 DELETE 
 	Tickets 
 	WHERE FlightId = 30
@@ -152,30 +146,7 @@ SELECT
 	ORDER BY COUNT(T.Id) DESC, PL.[Name], PL.Seats
 
 --11
-DECLARE @origin VARCHAR(50) = 'Urug'
-DECLARE @destination VARCHAR(50) = 'Velykyy Burluk'
-DECLARE @peopleCount INT = 33
-
-IF(@peopleCount <= 0)
-	THROW 50001, 'Invalid people count!', 1
-
-DECLARE @flightId INT = (SELECT TOP 1 Id FROM Flights WHERE Origin = @origin AND Destination = @destination)
-
-IF(@flightId IS NULL)
-	THROW 50002, 'Invalid flight!', 1
-
-DECLARE @pricePerPerson DECIMAL(15, 2) = (SELECT TOP 1 Price FROM Tickets WHERE FlightId = @flightId)
-
-DECLARE @totalPrice DECIMAL(15, 2) = @pricePerPerson * @peopleCount
-
-DECLARE @output NVARCHAR(MAX) = 'Total price ' + CAST(@totalPrice AS NVARCHAR(MAX))
-
-PRINT @output
-
-SELECT * FROM Flights
-SELECT * FROM Tickets WHERE FlightId = 2
-
-CREATE OR ALTER FUNCTION udf_CalculateTickets (@origin VARCHAR(50), @destination VARCHAR(50), @peopleCount INT)
+CREATE FUNCTION udf_CalculateTickets (@origin VARCHAR(50), @destination VARCHAR(50), @peopleCount INT)
 RETURNS NVARCHAR(MAX)
 AS
 BEGIN
@@ -188,7 +159,12 @@ BEGIN
 		RETURN @error;
 	END
 	
-	DECLARE @flightId INT = (SELECT TOP 1 Id FROM Flights WHERE Origin = @origin AND Destination = @destination)
+	DECLARE @flightId INT = (
+							SELECT 
+							TOP 1 Id 
+							FROM Flights 
+							WHERE Origin = @origin AND Destination = @destination
+							)
 	
 	IF(@flightId IS NULL)
 	BEGIN
@@ -196,45 +172,34 @@ BEGIN
 		RETURN @error;
 	END
 
-	DECLARE @pricePerPerson DECIMAL(15, 2) = (SELECT TOP 1 Price FROM Tickets WHERE FlightId = @flightId)
+	DECLARE @pricePerPerson DECIMAL(15, 2) = (
+											  SELECT 
+											  TOP 1 Price 
+											  FROM Tickets 
+											  WHERE FlightId = @flightId
+											  )
+	
+	--@pricePerPerson is NULL when flight is valid, but have not tickets
 	
 	DECLARE @totalPrice DECIMAL(15, 2) = @pricePerPerson * @peopleCount
 	
 	DECLARE @output NVARCHAR(MAX) = 'Total price ' + CAST(@totalPrice AS NVARCHAR(MAX))
 	
 	RETURN @output
+
 END
 
-/*
+--12
+CREATE PROC usp_CancelFlights
+AS
+BEGIN
+	
+	UPDATE
+		Flights
+		SET ArrivalTime = NULL, 
+		DepartureTime = NULL
+		WHERE ArrivalTime > DepartureTime
 
-Create a user defined function, named udf_CalculateTickets(@origin, @destination, @peopleCount) 
-that receives an origin (town name), destination (town name) and people count.
+END
 
-The function must return the total price in format "Total price {price}"
-•	If people count is less or equal to zero return – "Invalid people count!"
-•	If flight is invalid return – "Invalid flight!"
-Example:
-Query
-SELECT dbo.udf_CalculateTickets('Kolyshley','Rancabolang', 33)
-Output
-Total price 2419.89
-
-Query
-SELECT dbo.udf_CalculateTickets('Kolyshley','Rancabolang', -1)
-Output
-Invalid people count!
-
-Query
-SELECT dbo.udf_CalculateTickets('Invalid','Rancabolang', 33)
-Output
-Invalid flight!
-
-
-*/
-
-SELECT * FROM Flights
-SELECT * FROM Tickets
-SELECT * FROM Passengers
-SELECT * FROM Planes
-SELECT * FROM Luggages
-SELECT * FROM LuggageTypes
+--EXEC usp_CancelFlights
