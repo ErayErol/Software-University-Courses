@@ -12,38 +12,39 @@ CREATE TABLE Mechanics
 	MechanicId INT PRIMARY KEY IDENTITY,
 	FirstName VARCHAR(50) NOT NULL,
 	LastName VARCHAR(50) NOT NULL,
-	[Address] VARCHAR(255) NOT NULL
+	[Address] VARCHAR(255) NOT NULL,
 )
 
 CREATE TABLE Models
 (
 	ModelId INT PRIMARY KEY IDENTITY,
-	[Name] VARCHAR(50) UNIQUE NOT NULL
+	[Name] VARCHAR(50) UNIQUE NOT NULL,
 )
 
 CREATE TABLE Jobs
 (
 	JobId INT PRIMARY KEY IDENTITY,
-	ModelId INT FOREIGN KEY REFERENCES Models(ModelId) NOT NULL,
-	[Status] VARCHAR(11) DEFAULT 'Pending' CHECK ([Status] IN ('Pending', 'In Progress','Finished')),
-	ClientId INT FOREIGN KEY REFERENCES Clients(ClientId) NOT NULL,
-	MechanicId INT FOREIGN KEY REFERENCES Mechanics(MechanicId),
-	IssueDate DATETIME NOT NULL,
-	FinishDate DATETIME
+	ModelId INT REFERENCES Models(ModelId) NOT NULL,
+	[Status] VARCHAR(11) DEFAULT 'Pending' 
+	CHECK([Status] IN ('Pending', 'In Progress', 'Finished')) NOT NULL,
+	ClientId INT REFERENCES Clients(ClientId) NOT NULL,
+	MechanicId INT REFERENCES Mechanics(MechanicId),
+	IssueDate DATE NOT NULL,
+	FinishDate DATE
 )
 
 CREATE TABLE Orders
 (
 	OrderId INT PRIMARY KEY IDENTITY,
-	JobId INT NOT NULL FOREIGN KEY REFERENCES Jobs(JobId),
-	IssueDate DATETIME,
+	JobId INT REFERENCES Jobs(JobId) NOT NULL,
+	IssueDate DATE,
 	Delivered BIT DEFAULT 0
 )
 
 CREATE TABLE Vendors
 (
 	VendorId INT PRIMARY KEY IDENTITY,
-	[Name] VARCHAR(50) UNIQUE NOT NULL
+	[Name] VARCHAR(50) UNIQUE NOT NULL,
 )
 
 CREATE TABLE Parts
@@ -51,48 +52,50 @@ CREATE TABLE Parts
 	PartId INT PRIMARY KEY IDENTITY,
 	SerialNumber VARCHAR(50) UNIQUE NOT NULL,
 	[Description] VARCHAR(255),
-	Price DECIMAL (6, 2) CHECK (Price > 0) NOT NULL,
-	VendorId INT FOREIGN KEY REFERENCES Vendors(VendorId) NOT NULL,
-	StockQty INT DEFAULT 0 CHECK (StockQty >= 0)
+	Price DECIMAL (6, 2) CHECK(Price > 0) NOT NULL,
+	VendorId INT REFERENCES Vendors(VendorId) NOT NULL,
+	StockQty INT DEFAULT 0 CHECK(StockQty >= 0) NOT NULL,
 )
 
 CREATE TABLE OrderParts
-(
-	OrderId	INT FOREIGN KEY REFERENCES Orders(OrderId) NOT NULL,
-	PartId	INT FOREIGN KEY REFERENCES Parts(PartId) NOT NULL,
-	Quantity INT DEFAULT 1 CHECK (Quantity > 0)
+(	
+	OrderId INT REFERENCES Orders(OrderId) NOT NULL,
+	PartId INT REFERENCES Parts(PartId) NOT NULL,
+	Quantity INT DEFAULT 1 CHECK(Quantity > 0) NOT NULL,
 
-	CONSTRAINT PK_OrderParts PRIMARY KEY (OrderId, PartId)
+	PRIMARY KEY(OrderId, PartId) 
 )
 
 CREATE TABLE PartsNeeded
-(
-	JobId	INT FOREIGN KEY REFERENCES Jobs(JobId) NOT NULL,
-	PartId	INT FOREIGN KEY REFERENCES Parts(PartId) NOT NULL,
-	Quantity INT DEFAULT 1 CHECK (Quantity > 0)
+(	
+	JobId INT REFERENCES Jobs(JobId) NOT NULL,
+	PartId INT REFERENCES Parts(PartId) NOT NULL,
+	Quantity INT DEFAULT 1 CHECK(Quantity > 0) NOT NULL,
 
-	CONSTRAINT PK_PartsNeeded PRIMARY KEY (JobId, PartId)
+	PRIMARY KEY(JobId, PartId)
 )
 
 -- 2
-INSERT INTO Clients 
-			(FirstName, LastName, Phone) 
-			VALUES
-			('Teri', 'Ennaco', '570-889-5187'),
-			('Merlyn', 'Lawler', '201-588-7810'),
-			('Georgene', 'Montezuma', '925-615-5185'),
-			('Jettie', 'Mconnell', '908-802-3564'),
-			('Lemuel', 'Latzke', '631-748-6479'),
-			('Melodie', 'Knipp', '805-690-1682'),
-			('Candida', 'Corbley', '908-275-8357')
+INSERT INTO 
+	Clients 
+	(FirstName, LastName, Phone) 
+	VALUES
+	('Teri', 'Ennaco', '570-889-5187'),
+	('Merlyn', 'Lawler', '201-588-7810'),
+	('Georgene', 'Montezuma', '925-615-5185'),
+	('Jettie', 'Mconnell', '908-802-3564'),
+	('Lemuel', 'Latzke', '631-748-6479'),
+	('Melodie', 'Knipp', '805-690-1682'),
+	('Candida', 'Corbley', '908-275-8357')
 
-INSERT INTO Parts 
-			(SerialNumber, [Description], Price, VendorId) 
-			VALUES
-			('WP8182119', 'Door Boot Seal', 117.86, 2),
-			('W10780048', 'Suspension Rod', 42.81, 1),
-			('W10841140', 'Silicone Adhesive ', 6.77, 4),
-			('WPY055980', 'High Temperature Adhesive', 13.94, 3)
+INSERT INTO 
+	Parts 
+	(SerialNumber, [Description], Price, VendorId) 
+	VALUES
+	('WP8182119', 'Door Boot Seal', 117.86, 2),
+	('W10780048', 'Suspension Rod', 42.81, 1),
+	('W10841140', 'Silicone Adhesive ', 6.77, 4),
+	('WPY055980', 'High Temperature Adhesive', 13.94, 3)
 
 -- 3
 UPDATE 
@@ -111,67 +114,65 @@ DELETE
 
 --5
 SELECT 
-	m.FirstName + ' ' + m.LastName AS [Mechanic],
-	j.[Status],
-	j.IssueDate
-	FROM Mechanics m
-	JOIN Jobs j ON j.MechanicId = m.MechanicId
-	ORDER BY m.MechanicId, j.IssueDate, j.JobId
+	CONCAT(M.FirstName, ' ', M.LastName) AS [Full Name],
+	J.[Status],
+	J.IssueDate
+	FROM Jobs J 
+	JOIN Mechanics M ON M.MechanicId = J.MechanicId 
+	ORDER BY M.MechanicId, J.IssueDate, J.JobId
 
 --6
 SELECT 
-	c.FirstName + ' ' + c.LastName AS [Client],
-	DATEDIFF(DAY, j.IssueDate, '2017-04-24') AS [Days going],
-	j.[Status]
-	FROM Clients c
-	LEFT JOIN Jobs j ON j.ClientId = c.ClientId
-	WHERE j.[Status] <> 'Finished'
-	ORDER BY [Days going] DESC, c.ClientId
+	CONCAT(C.FirstName, ' ', C.LastName) AS Client,
+	DATEDIFF(DAY, J.IssueDate, CONVERT(Datetime, '2017-04-24 18:01:00', 120)) AS [Days going],
+	J.[Status]
+	FROM Jobs J 
+	JOIN Clients C ON C.ClientId = J.ClientId 
+	WHERE J.[Status] <> 'Finished'
+	ORDER BY [Days going] DESC, C.ClientId
 
 --7
 SELECT 
-	m.FirstName + ' ' + m.LastName AS [Mechanic],
-	AVG(DATEDIFF(DAY, IssueDate, FinishDate)) AS [Average Days]
-	FROM Jobs j
-	JOIN Mechanics m ON m.MechanicId = j.MechanicId
-	GROUP BY m.MechanicId, m.FirstName, m.LastName
+	CONCAT(M.FirstName, ' ', M.LastName) AS [Mechanic],
+	AVG(DATEDIFF(DAY, J.IssueDate, J.FinishDate))  AS [Average Days]
+	FROM Jobs J 
+	JOIN Mechanics M ON M.MechanicId = J.MechanicId
+	GROUP BY J.MechanicId, M.FirstName, M.LastName
+	ORDER BY J.MechanicId
 
 --8
 SELECT 
-	m.FirstName + ' ' +  m.LastName AS Available
-	FROM Mechanics AS m
-	WHERE 'Finished' = ALL(SELECT j.[Status] FROM Jobs j WHERE j.MechanicId = m.MechanicId) OR
-	  NOT NULL = ALL(SELECT j.FinishDate FROM Jobs j WHERE j.MechanicId = m.MechanicId)
-	ORDER BY m.MechanicId
+	CONCAT(M.FirstName, ' ', M.LastName) AS [Full Name]
+	FROM Mechanics M
+	WHERE 'Finished' = 
+	  ALL (SELECT [Status] FROM Jobs J WHERE J.MechanicId = M.MechanicId AND J.[Status] <> 'Finished' OR
+	  NOT NULL = ALL(SELECT J.FinishDate FROM Jobs J WHERE J.MechanicId = M.MechanicId))
 
 --9
-SELECT 
-	j.JobId,
-	ISNULL(SUM(p.Price * op.Quantity), 0) AS Total
-	FROM Jobs j
-	LEFT JOIN Orders o ON j.JobId = o.JobId
-	LEFT JOIN OrderParts op ON op.OrderId = o.OrderId
-	LEFT JOIN Parts p ON p.PartId IN (op.PartId)
-	WHERE j.[Status] = 'Finished'
-	GROUP BY j.JobId
-	ORDER BY Total DESC, j.JobId
-
+SELECT
+	J.JobId,
+	ISNULL(SUM(P.Price * OP.Quantity), 0) AS Total
+	FROM Jobs J
+	LEFT JOIN Orders O ON O.JobId = J.JobId
+	LEFT JOIN OrderParts OP ON OP.OrderId = O.OrderId
+	LEFT JOIN Parts P ON P.PartId = OP.PartId
+	WHERE J.[Status] = 'Finished'
+	GROUP BY J.JobId
+	ORDER BY Total DESC, J.JobId
+	
 --10
 SELECT 
-	p.PartId, 
-	p.[Description], 
-	pn.Quantity AS [Required], 
-	p.StockQty AS [In Stock],
-	CASE 
-	  WHEN ISNULL(o.Delivered, 0) = 'False' THEN 0 
-	  ELSE NULL 
-	END AS [Ordered]
-	FROM PartsNeeded pn
-	LEFT JOIN Jobs j ON j.JobId = pn.JobId
-	LEFT JOIN Parts p ON p.PartId = pn.PartId
-	LEFT JOIN Orders o On o.JobId = j.JobId
-	WHERE j.Status <> 'Finished' AND pn.Quantity - p.StockQty > 0 AND o.Delivered IS NULL
-	ORDER BY p.PartId
+	P.PartId,
+	P.[Description],
+	PN.Quantity,
+	P.StockQty,
+	0
+	FROM PartsNeeded PN
+	LEFT JOIN Jobs J ON J.JobId = PN.JobId
+	LEFT JOIN Parts P ON P.PartId = PN.PartId
+	LEFT JOIN Orders O ON O.JobId = J.JobId
+	WHERE J.[Status] <> 'Finished' AND PN.Quantity > P.StockQty AND O.Delivered IS NULL
+	ORDER BY P.PartId
 
 --11
 CREATE PROC usp_PlaceOrder (@jobId INT, @partSerialNumber VARCHAR(50), @quantity INT)

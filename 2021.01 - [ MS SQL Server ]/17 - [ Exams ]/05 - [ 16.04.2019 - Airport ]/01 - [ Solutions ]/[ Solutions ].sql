@@ -74,7 +74,7 @@ INSERT INTO
 --3
 UPDATE
 	Tickets
-	SET Price = Price + (Price * 0.14)
+	SET Price = Price + (Price * 0.13)
 	WHERE FlightId = 41
 
 --4
