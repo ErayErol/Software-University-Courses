@@ -1,5 +1,5 @@
 SELECT
 	DepositGroup,
 	MAX(MagicWandSize) AS LongestMagicWand
-  FROM WizzardDeposits
-GROUP BY DepositGroup
+	FROM WizzardDeposits
+	GROUP BY DepositGroup

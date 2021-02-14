@@ -1,6 +1,6 @@
 SELECT 
 	DepartmentID, 
 	SUM(Salary) as TotalSalary
-  FROM Employees
+	FROM Employees
 	GROUP BY DepartmentID
-ORDER BY DepartmentID
+	ORDER BY DepartmentID

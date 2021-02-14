@@ -1,5 +1,8 @@
-SELECT Mountains.MountainRange, Peaks.PeakName, Peaks.Elevation
-FROM Peaks
-INNER JOIN Mountains ON Peaks.MountainId = 17
-WHERE Mountains.MountainRange = 'Rila'
-ORDER BY Peaks.Elevation DESC
+SELECT 
+	M.MountainRange, 
+	P.PeakName, 
+	P.Elevation
+	FROM Peaks P
+	JOIN Mountains M ON M.Id = P.MountainId
+	WHERE P.MountainId = 17
+	ORDER BY P.Elevation DESC

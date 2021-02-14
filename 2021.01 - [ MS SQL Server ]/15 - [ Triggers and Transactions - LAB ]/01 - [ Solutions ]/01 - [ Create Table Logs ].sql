@@ -17,6 +17,14 @@ BEGIN
 			WHERE i.Balance != d.Balance;
 END
 --
-UPDATE Accounts SET Balance -= 10 WHERE Id = 1
-SELECT * FROM Logs
-SELECT * FROM Accounts
+
+UPDATE 
+	Accounts 
+	SET Balance -= 10 
+	WHERE Id = 1
+
+SELECT * 
+	FROM Logs
+
+SELECT * 
+	FROM Accounts

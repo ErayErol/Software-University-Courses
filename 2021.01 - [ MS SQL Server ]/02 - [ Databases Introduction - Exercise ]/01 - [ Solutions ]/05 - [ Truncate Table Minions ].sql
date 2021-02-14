@@ -1,1 +1,2 @@
-TRUNCATE TABLE Minions;
+TRUNCATE 
+	TABLE Minions;

@@ -3,8 +3,10 @@ CREATE FUNCTION udf_SumOfTwoNumber (@FirstNum TINYINT, @SecondNum TINYINT)
 RETURNS TINYINT
 AS
 BEGIN
+
 	DECLARE @SumOfNumbers TINYINT = @FirstNum + @SecondNum;
 	RETURN @SumOfNumbers
+
 END
 
 SELECT dbo.udf_SumOfTwoNumber(1,2) AS Result
@@ -14,13 +16,18 @@ CREATE FUNCTION udf_ProjectDurationWeeks (@StartDate DATETIME, @EndDate DATETIME
 RETURNS INT
 AS
 BEGIN
+
     DECLARE @projectWeeks INT;
+
     IF(@EndDate IS NULL)
     BEGIN
         SET @EndDate = GETDATE()
     END
+
     SET @projectWeeks = DATEDIFF(WEEK, @StartDate, @EndDate)
+
     RETURN @projectWeeks;
+
 END
 
 SELECT * FROM Projects

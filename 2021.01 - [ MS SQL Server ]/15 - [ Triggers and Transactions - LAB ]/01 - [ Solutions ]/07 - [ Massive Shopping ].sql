@@ -1,11 +1,13 @@
-USE SoftUni
-GO
-
 CREATE PROC dbo.usp_SelectEmployeesBySeniority 
 AS
-  SELECT * 
-  FROM Employees
-  WHERE DATEDIFF(Year, HireDate, GETDATE()) > 20
-GO
+BEGIN
 
-EXEC usp_SelectEmployeesBySeniority
+	SELECT * 
+		FROM Employees
+		WHERE DATEDIFF(Year, HireDate, GETDATE()) > 20
+
+END
+
+--GO
+
+--EXEC usp_SelectEmployeesBySeniority

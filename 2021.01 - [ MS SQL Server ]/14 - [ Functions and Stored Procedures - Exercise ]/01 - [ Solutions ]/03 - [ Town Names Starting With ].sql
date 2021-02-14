@@ -1,8 +1,14 @@
 CREATE PROC usp_GetTownsStartingWith (@startLetters NVARCHAR(25))
 AS
-SELECT 
-	[Name] 
-  FROM Towns
-WHERE [Name] LIKE @startLetters + '%';
+BEGIN
+	
+	SELECT 
+		[Name] 
+		FROM Towns
+		WHERE [Name] LIKE @startLetters + '%';
 
-EXEC usp_GetTownsStartingWith "b"
+END
+
+--GO
+
+--EXEC usp_GetTownsStartingWith "b"

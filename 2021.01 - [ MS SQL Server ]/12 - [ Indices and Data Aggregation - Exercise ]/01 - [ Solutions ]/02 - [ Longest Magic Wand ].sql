@@ -1,2 +1,3 @@
-SELECT MAX(MagicWandSize) AS LongestMagicWand
-FROM WizzardDeposits
+SELECT 
+	MAX(MagicWandSize) AS LongestMagicWand
+	FROM WizzardDeposits

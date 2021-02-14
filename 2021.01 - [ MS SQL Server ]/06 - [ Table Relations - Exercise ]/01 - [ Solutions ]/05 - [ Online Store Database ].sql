@@ -9,7 +9,7 @@ CREATE TABLE Customers
 	CustomerID INT PRIMARY KEY,
 	[Name] VARCHAR(50) NOT NULL,
 	Birthday DATE,
-	CityID INT NOT NULL FOREIGN KEY REFERENCES Cities (CityID)
+	CityID INT REFERENCES Cities (CityID) NOT NULL 
 )
 
 CREATE TABLE ItemTypes
@@ -22,26 +22,20 @@ CREATE TABLE Items
 (
 	ItemID INT PRIMARY KEY,
 	[Name] VARCHAR(50) NOT NULL,
-	ItemTypeID INT NOT NULL FOREIGN KEY REFERENCES ItemTypes (ItemTypeID)
+	ItemTypeID INT REFERENCES ItemTypes (ItemTypeID) NOT NULL 
 )
 
 
 CREATE TABLE Orders
 (
 	OrderID INT PRIMARY KEY,
-	CustomerID INT NOT NULL FOREIGN KEY REFERENCES Customers (CustomerID)
+	CustomerID INT REFERENCES Customers (CustomerID) NOT NULL 
 )
 
 CREATE TABLE OrderItems
 (
-	OrderID INT,
-	ItemID	INT,
-		CONSTRAINT PK_OrdersOrderID_ItemsItemID
-		PRIMARY KEY(OrderID, ItemID),
-		
-		FOREIGN KEY(OrderID)
-		REFERENCES OrderS(OrderID),
-
-		FOREIGN KEY(ItemID)
-		REFERENCES ItemS(ItemID)
+	OrderID INT REFERENCES Orders(OrderID),
+	ItemID INT REFERENCES Items(ItemID)
+	
+	PRIMARY KEY(OrderID, ItemID)
 )

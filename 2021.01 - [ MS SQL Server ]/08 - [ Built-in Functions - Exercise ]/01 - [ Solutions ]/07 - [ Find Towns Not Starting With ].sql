@@ -1,4 +1,6 @@
-SELECT TownID, Name
+SELECT 
+	TownID, 
+	[Name]
     FROM Towns
-    WHERE Name LIKE ('[^RBD]%')
-    ORDER BY Name
+    WHERE [Name] LIKE ('[^RBD]%')
+    ORDER BY [Name]

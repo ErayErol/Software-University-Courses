@@ -1,11 +1,15 @@
 CREATE PROC usp_EmployeesBySalaryLevel (@levelOfSalary NVARCHAR(35))
 AS
-  SELECT 
-    FirstName AS [First Name],
-	LastName AS [Last Name]
-	FROM Employees
-WHERE dbo.ufn_GetSalaryLevel(Salary) = @levelOfSalary
+BEGIN
 
-GO
+	SELECT 
+		FirstName AS [First Name],
+		LastName AS [Last Name]
+		FROM Employees
+		WHERE dbo.ufn_GetSalaryLevel(Salary) = @levelOfSalary
 
-EXEC ufn_EmployeesBySalaryLevel 'High'
+END
+
+--GO
+
+--EXEC ufn_EmployeesBySalaryLevel 'High'

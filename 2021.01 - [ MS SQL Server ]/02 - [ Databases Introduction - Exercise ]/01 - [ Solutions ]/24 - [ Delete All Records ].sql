@@ -1,1 +1,2 @@
-DELETE Occupancies
+DELETE 
+	Occupancies

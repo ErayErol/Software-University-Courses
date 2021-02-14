@@ -1,9 +1,10 @@
-SELECT TOP(50)
-	e.EmployeeID,
-	CONCAT(e.FirstName, ' ', e.LastName) AS EmployeeName,
-	CONCAT(m.FirstName, ' ', m.LastName) AS ManagerName,
-	d.[Name] AS DepartmentName
-  FROM Employees AS e
-	LEFT JOIN Employees AS m ON m.EmployeeID = e.ManagerID
-	LEFT JOIN Departments AS d ON d.DepartmentID = e.DepartmentID
-ORDER BY e.EmployeeID
+SELECT 
+	TOP(50)
+	E.EmployeeID,
+	CONCAT(E.FirstName, ' ', E.LastName) AS EmployeeName,
+	CONCAT(M.FirstName, ' ', M.LastName) AS ManagerName,
+	D.[Name] AS DepartmentName
+	FROM Employees AS E
+	LEFT JOIN Employees AS M ON M.EmployeeID = E.ManagerID
+	LEFT JOIN Departments AS D ON D.DepartmentID = E.DepartmentID
+	ORDER BY E.EmployeeID

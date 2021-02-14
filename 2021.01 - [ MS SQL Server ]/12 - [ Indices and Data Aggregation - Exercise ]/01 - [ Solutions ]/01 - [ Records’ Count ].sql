@@ -1,2 +1,3 @@
-SELECT COUNT(*) AS [Count]
-FROM WizzardDeposits
+SELECT 
+	COUNT(*) AS [Count]
+	FROM WizzardDeposits

@@ -34,4 +34,6 @@ BEGIN
 
 END
 
+--GO 
+
 --EXEC usp_DeleteEmployeesFromDepartment 7

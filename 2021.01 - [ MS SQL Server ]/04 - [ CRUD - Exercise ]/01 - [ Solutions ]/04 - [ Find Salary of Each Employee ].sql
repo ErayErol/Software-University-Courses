@@ -1,5 +1,5 @@
 SELECT 
-FirstName,
-LastName,
-Salary
-FROM Employees
+	FirstName,
+	LastName,
+	Salary
+	FROM Employees

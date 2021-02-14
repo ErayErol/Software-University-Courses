@@ -1,6 +1,6 @@
 SELECT
 	DepositGroup,
 	SUM(DepositAmount) AS TotalSum
-  FROM WizzardDeposits
+	FROM WizzardDeposits
 	WHERE MagicWandCreator = 'Ollivander family'
-GROUP BY DepositGroup
+	GROUP BY DepositGroup

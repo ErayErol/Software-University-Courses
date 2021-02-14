@@ -1,9 +1,9 @@
-CREATE PROCEDURE dbo.usp_AddNumbers
-   @firstNumber SMALLINT,
-   @secondNumber SMALLINT,
-   @result INT OUTPUT
+CREATE PROCEDURE dbo.usp_AddNumbers (@firstNumber SMALLINT, @secondNumber SMALLINT, @result INT OUTPUT)
 AS
+BEGIN
    SET @result = @firstNumber + @secondNumber
+END
+
 GO
 
 DECLARE @answer smallint

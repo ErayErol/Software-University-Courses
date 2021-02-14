@@ -1,6 +1,9 @@
 SELECT
-	e.EmployeeID, e.FirstName, e.LastName, d.[Name] AS DepartmentName
-  FROM Employees AS e
-	JOIN Departments AS d ON d.DepartmentID = e.DepartmentID
-  WHERE d.[Name] = 'Sales'
-ORDER BY e.EmployeeID
+	E.EmployeeID, 
+	E.FirstName, 
+	E.LastName, 
+	D.[Name] AS DepartmentName
+	FROM Employees AS E
+	JOIN Departments AS D ON D.DepartmentID = E.DepartmentID
+	WHERE D.[Name] = 'Sales'
+	ORDER BY E.EmployeeID

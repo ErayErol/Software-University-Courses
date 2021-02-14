@@ -1,11 +1,11 @@
 SELECT * 
-FROM Towns
-ORDER BY [Name] ASC
+	FROM Towns
+	ORDER BY [Name] ASC
 
 SELECT * 
-FROM Departments
-ORDER BY [Name] ASC
+	FROM Departments
+	ORDER BY [Name] ASC
 
 SELECT * 
-FROM Employees
-ORDER BY Salary DESC
+	FROM Employees
+	ORDER BY Salary DESC

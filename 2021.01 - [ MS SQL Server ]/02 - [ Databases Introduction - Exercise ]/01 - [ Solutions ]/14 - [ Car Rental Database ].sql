@@ -1,5 +1,3 @@
---CREATE DATABASE CarRental Comment because of Judge
-
 CREATE TABLE Categories
 (
 	Id INT PRIMARY KEY IDENTITY,
@@ -10,12 +8,13 @@ CREATE TABLE Categories
 	WeekendRate DECIMAL(7,2) NOT NULL,
 )
 
-INSERT INTO Categories
-(CategoryName, DailyRate, WeeklyRate, MonthlyRate, WeekendRate)
-VALUES
-('Sport/Coupe', 100, 600, 2500, 400),
-('Cabrio', 50, 300, 1250, 200),
-('Kombi', 10, 60, 250, 40)
+INSERT INTO 
+	Categories
+	(CategoryName, DailyRate, WeeklyRate, MonthlyRate, WeekendRate)
+	VALUES
+	('Sport/Coupe', 100, 600, 2500, 400),
+	('Cabrio', 50, 300, 1250, 200),
+	('Kombi', 10, 60, 250, 40)
 
 CREATE TABLE Cars
 (
@@ -31,12 +30,13 @@ CREATE TABLE Cars
 	Available BIT NOT NULL,
 )
 
-INSERT INTO Cars
-(PlateNumber, Manufacturer, Model, CarYear, CategoryId, Doors, Picture, Condition, Available)
-VALUES
-('X8688KA', 'BMW', 'E92', '2007-12-01', 1, 2, NULL, 'S', 1),
-('X7177BT', 'Chevrolet', 'Camaro', '1998-05-15', 2, 2, NULL, 'S', 0),
-('X4128KK', 'Opel', 'Astra', '2001-02-01', 3, 4, NULL, 'S', 1)
+INSERT INTO 
+	Cars
+	(PlateNumber, Manufacturer, Model, CarYear, CategoryId, Doors, Picture, Condition, Available)
+	VALUES
+	('X8688KA', 'BMW', 'E92', '2007-12-01', 1, 2, NULL, 'S', 1),
+	('X7177BT', 'Chevrolet', 'Camaro', '1998-05-15', 2, 2, NULL, 'S', 0),
+	('X4128KK', 'Opel', 'Astra', '2001-02-01', 3, 4, NULL, 'S', 1)
 
 CREATE TABLE Employees
 (
@@ -47,12 +47,13 @@ CREATE TABLE Employees
 	Notes NVARCHAR(MAX),
 )
 
-INSERT INTO Employees
-(FirstName, LastName, Title, Notes)
-VALUES
-('Eray', 'Erol', NULL, NULL),
-('Djani', 'Eliaydin', NULL, NULL),
-('Bayrie', 'Erol', NULL, NULL)
+INSERT INTO 
+	Employees
+	(FirstName, LastName, Title, Notes)
+	VALUES
+	('Eray', 'Erol', NULL, NULL),
+	('Djani', 'Eliaydin', NULL, NULL),
+	('Bayrie', 'Erol', NULL, NULL)
 
 CREATE TABLE Customers
 (
@@ -65,12 +66,13 @@ CREATE TABLE Customers
 	Notes NVARCHAR(MAX),
 )
 
-INSERT INTO Customers
-(DriverLicenceNumber, FullName, [Address], City, ZIPCode, Notes)
-VALUES
-(1234567890, 'Myumyun Erol', 'Prohlada', 'Haskovo', 6300, NULL),
-(9876543210, 'Erduan Yilmaz', 'Pod Sportna sreshta', 'Haskovo', 6300, NULL),
-(5678901234, 'Osi Mehmed', 'StockholmUniversity', 'Stockholm', 11122, NULL)
+INSERT INTO 
+	Customers
+	(DriverLicenceNumber, FullName, [Address], City, ZIPCode, Notes)
+	VALUES
+	(1234567890, 'Myumyun Erol', 'Prohlada', 'Haskovo', 6300, NULL),
+	(9876543210, 'Erduan Yilmaz', 'Pod Sportna sreshta', 'Haskovo', 6300, NULL),
+	(5678901234, 'Osi Mehmed', 'StockholmUniversity', 'Stockholm', 11122, NULL)
 
 CREATE TABLE RentalOrders
 (
@@ -91,9 +93,10 @@ CREATE TABLE RentalOrders
 	Notes NVARCHAR(MAX)
 )
 
-INSERT INTO RentalOrders
-(EmployeeId, CustomerId, CarId, TankLevel, KilometrageStart, KilometrageEnd, StartDate, EndDate, RateApplied, TaxRate, OrderStatus, Notes)
-VALUES
-(1, 1, 1, 10, 175000, 185000, '2021-01-14', '2021-02-15', 10, 10, 'Proccesing', NULL),
-(2, 2, 2, 8, 195000, 215000, '2021-01-14', '2021-04-15', 10, 10, 'Proccesing', NULL),
-(3, 3, 3, 5, 105000, 115000, '2021-01-14', '2021-01-21', 10, 10, 'Proccesing', NULL)
+INSERT INTO 
+	RentalOrders
+	(EmployeeId, CustomerId, CarId, TankLevel, KilometrageStart, KilometrageEnd, StartDate, EndDate, RateApplied, TaxRate, OrderStatus, Notes)
+	VALUES
+	(1, 1, 1, 10, 175000, 185000, '2021-01-14', '2021-02-15', 10, 10, 'Proccesing', NULL),
+	(2, 2, 2, 8, 195000, 215000, '2021-01-14', '2021-04-15', 10, 10, 'Proccesing', NULL),
+	(3, 3, 3, 5, 105000, 115000, '2021-01-14', '2021-01-21', 10, 10, 'Proccesing', NULL)

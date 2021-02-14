@@ -1,9 +1,15 @@
 CREATE PROC usp_GetEmployeesSalaryAbove35000
 AS
-  SELECT 
-	FirstName,
-	LastName
-  FROM Employees
-WHERE Salary > 35000
+BEGIN
 
-EXEC usp_GetEmployeesSalaryAbove35000
+	SELECT 
+		FirstName,
+		LastName
+		FROM Employees
+		WHERE Salary > 35000
+
+END
+
+--GO
+
+--EXEC usp_GetEmployeesSalaryAbove35000

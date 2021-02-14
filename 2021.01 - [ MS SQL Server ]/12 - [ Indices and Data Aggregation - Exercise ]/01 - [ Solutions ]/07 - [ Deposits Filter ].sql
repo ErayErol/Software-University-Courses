@@ -1,8 +1,8 @@
 SELECT
 	DepositGroup,
 	SUM(DepositAmount) AS TotalSum
-  FROM WizzardDeposits
+	FROM WizzardDeposits
 	WHERE MagicWandCreator = 'Ollivander family'
-  GROUP BY DepositGroup
+	GROUP BY DepositGroup
 	HAVING SUM(DepositAmount) < 150000
-ORDER BY SUM(DepositAmount) DESC
+	ORDER BY SUM(DepositAmount) DESC
