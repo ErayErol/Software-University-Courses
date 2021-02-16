@@ -125,7 +125,9 @@ SELECT
 --9
 SELECT 
 	TOP 5
-	R.Id, R.Name, COUNT(*) AS Commits
+	R.Id,
+	R.Name, 
+	COUNT(*) AS Commits
 	FROM RepositoriesContributors RC
 	JOIN Repositories R ON R.Id = RC.RepositoryId
 	JOIN Commits C ON C.RepositoryId = R.Id
@@ -144,13 +146,13 @@ SELECT
 
 --11
 CREATE FUNCTION udf_AllUserCommits(@username VARCHAR(MAX))
-RETURNS VARCHAR(MAX)
+RETURNS INT
 AS
 BEGIN
 	
 	DECLARE @id INT = (SELECT Id FROM Users WHERE Username = @username)
 	
-	DECLARE @result VARCHAR(MAX) = (SELECT COUNT(Id) FROM Commits WHERE ContributorId = @id)
+	DECLARE @result INT = (SELECT COUNT(Id) FROM Commits WHERE ContributorId = @id)
 
 	RETURN @result
 
@@ -169,3 +171,5 @@ BEGIN
 		WHERE [Name] LIKE '%' + @fileExtension + '%'
 
 END
+
+EXEC usp_SearchForFiles 'txt'
