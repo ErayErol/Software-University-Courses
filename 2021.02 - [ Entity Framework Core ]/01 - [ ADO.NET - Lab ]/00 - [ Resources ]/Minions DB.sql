@@ -45,11 +45,11 @@ SELECT ROW_NUMBER() OVER (ORDER BY m.Name) as RowNum,
                                 ORDER BY m.Name
 
 --Problem 04
-SELECT Id FROM Villains WHERE Name = @Name
+SELECT Id FROM Villains WHERE Name = 'Poppy'
 SELECT Id FROM Minions WHERE Name = @Name
 INSERT INTO MinionsVillains (MinionId, VillainId) VALUES (@villainId, @minionId)
 INSERT INTO Villains (Name, EvilnessFactorId)  VALUES (@villainName, 4)
-INSERT INTO Minions (Name, Age, TownId) VALUES (@nam, @age, @townId)
+INSERT INTO Minions (Name, Age, TownId) VALUES (@name, @age, @townId)
 INSERT INTO Towns (Name) VALUES (@townName)
 SELECT Id FROM Towns WHERE Name = @townName
 

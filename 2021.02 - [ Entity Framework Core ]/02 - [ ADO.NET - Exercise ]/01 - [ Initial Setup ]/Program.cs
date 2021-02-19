@@ -10,34 +10,21 @@
         {
             using var connection = new SqlConnection(sqlConnectionString);
             connection.Open();
-
-            InitialSetup(connection);
-        }
-
-        private static void InitialSetup(SqlConnection connection)
-        {
             string createDatabase = "CREATE DATABASE MinionsDB";
-
             ExecuteNonQuery(createDatabase, connection);
-
             string useDatabase = "USE MinionsDB";
-
             ExecuteNonQuery(useDatabase, connection);
-
             string[] createTableStatements = GetCreateTableStatements();
-
             foreach (var tableStatement in createTableStatements)
             {
                 ExecuteNonQuery(tableStatement, connection);
             }
-
             string[] insertIntoTableStatements = GetInsertDataStatements();
-
             foreach (var tableStatement in insertIntoTableStatements)
             {
                 ExecuteNonQuery(tableStatement, connection);
             }
-        }
+        } // Dispose method of connection automatically will be invoked after current code block
 
         private static string[] GetInsertDataStatements()
         {
@@ -183,8 +170,8 @@
 
         private static void ExecuteNonQuery(string query, SqlConnection connection)
         {
-            using var sqlCommand = new SqlCommand(query, connection);
-            sqlCommand.ExecuteNonQuery();
-        }
+            using var command = new SqlCommand(query, connection);
+            command.ExecuteNonQuery();
+        } // Dispose method of command automatically will be invoked after current code block
     }
 }
