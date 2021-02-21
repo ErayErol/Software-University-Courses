@@ -1,4 +1,18 @@
-# <a href="https://softuni.bg"><p align="center">
- <p align="center"><img src="http://spaceappschallengebulgaria.eu/sites/default/files/softuni.png" width = 250 /></p><p></a>
-
-# <a href="https://softuni.bg/trainings/2846/js-back-end-may-2020"><p align="center">:book:JS Back-End<p></a>
+<!-- TABLE START -->
+   <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
+   <tbody>
+      <tr>
+      <td align="left" width="50%">
+      <a href="https://softuni.bg/certificates/details/81303/a8a65ba6">
+	<img src="https://i.imgur.com/AgvpAWg.png" width="400">
+      </a> 
+      </td>
+      <td align="right" width="50%">
+      <a href="https://softuni.bg/certificates/details/81303/a8a65ba6">
+	<img src="https://i.imgur.com/Td7762L.png" width="400">
+      </a>
+      </td>
+      </tr>
+   </tbody>
+   </table>
+<!-- TABLE END -->
