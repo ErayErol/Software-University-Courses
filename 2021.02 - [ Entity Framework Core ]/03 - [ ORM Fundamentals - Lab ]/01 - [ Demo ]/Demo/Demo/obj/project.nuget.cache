@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9LsiM/nfSOGJ4MF189CxbGQQxkbC27mYkyYvOH0chl1hHZpetmiugNaO8OZ0PgqMle4lngQXK0gIQyu6VEpzqw==",
+  "dgSpecHash": "xPZuRqdOGxTzAurHJ3ORPvsqaWfP97q+YdPzUzsi2npXkBr1zHnqOOuqLswFHo4T3M7rRexh79NyvxFq05eBxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\Database-First.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aris\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aris\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

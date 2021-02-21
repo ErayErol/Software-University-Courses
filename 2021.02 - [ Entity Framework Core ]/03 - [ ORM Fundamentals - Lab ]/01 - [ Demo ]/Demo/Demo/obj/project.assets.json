@@ -5721,9 +5721,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\Demo.csproj",
-      "projectName": "Demo",
-      "projectPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\Database-First.csproj",
+      "projectName": "Database-First",
+      "projectPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\Database-First.csproj",
       "packagesPath": "C:\\Users\\Aris\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Aris\\source\\repos\\Software-University-Courses\\2021.02 - [ Entity Framework Core ]\\03 - [ ORM Fundamentals - Lab ]\\01 - [ Demo ]\\Demo\\Demo\\obj\\",
       "projectStyle": "PackageReference",

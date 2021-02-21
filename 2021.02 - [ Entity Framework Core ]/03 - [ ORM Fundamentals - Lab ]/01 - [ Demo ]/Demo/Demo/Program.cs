@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using Demo.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Demo
 {
@@ -6,7 +9,19 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Microsoft.EntityFrameworkCore.SqlServer
+            // Microsoft.EntityFrameworkCore.Design
+
+            var db = new SoftUniContext();
+            var emp = db.Employees
+                .GroupBy(x => x.Salary)
+                .ToList();
+                
+
+            foreach (var e in emp)
+            {
+                Console.WriteLine($"{e.Key}");
+            }
         }
     }
 }
