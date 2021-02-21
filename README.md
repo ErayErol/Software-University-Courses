@@ -6,7 +6,25 @@
    <summary>
 	    <strong> 🔓 CLICK </strong> to see my certificate from MS SQL - January 2021 ✔️
    </summary>
-   <img src="https://softuni.bg/certificates/certificates/converttoimage/97790?code=27d86c1f" width="300">
+   <!-- HEAD START -->
+   <table border="0.1" width="100%" cellspacing="12" cellpadding="5" align="center">
+   <tbody>
+      <tr>
+         <td align="left" width="50%">
+	    <a href="https://softuni.bg/certificates/details/97790/27d86c1f">
+		<img src="https://softuni.bg/certificates/certificates/converttoimage/97790?code=27d86c1f" width="300">
+   	    </a> 
+         </td>
+	 <td align="right" width="50%">
+            <a href="https://softuni.bg/certificates/details/97790/27d86c1f">
+		<img src="https://i.imgur.com/o91qNr8.png" width="300">
+   	    </a>
+         </td>
+      </tr>
+   </tbody>
+   </table>
+<!-- HEAD END -->
+   
 </details>
 <!-- MS SQL End -->
 <hr>
