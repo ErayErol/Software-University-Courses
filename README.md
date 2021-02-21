@@ -12,7 +12,7 @@
       <tr>
       <td align="left" width="50%">
       <a href="https://softuni.bg/certificates/details/97790/27d86c1f">
-	<img src="https://softuni.bg/certificates/certificates/converttoimage/97790?code=27d86c1f" width="400">
+	<img src="https://i.imgur.com/9ijDkcg.png" width="400">
       </a> 
       </td>
       <td align="right" width="50%">
