@@ -27,6 +27,7 @@
    <img src="https://softuni.bg/certificates/certificates/converttoimage/87631?code=d8b5539d" width="300">
 </details>
 <!-- CSS Advanced End -->
+<hr>
 <!-- HTML & CSS Start -->
 <details>
    <summary>
@@ -44,7 +45,6 @@
    <img src="https://softuni.bg/certificates/certificates/converttoimage/80470?code=3750ade7" width="300">
 </details>
 <!-- JavaScript Applications End -->
-<hr>
 <hr>
 <!-- JavaScript Advanced Start -->
 <details>
