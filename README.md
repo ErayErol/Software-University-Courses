@@ -38,7 +38,7 @@
       <tr>
       <td align="left" width="50%">
       <a href="https://softuni.bg/certificates/details/95864/115c65bc">
-	<img src="https://softuni.bg/certificates/certificates/converttoimage/95864?code=115c65bc" width="400">
+	<img src="https://i.imgur.com/tPFkkjj.png" width="400">
       </a> 
       </td>
       <td align="right" width="50%">
@@ -64,7 +64,7 @@
       <tr>
       <td align="left" width="50%">
       <a href="https://softuni.bg/certificates/details/87631/d8b5539d">
-	<img src="https://softuni.bg/certificates/certificates/converttoimage/87631?code=d8b5539d" width="400">
+	<img src="https://i.imgur.com/BS5IiRq.png" width="400">
       </a> 
       </td>
       <td align="right" width="50%">
@@ -90,7 +90,7 @@
       <tr>
       <td align="left" width="50%">
       <a href="https://softuni.bg/certificates/details/84903/376c266d">
-	<img src="https://softuni.bg/certificates/certificates/converttoimage/84903?code=376c266d" width="400">
+	<img src="https://i.imgur.com/YH7K5Fa.png" width="400">
       </a> 
       </td>
       <td align="right" width="50%">
@@ -116,7 +116,7 @@
       <tr>
       <td align="left" width="50%">
       <a href="https://softuni.bg/certificates/details/80470/3750ade7">
-	<img src="https://softuni.bg/certificates/certificates/converttoimage/80470?code=3750ade7" width="400">
+	<img src="https://i.imgur.com/YxSdukZ.png" width="400">
       </a> 
       </td>
       <td align="right" width="50%">
@@ -142,7 +142,7 @@
       <tr>
       <td align="left" width="50%">
       <a href="https://softuni.bg/certificates/details/81303/a8a65ba6">
-	<img src="https://softuni.bg/certificates/certificates/converttoimage/81303?code=a8a65ba6" width="400">
+	<img src="https://i.imgur.com/AgvpAWg.png" width="400">
       </a> 
       </td>
       <td align="right" width="50%">
@@ -154,27 +154,58 @@
    </tbody>
    </table>
 <!-- TABLE END -->
-   <img src="https://softuni.bg/certificates/certificates/converttoimage/81303?code=a8a65ba6" width="300">
 </details>
 <!-- JavaScript Advanced End -->
 <hr>
 <!-- C# Advanced Start -->
 <details>
    <summary>
-	    <strong> 🔓 CLICK </strong> to see my certificate from C# Advanced - January 2019 ✔️
+     <strong> 🔓 CLICK </strong> to see my certificate from C# Advanced - January 2019 ✔️
    </summary>
-   <img src="https://softuni.bg/certificates/certificates/converttoimage/63113?code=c00d4fc8" width="300">
+<!-- TABLE START -->
+   <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
+   <tbody>
+      <tr>
+      <td align="left" width="50%">
+      <a href="https://softuni.bg/certificates/details/63113/c00d4fc8">
+	<img src="https://i.imgur.com/6zE90By.png" width="400">
+      </a> 
+      </td>
+      <td align="right" width="50%">
+      <a href="https://softuni.bg/certificates/details/63113/c00d4fc8">
+	<img src="https://i.imgur.com/t7lbGJ9.png" width="400">
+      </a>
+      </td>
+      </tr>
+   </tbody>
+   </table>
+<!-- TABLE END -->
 </details>
 <!-- C# Advanced End -->
 <hr>
 <!-- C# Technology Fundamentals Start -->
 <details>
    <summary>
-	<strong> 🔓 CLICK </strong> to see my certificate from Technology Fundamentals - September 2018 ✔️
+     <strong> 🔓 CLICK </strong> to see my certificate from Technology Fundamentals - September 2018 ✔️
    </summary>
-   <a href="https://softuni.bg/certificates/details/61142/ca611a05">
-	<img src="https://i.imgur.com/hoyXqMB.png" width="300">
-   </a>
+<!-- TABLE START -->
+   <table border="0.9" width="100%" cellspacing="12" cellpadding="5" align="center">
+   <tbody>
+      <tr>
+      <td align="left" width="50%">
+      <a href="https://softuni.bg/certificates/details/61142/ca611a05">
+	<img src="https://i.imgur.com/9drbxrC.png" width="400">
+      </a> 
+      </td>
+      <td align="right" width="50%">
+      <a href="https://softuni.bg/certificates/details/61142/ca611a05">
+	<img src="https://i.imgur.com/6rXTt9E.png" width="400">
+      </a>
+      </td>
+      </tr>
+   </tbody>
+   </table>
+<!-- TABLE END -->
 </details>
 <!-- C# Technology Fundamentals End -->
 <hr>
