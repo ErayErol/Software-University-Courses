@@ -14,7 +14,7 @@
         {
             using (var db = new ToDoDbContext())
             {
-                List<Task> tasks = db.Tasks.ToList();
+                //List<Task> tasks = db.Tasks.ToList();
                 return View(tasks);
             }
         }
