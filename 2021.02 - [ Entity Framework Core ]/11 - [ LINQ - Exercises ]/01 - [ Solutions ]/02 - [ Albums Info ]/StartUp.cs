@@ -4,70 +4,71 @@
     using Initializer;
     using System;
     using System.Globalization;
+    using System.IO;
     using System.Linq;
     using System.Text;
 
     public class StartUp
-
     {
-        const string NewLine = "\r\n";
+        private const string NewLine = "\r\n";
 
         public static void Main(string[] args)
         {
-
             MusicHubDbContext context =
                 new MusicHubDbContext();
 
             DbInitializer.ResetDatabase(context);
+
             var result = ExportAlbumsInfo(context, 9);
-            Console.WriteLine(result);
-            //Test your solutions here
+            File.WriteAllText("../../../result.txt", result);
         }
 
         public static string ExportAlbumsInfo(MusicHubDbContext context, int producerId)
         {
-            var sb = new StringBuilder();
-            var albumInfo = context
-                .Producers
-                .FirstOrDefault(x => x.Id == producerId)
+            var albums = context
                 .Albums
-                .Select(a => new
+                .Where(album => album.ProducerId == producerId)
+                .Select(album => new
                 {
-                    AlbumName = a.Name,
-                    a.ReleaseDate,
-                    ProducerName = a.Producer.Name,
-                    AlbumSongs = a.Songs.Select(s => new
-                    {
-                        SognName = s.Name,
-                        SongPrice = s.Price,
-                        SongWriterName = s.Writer.Name,
-                    })
-                    .OrderByDescending(s => s.SognName)
-                    .ThenBy(s => s.SongWriterName)
-                    .ToList(),
-                    AlbumPrice = a.Songs.Sum(z => z.Price)
+                    album.Name,
+                    ReleseaDate = album.ReleaseDate
+                        .ToString("MM/dd/yyyy", CultureInfo.InvariantCulture),
+                    ProducerName = album.Producer.Name,
+                    Songs = album.Songs
+                        .Select(song => new
+                        {
+                            song.Name,
+                            song.Price,
+                            WriterName = song.Writer.Name,
+                        })
+                        .OrderByDescending(s => s.Name)
+                        .ThenBy(s => s.WriterName)
+                        .ToList(),
+                    Price = album.Songs
+                        .Sum(song => song.Price),
                 })
-                .OrderByDescending(a => a.AlbumPrice)
+                .OrderByDescending(album => album.Price)
                 .ToList();
 
-            foreach (var album in albumInfo)
+            var sb = new StringBuilder();
+
+            foreach (var album in albums)
             {
-                var releaseDate = album.ReleaseDate.ToString("MM/dd/yyyy", CultureInfo.InvariantCulture);
-                sb.AppendLine($"-AlbumName: {album.AlbumName}{NewLine}" +
-                              $"-ReleaseDate: {releaseDate}{NewLine}" +
+                sb.AppendLine($"-Name: {album.Name}{NewLine}" +
+                              $"-ReleaseDate: {album.ReleseaDate}{NewLine}" +
                               $"-ProducerName: {album.ProducerName}{NewLine}" +
                               "-Songs:");
 
-                var songCount = 0;
-                foreach (var albumSong in album.AlbumSongs)
+                foreach (var song in album.Songs)
                 {
-                    sb.AppendLine($"---#{++songCount}{NewLine}" +
-                                  $"---SongName: {albumSong.SognName}{NewLine}" +
-                                  $"---Price: {albumSong.SongPrice:F2}{NewLine}" +
-                                  $"---Writer: {albumSong.SongWriterName}");
+                    int songNumber = album.Songs.IndexOf(song);
+                    sb.AppendLine($"---#{++songNumber}{NewLine}" +
+                                  $"---Name: {song.Name}{NewLine}" +
+                                  $"---Price: {song.Price:F2}{NewLine}" +
+                                  $"---Writer: {song.WriterName}");
                 }
 
-                sb.AppendLine($"-AlbumPrice: {album.AlbumPrice:F2}");
+                sb.AppendLine($"-Price: {album.Price:F2}");
             }
 
             var result = sb.ToString().TrimEnd();
