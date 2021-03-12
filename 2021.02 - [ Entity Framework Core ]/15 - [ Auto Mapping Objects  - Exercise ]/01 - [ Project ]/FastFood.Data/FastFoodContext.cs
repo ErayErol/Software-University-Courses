@@ -5,6 +5,8 @@
 
     public class FastFoodContext : DbContext
     {
+        private const string Connection = "Server=.;Database=FastFood;Integrated Security=true";
+
         public FastFoodContext()
         {
 
@@ -37,6 +39,14 @@
 
             builder.Entity<Item>()
                 .HasAlternateKey(i => i.Name);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (optionsBuilder.IsConfigured == false)
+            {
+                optionsBuilder.UseSqlServer(Connection);
+            }
         }
     }
 }

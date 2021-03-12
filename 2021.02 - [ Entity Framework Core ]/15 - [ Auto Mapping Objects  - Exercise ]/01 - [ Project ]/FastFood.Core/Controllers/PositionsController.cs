@@ -43,11 +43,11 @@
 
         public IActionResult All()
         {
-            var categories = this.context.Positions
+            var positions = this.context.Positions
                 .ProjectTo<PositionsAllViewModel>(mapper.ConfigurationProvider)
                 .ToList();
 
-            return this.View(categories);
+            return this.View(positions);
         }
     }
 }

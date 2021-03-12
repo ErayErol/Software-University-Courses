@@ -1,4 +1,8 @@
-﻿namespace FastFood.Core.Controllers
+﻿using FastFood.Core.MappingConfiguration;
+using FastFood.Models;
+using Microsoft.AspNetCore.Mvc.Diagnostics;
+
+namespace FastFood.Core.Controllers
 {
     using System;
     using System.Linq;
@@ -31,12 +35,27 @@
         [HttpPost]
         public IActionResult Create(CreateItemInputModel model)
         {
-            throw new NotImplementedException();
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+
+            var item = this.mapper.Map<Item>(model);
+
+            this.context.Items.Add(item);
+
+            this.context.SaveChanges();
+
+            return RedirectToAction("All", "Items");
         }
 
         public IActionResult All()
         {
-            throw new NotImplementedException();
+            var items = this.context.Items
+                .ProjectTo<ItemsAllViewModels>(mapper.ConfigurationProvider)
+                .ToList();
+
+            return this.View(items);
         }
     }
 }

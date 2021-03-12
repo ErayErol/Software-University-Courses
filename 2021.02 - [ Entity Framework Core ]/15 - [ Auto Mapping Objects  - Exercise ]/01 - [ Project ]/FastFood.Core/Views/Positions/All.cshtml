@@ -1,22 +1,22 @@
 ﻿@model IList<FastFood.Core.ViewModels.Positions.PositionsAllViewModel>
 
 @{
-    ViewData["Title"] = "All Categories";
+    ViewData["Title"] = "All Positions";
 }
-<h1 class="text-center">All Categories</h1>
+<h1 class="text-center">All Position</h1>
 <hr class="hr-2" />
 <table class="table mx-auto">
     <thead>
         <tr class="row">
             <th class="col-md-1">#</th>
-            <th class="col-md-2">Category</th>
+            <th class="col-md-2">Position</th>
         </tr>
     </thead>
     <tbody>
         @for(var i = 0; i < Model.Count(); i++)
     {
         <tr class="row">
-            <th class="col-md-1">@i</th>
+            <th class="col-md-1">@(i + 1)</th>
             <td class="col-md-2">@Model[i].Name</td>
         </tr>
     }

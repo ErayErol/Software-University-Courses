@@ -1,0 +1,15 @@
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.deps.json
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.runtimeconfig.json
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.runtimeconfig.dev.json
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.pdb
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Models.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Models.pdb
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csprojAssemblyReference.cache
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.CopyComplete
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.pdb
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\15 - [ Auto Mapping Objects  - Exercise ]\01 - [ Project ]\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.genruntimeconfig.cache

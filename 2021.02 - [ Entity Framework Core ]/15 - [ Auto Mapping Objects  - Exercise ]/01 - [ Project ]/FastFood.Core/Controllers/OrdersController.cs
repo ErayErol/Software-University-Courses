@@ -1,4 +1,8 @@
-﻿namespace FastFood.Core.Controllers
+﻿using AutoMapper.QueryableExtensions;
+using FastFood.Core.ViewModels.Positions;
+using FastFood.Models;
+
+namespace FastFood.Core.Controllers
 {
     using System;
     using System.Linq;
@@ -31,13 +35,30 @@
 
         [HttpPost]
         public IActionResult Create(CreateOrderInputModel model)
-        { 
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+
+            var order = this.mapper.Map<Order>(model);
+            var orderItem = this.mapper.Map<OrderItem>(model);
+            orderItem.OrderId = order.Id;
+
+            this.context.Orders.Add(order);
+            this.context.OrderItems.Add(orderItem);
+            this.context.SaveChanges();
+
             return this.RedirectToAction("All", "Orders");
         }
 
         public IActionResult All()
         {
-            throw new NotImplementedException();
+            var orders = this.context.Orders
+                .ProjectTo<OrderAllViewModel>(mapper.ConfigurationProvider)
+                .ToList();
+
+            return this.View(orders);
         }
     }
 }

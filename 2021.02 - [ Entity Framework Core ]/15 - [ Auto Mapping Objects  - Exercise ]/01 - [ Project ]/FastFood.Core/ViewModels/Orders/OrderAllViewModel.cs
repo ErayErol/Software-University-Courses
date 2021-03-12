@@ -6,7 +6,7 @@
 
         public string Customer { get; set; }
 
-        public string Employee { get; set; }
+        public string EmployeeName { get; set; }
 
         public string DateTime { get; set; }
     }

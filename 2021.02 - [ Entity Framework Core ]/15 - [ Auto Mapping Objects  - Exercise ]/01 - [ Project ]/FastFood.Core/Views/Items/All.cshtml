@@ -18,7 +18,7 @@
         @for(var i = 0; i < Model.Count(); i++)
     {
         <tr class="row">
-            <th class="col-md-1">@i</th>
+            <th class="col-md-1">@(i + 1)</th>
             <td class="col-md-2">@Model[i].Name</td>
             <td class="col-md-2">@Model[i].Price</td>
             <td class="col-md-2">@Model[i].Category</td>
