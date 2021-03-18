@@ -1,53 +1,55 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
-using ProductShop.Data;
-using ProductShop.Models;
-
-namespace ProductShop
+﻿namespace ProductShop
 {
+    using ProductShop.Data;
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Xml.Linq;
+
     public class StartUp
     {
         public static void Main(string[] args)
         {
             var context = new ProductShopContext();
             var result = GetCategoriesByProductsCount(context);
-            //File.AppendAllText("../../../r.txt", result);
+            File.WriteAllText("../../../r.txt", result);
             Console.WriteLine(result);
         }
 
         public static string GetCategoriesByProductsCount(ProductShopContext context)
         {
-            var products = context
+            var categories = context
                 .Categories
-                .Select(c => new
+                .Select(x => new
                 {
-                    Category = c.Name,
-                    ProductsCount = c.CategoryProducts.Count,
-                    AveragePrice = c.CategoryProducts.Average(cp => cp.Product.Price).ToString("F2"),
-                    TotalRevenue = c.CategoryProducts.Sum(cp => cp.Product.Price).ToString("F2"),
+                    x.Name,
+                    Count = x.CategoryProducts.Count(s=>s.CategoryId == x.Id),
+                    AvgPrice = x.CategoryProducts.Where(s => s.CategoryId == x.Id).Average(s=>s.Product.Price),
+                    Total = x.CategoryProducts.Where(s => s.CategoryId == x.Id).Sum(s=>s.Product.Price),
+
                 })
-                .OrderByDescending(x => x.ProductsCount)
+                .OrderByDescending(x => x.Count)
+                .ThenBy(x => x.Total)
                 .ToList();
 
-            DefaultContractResolver contractResolver =
-                new DefaultContractResolver()
-                {
-                    NamingStrategy = new CamelCaseNamingStrategy()
-                };
-
-            var json = JsonConvert.SerializeObject(products, new JsonSerializerSettings()
+            XDocument doc = new XDocument();
+            doc.Declaration = new XDeclaration("1.0", "UTF-8", null);
+            doc.Add(new XElement("Categories"));
+            foreach (var category in categories)
             {
-                ContractResolver = contractResolver,
-                Formatting = Formatting.Indented
-            });
+                XElement el =
+                    new XElement("Category",
+                        new XElement("name", category.Name),
+                        new XElement("count", category.Count),
+                        new XElement("averagePrice", category.AvgPrice),
+                        new XElement("totalRevenue", category.Total));
 
-            return json;
+                doc.Root.Add(el);
+            }
+
+            var wr = new StringWriter();
+            doc.Save(wr);
+            return wr.ToString();
         }
-
     }
 }
