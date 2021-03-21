@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netcoreapp5.0</TargetFramework>
+		<TargetFramework>net5.0</TargetFramework>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="10.1.1" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\RealEstates.Data\RealEstates.Data.csproj" />
 		<ProjectReference Include="..\RealEstates.Models\RealEstates.Models.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Models\" />
 	</ItemGroup>
 
 </Project>
