@@ -1,0 +1,92 @@
+[
+    {
+        "Question": "Which of the following is TRUE?",
+        "Answers": [
+            { "Answer": "All of the statements.", "Correct": true },
+            { "Answer": "EF Core supports cross-platform.", "Correct": false },
+            { "Answer": "EF Core is an open sourced framework.", "Correct": false },
+            { "Answer": "EF Core is a light weight and extensible framework.", "Correct": false }
+        ]
+    },
+    {
+        "Question": "EF Core can be run on ________.",
+        "Answers": [
+            { "Answer": "All of the technologies.", "Correct": true },
+            { "Answer": ".NET Framework", "Correct": false },
+            { "Answer": ".NET Core", "Correct": false },
+            { "Answer": "UWP & Xamarin", "Correct": false }
+        ]
+    },
+    {
+        "Question": "Suggested approach for new EF Core projects is ______",
+        "Answers": [
+            { "Answer": "Code-First", "Correct": true },
+            { "Answer": "Database-First", "Correct": false },
+            { "Answer": "Model-First", "Correct": false },
+            { "Answer": "User-First", "Correct": false }
+        ]
+    },
+    {
+        "Question": "EF Core API will create which table for the following context? \n public class SchoolContext : DbContext { public DbSet<Student> StudentList { get; set; } }",
+        "Answers": [
+            { "Answer": "StudentList", "Correct": true },
+            { "Answer": "Student", "Correct": false },
+            { "Answer": "Students", "Correct": false },
+            { "Answer": "StudentLists", "Correct": false }
+        ]
+    },
+    {
+        "Question": "Which of the following platform supports EF Core?",
+        "Answers": [
+            { "Answer": "All platforms", "Correct": true },
+            { "Answer": "Windows", "Correct": false },
+            { "Answer": "Linux", "Correct": false },
+            { "Answer": "Mac", "Correct": false }
+        ]
+    },
+    {
+        "Question": "All the entities which were created or retrieved out of the scope of the current DbContext instance, will have the _____ entity state.",
+        "Answers": [
+            { "Answer": "Detached", "Correct": true },
+            { "Answer": "Unchanged", "Correct": false },
+            { "Answer": "Added", "Correct": false },
+            { "Answer": "Removed", "Correct": false }
+        ]
+    },
+    {
+        "Question": "Which of the following statement is TRUE? ",
+        "Answers": [
+            { "Answer": "Fluent API configurations provide more options than Data Annotation attributes.", "Correct": true },
+            { "Answer": "Data annotation attributes overrides Fluent API configurations.", "Correct": false },
+            { "Answer": "EF Core does not support data annotation attributes.", "Correct": false },
+            { "Answer": "EF Core does not support Fluent API.", "Correct": false }
+        ]
+    },
+    {
+        "Question": "Which of the following class is used as Fluent API in EF Core?",
+        "Answers": [
+            { "Answer": "ModelBuilder", "Correct": true },
+            { "Answer": "DbContext", "Correct": false },
+            { "Answer": "DbSet", "Correct": false },
+            { "Answer": "DbContextOptions", "Correct": false }
+        ]
+    },
+    {
+        "Question": "modelBuilder.Entity<Student>().HasOne(s => s.Grade).WithMany(g => g.Students).HasForeignKey(s => s.CurrentGradeId); \n The above code configures ________ relationship between Student and Grade entities.",
+        "Answers": [
+            { "Answer": "One-to-Many", "Correct": true },
+            { "Answer": "One-to-One", "Correct": false },
+            { "Answer": "Many-to-Many", "Correct": false },
+            { "Answer": "One-to-Zero", "Correct": false }
+        ]
+    },
+    {
+        "Question": "An instance of __________ class represents a session with the underlying database.",
+        "Answers": [
+            { "Answer": "DbContext", "Correct": true },
+            { "Answer": "DbSet", "Correct": false },
+            { "Answer": "ModelBuilder", "Correct": false },
+            { "Answer": "DbSession", "Correct": false }
+        ]
+    }
+]

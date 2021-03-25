@@ -1,0 +1,22 @@
+﻿@using Quiz.Services.Models
+@model QuizViewModel
+@{
+    ViewData["Title"] = "Test";
+}
+
+<h1>@Model.Title</h1>
+
+<form action="/Quiz/Submit/@Model.Id" method="post">
+    @foreach (var question in Model.Questions)
+    {
+        <h5>@question.Title</h5>
+        @foreach (var answer in question.Answers)
+        {
+            <div>
+                <input type="radio" name="q_@question.Id" value="@answer.Id" id="a_@answer.Id" />
+                <label for="a_@answer.Id">@answer.Title</label>
+            </div>
+        }
+    }
+    <input type="submit" value="Send answers" class="btn btn-primary" />
+</form>

@@ -1,0 +1,12 @@
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\bin\Debug\net5.0\Quiz.Models.deps.json
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\bin\Debug\net5.0\Quiz.Models.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\bin\Debug\net5.0\ref\Quiz.Models.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\bin\Debug\net5.0\Quiz.Models.pdb
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.csprojAssemblyReference.cache
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\ref\Quiz.Models.dll
+D:\Eray\Software-University-Courses\2021.02 - [ Entity Framework Core ]\21 - [ Workshop ]\Quiz.Models\obj\Debug\net5.0\Quiz.Models.pdb
