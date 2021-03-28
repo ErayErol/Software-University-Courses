@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace Demo.Models
+﻿namespace Demo.Models
 {
     public partial class EmployeesProject
     {

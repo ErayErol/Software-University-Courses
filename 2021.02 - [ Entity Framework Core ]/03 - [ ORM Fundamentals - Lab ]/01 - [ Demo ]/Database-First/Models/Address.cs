@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace Demo.Models
+﻿namespace Demo.Models
 {
+    using System.Collections.Generic;
+
     public partial class Address
     {
         public Address()
@@ -13,10 +10,13 @@ namespace Demo.Models
         }
 
         public int AddressId { get; set; }
+
         public string AddressText { get; set; }
+
         public int? TownId { get; set; }
 
         public virtual Town Town { get; set; }
+
         public virtual ICollection<Employee> Employees { get; set; }
     }
 }

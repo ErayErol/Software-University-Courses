@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
-
-namespace Code_First.Models
+﻿namespace Code_First.Models
 {
+    using Microsoft.EntityFrameworkCore;
+
     public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext()
+        {
+        }
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=.;Integrated Security=true;Database=CodeFirstDemo2021");

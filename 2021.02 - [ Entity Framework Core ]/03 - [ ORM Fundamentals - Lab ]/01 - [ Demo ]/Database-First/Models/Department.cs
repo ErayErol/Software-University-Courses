@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace Demo.Models
+﻿namespace Demo.Models
 {
+    using System.Collections.Generic;
+
     public partial class Department
     {
         public Department()
@@ -13,10 +10,13 @@ namespace Demo.Models
         }
 
         public int DepartmentId { get; set; }
+        
         public string Name { get; set; }
+        
         public int ManagerId { get; set; }
 
         public virtual Employee Manager { get; set; }
+        
         public virtual ICollection<Employee> Employees { get; set; }
     }
 }

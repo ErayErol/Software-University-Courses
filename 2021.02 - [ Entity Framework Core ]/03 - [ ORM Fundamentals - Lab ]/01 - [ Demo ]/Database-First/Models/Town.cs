@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace Demo.Models
+﻿namespace Demo.Models
 {
+    using System.Collections.Generic;
+
     public partial class Town
     {
         public Town()
         {
-            Addresses = new HashSet<Address>();
+            this.Addresses = new HashSet<Address>();
         }
 
         public int TownId { get; set; }

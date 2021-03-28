@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-
-namespace Code_First.Models
+﻿namespace Code_First.Models
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class Comment
     {
         [Key]
