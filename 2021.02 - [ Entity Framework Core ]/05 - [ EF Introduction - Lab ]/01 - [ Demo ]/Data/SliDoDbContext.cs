@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Demo.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace Demo.Data
+﻿namespace Demo.Data
 {
+    using Demo.Models;
+    using Microsoft.EntityFrameworkCore;
+
     public class SliDoDbContext : DbContext
     {
         private const string Connection = "Server=.;Database=SliDo;Integrated Security=true";

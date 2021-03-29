@@ -1,13 +1,16 @@
 ﻿namespace SoftUni
 {
-    using Microsoft.EntityFrameworkCore;
     using SoftUni.Data;
+
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Linq;
     using System.Text;
 
     public class StartUp
     {
+        private const string FirstNameStartingWith = "sa%";
+
         static void Main(string[] args)
         {
             using var context = new SoftUniContext();
@@ -19,7 +22,7 @@
         {
             var employees = context
                 .Employees
-                .Where(x => EF.Functions.Like(x.FirstName, "sa%"))
+                .Where(x => EF.Functions.Like(x.FirstName, FirstNameStartingWith))
                 .OrderBy(x => x.FirstName)
                 .ThenBy(x => x.LastName)
                 .ToList();

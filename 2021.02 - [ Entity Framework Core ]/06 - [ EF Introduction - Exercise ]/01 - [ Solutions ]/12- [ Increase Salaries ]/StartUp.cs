@@ -1,13 +1,15 @@
 ﻿namespace SoftUni
 {
     using SoftUni.Data;
+
     using System;
-    using System.Globalization;
     using System.Linq;
     using System.Text;
 
     public class StartUp
     {
+        private const decimal IncreaseSalaryPercent = 1.12m;
+
         static void Main(string[] args)
         {
             using var context = new SoftUniContext();
@@ -32,7 +34,7 @@
                 .ThenBy(x => x.LastName)
                 .ToList();
 
-            employees.ForEach(x => x.Salary *= 1.12m);
+            employees.ForEach(x => x.Salary *= IncreaseSalaryPercent);
             context.SaveChanges();
 
             StringBuilder sb = new StringBuilder();

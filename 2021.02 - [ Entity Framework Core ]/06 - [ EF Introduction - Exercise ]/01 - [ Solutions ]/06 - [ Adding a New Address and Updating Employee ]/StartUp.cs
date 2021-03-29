@@ -1,16 +1,18 @@
-﻿using SoftUni.Models;
-
-namespace SoftUni
+﻿namespace SoftUni
 {
     using SoftUni.Data;
+    using SoftUni.Models;
+
     using System;
     using System.Linq;
     using System.Text;
 
     public class StartUp
     {
+        private const int CountToTakeFromDatabase = 10;
         private const string AddressText = "Vitoshka 15";
         private const string EmployeeLastName = "Nakov";
+        private const int TownId = 4;
 
         static void Main(string[] args)
         {
@@ -24,21 +26,27 @@ namespace SoftUni
             var address = new Address()
             {
                 AddressText = AddressText,
-                TownId = 4
+                TownId = TownId
             };
 
             var employee = context
                 .Employees
                 .FirstOrDefault(e => e.LastName == EmployeeLastName);
 
-            employee.Address = address;
-            context.SaveChanges();
+            if (employee != null)
+            {
+                employee.Address = address;
+                context.SaveChanges();
+            }
 
             var employees = context
                 .Employees
                 .OrderByDescending(x => x.AddressId)
-                .Take(10)
-                .Select(x => new {x.Address.AddressText})
+                .Take(CountToTakeFromDatabase)
+                .Select(x => new
+                {
+                    x.Address.AddressText
+                })
                 .ToList();
 
             var sb = new StringBuilder();

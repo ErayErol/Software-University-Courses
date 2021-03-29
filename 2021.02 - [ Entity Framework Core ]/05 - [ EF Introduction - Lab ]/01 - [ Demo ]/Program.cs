@@ -1,11 +1,9 @@
-﻿using System;
-using System.Linq;
-using Demo.Data;
-using Microsoft.EntityFrameworkCore;
-
-namespace Demo
+﻿namespace Demo
 {
-    class Program
+    using Demo.Data;
+    using Microsoft.EntityFrameworkCore;
+
+    internal class Program
     {
         static void Main(string[] args)
         {

@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
-
-namespace Demo.Models
+﻿namespace Demo.Models
 {
+    using Microsoft.EntityFrameworkCore;
+    using System;
+    using System.ComponentModel.DataAnnotations;
+
     [Index(nameof(QuestionId), Name = "IX_QuestionId123")]
     public class Comment
     {

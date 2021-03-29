@@ -1,12 +1,15 @@
 ﻿namespace SoftUni
 {
     using SoftUni.Data;
+
     using System;
     using System.Linq;
     using System.Text;
 
     public class StartUp
     {
+        private const decimal MinSalary = 50_000;
+
         static void Main(string[] args)
         {
             using var context = new SoftUniContext();
@@ -18,7 +21,7 @@
         {
             var employees = context
                 .Employees
-                .Where(x => x.Salary > 50_000)
+                .Where(x => x.Salary > MinSalary)
                 .OrderBy(x => x.FirstName)
                 .Select(x => new
                 {

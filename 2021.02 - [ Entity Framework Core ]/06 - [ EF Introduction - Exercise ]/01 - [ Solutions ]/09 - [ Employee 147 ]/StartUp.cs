@@ -1,13 +1,15 @@
 ﻿namespace SoftUni
 {
-    using Microsoft.EntityFrameworkCore;
     using SoftUni.Data;
+
     using System;
     using System.Linq;
     using System.Text;
 
     public class StartUp
     {
+        private const int EmployeeId = 147;
+
         static void Main(string[] args)
         {
             using var context = new SoftUniContext();
@@ -19,7 +21,7 @@
         {
             var employee147 = context
                 .Employees
-                .Where(employee => employee.EmployeeId == 147)
+                .Where(employee => employee.EmployeeId == EmployeeId)
                 .Select(employee => new
                 {
                     employee.FirstName,

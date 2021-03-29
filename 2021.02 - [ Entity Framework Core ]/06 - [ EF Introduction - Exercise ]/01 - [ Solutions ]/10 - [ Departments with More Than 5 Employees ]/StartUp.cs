@@ -1,13 +1,16 @@
 ﻿namespace SoftUni
 {
-    using Microsoft.EntityFrameworkCore;
     using SoftUni.Data;
+
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Linq;
     using System.Text;
 
     public class StartUp
     {
+        private const int MinEmployeeCount = 5;
+
         static void Main(string[] args)
         {
             using var context = new SoftUniContext();
@@ -19,7 +22,7 @@
         {
             var departments = context
                 .Departments
-                .Where(department => department.Employees.Count > 5)
+                .Where(department => department.Employees.Count > MinEmployeeCount)
                 .Include(x => x.Manager)
                 .Include(x => x.Employees)
                 .OrderBy(department => department.Employees.Count)

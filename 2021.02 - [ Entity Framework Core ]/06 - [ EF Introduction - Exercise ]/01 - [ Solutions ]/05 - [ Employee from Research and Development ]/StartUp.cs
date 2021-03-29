@@ -1,6 +1,7 @@
 ﻿namespace SoftUni
 {
     using SoftUni.Data;
+
     using System;
     using System.Linq;
     using System.Text;
@@ -22,7 +23,7 @@
                 .Employees
                 .Where(x => x.Department.Name == DepartmentName)
                 .OrderBy(x => x.Salary)
-                .ThenByDescending(x=>x.FirstName)
+                .ThenByDescending(x => x.FirstName)
                 .Select(x => new
                 {
                     x.FirstName,

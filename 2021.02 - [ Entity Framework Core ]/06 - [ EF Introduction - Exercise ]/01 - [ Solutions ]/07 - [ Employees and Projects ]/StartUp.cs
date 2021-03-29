@@ -1,7 +1,8 @@
 ﻿namespace SoftUni
 {
-    using Microsoft.EntityFrameworkCore;
     using SoftUni.Data;
+
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Globalization;
     using System.Linq;
@@ -9,6 +10,10 @@
 
     public class StartUp
     {
+        private const int CountToTakeFromDatabase = 10;
+        private const int StartDateFirstCriteria = 2001;
+        private const int StartDateSecondCriteria = 2003;
+
         static void Main(string[] args)
         {
             using var context = new SoftUniContext();
@@ -24,8 +29,8 @@
                 .Include(x => x.EmployeesProjects)
                 .ThenInclude(x => x.Project)
                 .Where(employee => employee.EmployeesProjects
-                    .Any(project => project.Project.StartDate.Year >= 2001 && project.Project.StartDate.Year <= 2003))
-                .Take(10)
+                    .Any(project => project.Project.StartDate.Year >= StartDateFirstCriteria && project.Project.StartDate.Year <= StartDateSecondCriteria))
+                .Take(CountToTakeFromDatabase)
                 .ToList();
 
             StringBuilder sb = new StringBuilder();
@@ -55,17 +60,19 @@
                 .EmployeesProjects
                 .Include(x => x.Project)
                 .Include(x => x.Employee)
-                .Where(x => x.Project.StartDate.Year >= 2001 && x.Project.StartDate.Year <= 2003)
+                .Where(x => x.Project.StartDate.Year >= StartDateFirstCriteria && x.Project.StartDate.Year <= StartDateSecondCriteria)
                 .AsEnumerable()
                 .GroupBy(x => x.Employee)
                 .ToDictionary(y => y.Key, z => z.Select(z => z.Project))
-                .Take(10);
+                .Take(CountToTakeFromDatabase);
 
             StringBuilder sb = new StringBuilder();
 
             foreach (var employee in employees)
             {
-                var manager = context.Employees.FirstOrDefault(e => e.EmployeeId == employee.Key.ManagerId);
+                var manager = context
+                    .Employees
+                    .FirstOrDefault(e => e.EmployeeId == employee.Key.ManagerId);
                 if (manager != null)
                 {
                     sb.AppendLine(
