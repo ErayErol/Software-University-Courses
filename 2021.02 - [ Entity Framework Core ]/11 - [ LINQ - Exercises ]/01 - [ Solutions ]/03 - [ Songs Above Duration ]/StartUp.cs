@@ -1,7 +1,8 @@
 ﻿namespace MusicHub
 {
-    using Data;
-    using Initializer;
+    using MusicHub.Data;
+    using MusicHub.Initializer;
+
     using System.Globalization;
     using System.IO;
     using System.Linq;
@@ -10,6 +11,7 @@
     public class StartUp
     {
         private const string NewLine = "\r\n";
+        private const int Duration = 4;
 
         public static void Main(string[] args)
         {
@@ -18,7 +20,7 @@
 
             DbInitializer.ResetDatabase(context);
 
-            var result = ExportSongsAboveDuration(context, 4);
+            var result = ExportSongsAboveDuration(context, Duration);
             File.WriteAllText("../../../result.txt", result);
         }
 
@@ -83,16 +85,17 @@
                 .Select(s => new
                 {
                     s.Name,
-                    PerformerFullName = s.SongPerformers
+                    PerformerFullName = s
+                        .SongPerformers
                         .Select(sp => sp.Performer.FirstName + " " + sp.Performer.LastName)
                         .FirstOrDefault(),
                     WriterName = s.Writer.Name,
                     AlbumProducerName = s.Album.Producer.Name,
                     s.Duration,
                 })
-                .OrderBy(s=>s.Name)
-                .ThenBy(s=>s.WriterName)
-                .ThenByDescending(s=>s.PerformerFullName)
+                .OrderBy(s => s.Name)
+                .ThenBy(s => s.WriterName)
+                .ThenByDescending(s => s.PerformerFullName)
                 .ToList();
 
             var sb = new StringBuilder();

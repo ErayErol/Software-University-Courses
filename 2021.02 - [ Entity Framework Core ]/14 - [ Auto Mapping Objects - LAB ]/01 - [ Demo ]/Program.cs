@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using AutoMapper;
-using AutoMapper.QueryableExtensions;
-using Demo.ModelsMusicX;
-
-namespace Demo
+﻿namespace Demo
 {
+    using Demo.ModelsMusicX;
+
+    using AutoMapper;
+    using AutoMapper.QueryableExtensions;
+    using System.Collections.Generic;
+    using System.Linq;
+
     class Program
     {
         static void Main(string[] args)
@@ -16,8 +17,6 @@ namespace Demo
                 .Where(s => s.Name.StartsWith("С"))
                 .ProjectTo<SongInfoDTO>(config)
                 .ToList();
-
-            ;
         }
 
         public class SongInfoDTO

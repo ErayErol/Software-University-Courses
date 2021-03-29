@@ -1,7 +1,8 @@
 ﻿namespace MusicHub
 {
-    using Data;
-    using Initializer;
+    using MusicHub.Data;
+    using MusicHub.Initializer;
+
     using System;
     using System.Globalization;
     using System.IO;
@@ -11,15 +12,13 @@
     public class StartUp
     {
         private const string NewLine = "\r\n";
+        private const int ProducerId = 9;
 
         public static void Main(string[] args)
         {
-            MusicHubDbContext context =
-                new MusicHubDbContext();
-
+            MusicHubDbContext context = new MusicHubDbContext();
             DbInitializer.ResetDatabase(context);
-
-            var result = ExportAlbumsInfo(context, 9);
+            var result = ExportAlbumsInfo(context, ProducerId);
             File.WriteAllText("../../../result.txt", result);
         }
 
@@ -34,7 +33,8 @@
                     ReleseaDate = album.ReleaseDate
                         .ToString("MM/dd/yyyy", CultureInfo.InvariantCulture),
                     ProducerName = album.Producer.Name,
-                    Songs = album.Songs
+                    Songs = album
+                        .Songs
                         .Select(song => new
                         {
                             song.Name,
@@ -44,7 +44,8 @@
                         .OrderByDescending(s => s.Name)
                         .ThenBy(s => s.WriterName)
                         .ToList(),
-                    Price = album.Songs
+                    Price = album
+                        .Songs
                         .Sum(song => song.Price),
                 })
                 .OrderByDescending(album => album.Price)

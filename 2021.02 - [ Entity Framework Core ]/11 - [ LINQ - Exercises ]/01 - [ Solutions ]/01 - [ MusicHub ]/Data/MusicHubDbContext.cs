@@ -1,7 +1,8 @@
 ﻿namespace MusicHub.Data
 {
-    using Microsoft.EntityFrameworkCore;
     using MusicHub.Data.Models;
+
+    using Microsoft.EntityFrameworkCore;
 
     public class MusicHubDbContext : DbContext
     {

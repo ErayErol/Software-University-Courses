@@ -1,7 +1,8 @@
 ﻿namespace P01_StudentSystem.Data
 {
-    using Microsoft.EntityFrameworkCore;
     using P01_StudentSystem.Data.Models;
+
+    using Microsoft.EntityFrameworkCore;
 
     public class StudentSystemContext : DbContext
     {

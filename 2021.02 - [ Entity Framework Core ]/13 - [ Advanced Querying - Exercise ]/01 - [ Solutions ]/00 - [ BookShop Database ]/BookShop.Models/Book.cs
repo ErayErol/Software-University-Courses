@@ -1,7 +1,7 @@
-﻿using BookShop.Models.Enums;
-
-namespace BookShop.Models
+﻿namespace BookShop.Models
 {
+	using BookShop.Models.Enums;
+
     using System;
     using System.Collections.Generic;
 

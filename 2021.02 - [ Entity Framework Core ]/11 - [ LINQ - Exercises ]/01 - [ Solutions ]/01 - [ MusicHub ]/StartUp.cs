@@ -1,9 +1,9 @@
 ﻿namespace MusicHub
 {
-    using System;
+    using MusicHub.Data;
+    using MusicHub.Initializer;
 
-    using Data;
-    using Initializer;
+    using System;
 
     public class StartUp
     {
@@ -14,7 +14,7 @@
 
             DbInitializer.ResetDatabase(context);
 
-            //Test your solutions here
+            // Test your solutions here
         }
 
         public static string ExportAlbumsInfo(MusicHubDbContext context, int producerId)
