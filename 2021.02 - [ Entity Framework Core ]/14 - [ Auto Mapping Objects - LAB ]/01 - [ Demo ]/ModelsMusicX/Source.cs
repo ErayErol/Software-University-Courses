@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace Demo.ModelsMusicX
+﻿namespace Demo.ModelsMusicX
 {
+    using System;
+    using System.Collections.Generic;
+
     public partial class Source
     {
         public Source()

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace Demo.ModelsMusicX
+﻿namespace Demo.ModelsMusicX
 {
+    using System;
+
     public partial class ArtistMetadatum
     {
         public int Id { get; set; }

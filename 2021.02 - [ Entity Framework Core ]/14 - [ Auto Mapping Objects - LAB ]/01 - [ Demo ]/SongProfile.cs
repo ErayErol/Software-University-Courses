@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AutoMapper;
-using Demo.ModelsMusicX;
-
-namespace Demo
+﻿namespace Demo
 {
+    using Demo.Dto;
+    using Demo.ModelsMusicX;
+
+    using AutoMapper;
+    using System.Linq;
+
     public class SongProfile : Profile
     {
         public SongProfile()
         {
-            this.CreateMap<Song, Program.SongInfoDTO>()
+            this.CreateMap<Song, SongInfoDto>()
                 .ForMember(dto => dto.Artists, opt =>
                 {
                     opt.MapFrom(src =>

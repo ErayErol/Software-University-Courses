@@ -1,31 +1,32 @@
 ﻿namespace Demo
 {
+    using Demo.Dto;
     using Demo.ModelsMusicX;
 
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
-    using System.Collections.Generic;
+    using System;
     using System.Linq;
 
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            var db = new MusicXContext();
             var config = new MapperConfiguration(cfg => cfg.AddProfile<SongProfile>());
+            var db = new MusicXContext();
             var songs = db.Songs
-                .Where(s => s.Name.StartsWith("С"))
-                .ProjectTo<SongInfoDTO>(config)
+                .Where(s => s.Name.StartsWith("E"))
+                .ProjectTo<SongInfoDto>(config)
                 .ToList();
-        }
 
-        public class SongInfoDTO
-        {
-            public string Name { get; set; }
-
-            public string SourceName { get; set; }
-
-            public List<string> Artists { get; set; }
+            foreach (var song in songs)
+            {
+                foreach (var songArtist in song.Artists)
+                {
+                    Console.WriteLine($"-{songArtist}");
+                }
+                Console.WriteLine($"---{song.Name}");
+            }
         }
     }
 }
