@@ -1,11 +1,13 @@
 ﻿namespace ProductShop
 {
-    using ProductShop.Data;
-    using ProductShop.Models;
+    using ProductShop.Dtos.Import;
+    using ProductShop.Utillities;
+
+    using Data;
+    using Models;
     using System;
     using System.IO;
     using System.Linq;
-    using System.Xml.Serialization;
 
     public class StartUp
     {
@@ -22,10 +24,13 @@
             var categories = context.Categories.Select(x => x.Id).ToList();
             var products = context.Products.Select(x => x.Id).ToList();
 
-            var serializer = new XmlSerializer(typeof(Dtos.Import.CategoryProduct[]), new XmlRootAttribute("CategoryProducts"));
-            Dtos.Import.CategoryProduct[] deserialize = (Dtos.Import.CategoryProduct[])serializer.Deserialize(new StringReader(inputXml));
+            //var serializer = new XmlSerializer(typeof(CategoryProductInputModel[]), new XmlRootAttribute("CategoryProducts"));
+            //CategoryProductInputModel[] deserialize = (CategoryProductInputModel[])serializer.Deserialize(new StringReader(inputXml));
 
-            Models.CategoryProduct[] categoryProducts = deserialize
+            const string root = "CategoryProducts";
+            CategoryProductInputModel[] categoryProductInputModels = XmlConverter.Deserializer<CategoryProductInputModel>(inputXml, root);
+
+            CategoryProduct[] categoryProducts = categoryProductInputModels
                 .Where(x => categories.Contains(x.CategoryId) && products.Contains(x.ProductId))
                 .Select(x => new CategoryProduct()
                 {
@@ -34,8 +39,7 @@
                 })
                 .ToArray();
 
-            // ReSharper disable once CoVariantArrayConversion
-            context.AddRange(categoryProducts);
+            context.AddRange((CategoryProduct[])categoryProducts);
             context.SaveChanges();
             var result = $"Successfully imported {categoryProducts.Length}";
             return result;

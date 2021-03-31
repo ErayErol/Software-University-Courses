@@ -1,13 +1,13 @@
 ﻿namespace ProductShop
 {
-    using ProductShop.Dtos;
-    using ProductShop.Data;
-    using ProductShop.Models;
+    using ProductShop.Utilities;
+
+    using Data;
+    using Dtos.Import;
+    using Models;
     using System;
-    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Xml.Serialization;
 
     public class StartUp
     {
@@ -21,17 +21,22 @@
 
         public static string ImportUsers(ProductShopContext context, string inputXml)
         {
-            var serializer = new XmlSerializer(typeof(Dtos.Import.User[]), new XmlRootAttribute("Users"));
-            Dtos.Import.User[] deserialize = (Dtos.Import.User[])serializer.Deserialize(new StringReader(inputXml));
-            Models.User[] users = deserialize
-                .Select(x => new User()
+            // Deserialize Xml with Xml.Serialization
+            //var serializer = new XmlSerializer(typeof(UserInputModel[]), new XmlRootAttribute("Users"));
+            //UserInputModel[] deserialize = (UserInputModel[])serializer.Deserialize(new StringReader(inputXml));
+
+            // Deserialize Xml with XmlConverter from ProductShop.Utilities 
+            const string root = "Users";
+            UserInputModel[] userInputModels = XmlConverter.Deserializer<UserInputModel>(inputXml, root);
+            User[] users = userInputModels
+                .Select(x => new User
                 {
                     FirstName = x.FirstName,
                     LastName = x.LastName,
                     Age = x?.Age,
                 }).ToArray();
 
-            context.AddRange(users);
+            context.AddRange((User[])users);
             context.SaveChanges();
             var result = $"Successfully imported {users.Length}";
             return result;

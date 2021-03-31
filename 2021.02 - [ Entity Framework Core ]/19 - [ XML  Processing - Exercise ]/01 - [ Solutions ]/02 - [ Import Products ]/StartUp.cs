@@ -1,13 +1,13 @@
 ﻿namespace ProductShop
 {
-    using ProductShop.Dtos;
-    using ProductShop.Data;
-    using ProductShop.Models;
+    using ProductShop.Dtos.Import;
+    using ProductShop.Utillities;
+
+    using Data;
+    using Models;
     using System;
-    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Xml.Serialization;
 
     public class StartUp
     {
@@ -21,9 +21,12 @@
 
         public static string ImportProducts(ProductShopContext context, string inputXml)
         {
-            var serializer = new XmlSerializer(typeof(Dtos.Import.Product[]), new XmlRootAttribute("Products"));
-            Dtos.Import.Product[] deserialize = (Dtos.Import.Product[])serializer.Deserialize(new StringReader(inputXml));
-            Models.Product[] products = deserialize
+            //var serializer = new XmlSerializer(typeof(ProductInputModel[]), new XmlRootAttribute("Products"));
+            //ProductInputModel[] deserialize = (ProductInputModel[])serializer.Deserialize(new StringReader(inputXml));
+
+            const string root = "Products";
+            ProductInputModel[] productInputModels = XmlConverter.Deserializer<ProductInputModel>(inputXml, root);
+            Product[] products = productInputModels
                 .Select(x => new Product()
                 {
                     Name = x.Name,
@@ -32,7 +35,7 @@
                     BuyerId = x?.BuyerId,
                 }).ToArray();
 
-            context.AddRange(products);
+            context.AddRange((Product[])products);
             context.SaveChanges();
             var result = $"Successfully imported {products.Length}";
             return result;

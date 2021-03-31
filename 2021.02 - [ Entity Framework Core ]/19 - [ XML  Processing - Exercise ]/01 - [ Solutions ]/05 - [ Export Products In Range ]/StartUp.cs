@@ -1,6 +1,9 @@
-﻿namespace ProductShop
+﻿using ProductShop.Utillities;
+
+namespace ProductShop
 {
     using ProductShop.Data;
+
     using System;
     using System.IO;
     using System.Linq;
@@ -8,6 +11,10 @@
 
     public class StartUp
     {
+        private const int ProductsCount = 10;
+        private const int PriceRangeFirstCriteria = 500;
+        private const int PriceRangeSecondCriteria = 1000;
+
         public static void Main(string[] args)
         {
             var context = new ProductShopContext();
@@ -20,7 +27,7 @@
         {
             var products = context
                 .Products
-                .Where(x => x.Price > 500 && x.Price <= 1000)
+                .Where(x => x.Price > PriceRangeFirstCriteria && x.Price <= PriceRangeSecondCriteria)
                 .Select(x => new
                 {
                     name = x.Name,
@@ -28,7 +35,7 @@
                     buyer = x.Buyer.FirstName + ' ' + x.Buyer.LastName
                 })
                 .OrderBy(x => x.price)
-                .Take(10)
+                .Take(ProductsCount)
                 .ToList();
 
             XDocument doc = new XDocument(); // document

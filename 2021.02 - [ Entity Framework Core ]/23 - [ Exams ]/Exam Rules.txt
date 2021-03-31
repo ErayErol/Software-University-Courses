@@ -1,0 +1,7 @@
+1.
+Copy / paste
+Nullable
+Add DbSet (view diagram for names)
+Add composite key
+Initialize collections (in ctor)
+Validation
