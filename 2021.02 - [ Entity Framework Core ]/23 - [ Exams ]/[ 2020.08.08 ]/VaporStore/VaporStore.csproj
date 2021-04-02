@@ -30,7 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataProcessor\Dto\Export\" />
     <Folder Include="ExportResults\" />
     <Folder Include="ImportResults\" />
   </ItemGroup>

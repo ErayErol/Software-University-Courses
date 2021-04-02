@@ -1,6 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Globalization;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Linq;
+using ProductShop.Utilities;
+using VaporStore.Data.Models;
+using VaporStore.Data.Models.Enums;
+using VaporStore.DataProcessor.Dto.Export;
 
 namespace VaporStore.DataProcessor
 {
@@ -41,35 +46,38 @@ namespace VaporStore.DataProcessor
             return json;
         }
 
-        // var prisoners = context.Prisoners
-        // .Include(x => x.PrisonerOfficers)
-        // .ThenInclude(x => x.Officer)
-        // .Where(x => ids.Contains(x.Id))
-        // .Select(x => new
-        // {
-        // x.Id,
-        // Name = x.FullName,
-        // CellNumber = x.Cell.CellNumber,
-        // Officers = x.PrisonerOfficers.Select(p => new
-        // {
-        // OfficerName = p.Officer.FullName,
-        // Department = p.Officer.Department.Name,
-        // })
-        // .OrderBy(p => p.OfficerName)
-        // .ToList(),
-        // TotalOfficerSalary = decimal.Parse(x.PrisonerOfficers.Sum(po => po.Officer.Salary).ToString("F2"))
-        // })
-        // .OrderBy(x => x.Name)
-        // .ThenBy(x => x.Id)
-        // .ToList();
-        // 
-        // var json = JsonConvert.SerializeObject(prisoners, Formatting.Indented);
-        // return json;
-        // 
-
         public static string ExportUserPurchasesByType(VaporStoreDbContext context, string storeType)
         {
-            return "TODO";
+            var users = context.Users
+                .Where(x => x.Cards.Any(c=>c.Purchases.Any()))
+                .Select(x => new UserXmlOutputModel
+                {
+                    Username = x.Username,
+                    Purchases = context.Purchases
+                        .Where(p => p.Card.UserId == x.Id && p.Type.ToString() == storeType)
+                        .Select(p => new PurchaseXmlOutputModel()
+                        {
+                            Card = p.Card.Number,
+                            Cvc = p.Card.Cvc,
+                            Date = p.Date.ToString("yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture),
+                            Game = new GameXmlOutputModel()
+                            {
+                                Genre = p.Game.Genre.Name,
+                                Title = p.Game.Name,
+                                Price = p.Game.Price
+                            }
+                        })
+                        .OrderBy(s => s.Date)
+                        .ToArray(),
+                    TotalSpent = context.Purchases
+                        .Where(p => p.Card.UserId == x.Id).Sum(p => p.Game.Price)
+                })
+                .OrderByDescending(x => x.TotalSpent)
+                .ThenBy(x => x.Username)
+                .ToArray();
+
+            var result = XmlConverter.Serialize(users, "Users");
+            return result;
         }
     }
 }
