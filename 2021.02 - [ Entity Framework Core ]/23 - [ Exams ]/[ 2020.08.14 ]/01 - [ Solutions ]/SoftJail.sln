@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2018
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftJail", "SoftJail\SoftJail.csproj", "{B3A112C9-15D1-47E6-895D-6D381C436243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftJail", "SoftJail.csproj", "{0A46D20E-73D4-44B0-BDB9-D7456F411FD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3A112C9-15D1-47E6-895D-6D381C436243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3A112C9-15D1-47E6-895D-6D381C436243}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3A112C9-15D1-47E6-895D-6D381C436243}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3A112C9-15D1-47E6-895D-6D381C436243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A46D20E-73D4-44B0-BDB9-D7456F411FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A46D20E-73D4-44B0-BDB9-D7456F411FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A46D20E-73D4-44B0-BDB9-D7456F411FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A46D20E-73D4-44B0-BDB9-D7456F411FD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {994022F9-7A30-46DF-BC21-3B62FD63882E}
+		SolutionGuid = {1463F07A-B985-4049-848F-D9E3F48274AB}
 	EndGlobalSection
 EndGlobal

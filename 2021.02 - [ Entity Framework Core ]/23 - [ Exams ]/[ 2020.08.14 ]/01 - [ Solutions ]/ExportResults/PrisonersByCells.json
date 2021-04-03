@@ -1,0 +1,54 @@
+[
+  {
+    "Id": 3,
+    "Name": "Benji Ballefant",
+    "CellNumber": 104,
+    "Officers": [
+      {
+        "OfficerName": "Hailee Kennon",
+        "Department": "ArtificialIntelligence"
+      },
+      {
+        "OfficerName": "Theo Carde",
+        "Department": "Blockchain"
+      }
+    ],
+    "TotalOfficerSalary": 7127.93
+  },
+  {
+    "Id": 7,
+    "Name": "Garland Swepstone",
+    "CellNumber": 404,
+    "Officers": [
+      {
+        "OfficerName": "Theo Carde",
+        "Department": "Blockchain"
+      }
+    ],
+    "TotalOfficerSalary": 3475.44
+  },
+  {
+    "Id": 5,
+    "Name": "Lenette Jorn",
+    "CellNumber": 402,
+    "Officers": [
+      {
+        "OfficerName": "Rica Muscott",
+        "Department": "ArtificialIntelligence"
+      }
+    ],
+    "TotalOfficerSalary": 2339.08
+  },
+  {
+    "Id": 1,
+    "Name": "Melanie Simonich",
+    "CellNumber": 105,
+    "Officers": [
+      {
+        "OfficerName": "Paddy Weiner",
+        "Department": "Blockchain"
+      }
+    ],
+    "TotalOfficerSalary": 2854.56
+  }
+]
