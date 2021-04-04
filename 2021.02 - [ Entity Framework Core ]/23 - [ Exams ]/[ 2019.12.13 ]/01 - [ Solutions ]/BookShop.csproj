@@ -12,10 +12,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
   
-    <ItemGroup>
-      <Folder Include="DataProcessor\ExportDto\" />
-    </ItemGroup>
-  
     <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 

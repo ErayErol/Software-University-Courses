@@ -15,19 +15,19 @@
         public static string ExportPrisonersByCells(SoftJailDbContext context, int[] ids)
         {
             var prisoners = context.Prisoners
-                .Include(x => x.PrisonerOfficers)
-                .ThenInclude(x => x.Officer)
+                .ToList()
                 .Where(x => ids.Contains(x.Id))
                 .Select(x => new
                 {
                     x.Id,
                     Name = x.FullName,
-                    CellNumber = x.Cell.CellNumber,
-                    Officers = x.PrisonerOfficers.Select(p => new
-                    {
-                        OfficerName = p.Officer.FullName,
-                        Department = p.Officer.Department.Name,
-                    })
+                    x.Cell.CellNumber,
+                    Officers = x.PrisonerOfficers
+                        .Select(p => new
+                        {
+                            OfficerName = p.Officer.FullName,
+                            Department = p.Officer.Department.Name,
+                        })
                         .OrderBy(p => p.OfficerName)
                         .ToList(),
                     TotalOfficerSalary = decimal.Parse(x.PrisonerOfficers.Sum(po => po.Officer.Salary).ToString("F2"))
@@ -46,13 +46,14 @@
             var names = prisonersNames.Split(",", StringSplitOptions.RemoveEmptyEntries);
 
             var prisoners = context.Prisoners
+                .ToList()
                 .Where(x => names.Contains(x.FullName))
-                .Select(x => new PrisonerViewModel
+                .Select(x => new XMLPrisoner
                 {
                     Id = x.Id,
                     Name = x.FullName,
                     IncarcerationDate = x.IncarcerationDate.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture),
-                    EncryptedMessages = x.Mails.Select(m => new EncryptedMessageViewModel
+                    EncryptedMessages = x.Mails.Select(m => new XMLEncryptedMessage
                     {
                         Description = string.Join("", m.Description.Reverse())
                     }).ToArray() // must be array
@@ -65,6 +66,4 @@
             return result;
         }
     }
-
-
 }

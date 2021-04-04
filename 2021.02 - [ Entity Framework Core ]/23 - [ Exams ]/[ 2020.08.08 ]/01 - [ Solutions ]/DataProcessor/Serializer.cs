@@ -1,8 +1,8 @@
 ﻿namespace VaporStore.DataProcessor
 {
     using Data;
-    using Dto.Export;
-    using Utilities;
+    using VaporStore.DataProcessor.Dto.Export;
+    using VaporStore.Utilities;
 
     using Newtonsoft.Json;
     using System.Globalization;
@@ -35,28 +35,29 @@
                     TotalPlayers = genre.Games.Sum(game => game.Purchases.Count)
                 })
                 .OrderByDescending(x => x.TotalPlayers)
-                .ThenBy(x => x.Id);
+                .ThenBy(x => x.Id)
+                .ToList();
 
 
-            var json = JsonConvert.SerializeObject(genres, Formatting.Indented);
-            return json;
+            var result = JsonConvert.SerializeObject(genres, Formatting.Indented);
+            return result;
         }
 
         public static string ExportUserPurchasesByType(VaporStoreDbContext context, string storeType)
         {
             var users = context.Users
-                .AsEnumerable()
+                .ToList()
                 .Where(x => x.Cards.Any(c => c.Purchases.Any(s => s.Type.ToString() == storeType)))
-                .Select(x => new UserXmlOutputModel
+                .Select(x => new XMLExportUser
                 {
                     Username = x.Username,
                     Purchases = x.Cards
-                        .SelectMany(c => c.Purchases.Where(p => p.Type.ToString() == storeType), (card, purchase) => new PurchaseXmlOutputModel
+                        .SelectMany(c => c.Purchases.Where(p => p.Type.ToString() == storeType), (card, purchase) => new XMLExportPurchase
                         {
                             Card = card.Number,
                             Cvc = card.Cvc,
                             Date = purchase.Date.ToString("yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture),
-                            Game = new GameXmlOutputModel()
+                            Game = new XMLExportGame()
                             {
                                 Title = purchase.Game.Name,
                                 Genre = purchase.Game.Genre.Name,
@@ -76,13 +77,3 @@
         }
     }
 }
-
-//Use the method provided in the project skeleton, which receives a purchase type as a string.
-//Export all users who have any purchases.
-//For each user, export their username, purchases for that purchase type and total money spent for that purchase type.
-//For each purchase, export its card number, CVC, date in the format "yyyy-MM-dd HH:mm" (make sure you use CultureInfo.InvariantCulture) and the game.
-//For each game, export its title (name), genre and price.
-//Order the users by total spent (descending), then by username (ascending). For each user, order the purchases by date (ascending).
-//Do not export users, who don’t have any purchases.
-// Note: All prices must be in decimal without any formatting!
-// 

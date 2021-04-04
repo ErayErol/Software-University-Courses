@@ -10,7 +10,7 @@
     {
         [XmlElement("Type")]
         [Required]
-        //[EnumDataType(typeof(PurchaseType))]
+        [EnumDataType(typeof(PurchaseType))]
         public string Type { get; set; }
 
         [XmlElement("Key")]
