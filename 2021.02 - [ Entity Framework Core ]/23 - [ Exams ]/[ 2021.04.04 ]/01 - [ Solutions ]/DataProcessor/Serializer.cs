@@ -48,7 +48,7 @@
                 {
                     employee.Username,
                     Tasks = employee.EmployeesTasks
-                        .ToArray()
+                        //.ToArray()
                         .Select(employeeTask => employeeTask.Task)
                         .Where(task => task.OpenDate >= date)
                         .OrderByDescending(task => task.DueDate)

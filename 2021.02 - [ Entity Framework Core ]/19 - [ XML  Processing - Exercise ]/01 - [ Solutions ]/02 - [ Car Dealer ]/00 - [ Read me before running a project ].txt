@@ -1,0 +1,10 @@
+If you want to run project:
+
+1. Just copy StartUp.cs file from exercise that you want
+2. Paste/Replace it with StartUp.cs file from folder 09 - [ Import Suppliers ]
+3. If folder have DTO folder then copy DTO folder too
+4. Run the project
+
+The reason for that is because:
+Every folder has the same files(Data, Datasets, Models, ProductShop.csproj....)
+I decided to removed all of them and leave only the files in folder 09 - [ Import Suppliers ]
