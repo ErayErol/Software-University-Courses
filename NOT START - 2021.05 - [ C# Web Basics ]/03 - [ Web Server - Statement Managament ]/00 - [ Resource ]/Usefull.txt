@@ -1,0 +1,3 @@
+https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+https://github.com/SoftUni/csharp-web/blob/036ac7a9981d592d9be29277e77a8517546b3d07/2020-Sept-Season/BasicHttpServer/HttpClientDemo/Program.cs
