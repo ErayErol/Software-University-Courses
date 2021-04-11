@@ -1,17 +1,16 @@
-﻿using System;
-using System.Net;
-using System.Net.Http;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Demo
+﻿namespace Demo
 {
+    using System;
+    using System.Net;
+    using System.Net.Sockets;
+    using System.Text;
+    using System.Threading.Tasks;
+
     class Program
     {
         static async Task Main(string[] args)
         {
-            Server();
+            ServerListen();
         }
 
         private static async Task ServerListen()
@@ -31,7 +30,7 @@ namespace Demo
                 byte[] buffer = new byte[1_000_000];
                 stream.Read(buffer, 0, buffer.Length);
 
-                byte[] data = Encoding.ASCII.GetBytes("Hello!");
+                byte[] data = Encoding.ASCII.GetBytes("Hello from server!");
                 client.GetStream().Write(data, 0, data.Length);
                 stream.Dispose();
             }
