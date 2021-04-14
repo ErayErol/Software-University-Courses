@@ -1,0 +1,16 @@
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.exe
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.deps.json
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.runtimeconfig.json
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.runtimeconfig.dev.json
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.dll
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\ref\CreatingTask.dll
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.pdb
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.csprojAssemblyReference.cache
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.AssemblyInfoInputs.cache
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.AssemblyInfo.cs
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.csproj.CoreCompileInputs.cache
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.dll
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\ref\CreatingTask.dll
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.pdb
+C:\Users\Aris\Desktop\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.genruntimeconfig.cache
