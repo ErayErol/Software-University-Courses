@@ -7,8 +7,10 @@
     {
         static void Main(string[] args)
         {
-            Task task = new Task(() => { Console.WriteLine("Task"); });
-
+            Task task = new Task(() =>
+            {
+                Console.WriteLine("Task");
+            });
         }
     }
 }

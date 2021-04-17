@@ -1,8 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace GenericTask
+﻿namespace GenericTask
 {
+    using System;
+    using System.Threading.Tasks;
+
     class Program
     {
         static void Main(string[] args)
@@ -10,7 +10,11 @@ namespace GenericTask
             Task<long> task = Task<long>.Run(() =>
             {
                 long sum = 0;
-                for (int i = 0; i < 10000; i++) sum += i;
+                for (int i = 0; i < 10000; i++)
+                {
+                    sum += i;
+                }
+
                 return sum;
             });
 

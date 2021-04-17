@@ -1,0 +1,16 @@
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.exe
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.deps.json
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.runtimeconfig.json
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.runtimeconfig.dev.json
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\ref\CreatingTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\bin\Debug\net5.0\CreatingTask.pdb
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.csprojAssemblyReference.cache
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\ref\CreatingTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.pdb
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\CreatingTask\obj\Debug\net5.0\CreatingTask.genruntimeconfig.cache

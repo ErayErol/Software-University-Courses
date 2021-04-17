@@ -1,0 +1,16 @@
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\GenericTask.exe
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\GenericTask.deps.json
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\GenericTask.runtimeconfig.json
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\GenericTask.runtimeconfig.dev.json
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\GenericTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\ref\GenericTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\bin\Debug\net5.0\GenericTask.pdb
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.csprojAssemblyReference.cache
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\ref\GenericTask.dll
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.pdb
+D:\Eray\Software-University-Courses\NOT START - 2021.05 - [ C# Web Basics ]\02 - [ Web Server - Asynchronous Processing ]\01 - [ Demo ]\GenericTask\obj\Debug\net5.0\GenericTask.genruntimeconfig.cache
