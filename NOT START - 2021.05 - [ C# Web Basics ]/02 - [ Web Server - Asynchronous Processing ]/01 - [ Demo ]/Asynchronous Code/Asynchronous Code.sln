@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenNumbersThread", "..\Eve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingTask", "..\CreatingTask\CreatingTask.csproj", "{F68F021B-D959-49D1-B32B-542E09527B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTask", "..\GenericTask\GenericTask.csproj", "{98711B3B-488E-4A57-9B7D-B681B0A39EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTask", "..\GenericTask\GenericTask.csproj", "{98711B3B-488E-4A57-9B7D-B681B0A39EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "..\WpfApp1\WpfApp1.csproj", "{4A484393-3E55-4091-82E8-0283B104F07B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{98711B3B-488E-4A57-9B7D-B681B0A39EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98711B3B-488E-4A57-9B7D-B681B0A39EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98711B3B-488E-4A57-9B7D-B681B0A39EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A484393-3E55-4091-82E8-0283B104F07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A484393-3E55-4091-82E8-0283B104F07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A484393-3E55-4091-82E8-0283B104F07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A484393-3E55-4091-82E8-0283B104F07B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
