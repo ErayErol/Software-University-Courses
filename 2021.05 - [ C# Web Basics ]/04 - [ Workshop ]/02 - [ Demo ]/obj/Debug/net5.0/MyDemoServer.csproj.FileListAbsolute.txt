@@ -1,0 +1,16 @@
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\MyDemoServer.exe
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\MyDemoServer.deps.json
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\MyDemoServer.runtimeconfig.json
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\MyDemoServer.runtimeconfig.dev.json
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\MyDemoServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\ref\MyDemoServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\bin\Debug\net5.0\MyDemoServer.pdb
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.csprojAssemblyReference.cache
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\ref\MyDemoServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.pdb
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\04 - [ Workshop ]\02 - [ Demo ]\obj\Debug\net5.0\MyDemoServer.genruntimeconfig.cache
