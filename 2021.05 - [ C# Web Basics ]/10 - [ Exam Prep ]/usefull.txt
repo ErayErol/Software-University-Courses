@@ -1,0 +1,25 @@
+1.     .csproj 
+<ItemGroup> => Views and wwwroot
+
+2. Dependancy към Server-a
+
+3. Database Requirements => Data/Models
+
+4. Copy DataConstants
+
+5. Copy Models
+
+6. Add DbSet in DbContext
+=> public DbSet<Issue> Issues { get; init; }
+
+7. Add Migration
+=> <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+=> Default project: (CURRENT PROJECT)
+=> Add-Migration InitialCreate -o Data/Migrations
+=> Add    
+	=> .WithConfiguration<GitDbContext>(context => context.Database.Migrate())     
+	=> in Startup.cs
+=> Add    
+	=> .WithServices(services => services.Add<GitDbContext>())   
+	=> in Startup.cs 
+	
