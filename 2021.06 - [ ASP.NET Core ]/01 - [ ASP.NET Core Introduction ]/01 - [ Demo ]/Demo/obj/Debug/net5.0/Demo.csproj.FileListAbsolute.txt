@@ -1,0 +1,16 @@
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\Demo.exe
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\Demo.deps.json
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\Demo.runtimeconfig.json
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\Demo.runtimeconfig.dev.json
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\Demo.dll
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\ref\Demo.dll
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\bin\Debug\net5.0\Demo.pdb
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.csproj.AssemblyReference.cache
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.dll
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\ref\Demo.dll
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.pdb
+D:\Eray\Software-University-Courses\2021.06 - [ ASP.NET Core ]\01 - [ ASP.NET Core Introduction ]\01 - [ Demo ]\Demo\obj\Debug\net5.0\Demo.genruntimeconfig.cache

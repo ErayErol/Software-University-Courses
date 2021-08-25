@@ -1,0 +1,12 @@
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\bin\Debug\net5.0\MyWebServer.deps.json
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\bin\Debug\net5.0\MyWebServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\bin\Debug\net5.0\ref\MyWebServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\bin\Debug\net5.0\MyWebServer.pdb
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.AssemblyReference.cache
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfoInputs.cache
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfo.cs
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.CoreCompileInputs.cache
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\ref\MyWebServer.dll
+D:\Eray\Software-University-Courses\2021.05 - [ C# Web Basics ]\11 - [ Exams ]\01 - [ 26.06.2021 ]\01 - [ Solutions ]\MyWebServer\obj\Debug\net5.0\MyWebServer.pdb
