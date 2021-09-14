@@ -1,15 +1,25 @@
 {
-    "name": "name",
-    "description": "description",
-    "authors": "author",
-    "version": "1.0.0",
-    "main": "pathToMain",
-    "dependencies": {
-        "bootstrap": "^4.3.1",
-        "handlebars": "^4.1.2",
-        "jquery": "^3.4.1",
-        "popper.js": "^1.15.0",
-        "sammy": "^0.7.6",
-        "toastr": "^2.1.4"
-    }
+  "name": "name",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "handlebars": "^4.1.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "sammy": "^0.7.6",
+    "toastr": "^2.1.4"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }

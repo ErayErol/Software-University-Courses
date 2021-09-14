@@ -1,14 +1,20 @@
 {
-    "name": "name",
-    "description": "description",
-    "authors": "author",
-    "version": "1.0.0",
-    "main": "pathToMain",
-    "dependencies": {
-        "bootstrap": "^4.3.1",
-        "handlebars": "^4.1.2",
-        "jquery": "^3.4.1",
-        "popper.js": "^1.15.0",
-        "sammy": "^0.7.6"
-    }
+  "name": "name",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "handlebars": "^4.1.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "sammy": "^0.7.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
