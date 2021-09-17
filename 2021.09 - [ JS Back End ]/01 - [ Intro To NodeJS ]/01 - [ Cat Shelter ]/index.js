@@ -1,10 +1,14 @@
+const port = 3000;
 const http = require('http');
-const port = 5000;
+const handlers = require('./handlers');
 
 let app = http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.write('Hello Node.js');
-    res.end();
+    
+    for (let handler of handlers) {
+        if (!handler(req, res)) {
+            break;
+        }
+    }
 });
 
 app.listen(port);
