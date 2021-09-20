@@ -5,22 +5,25 @@ const qs = require('querystring');
 const formidable = require('formidable');
 const cats = require('../data/cats');
 const breeds = require('../data/breeds');
+const { UV_FS_O_FILEMAP } = require('constants');
 
 module.exports = (req, res) => {
     const pathname = url.parse(req.url).pathname;
 
     if (pathname === '/cats/add-cat' && req.method === 'GET') {
-        let filePath = path.join(__dirname, '../views/addCat.html');
+        const filePath = path.join(__dirname, '../views/addCat.html');
 
         const readStream = fs.createReadStream(filePath);
-        // src.pipe(res);
 
         readStream.on("data", (data) => {
-            res.write(data);
-            let breed = breeds;
-            let catBreedPlaceholder = breed.map((breed) => `<option value="${breed}">${breed}</option>`);
+
+            let catBreedPlaceholder = breeds.map(breed => `
+                <option value="${breed}">${breed}</option>
+            `);
+
             let modifiedData = data.toString().replace('{{catBreeds}}', catBreedPlaceholder);
-            
+
+            res.write(modifiedData);
         });
 
         readStream.on("end", () => {
@@ -32,22 +35,38 @@ module.exports = (req, res) => {
         });
     } else if (pathname === '/cats/add-cat' && req.method === 'POST') {
         let form = formidable.IncomingForm();
-
+        
         form.parse(req, (err, fields, files) => {
-            cats.push(fields);
+            if (err) {
+                throw err;
+            }
+            
+            let oldPath = files.upload.path.toString();
+            let newPath = path.join(__dirname, '../content/images/' + files.upload.name);
+            
+            fs.copyFile(oldPath, newPath, (err) => {
+                if (err) {
+                    throw err;
+                }
 
+                console.log('Files was uploaded successfully.');
+            });
+
+            cats.push({ id: cats.length + 1, ...fields, image: files.upload.name });
             let result = JSON.stringify(cats, '', 2);
 
-            let dbPath = path.join(__dirname, '/data/cats.json');
+            let filePath = path.join(__dirname, '../data/cats.json');
 
-            fs.writeFileSync(dbPath, result, { encoding: "utf8" });
+            fs.writeFile(filePath, result, 'utf8', () => {
+                console.log('The cat was added successfully.');
+            });
 
+            res.writeHead(302, { location: '/' });
             res.end();
         });
 
     } else if (pathname === '/cats/add-breed' && req.method === 'GET') {
-        let filePath = path.join(__dirname, '../views/addBreed.html');
-
+        const filePath = path.join(__dirname, '../views/addBreed.html');
         const src = fs.createReadStream(filePath);
         src.pipe(res);
     } else if (pathname === '/cats/add-breed' && req.method === 'POST') {
@@ -58,7 +77,7 @@ module.exports = (req, res) => {
         });
 
         req.on('end', () => {
-            let filePath = path.join(__dirname, '../data/breeds.json');
+            const filePath = path.join(__dirname, '../data/breeds.json');
             let body = qs.parse(formData);
 
             fs.readFile(filePath, (err, data) => {
@@ -68,10 +87,10 @@ module.exports = (req, res) => {
 
                 let breeds = JSON.parse(data);
                 breeds.push(body.breed);
-                let json = JSON.stringify(breeds);
+                let result = JSON.stringify(breeds);
 
-                fs.writeFile(filePath, json, 'utf8', () => {
-                    console.log('The breed was uploaded successfully.');
+                fs.writeFile(filePath, result, 'utf8', () => {
+                    console.log('The breed was added successfully.');
                 });
             });
 
