@@ -5,7 +5,6 @@ const qs = require('querystring');
 const formidable = require('formidable');
 const cats = require('../data/cats');
 const breeds = require('../data/breeds');
-const { UV_FS_O_FILEMAP } = require('constants');
 
 module.exports = (req, res) => {
     const pathname = url.parse(req.url).pathname;
@@ -35,15 +34,15 @@ module.exports = (req, res) => {
         });
     } else if (pathname === '/cats/add-cat' && req.method === 'POST') {
         let form = formidable.IncomingForm();
-        
+
         form.parse(req, (err, fields, files) => {
             if (err) {
                 throw err;
             }
-            
+
             let oldPath = files.upload.path.toString();
             let newPath = path.join(__dirname, '../content/images/' + files.upload.name);
-            
+
             fs.copyFile(oldPath, newPath, (err) => {
                 if (err) {
                     throw err;
@@ -97,6 +96,80 @@ module.exports = (req, res) => {
             res.writeHead(302, { location: '/' });
             res.end();
         });
+    } else if (pathname.includes('/cats-edit') && req.method === 'GET') {
+        const filePath = path.join(__dirname, '../views/editCat.html');
+        const readStream = fs.createReadStream(filePath);
+
+        readStream.on("data", (data) => {
+
+            let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
+
+            let currentCat = cats.find(c => c.id === catId);
+
+            let modifiedData = data.toString().replace('{{id}}', catId);
+            modifiedData = modifiedData.replace('{{name}}', currentCat.name);
+            modifiedData = modifiedData.replace('{{description}}', currentCat.description);
+
+
+            let breedsAsOption = breeds.map(breed => `
+                <option value="${breed}">${breed}</option>
+            `);
+            modifiedData = modifiedData.replace('{{catBreeds}}', breedsAsOption.join('/'));
+
+            modifiedData = modifiedData.replace('{{breed}}', currentCat.breed);
+
+            res.write(modifiedData);
+        });
+
+        readStream.on("end", () => {
+            res.end();
+        });
+
+        readStream.on("error", (err) => {
+            res.write(err);
+        });
+    } else if (pathname.includes('/cats-edit') && req.method === 'POST') {
+        let form = formidable.IncomingForm();
+
+        form.parse(req, (err, fields, files) => {
+            if (err) {
+                throw err;
+            }
+
+            let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
+            let catIndex = cats.findIndex((cat => cat.id == catId));
+            cats[catIndex].name = fields.name;
+            cats[catIndex].description = fields.description;
+            cats[catIndex].breed = fields.breed;
+
+            if (files.upload.name) {
+                let oldPath = files.upload.path.toString();
+                let newPath = path.join(__dirname, '../content/images/' + files.upload.name);
+
+                fs.copyFile(oldPath, newPath, (err) => {
+                    if (err) {
+                        throw err;
+                    }
+
+                    console.log('Files was uploaded successfully.');
+                });
+
+                cats[catIndex].image = files.upload.name;
+            }
+
+            let result = JSON.stringify(cats, '', 2);
+
+            let filePath = path.join(__dirname, '../data/cats.json');
+
+            fs.writeFile(filePath, result, 'utf8', () => {
+                console.log('The cat was edited successfully.');
+            });
+
+            res.writeHead(302, { location: '/' });
+            res.end();
+        });
+    } else if (pathname.includes('/cats/find-new-home') && req.method === 'GET') {
+    } else if (pathname.includes('/cats/find-new-home') && req.method === 'POST') {
     } else {
         return true;
     }
