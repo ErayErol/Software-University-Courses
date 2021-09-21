@@ -11,75 +11,59 @@ module.exports = (req, res) => {
 
     if (pathname === '/cats/add-cat' && req.method === 'GET') {
         const filePath = path.join(__dirname, '../views/addCat.html');
-
         const readStream = fs.createReadStream(filePath);
 
         readStream.on("data", (data) => {
-
-            let catBreedPlaceholder = breeds.map(breed => `
-                <option value="${breed}">${breed}</option>
-            `);
-
+            let catBreedPlaceholder = breeds.map(breed => `<option value="${breed}">${breed}</option>`);
             let modifiedData = data.toString().replace('{{catBreeds}}', catBreedPlaceholder);
-
             res.write(modifiedData);
         });
 
-        readStream.on("end", () => {
-            res.end();
-        });
-
-        readStream.on("error", (err) => {
-            res.write(err);
-        });
+        readStream.on("end", () => res.end());
+        readStream.on("error", (err) => res.write(err));
     } else if (pathname === '/cats/add-cat' && req.method === 'POST') {
         let form = formidable.IncomingForm();
+        form.uploadDir = path.join(__dirname, '../content/images/');
 
         form.parse(req, (err, fields, files) => {
             if (err) {
                 throw err;
             }
 
-            let oldPath = files.upload.path.toString();
+            let oldPath = files.upload.path;
             let newPath = path.join(__dirname, '../content/images/' + files.upload.name);
-
-            fs.copyFile(oldPath, newPath, (err) => {
+            fs.rename(oldPath, newPath, (err) => {
                 if (err) {
                     throw err;
+                }else{
+                    console.log('Files was uploaded successfully.');
                 }
-
-                console.log('Files was uploaded successfully.');
             });
 
             let i = 1;
             while (true) {
-                let id = cats.length + i;
-                let isIdUnavailable = cats.findIndex((cat => cat.id == id));
-    
-                if (isIdUnavailable > -1) {
+                const id = cats.length + i;
+                let isIdFree = cats.findIndex(cat => cat.id === id);
+
+                if (isIdFree > -1) {
                     i++;
-                }else{
+                } else {
                     cats.push({ id: id, ...fields, image: files.upload.name });
                     break;
                 }
             }
 
             let result = JSON.stringify(cats, '', 2);
-
             let filePath = path.join(__dirname, '../data/cats.json');
-
-            fs.writeFile(filePath, result, 'utf8', () => {
-                console.log('The cat was added successfully.');
-            });
-
+            fs.writeFile(filePath, result, 'utf8', () => console.log('The cat was added successfully.'));
             res.writeHead(302, { location: '/' });
             res.end();
         });
 
     } else if (pathname === '/cats/add-breed' && req.method === 'GET') {
         const filePath = path.join(__dirname, '../views/addBreed.html');
-        const src = fs.createReadStream(filePath);
-        src.pipe(res);
+        const readStream = fs.createReadStream(filePath);
+        readStream.pipe(res);
     } else if (pathname === '/cats/add-breed' && req.method === 'POST') {
         let formData = '';
 
@@ -99,10 +83,7 @@ module.exports = (req, res) => {
                 let breeds = JSON.parse(data);
                 breeds.push(body.breed);
                 let result = JSON.stringify(breeds);
-
-                fs.writeFile(filePath, result, 'utf8', () => {
-                    console.log('The breed was added successfully.');
-                });
+                fs.writeFile(filePath, result, 'utf8', () => console.log('The breed was added successfully.'));
             });
 
             res.writeHead(302, { location: '/' });
@@ -113,32 +94,19 @@ module.exports = (req, res) => {
         const readStream = fs.createReadStream(filePath);
 
         readStream.on("data", (data) => {
-
             let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
-
             let currentCat = cats.find(c => c.id === catId);
-
             let modifiedData = data.toString().replace('{{id}}', catId);
             modifiedData = modifiedData.replace('{{name}}', currentCat.name);
             modifiedData = modifiedData.replace('{{description}}', currentCat.description);
-
-            let breedsAsOption = breeds.map(breed => `
-                <option value="${breed}">${breed}</option>
-            `);
+            let breedsAsOption = breeds.map(breed => `<option value="${breed}">${breed}</option>`);
             modifiedData = modifiedData.replace('{{catBreeds}}', breedsAsOption.join('/'));
-
             modifiedData = modifiedData.replace('{{breed}}', currentCat.breed);
-
             res.write(modifiedData);
         });
 
-        readStream.on("end", () => {
-            res.end();
-        });
-
-        readStream.on("error", (err) => {
-            res.write(err);
-        });
+        readStream.on("end", () => res.end());
+        readStream.on("error", (err) => res.write(err));
     } else if (pathname.includes('/cats-edit') && req.method === 'POST') {
         let form = formidable.IncomingForm();
 
@@ -160,73 +128,50 @@ module.exports = (req, res) => {
                 fs.copyFile(oldPath, newPath, (err) => {
                     if (err) {
                         throw err;
+                    }else{
+                        console.log('Files was uploaded successfully.');
+                        cats[catIndex].image = files.upload.name;
                     }
-
-                    console.log('Files was uploaded successfully.');
                 });
-
-                cats[catIndex].image = files.upload.name;
             }
 
             let result = JSON.stringify(cats, '', 2);
-
             let filePath = path.join(__dirname, '../data/cats.json');
-
-            fs.writeFile(filePath, result, 'utf8', () => {
-                console.log('The cat was edited successfully.');
-            });
-
+            fs.writeFile(filePath, result, 'utf8', () => console.log('The cat was edited successfully.'));
             res.writeHead(302, { location: '/' });
             res.end();
         });
     } else if (pathname.includes('/cats-find-new-home') && req.method === 'GET') {
-
         const filePath = path.join(__dirname, '../views/catShelter.html');
         const readStream = fs.createReadStream(filePath);
 
         readStream.on("data", (data) => {
-
             let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
-
             let currentCat = cats.find(c => c.id === catId);
-
             let modifiedData = data.toString().replace('{{id}}', catId);
             modifiedData = modifiedData.replace('{{name}}', currentCat.name);
             modifiedData = modifiedData.replace('{{description}}', currentCat.description);
             modifiedData = modifiedData.replace('{{image}}', currentCat.image);
-
             let breed = `<option value="${currentCat.breed}">${currentCat.breed}</option>`;
             modifiedData = modifiedData.replace('{{breed}}', breed);
-
             res.write(modifiedData);
         });
 
-        readStream.on("end", () => {
-            res.end();
-        });
-
-        readStream.on("error", (err) => {
-            res.write(err);
-        });
-
+        readStream.on("end", () => res.end());
+        readStream.on("error", (err) => res.write(err));
     } else if (pathname.includes('/cats-find-new-home') && req.method === 'POST') {
         let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
         let catIndex = cats.findIndex((cat => cat.id == catId));
-
+        
         if (catIndex > -1) {
             cats.splice(catIndex, 1);
+            let result = JSON.stringify(cats, '', 2);
+            let filePath = path.join(__dirname, '../data/cats.json');
+            fs.writeFile(filePath, result, 'utf8', () => console.log('The cat was deleted successfully.'));
         }
-
-        let result = JSON.stringify(cats, '', 2);
-        let filePath = path.join(__dirname, '../data/cats.json');
-
-        fs.writeFile(filePath, result, 'utf8', () => {
-            console.log('The cat was deleted successfully.');
-        });
-
+        
         res.writeHead(302, { location: '/' });
         res.end();
-
     } else {
         return true;
     }

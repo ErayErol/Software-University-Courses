@@ -15,15 +15,10 @@ module.exports = (req, res) => {
                 res.writeHead(404, {
                     'Content-Type': 'text/plain'
                 });
-
                 res.write('404 Not Found.');
                 res.end();
                 return;
             }
-            
-            res.writeHead(200, {
-                'Content-Type': 'text/html'
-            });
 
             let modifiedCats = cats.map(cat => `
                 <li>
@@ -39,7 +34,7 @@ module.exports = (req, res) => {
             `);
 
             let modifiedData = data.toString().replace('{{cats}}', modifiedCats);
-
+            res.writeHead(200, { 'Content-Type': 'text/html' });
             res.write(modifiedData);
             res.end();
         });
