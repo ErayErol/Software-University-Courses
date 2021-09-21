@@ -51,7 +51,19 @@ module.exports = (req, res) => {
                 console.log('Files was uploaded successfully.');
             });
 
-            cats.push({ id: cats.length + 1, ...fields, image: files.upload.name });
+            let i = 1;
+            while (true) {
+                let id = cats.length + i;
+                let isIdUnavailable = cats.findIndex((cat => cat.id == id));
+    
+                if (isIdUnavailable > -1) {
+                    i++;
+                }else{
+                    cats.push({ id: id, ...fields, image: files.upload.name });
+                    break;
+                }
+            }
+
             let result = JSON.stringify(cats, '', 2);
 
             let filePath = path.join(__dirname, '../data/cats.json');
@@ -110,7 +122,6 @@ module.exports = (req, res) => {
             modifiedData = modifiedData.replace('{{name}}', currentCat.name);
             modifiedData = modifiedData.replace('{{description}}', currentCat.description);
 
-
             let breedsAsOption = breeds.map(breed => `
                 <option value="${breed}">${breed}</option>
             `);
@@ -168,8 +179,54 @@ module.exports = (req, res) => {
             res.writeHead(302, { location: '/' });
             res.end();
         });
-    } else if (pathname.includes('/cats/find-new-home') && req.method === 'GET') {
-    } else if (pathname.includes('/cats/find-new-home') && req.method === 'POST') {
+    } else if (pathname.includes('/cats-find-new-home') && req.method === 'GET') {
+
+        const filePath = path.join(__dirname, '../views/catShelter.html');
+        const readStream = fs.createReadStream(filePath);
+
+        readStream.on("data", (data) => {
+
+            let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
+
+            let currentCat = cats.find(c => c.id === catId);
+
+            let modifiedData = data.toString().replace('{{id}}', catId);
+            modifiedData = modifiedData.replace('{{name}}', currentCat.name);
+            modifiedData = modifiedData.replace('{{description}}', currentCat.description);
+            modifiedData = modifiedData.replace('{{image}}', currentCat.image);
+
+            let breed = `<option value="${currentCat.breed}">${currentCat.breed}</option>`;
+            modifiedData = modifiedData.replace('{{breed}}', breed);
+
+            res.write(modifiedData);
+        });
+
+        readStream.on("end", () => {
+            res.end();
+        });
+
+        readStream.on("error", (err) => {
+            res.write(err);
+        });
+
+    } else if (pathname.includes('/cats-find-new-home') && req.method === 'POST') {
+        let catId = +pathname.substring(pathname.lastIndexOf('/') + 1);
+        let catIndex = cats.findIndex((cat => cat.id == catId));
+
+        if (catIndex > -1) {
+            cats.splice(catIndex, 1);
+        }
+
+        let result = JSON.stringify(cats, '', 2);
+        let filePath = path.join(__dirname, '../data/cats.json');
+
+        fs.writeFile(filePath, result, 'utf8', () => {
+            console.log('The cat was deleted successfully.');
+        });
+
+        res.writeHead(302, { location: '/' });
+        res.end();
+
     } else {
         return true;
     }

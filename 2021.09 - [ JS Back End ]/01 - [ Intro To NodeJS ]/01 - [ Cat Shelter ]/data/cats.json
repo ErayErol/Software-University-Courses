@@ -5,12 +5,5 @@
     "description": "I Love Cats <3 ..!",
     "breed": "myCat",
     "image": "cat.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Vidic",
-    "description": "Nemanja Wall Vidic <3",
-    "breed": "street",
-    "image": "Vidic.png"
   }
 ]
