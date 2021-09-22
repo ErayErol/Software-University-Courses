@@ -5,5 +5,12 @@
     "description": "Just amazing cat!",
     "breed": "Scottish Fold",
     "image": "cat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "keanu",
+    "description": "asdasd",
+    "breed": "Persian",
+    "image": "the-decade-in-content-sad-keanu.jpg"
   }
 ]
