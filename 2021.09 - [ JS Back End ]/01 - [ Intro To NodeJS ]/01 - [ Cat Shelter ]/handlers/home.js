@@ -9,18 +9,9 @@ module.exports = (req, res) => {
 
     if (pathname === '/' && req.method === 'GET') {
         let filePath = path.join(__dirname, '../views/home/index.html');
+        const readStream = fs.createReadStream(filePath);
 
-        fs.readFile(filePath, (err, data) => {
-            if (err) {
-                console.log(err);
-                res.writeHead(404, {
-                    'Content-Type': 'text/plain'
-                });
-                res.write('404 Not Found.');
-                res.end();
-                return;
-            }
-
+        readStream.on("data", (data) => {
             let modifiedCats = cats.map(cat => `
                 <li>
                     <img src="/content/images/${cat.image}" alt="Cat name : ${cat.name} Cat breed : ${cat.breed}">
@@ -35,9 +26,11 @@ module.exports = (req, res) => {
             `);
 
             let modifiedData = data.toString().replace('{{cats}}', modifiedCats);
-            res.writeHead(200, { 'Content-Type': 'text/html' });
             res.write(modifiedData);
+        }).on("end", () => {
             res.end();
+        }).on("error", (err) => {
+            res.write(err);
         });
     } else if (pathname === '/search' && req.method === 'POST') {
         let formData = '';
@@ -48,21 +41,11 @@ module.exports = (req, res) => {
 
         req.on('end', () => {
             let filePath = path.join(__dirname, '../views/home/index.html');
+            const readStream = fs.createReadStream(filePath);
 
-            fs.readFile(filePath, (err, data) => {
-                if (err) {
-                    console.log(err);
-                    res.writeHead(404, {
-                        'Content-Type': 'text/plain'
-                    });
-                    res.write('404 Not Found.');
-                    res.end();
-                    return;
-                }
-
+            readStream.on("data", (data) => {
                 let body = qs.parse(formData);
                 let catFilter = cats.filter(c => c.name.includes(body.search));
-
                 let modifiedCats = catFilter.map(cat => `
                     <li>
                         <img src="/content/images/${cat.image}" alt="Cat name : ${cat.name} Cat breed : ${cat.breed}">
@@ -77,9 +60,11 @@ module.exports = (req, res) => {
                 `);
 
                 let modifiedData = data.toString().replace('{{cats}}', modifiedCats);
-                res.writeHead(200, { 'Content-Type': 'text/html' });
                 res.write(modifiedData);
+            }).on("end", () => {
                 res.end();
+            }).on("error", (err) => {
+                res.write(err);
             });
         });
     } else {
