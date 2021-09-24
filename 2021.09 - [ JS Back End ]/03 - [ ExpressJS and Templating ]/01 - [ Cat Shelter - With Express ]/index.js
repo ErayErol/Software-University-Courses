@@ -1,20 +1,26 @@
-const path = require('path');
-const express = require('express');
-const app = express();
-const handlebars = require('express-handlebars')
 const port = 3000;
+const express = require('express');
+let app = express();
+
+const path = require('path');
+const handlebars = require('express-handlebars');
+
+const catsController = require('./controllers/catsController.js');
+const homeController = require('./controllers/homeController.js');
+
+app.use(express.static('./public'));
 
 app.engine('.hbs', handlebars({
-    extname: '.hbs'
+    extname: '.hbs',
+    partialsDir: [
+        //  path to your partials
+        path.join(__dirname, 'views/partials'),
+    ]
 }));
 
 app.set('view engine', '.hbs');
 
-app.get('/', (req, res) => {
-    // let pathView = path.join(__dirname, "./views/addBreed.hbs");
-
-    res.render('home', {layout : false});
-});
-
+app.use('/cats', catsController);
+app.use('/', homeController);
 
 app.listen(port, () => console.log(`Express running on port: ${port}...`));
