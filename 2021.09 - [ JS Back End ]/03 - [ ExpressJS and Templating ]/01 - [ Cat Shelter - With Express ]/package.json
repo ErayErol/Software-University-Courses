@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "node --nolazy --debug-brk=5858 homeController.js"
   },
   "author": "",
   "license": "ISC",

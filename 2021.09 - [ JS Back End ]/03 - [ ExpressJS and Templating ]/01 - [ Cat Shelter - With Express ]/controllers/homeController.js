@@ -9,4 +9,13 @@ app.get('/', (req, res) => {
     });
 });
 
+app.post('/search', (req, res) => {
+    let catFilter = cats.filter(c => c.name.includes(req.body.search));
+
+    res.render('home', {
+        layout: false,
+        cats: catFilter,
+    });
+});
+
 module.exports = app;

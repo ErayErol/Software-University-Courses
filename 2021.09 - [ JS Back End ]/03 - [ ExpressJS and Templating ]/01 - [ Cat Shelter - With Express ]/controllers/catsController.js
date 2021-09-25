@@ -1,15 +1,13 @@
 const express = require('express');
-const app = express.Router();
-const fs = require('fs');
+const app = express.Router(); // Modular Routers
 const path = require('path');
+
+//**************************** Import "Database" **********************
 const breeds = require('../data/breeds.json');
 const cats = require('../data/cats.json');
-const upload = require('express-fileupload');
-let bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-app.use(upload());
 
+
+//**************************** Route Methods **********************
 app.get('/add-breed', (req, res) => {
     res.render('addBreed', { layout: false });
 });
@@ -17,8 +15,14 @@ app.get('/add-breed', (req, res) => {
 app.post('/add-breed', (req, res) => {
     breeds.push(req.body.breed);
     const filePath = path.join(__dirname, '../data/breeds.json');
-    let result = JSON.stringify(breeds);
-    fs.writeFile(filePath, result, 'utf8', () => console.log('The breed was added successfully.'));
+    const result = JSON.stringify(breeds);
+    res.sendFile(filePath, result, (err) => {
+        if (err) {
+            next(err);
+        } else {
+            console.log('The breed was added successfully.');
+        }
+    });
     res.redirect(302, '/');
 });
 
@@ -32,9 +36,9 @@ app.get('/add-cat', (req, res) => {
 app.post('/add-cat', (req, res) => {
     let image = '';
     if (req.files) {
-        let file = req.files.file;
+        const file = req.files.file;
         image = file.name;
-        let filePath = path.join(__dirname, "../public/images/" + file.name,);
+        const filePath = path.join(__dirname, "../public/images/" + file.name,);
 
         file.mv(filePath, (err) => {
             if (err) {
@@ -50,7 +54,7 @@ app.post('/add-cat', (req, res) => {
     let i = 1;
     while (true) {
         const id = cats.length + i;
-        let isIdFree = cats.findIndex(cat => cat.id === id);
+        const isIdFree = cats.findIndex(cat => cat.id === id);
 
         if (isIdFree > -1) {
             i++;
@@ -60,15 +64,21 @@ app.post('/add-cat', (req, res) => {
         }
     }
 
-    let result = JSON.stringify(cats, '', 2);
-    let resultPath = path.join(__dirname, '../data/cats.json');
-    fs.writeFile(resultPath, result, 'utf8', () => console.log('The cat was added successfully.'));
+    const result = JSON.stringify(cats, '', 2);
+    const resultPath = path.join(__dirname, '../data/cats.json');
+    res.sendFile(resultPath, result, (err) => {
+        if (err) {
+            next(err);
+        } else {
+            console.log('The cat was added successfully.');
+        }
+    });
     res.redirect(302, '/');
 });
 
 app.get('/edit/:id', (req, res) => {
     const catId = +req.params.id;
-    let cat = cats.find(c => c.id === catId);
+    const cat = cats.find(c => c.id === catId);
 
     res.render('editCat', {
         layout: false,
@@ -79,14 +89,14 @@ app.get('/edit/:id', (req, res) => {
 
 app.post('/edit/:id', (req, res) => {
     const catId = +req.params.id;
-    let catIndex = cats.findIndex((cat => cat.id == catId));
+    const catIndex = cats.findIndex((cat => cat.id == catId));
     cats[catIndex].name = req.body.name;
     cats[catIndex].description = req.body.description;
     cats[catIndex].breed = req.body.breed;
 
     if (req.files) {
-        let file = req.files.upload;
-        let imagePath = path.join(__dirname, "../public/images/" + file.name,);
+        const file = req.files.upload;
+        const imagePath = path.join(__dirname, "../public/images/" + file.name,);
 
         file.mv(imagePath, (err) => {
             if (err) {
@@ -99,15 +109,21 @@ app.post('/edit/:id', (req, res) => {
         cats[catIndex].image = file.name;
     }
 
-    let result = JSON.stringify(cats, '', 2);
-    let filePath = path.join(__dirname, '../data/cats.json');
-    fs.writeFile(filePath, result, 'utf8', () => console.log('The cat was edited successfully.'));
+    const result = JSON.stringify(cats, '', 2);
+    const filePath = path.join(__dirname, '../data/cats.json');
+    res.sendFile(filePath, result, (err) => {
+        if (err) {
+            next(err);
+        } else {
+            console.log('The cat was edited successfully.');
+        }
+    });
     res.redirect(302, '/');
 });
 
 app.get('/find-new-home/:id', (req, res) => {
     const catId = +req.params.id;
-    let cat = cats.find(c => c.id === catId);
+    const cat = cats.find(c => c.id === catId);
 
     res.render('catShelter', {
         layout: false,
@@ -117,13 +133,19 @@ app.get('/find-new-home/:id', (req, res) => {
 
 app.post('/find-new-home/:id', (req, res) => {
     const catId = +req.params.id;
-    let catIndex = cats.findIndex((cat => cat.id == catId));
+    const catIndex = cats.findIndex((cat => cat.id == catId));
 
     if (catIndex > -1) {
         cats.splice(catIndex, 1);
-        let result = JSON.stringify(cats, '', 2);
-        let filePath = path.join(__dirname, '../data/cats.json');
-        fs.writeFile(filePath, result, 'utf8', () => console.log('The cat was deleted successfully.'));
+        const result = JSON.stringify(cats, '', 2);
+        const filePath = path.join(__dirname, '../data/cats.json');
+        res.sendFile(filePath, result, (err) => {
+            if (err) {
+                next(err);
+            } else {
+                console.log('The cat was deleted successfully.');
+            }
+        });
     }
 
     res.redirect(302, '/');
